@@ -1,0 +1,49 @@
+{
+  "checks": [
+    {
+      "test": "Fieldhand 7 day period",
+      "passed": true
+    },
+    {
+      "test": "Fieldhand 90 day period",
+      "passed": true
+    },
+    {
+      "test": "Fieldhand 30 day period",
+      "passed": true
+    },
+    {
+      "test": "Fieldhand original 30-day metrics",
+      "passed": true
+    },
+    {
+      "test": "Fieldhand calculator arithmetic",
+      "passed": true
+    },
+    {
+      "test": "Fieldhand reasoning disclosure",
+      "passed": true
+    },
+    {
+      "test": "Fieldhand approval demonstration",
+      "passed": true
+    },
+    {
+      "test": "Fieldhand undo preserves disclosure",
+      "passed": true
+    },
+    {
+      "test": "Fieldhand chart keyboard tooltip",
+      "passed": true
+    },
+    {
+      "test": "Fieldhand dialog and initial focus",
+      "passed": true
+    },
+    {
+      "test": "Fieldhand form stays local",
+      "passed": true
+    }
+  ],
+  "browserErrors": []
+}

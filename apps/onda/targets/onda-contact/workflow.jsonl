@@ -1,0 +1,2 @@
+{"ts":"2026-10-17T17:01:06.973Z","phase":"target","runId":"07823be23a","gate":"pass","forced":false,"blocked":false,"overrode":[],"sha256":"31ccfeca69526a81","artifact":"targets/onda-contact/target.json","evidence":null,"reason":"target https://onda-template.modulify.website/contact @ 1728px"}
+{"ts":"2026-10-17T17:02:42.291Z","event":"motion-pass","phase":null,"runId":"5df3503568","gate":null,"forced":false,"reason":"6 track(s), 6 css-inherited, 0 player-applied, 0 skipped — receipts and warnings only; motion never fails a build"}

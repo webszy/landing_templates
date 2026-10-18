@@ -1,0 +1,6 @@
+element           property              live            clone           Δ       ok
+──────────────────────────────────────────────────────────────────────────────────────
+section_hero      glyph.painted         false           true                    ❌
+main              glyph.painted         false           true                    ❌
+
+❌ FAIL — 2 of 3959 comparisons over 0.5px tolerance. Fix or explain each row above.

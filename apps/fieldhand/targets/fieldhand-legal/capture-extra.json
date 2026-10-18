@@ -1,0 +1,38 @@
+{
+  "route": "/legal",
+  "leaves": 67,
+  "settle": {
+    "scrolledTo": 2293,
+    "frozenOpacity0": 0,
+    "stable": true,
+    "sweeps": 1,
+    "heights": [
+      2293
+    ],
+    "imagesPending": 0,
+    "lazyPromoted": 0,
+    "lazyPromotedSrcs": [],
+    "pendingImageSrcs": []
+  },
+  "probe": {
+    "ok": true,
+    "transient": false,
+    "rafHz": 64,
+    "attempts": 1
+  },
+  "links": [
+    "/",
+    "/",
+    "/",
+    "/",
+    "/",
+    "/",
+    "/",
+    "/",
+    "/",
+    "/",
+    "/legal",
+    "/legal",
+    "/legal"
+  ]
+}

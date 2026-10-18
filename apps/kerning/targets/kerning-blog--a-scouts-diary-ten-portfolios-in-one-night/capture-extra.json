@@ -1,0 +1,44 @@
+{
+  "route": "/blog/a-scouts-diary-ten-portfolios-in-one-night",
+  "leaves": 109,
+  "settle": {
+    "scrolledTo": 3100,
+    "frozenOpacity0": 1,
+    "stable": true,
+    "sweeps": 1,
+    "heights": [
+      3100
+    ],
+    "imagesPending": 0,
+    "lazyPromoted": 0,
+    "lazyPromotedSrcs": [],
+    "pendingImageSrcs": []
+  },
+  "probe": {
+    "ok": true,
+    "transient": false,
+    "rafHz": 64,
+    "attempts": 1
+  },
+  "links": [
+    "/",
+    "/how-it-works",
+    "/placements",
+    "/become-a-scout",
+    "/blog",
+    "/get-started",
+    "/log-in",
+    "/how-it-works",
+    "/placements",
+    "/become-a-scout",
+    "/blog",
+    "/get-started",
+    "/log-in",
+    "/blog",
+    "/blog",
+    "/blog/5-tips-for-hiring-designers-in-2026",
+    "/blog/what-makes-a-portfolio-worth-meeting",
+    "/terms",
+    "/privacy"
+  ]
+}

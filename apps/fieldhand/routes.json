@@ -1,0 +1,7 @@
+[
+  {
+    "route": "/legal",
+    "target": "fieldhand-legal",
+    "leaves": 67
+  }
+]

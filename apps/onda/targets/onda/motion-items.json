@@ -1,0 +1,91 @@
+{
+  "schema": "pingfusi/motion-items@2",
+  "items": [
+    {
+      "id": "pass-css-901b4036",
+      "createdAt": "2026-10-17T16:55:59.928Z",
+      "selector": "div>main>section:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)",
+      "scope": "div>main>section:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "3 track(s) carried by the captured CSS; @keyframes enter present in the clone's CSS — deep diff: pingfusi motion verify-introspected onda pass-css-901b4036",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-17T17:02:53.413Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-a2e9f9a11cbf",
+        "trackFingerprint": "a2e9f9a11cbf1bf33ec7104632dfc6fad860090d092b6a32fed8ce65223c8869",
+        "docTrackIds": [
+          "t-a2e9f9a11cbf",
+          "t-6f72890ec3a2",
+          "t-a71c402a8c4a"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-c81109d3",
+      "createdAt": "2026-10-17T16:55:59.929Z",
+      "selector": "section:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>p:nth-of-type(2)>span",
+      "scope": "section:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>p:nth-of-type(2)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes pulse present in the clone's CSS — deep diff: pingfusi motion verify-introspected onda pass-css-c81109d3",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-17T17:06:29.557Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-fced6f2652a8",
+        "trackFingerprint": "fced6f2652a83e233d999e08283b5192cb431a704eacd3cd4700de306d698152"
+      },
+      "verifiedIntrospectedAt": "2026-10-17T17:06:29.557Z",
+      "verifyReceipt": "targets/onda/motion/pass-css-c81109d3/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-d84a539d",
+      "createdAt": "2026-10-17T16:55:59.929Z",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div",
+      "scope": "main>section:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "3 track(s) carried by the captured CSS; @keyframes enter present in the clone's CSS — deep diff: pingfusi motion verify-introspected onda pass-css-d84a539d",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-17T17:02:53.414Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-25c82177035c",
+        "trackFingerprint": "25c82177035cae801f0f549f9c6e329eaebd0494801c86c67bb982c03dcc9510",
+        "docTrackIds": [
+          "t-25c82177035c",
+          "t-25bce665e8b3",
+          "t-7e9ba1b7968c"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-8ef945a5",
+      "createdAt": "2026-10-17T16:55:59.929Z",
+      "selector": "main>section:nth-of-type(2)>div>div>ul",
+      "scope": "main>section:nth-of-type(2)>div>div>ul",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes onda-marquee present in the clone's CSS — deep diff: pingfusi motion verify-introspected onda pass-css-8ef945a5",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-17T17:06:12.466Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-de29d67b8f9a",
+        "trackFingerprint": "de29d67b8f9a370cb28abff4468f26f2b1c156e36ad6bd89e8b23c73afe7abea"
+      },
+      "verifiedIntrospectedAt": "2026-10-17T17:06:12.466Z",
+      "verifyReceipt": "targets/onda/motion/pass-css-8ef945a5/verify-introspected.json"
+    }
+  ]
+}

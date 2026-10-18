@@ -1,0 +1,138 @@
+{
+  "viewport": {
+    "width": 1728,
+    "height": 982,
+    "dpr": 2
+  },
+  "results": [
+    {
+      "route": "/",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 6149 comparisons across 431 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/how-it-works",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 6826 comparisons across 448 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/placements",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 2446 comparisons across 192 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/become-a-scout",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 4405 comparisons across 362 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/blog",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 2311 comparisons across 198 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/get-started",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 889 comparisons across 65 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/log-in",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 595 comparisons across 43 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/privacy",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 1438 comparisons across 89 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/terms",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 1570 comparisons across 97 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/become-a-scout/apply",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 1076 comparisons across 75 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/blog/5-tips-for-hiring-designers-in-2026",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 1554 comparisons across 117 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/blog/what-makes-a-portfolio-worth-meeting",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 1514 comparisons across 116 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/blog/why-referrals-beat-inbound-for-design-roles",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 1500 comparisons across 114 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/blog/how-to-run-a-design-interview-that-tests-craft",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 1446 comparisons across 111 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/blog/a-scouts-diary-ten-portfolios-in-one-night",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 1419 comparisons across 109 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/blog/offers-designers-say-yes-to",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 1439 comparisons across 112 targets, all within 0.5px."
+      ]
+    }
+  ],
+  "errors": []
+}

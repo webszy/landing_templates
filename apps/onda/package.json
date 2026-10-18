@@ -1,0 +1,13 @@
+{
+  "name": "@templates/onda",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Onda site cloned with CopyAnything / Pingfusi, with local assets and restored canvas effects.",
+  "scripts": {
+    "dev": "node scripts/serve.cjs",
+    "start": "node scripts/serve.cjs",
+    "build": "node scripts/build.cjs",
+    "check": "node --check scripts/interactions.js && node --check targets/onda/clone/fixes.js",
+    "effects": "node scripts/build-effects.cjs"
+  }
+}

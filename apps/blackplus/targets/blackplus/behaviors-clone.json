@@ -1,0 +1,1228 @@
+{
+  "url": "http://127.0.0.1:54634/",
+  "viewport": {
+    "width": 1728,
+    "height": 982,
+    "dpr": 2
+  },
+  "mode": "CSS1Compat",
+  "discovery": {
+    "startedAt": "2026-10-18T02:07:09.986Z",
+    "endedAt": "2026-10-18T02:07:13.509Z",
+    "durationMs": 3522.5,
+    "documentHidden": false,
+    "scrollSweep": {
+      "from": 0,
+      "to": 10954,
+      "steps": 6,
+      "positions": [
+        0,
+        1826,
+        3651,
+        5477,
+        7303,
+        9128,
+        10954
+      ]
+    },
+    "observeMs": 1500,
+    "elementsScanned": 412,
+    "staticCandidateCount": 2,
+    "keyframesFound": [
+      "spin"
+    ],
+    "hoverTriggersProbed": [],
+    "marqueeSelectorsProbed": [],
+    "earlyMotionRecorder": {
+      "ran": true,
+      "durationMs": 3335.8,
+      "rowsObserved": 53,
+      "strongRows": 9
+    },
+    "runner": {
+      "kitVersion": "0.17.1",
+      "mode": "cdp-launched",
+      "chromeVersion": "Chrome/155.0.8059.84",
+      "headless": true,
+      "profile": "temp",
+      "viewport": {
+        "width": 1728,
+        "height": 982,
+        "dpr": 2,
+        "sources": {
+          "width": "target.json",
+          "height": "live.json",
+          "dpr": "live.json"
+        }
+      },
+      "rafProbe": {
+        "frames": 31,
+        "ms": 701,
+        "hz": 62,
+        "attempts": 1
+      },
+      "animProbe": {
+        "expectedPxPerSec": 100,
+        "measuredPxPerSec": 98.21
+      }
+    }
+  },
+  "behaviors": {
+    "mutation:w-node-f078fdf9-afcd-dd23-e056-d7d58c77dcd8-d9af3b6e": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "#w-node-f078fdf9-afcd-dd23-e056-d7d58c77dcd8-d9af3b6e",
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 25)",
+          "filter": "none",
+          "visibility": "hidden",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "opacity": 0.008,
+          "transform": "matrix(1, 0, 0, 1, 0, 24.803)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 61,
+        "returnedToStart": false
+      }
+    },
+    "mutation:w-node-f078fdf9-afcd-dd23-e056-d7d58c77dcda-d9af3b6e": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "#w-node-f078fdf9-afcd-dd23-e056-d7d58c77dcda-d9af3b6e",
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 25)",
+          "filter": "none",
+          "visibility": "hidden",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "opacity": 0.008,
+          "transform": "matrix(1, 0, 0, 1, 0, 24.803)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 61,
+        "returnedToStart": false
+      }
+    },
+    "mutation:w-node-f078fdf9-afcd-dd23-e056-d7d58c77dcdc-d9af3b6e": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "#w-node-f078fdf9-afcd-dd23-e056-d7d58c77dcdc-d9af3b6e",
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 25)",
+          "filter": "none",
+          "visibility": "hidden",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "opacity": 0.008,
+          "transform": "matrix(1, 0, 0, 1, 0, 24.803)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 61,
+        "returnedToStart": false
+      }
+    },
+    "mutation:w-node-f078fdf9-afcd-dd23-e056-d7d58c77dcde-d9af3b6e": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "#w-node-f078fdf9-afcd-dd23-e056-d7d58c77dcde-d9af3b6e",
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 25)",
+          "filter": "none",
+          "visibility": "hidden",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "opacity": 0.008,
+          "transform": "matrix(1, 0, 0, 1, 0, 24.803)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 61,
+        "returnedToStart": false
+      }
+    },
+    "mutation:w-node-f078fdf9-afcd-dd23-e056-d7d58c77dce0-d9af3b6e": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "#w-node-f078fdf9-afcd-dd23-e056-d7d58c77dce0-d9af3b6e",
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 25)",
+          "filter": "none",
+          "visibility": "hidden",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "opacity": 0.008,
+          "transform": "matrix(1, 0, 0, 1, 0, 24.803)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 61,
+        "returnedToStart": false
+      }
+    },
+    "mutation:w-node-f078fdf9-afcd-dd23-e056-d7d58c77dce2-d9af3b6e": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "#w-node-f078fdf9-afcd-dd23-e056-d7d58c77dce2-d9af3b6e",
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 25)",
+          "filter": "none",
+          "visibility": "hidden",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "opacity": 0.008,
+          "transform": "matrix(1, 0, 0, 1, 0, 24.803)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 61,
+        "returnedToStart": false
+      }
+    },
+    "mutation:w-node-f078fdf9-afcd-dd23-e056-d7d58c77dce4-d9af3b6e": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "#w-node-f078fdf9-afcd-dd23-e056-d7d58c77dce4-d9af3b6e",
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 25)",
+          "filter": "none",
+          "visibility": "hidden",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "opacity": 0.008,
+          "transform": "matrix(1, 0, 0, 1, 0, 24.803)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 61,
+        "returnedToStart": false
+      }
+    },
+    "mutation:w-node-f078fdf9-afcd-dd23-e056-d7d58c77dce6-d9af3b6e": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "#w-node-f078fdf9-afcd-dd23-e056-d7d58c77dce6-d9af3b6e",
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 25)",
+          "filter": "none",
+          "visibility": "hidden",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "opacity": 0.008,
+          "transform": "matrix(1, 0, 0, 1, 0, 24.803)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 61,
+        "returnedToStart": false
+      }
+    },
+    "mutation:div.fade-in-move-on-scroll": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "main>div:nth-of-type(1)>div>div:nth-of-type(2)>div:nth-of-type(2)",
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 25)",
+          "filter": "none",
+          "visibility": "hidden",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "opacity": 0.008,
+          "transform": "matrix(1, 0, 0, 1, 0, 24.803)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 61,
+        "returnedToStart": false
+      }
+    },
+    "mutation:div.iphone-holder-effortlessly-integration": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "main>div:nth-of-type(3)>div>div:nth-of-type(2)>div:nth-of-type(1)",
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 198.132)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 200)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "during": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 176.922)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "sampleCount": 23,
+        "returnedToStart": false
+      }
+    },
+    "mutation:div.line": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "div:nth-of-type(3)>div>div:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(3)",
+      "measured": {
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 1
+      }
+    },
+    "mutation:div.light-holder": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "main>div:nth-of-type(3)>div>div:nth-of-type(2)>div:nth-of-type(3)",
+      "measured": {
+        "before": {
+          "opacity": 0.061,
+          "transform": "none",
+          "filter": "blur(90px)",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 0,
+          "transform": "none",
+          "filter": "blur(90px)",
+          "visibility": "hidden",
+          "display": "block"
+        },
+        "during": {
+          "opacity": 0,
+          "transform": "none",
+          "filter": "blur(90px)",
+          "visibility": "hidden",
+          "display": "block"
+        },
+        "sampleCount": 5,
+        "returnedToStart": false
+      }
+    },
+    "mutation:div.fade-in-on-scroll": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "div>div>div:nth-of-type(1)>div>div:nth-of-type(1)",
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "hidden",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "opacity": 0.008,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 59,
+        "returnedToStart": false
+      }
+    },
+    "mutation:div.trusted-item-header": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "div>div>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)",
+      "measured": {
+        "before": {
+          "opacity": 0.064,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "during": {
+          "opacity": 0.079,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "sampleCount": 80,
+        "returnedToStart": false
+      }
+    },
+    "mutation:div.download-badge-container": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "div:nth-of-type(5)>div:nth-of-type(1)>div>div:nth-of-type(2)>div",
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 25)",
+          "filter": "none",
+          "visibility": "hidden",
+          "display": "flex"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "during": {
+          "opacity": 0.008,
+          "transform": "matrix(1, 0, 0, 1, 0, 24.7895)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "sampleCount": 61,
+        "returnedToStart": false
+      }
+    },
+    "mutation:div.white-mode-holder": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "div:nth-of-type(5)>div:nth-of-type(2)>div>div>div:nth-of-type(2)",
+      "measured": {
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "sampleCount": 1
+      }
+    },
+    "mutation:w-node-_076ad6bd-252d-be8f-852d-adcc0bb202ce-0bb202c0": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "#w-node-_076ad6bd-252d-be8f-852d-adcc0bb202ce-0bb202c0",
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 29.7932)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 29.533)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 72,
+        "returnedToStart": false
+      }
+    },
+    "mutation:div.card-image-holder._01": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div>div:nth-of-type(1)",
+      "measured": {
+        "before": {
+          "opacity": 0.006,
+          "transform": "matrix(1.0994, 0, 0, 1.0994, 0, -80.4892)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "opacity": 0.014,
+          "transform": "matrix(1.0986, 0, 0, 1.0986, 0, -79.8598)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 78,
+        "returnedToStart": false
+      }
+    },
+    "mutation:div.card-background": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)",
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 29.7932)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 29.533)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 72,
+        "returnedToStart": false
+      }
+    },
+    "mutation:w-node-_076ad6bd-252d-be8f-852d-adcc0bb202e9-0bb202c0": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "#w-node-_076ad6bd-252d-be8f-852d-adcc0bb202e9-0bb202c0",
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 29.7932)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 29.533)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 72,
+        "returnedToStart": false
+      }
+    },
+    "mutation:div.card-logo-holder": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)",
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 29.7932)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "during": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 29.533)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "sampleCount": 72,
+        "returnedToStart": false
+      }
+    },
+    "mutation:w-node-_076ad6bd-252d-be8f-852d-adcc0bb202f7-0bb202c0": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "#w-node-_076ad6bd-252d-be8f-852d-adcc0bb202f7-0bb202c0",
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 25)",
+          "filter": "none",
+          "visibility": "hidden",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "opacity": 0.008,
+          "transform": "matrix(1, 0, 0, 1, 0, 24.7895)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 61,
+        "returnedToStart": false
+      }
+    },
+    "mutation:w-node-_076ad6bd-252d-be8f-852d-adcc0bb20301-0bb202c0": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "#w-node-_076ad6bd-252d-be8f-852d-adcc0bb20301-0bb202c0",
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 25)",
+          "filter": "none",
+          "visibility": "hidden",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "opacity": 0.008,
+          "transform": "matrix(1, 0, 0, 1, 0, 24.7895)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 61,
+        "returnedToStart": false
+      }
+    },
+    "mutation:w-node-_076ad6bd-252d-be8f-852d-adcc0bb2030b-0bb202c0": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "#w-node-_076ad6bd-252d-be8f-852d-adcc0bb2030b-0bb202c0",
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 25)",
+          "filter": "none",
+          "visibility": "hidden",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "opacity": 0.008,
+          "transform": "matrix(1, 0, 0, 1, 0, 24.7895)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 61,
+        "returnedToStart": false
+      }
+    },
+    "mutation:p.black-text": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "div:nth-of-type(1)>div>div:nth-of-type(2)>div:nth-of-type(2)>p",
+      "measured": {
+        "before": {
+          "opacity": 0.006,
+          "transform": "matrix(1, 0, 0, 1, 0, 9.9369)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "opacity": 0.014,
+          "transform": "matrix(1, 0, 0, 1, 0, 9.8592)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 78,
+        "returnedToStart": false
+      }
+    },
+    "mutation:div.card-title.black-text": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div>div:nth-of-type(2)>div:nth-of-type(1)",
+      "measured": {
+        "before": {
+          "opacity": 0.006,
+          "transform": "matrix(1, 0, 0, 1, 0, 9.9369)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "opacity": 0.014,
+          "transform": "matrix(1, 0, 0, 1, 0, 9.8592)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 78,
+        "returnedToStart": false
+      }
+    },
+    "mutation:div.card-image-holder._02": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(2)",
+      "measured": {
+        "before": {
+          "opacity": 0.006,
+          "transform": "matrix(1.0994, 0, 0, 1.0994, 0, 80.4892)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "opacity": 0.014,
+          "transform": "matrix(1.0986, 0, 0, 1.0986, 0, 79.8598)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 78,
+        "returnedToStart": false
+      }
+    },
+    "mutation:div.card-iphone-holder": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(3)>div>div:nth-of-type(2)",
+      "measured": {
+        "before": {
+          "opacity": 0.006,
+          "transform": "matrix(1.0994, 0, 0, 1.0994, 0, 80.4892)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "opacity": 0.014,
+          "transform": "matrix(1.0986, 0, 0, 1.0986, 0, 79.8598)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 78,
+        "returnedToStart": false
+      }
+    },
+    "mutation:div.card-logo-container": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div",
+      "measured": {
+        "before": {
+          "opacity": 0.067,
+          "transform": "matrix(1.3002, 0, 0, 1.3002, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "during": {
+          "opacity": 0.131,
+          "transform": "matrix(1.3006, 0, 0, 1.3006, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "sampleCount": 77,
+        "returnedToStart": false
+      }
+    },
+    "startup:div:nth-of-type(1)>div>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "div:nth-of-type(1)>div>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 2401,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 720)",
+          "filter": "none"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0123",
+          "transform": "matrix(1, 0, 0, 1, 0, 716.008)",
+          "filter": "none"
+        },
+        "sampleCount": 74,
+        "durationMs": 2401,
+        "returnedToStart": false
+      }
+    },
+    "startup:div>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(2)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "div>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(2)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 2501,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "none",
+          "filter": "blur(18px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "blur(18px)"
+        },
+        "during": {
+          "opacity": "0.0068",
+          "transform": "none",
+          "filter": "blur(18px)"
+        },
+        "sampleCount": 62,
+        "durationMs": 2501,
+        "returnedToStart": false
+      }
+    },
+    "startup:div>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "div>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 2501,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "none",
+          "filter": "blur(64px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "blur(64px)"
+        },
+        "during": {
+          "opacity": "0.0068",
+          "transform": "none",
+          "filter": "blur(64px)"
+        },
+        "sampleCount": 62,
+        "durationMs": 2501,
+        "returnedToStart": false
+      }
+    },
+    "startup:div:nth-of-type(1)>div>div>div:nth-of-type(2)>div:nth-of-type(2)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "div:nth-of-type(1)>div>div>div:nth-of-type(2)>div:nth-of-type(2)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1317,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0.2667",
+          "transform": "none",
+          "filter": "blur(40px)"
+        },
+        "after": {
+          "opacity": "0.6",
+          "transform": "none",
+          "filter": "blur(40px)"
+        },
+        "during": {
+          "opacity": "0.2787",
+          "transform": "none",
+          "filter": "blur(40px)"
+        },
+        "sampleCount": 80,
+        "durationMs": 1317,
+        "returnedToStart": false
+      }
+    },
+    "startup:div:nth-of-type(1)>div>div>div:nth-of-type(1)>div:nth-of-type(2)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "div:nth-of-type(1)>div>div>div:nth-of-type(1)>div:nth-of-type(2)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1317,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0.2667",
+          "transform": "none",
+          "filter": "blur(40px)"
+        },
+        "after": {
+          "opacity": "0.6",
+          "transform": "none",
+          "filter": "blur(40px)"
+        },
+        "during": {
+          "opacity": "0.2787",
+          "transform": "none",
+          "filter": "blur(40px)"
+        },
+        "sampleCount": 80,
+        "durationMs": 1317,
+        "returnedToStart": false
+      }
+    },
+    "startup:div:nth-of-type(1)>div:nth-of-type(1)>div>div>div:nth-of-type(1)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div>div>div:nth-of-type(1)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1400,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0.9828",
+          "transform": "matrix3d(1.1, 0, 0, 0, 0, 1.09982, 0.019762, -1.9762e-05, 0, -0.0179655, 0.999839, -0.000999839, -50, 0, 0, 1)",
+          "filter": "none"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.001, 0, 0, 0, 1)",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.9858",
+          "transform": "matrix3d(1.1, 0, 0, 0, 0, 1.09988, 0.0163777, -1.63777e-05, 0, -0.0148889, 0.999889, -0.000999889, -50, 0, 0, 1)",
+          "filter": "none"
+        },
+        "sampleCount": 80,
+        "durationMs": 1400,
+        "returnedToStart": false
+      }
+    },
+    "startup:div:nth-of-type(1)>div:nth-of-type(1)>div>div>div:nth-of-type(2)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div>div>div:nth-of-type(2)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1317,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0.8416",
+          "transform": "matrix3d(1.1, 0, 0, 0, 0, 1.0849, 0.181657, -0.000181657, 0, -0.165142, 0.98627, -0.00098627, 50, 0, 0, 1)",
+          "filter": "none"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.001, 0, 0, 0, 1)",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.8543",
+          "transform": "matrix3d(1.1, 0, 0, 0, 0, 1.08722, 0.167201, -0.000167201, 0, -0.152001, 0.98838, -0.00098838, 50, 0, 0, 1)",
+          "filter": "none"
+        },
+        "sampleCount": 80,
+        "durationMs": 1317,
+        "returnedToStart": false
+      }
+    },
+    "startup:body>div>div:nth-of-type(1)>div>div": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "body>div>div:nth-of-type(1)>div>div",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 2233,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "none",
+          "filter": "none"
+        },
+        "after": {
+          "opacity": "0.9593",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0068",
+          "transform": "none",
+          "filter": "none"
+        },
+        "sampleCount": 46,
+        "durationMs": 2233,
+        "returnedToStart": false
+      }
+    },
+    "startup:body>div:nth-of-type(1)>div:nth-of-type(1)>div>div": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "body>div:nth-of-type(1)>div:nth-of-type(1)>div>div",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 250,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0.965",
+          "transform": "none",
+          "filter": "none"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.97",
+          "transform": "none",
+          "filter": "none"
+        },
+        "sampleCount": 16,
+        "durationMs": 250,
+        "returnedToStart": false
+      }
+    }
+  },
+  "declared": {
+    "declared:div.navbar.w-nav": {
+      "hints": [
+        "attr:data-animation"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "FeaturesAboutPricingBlogSign up0Your CartOops, nothing to se"
+    },
+    "declared:html>body>a[11][1]": {
+      "hints": [
+        "will-change:transform"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    }
+  }
+}

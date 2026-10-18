@@ -1,0 +1,1 @@
+✓ PASS — 1570 comparisons across 97 targets, all within 0.5px.

@@ -1,0 +1,34 @@
+{
+  "viewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 2
+  },
+  "results": [
+    {
+      "route": "/legal",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 849 comparisons across 63 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/",
+      "pass": false,
+      "bad": [
+        {
+          "side": "live",
+          "missingImages": [
+            "https://fieldhand-template.modulify.website/_next/image?url=%2Fimages%2Ftree.jpg&w=3840&q=75"
+          ]
+        }
+      ],
+      "diff": [
+        "element           property              live            clone           Δ       ok",
+        "❌ FAIL — 1 of 6304 comparisons over 0.5px tolerance. Fix or explain each row above."
+      ]
+    }
+  ],
+  "errors": []
+}

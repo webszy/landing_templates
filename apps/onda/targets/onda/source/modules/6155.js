@@ -1,0 +1,1 @@
+e=>{"use strict";var t=e.i(1398),r=e.i(1788),n=e.i(3533),i=e.i(8155);e.s(["Reveal",0,({children:e,className:o,delay:a=0})=>{let s=(0,r.useRef)(null),l=(0,i.useInView)(s);return(0,t.jsx)("div",{ref:s,className:(0,n.cn)("reveal",l&&"is-visible",o),style:a?{transitionDelay:`${a}ms`}:void 0,children:e})}])}

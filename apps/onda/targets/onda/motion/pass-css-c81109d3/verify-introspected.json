@@ -1,0 +1,39 @@
+{
+  "schema": "pingfusi/verify-introspected@1",
+  "at": "2026-10-17T17:06:29.557Z",
+  "target": "onda",
+  "item": "pass-css-c81109d3",
+  "scope": "section:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>p:nth-of-type(2)>span",
+  "binding": {
+    "provenance": "introspected",
+    "docTrackId": "t-fced6f2652a8",
+    "trackFingerprint": "fced6f2652a83e233d999e08283b5192cb431a704eacd3cd4700de306d698152"
+  },
+  "tolerance": {
+    "durationMs": 1,
+    "delayMs": 1,
+    "numeric": 0.01
+  },
+  "liveDoc": {
+    "file": "targets/onda/motion-doc.json",
+    "sha256_16": "a3617cd2f341a617"
+  },
+  "cloneDoc": {
+    "file": "targets/onda/motion-doc-clone.json",
+    "sha256_16": "52427be3519faed9"
+  },
+  "ok": true,
+  "tracks": [
+    {
+      "docTrackId": "t-fced6f2652a8",
+      "selector": "section:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>p:nth-of-type(2)>span",
+      "property": "opacity",
+      "tier": "introspected-css",
+      "fingerprint": "fced6f2652a83e233d999e08283b5192cb431a704eacd3cd4700de306d698152",
+      "ok": true,
+      "misses": [],
+      "cloneTrackId": "t-fced6f2652a8"
+    }
+  ],
+  "firstMismatch": null
+}

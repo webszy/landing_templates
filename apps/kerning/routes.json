@@ -1,0 +1,77 @@
+[
+  {
+    "route": "/how-it-works",
+    "target": "kerning-how-it-works",
+    "leaves": 448
+  },
+  {
+    "route": "/placements",
+    "target": "kerning-placements",
+    "leaves": 192
+  },
+  {
+    "route": "/become-a-scout",
+    "target": "kerning-become-a-scout",
+    "leaves": 362
+  },
+  {
+    "route": "/blog",
+    "target": "kerning-blog",
+    "leaves": 198
+  },
+  {
+    "route": "/get-started",
+    "target": "kerning-get-started",
+    "leaves": 65
+  },
+  {
+    "route": "/log-in",
+    "target": "kerning-log-in",
+    "leaves": 43
+  },
+  {
+    "route": "/privacy",
+    "target": "kerning-privacy",
+    "leaves": 89
+  },
+  {
+    "route": "/terms",
+    "target": "kerning-terms",
+    "leaves": 97
+  },
+  {
+    "route": "/become-a-scout/apply",
+    "target": "kerning-become-a-scout--apply",
+    "leaves": 75
+  },
+  {
+    "route": "/blog/5-tips-for-hiring-designers-in-2026",
+    "target": "kerning-blog--5-tips-for-hiring-designers-in-2026",
+    "leaves": 117
+  },
+  {
+    "route": "/blog/what-makes-a-portfolio-worth-meeting",
+    "target": "kerning-blog--what-makes-a-portfolio-worth-meeting",
+    "leaves": 116
+  },
+  {
+    "route": "/blog/why-referrals-beat-inbound-for-design-roles",
+    "target": "kerning-blog--why-referrals-beat-inbound-for-design-roles",
+    "leaves": 114
+  },
+  {
+    "route": "/blog/how-to-run-a-design-interview-that-tests-craft",
+    "target": "kerning-blog--how-to-run-a-design-interview-that-tests-craft",
+    "leaves": 111
+  },
+  {
+    "route": "/blog/a-scouts-diary-ten-portfolios-in-one-night",
+    "target": "kerning-blog--a-scouts-diary-ten-portfolios-in-one-night",
+    "leaves": 109
+  },
+  {
+    "route": "/blog/offers-designers-say-yes-to",
+    "target": "kerning-blog--offers-designers-say-yes-to",
+    "leaves": 112
+  }
+]

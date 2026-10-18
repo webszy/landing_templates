@@ -1,0 +1,571 @@
+{
+  "url": "http://127.0.0.1:49808/",
+  "viewport": {
+    "width": 1728,
+    "height": 982,
+    "dpr": 2
+  },
+  "mode": "CSS1Compat",
+  "discovery": {
+    "startedAt": "2026-10-17T17:04:37.470Z",
+    "endedAt": "2026-10-17T17:04:40.881Z",
+    "durationMs": 3410.3,
+    "documentHidden": false,
+    "scrollSweep": {
+      "from": 0,
+      "to": 8147,
+      "steps": 6,
+      "positions": [
+        0,
+        1358,
+        2716,
+        4074,
+        5431,
+        6789,
+        8147
+      ]
+    },
+    "observeMs": 1500,
+    "elementsScanned": 682,
+    "staticCandidateCount": 60,
+    "keyframesFound": [
+      "onda-marquee",
+      "onda-confirmation-timer",
+      "spin",
+      "pulse",
+      "enter",
+      "exit"
+    ],
+    "hoverTriggersProbed": [],
+    "marqueeSelectorsProbed": [],
+    "earlyMotionRecorder": {
+      "ran": true,
+      "durationMs": 3361.4,
+      "rowsObserved": 0,
+      "strongRows": 0
+    },
+    "runner": {
+      "kitVersion": "0.17.1",
+      "mode": "cdp-launched",
+      "chromeVersion": "Chrome/155.0.8059.84",
+      "headless": true,
+      "profile": "temp",
+      "viewport": {
+        "width": 1728,
+        "height": 982,
+        "dpr": 2,
+        "sources": {
+          "width": "target.json",
+          "height": "live.json",
+          "dpr": "live.json"
+        }
+      },
+      "rafProbe": {
+        "frames": 31,
+        "ms": 700,
+        "hz": 62,
+        "attempts": 1
+      },
+      "animProbe": {
+        "expectedPxPerSec": 100,
+        "measuredPxPerSec": 96.37
+      }
+    }
+  },
+  "behaviors": {
+    "reveal:span.size-1.5.bg-azure-500": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "section:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>p:nth-of-type(2)>span",
+      "hints": [
+        "animation-name:pulse"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "pulse",
+        "durationMs": 2000,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.4, 0, 0.6, 1)",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:pulse"
+        ],
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0.608,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 0.577,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 0.818,
+            "transform": "none",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:ul.marquee-track.flex": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "main>section:nth-of-type(2)>div>div>ul",
+      "hints": [
+        "animation-name:onda-marquee"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "onda-marquee",
+        "durationMs": 48000,
+        "delayMs": 0,
+        "easing": "linear",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:onda-marquee"
+        ],
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, -101.858, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, -206.789, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, 1, -110.049, 0)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "flex"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div.reveal.lg:col-span-9": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "main>section:nth-of-type(3)>div:nth-of-type(2)>div>div:nth-of-type(2)",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 900,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 24)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 1358,
+          "snapshot": {
+            "opacity": 0.162,
+            "transform": "matrix(1, 0, 0, 1, 0, 20.1129)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:div.reveal.is-visible": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "main>section:nth-of-type(8)>div:nth-of-type(2)>div:nth-of-type(2)>div",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 900,
+        "delayMs": 120,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 24)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "changedDuringSweep": false,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:span.split-word.inline-block": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "h2>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(2)>span",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 1100,
+        "delayMs": 180,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 97.1438)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "inline-block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "inline-block"
+        },
+        "changedDuringSweep": false,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:div.reveal.lg:col-span-4": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "main>section:nth-of-type(7)>div:nth-of-type(2)>div>div:nth-of-type(2)",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 900,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 24)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 8147,
+          "snapshot": {
+            "opacity": 0.718,
+            "transform": "matrix(1, 0, 0, 1, 0, 6.77594)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:div.reveal.flex": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "section:nth-of-type(4)>div:nth-of-type(2)>ul>li:nth-of-type(4)>div",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 900,
+        "delayMs": 270,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 24)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "during": {
+          "atY": 5431,
+          "snapshot": {
+            "opacity": 0.823,
+            "transform": "matrix(1, 0, 0, 1, 0, 4.23714)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "flex"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "mutation:header.fixed.inset-x-0": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "body>div>div>div>header",
+      "measured": {
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 1
+      }
+    },
+    "mutation:li>div>p>span[0][1][0]": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "ul>li:nth-of-type(1)>div>p:nth-of-type(2)>span",
+      "measured": {
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "inline"
+        },
+        "sampleCount": 1
+      }
+    },
+    "mutation:span.absolute.inset-x-0": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "section:nth-of-type(7)>div:nth-of-type(2)>ol>li:nth-of-type(1)>span:nth-of-type(2)",
+      "measured": {
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 1
+      }
+    },
+    "mutation:span.absolute.-top-1": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "section:nth-of-type(7)>div:nth-of-type(2)>ol>li:nth-of-type(1)>span:nth-of-type(3)",
+      "measured": {
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 1
+      }
+    }
+  },
+  "declared": {
+    "declared:div.flex.items-start": {
+      "hints": [
+        "animation-name:enter"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "enter",
+        "durationMs": 1000,
+        "delayMs": 500,
+        "easing": "ease",
+        "iterationCount": "1",
+        "signals": [
+          "animation-name:enter"
+        ],
+        "reason": "named CSS animation enter with 1000ms duration"
+      },
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "flex"
+      },
+      "text": "Independent software studioMilano, since 2016Booking project"
+    },
+    "declared:div.motion-safe:animate-in.fade-in": {
+      "hints": [
+        "animation-name:enter"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "enter",
+        "durationMs": 1000,
+        "delayMs": 700,
+        "easing": "ease",
+        "iterationCount": "1",
+        "signals": [
+          "animation-name:enter"
+        ],
+        "reason": "named CSS animation enter with 1000ms duration"
+      },
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "Onda is an independent studio that designs and engineers dig"
+    },
+    "declared:img.halftone-photo.object-cover": {
+      "hints": [
+        "class-marker",
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 700,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ]
+      },
+      "startState": {
+        "opacity": 0,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:html>body>a[3][1]": {
+      "hints": [
+        "will-change:transform"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    }
+  }
+}

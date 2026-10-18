@@ -1,0 +1,1409 @@
+{
+  "url": "http://127.0.0.1:58658/",
+  "viewport": {
+    "width": 1728,
+    "height": 982,
+    "dpr": 2
+  },
+  "mode": "CSS1Compat",
+  "discovery": {
+    "startedAt": "2026-10-18T03:06:01.214Z",
+    "endedAt": "2026-10-18T03:06:03.467Z",
+    "durationMs": 2252.9,
+    "documentHidden": false,
+    "scrollSweep": {
+      "from": 0,
+      "to": 7256,
+      "steps": 6,
+      "positions": [
+        0,
+        1209,
+        2419,
+        3628,
+        4837,
+        6047,
+        7256
+      ]
+    },
+    "observeMs": 1500,
+    "elementsScanned": 949,
+    "staticCandidateCount": 166,
+    "keyframesFound": [
+      "spin",
+      "pulse",
+      "enter",
+      "exit",
+      "ax-fly",
+      "ax-flap",
+      "ax-blur-rise",
+      "ax-drop",
+      "ax-settle",
+      "ax-in-left",
+      "ax-in-right",
+      "ax-pop",
+      "ax-rise",
+      "ax-grow-tree",
+      "ax-grow-y",
+      "ax-float",
+      "ax-kenburns",
+      "ax-firefly",
+      "ax-blink",
+      "ax-caret",
+      "drift",
+      "breathe",
+      "ping-soft"
+    ],
+    "hoverTriggersProbed": [],
+    "marqueeSelectorsProbed": [],
+    "earlyMotionRecorder": {
+      "ran": true,
+      "durationMs": 3297,
+      "rowsObserved": 0,
+      "strongRows": 0
+    },
+    "runner": {
+      "kitVersion": "0.17.1",
+      "mode": "cdp-launched",
+      "chromeVersion": "Chrome/155.0.8059.84",
+      "headless": true,
+      "profile": "temp",
+      "viewport": {
+        "width": 1728,
+        "height": 982,
+        "dpr": 2,
+        "sources": {
+          "width": "target.json",
+          "height": "live.json",
+          "dpr": "live.json"
+        }
+      },
+      "rafProbe": {
+        "frames": 31,
+        "ms": 702,
+        "hz": 62,
+        "attempts": 1
+      },
+      "animProbe": {
+        "expectedPxPerSec": 100,
+        "measuredPxPerSec": 97.77
+      }
+    }
+  },
+  "behaviors": {
+    "reveal:div.[--drift-x:70px].[--drift-y:-10px]": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>main>section:nth-of-type(1)>div:nth-of-type(1)>div",
+      "hints": [
+        "animation-name:drift"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "drift",
+        "durationMs": 16000,
+        "delayMs": 0,
+        "easing": "ease-in-out",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:drift"
+        ],
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 24.1673, -3.45247)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 55.9417, -7.99167)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, 1, 27.7735, -3.96764)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div.[--drift-x:-70px].[--drift-y:8px]": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>main>section:nth-of-type(1)>div:nth-of-type(2)>div",
+      "hints": [
+        "animation-name:drift"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "drift",
+        "durationMs": 19000,
+        "delayMs": 0,
+        "easing": "ease-in-out",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:drift"
+        ],
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, -65.0791, 7.43761)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, -44.1785, 5.04897)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, 1, -63.5395, 7.26165)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:span.absolute.left-0": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(6)",
+      "hints": [
+        "animation-name:ax-fly"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "ax-fly",
+        "durationMs": 46000,
+        "delayMs": 0,
+        "easing": "linear",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:ax-fly"
+        ],
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 1549.98, -17.8491)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 1658.17, -20.9795)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, 1, 1562, -18.1969)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:section>div>span>svg[0][0][2]": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(1)>svg",
+      "hints": [
+        "animation-name:ax-flap"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "ax-flap",
+        "durationMs": 1800,
+        "delayMs": 0,
+        "easing": "ease-in-out",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:ax-flap"
+        ],
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 0.148392, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 1209,
+          "snapshot": {
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, -0.338081, 0, 0)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:section>div>span>svg[0][1][2]": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(2)>svg",
+      "hints": [
+        "animation-name:ax-flap"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "ax-flap",
+        "durationMs": 1600,
+        "delayMs": 0,
+        "easing": "ease-in-out",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:ax-flap"
+        ],
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 0.767076, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, 0.442766, 0, 0)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:section>div>span>svg[0][2][2]": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(3)>svg",
+      "hints": [
+        "animation-name:ax-flap"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "ax-flap",
+        "durationMs": 1700,
+        "delayMs": 0,
+        "easing": "ease-in-out",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:ax-flap"
+        ],
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, -0.49793, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:section>div>span>svg[0][3][2]": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(4)>svg",
+      "hints": [
+        "animation-name:ax-flap"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "ax-flap",
+        "durationMs": 2000,
+        "delayMs": 0,
+        "easing": "ease-in-out",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:ax-flap"
+        ],
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 0.425889, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, -0.0271217, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, -0.0271217, 0, 0)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:section>div>span>svg[0][4][2]": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(5)>svg",
+      "hints": [
+        "animation-name:ax-flap"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "ax-flap",
+        "durationMs": 1700,
+        "delayMs": 0,
+        "easing": "ease-in-out",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:ax-flap"
+        ],
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, -0.496126, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 1209,
+          "snapshot": {
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, -0.252566, 0, 0)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:section>div>span>svg[0][5][2]": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(6)>svg",
+      "hints": [
+        "animation-name:ax-flap"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "ax-flap",
+        "durationMs": 1900,
+        "delayMs": 0,
+        "easing": "ease-in-out",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:ax-flap"
+        ],
+        "reason": "computed style changed during the measured scroll sweep and returned to its start state"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 2419,
+          "snapshot": {
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, -0.273798, 0, 0)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": true,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:span.glass-tile.absolute": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div:nth-of-type(2)>div>div:nth-of-type(2)>span:nth-of-type(4)>span",
+      "hints": [
+        "animation-name:breathe"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "breathe",
+        "durationMs": 7000,
+        "delayMs": 0,
+        "easing": "ease-in-out",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:breathe"
+        ],
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0.018,
+          "transform": "matrix(1, 0, 0, 1, 0, -3.92852)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 0.582,
+          "transform": "matrix(1, 0, 0, 1, 0, -1.67377)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 0.001,
+            "transform": "matrix(1, 0, 0, 1, 0, -3.99565)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:span.outline-tile.absolute": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(2)>span:nth-of-type(4)",
+      "hints": [
+        "animation-name:ax-blink"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "ax-blink",
+        "durationMs": 5000,
+        "delayMs": 0,
+        "easing": "ease-in-out",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:ax-blink"
+        ],
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0.932,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 0.198,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 0.802,
+            "transform": "none",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div.data-[reveal=armed]:translate-y-6.data-[reveal=armed]:opacity-0": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>div>main>section:nth-of-type(6)>div:nth-of-type(3)",
+      "hints": [
+        "attr:data-reveal"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "grid"
+        },
+        "after": {
+          "opacity": 0.997,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "grid"
+        },
+        "during": {
+          "atY": 7256,
+          "snapshot": {
+            "opacity": 0.553,
+            "transform": "none",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "grid"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:span.ml-0.5.inline-block": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div:nth-of-type(2)>div>p>span:nth-of-type(2)>span",
+      "hints": [
+        "animation-name:ax-caret",
+        "class-marker"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "ax-caret",
+        "durationMs": 1000,
+        "delayMs": 0,
+        "easing": "steps(1)",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:ax-caret"
+        ],
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "inline-block"
+        },
+        "after": {
+          "opacity": 0,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "inline-block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 0,
+            "transform": "none",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "inline-block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:img.-z-10.object-cover": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "section:nth-of-type(4)>div>div:nth-of-type(2)>div>img",
+      "hints": [
+        "animation-name:ax-kenburns"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "ax-kenburns",
+        "durationMs": 24000,
+        "delayMs": 0,
+        "easing": "ease-in-out",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:ax-kenburns"
+        ],
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1.00333, 0, 0, 1.00333, -0.299866, -0.222975)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1.00978, 0, 0, 1.00978, -0.885716, -0.658602)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 1,
+            "transform": "matrix(1.00388, 0, 0, 1.00388, -0.349007, -0.259515)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div.flex.w-full": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>div:nth-of-type(2)>div>div:nth-of-type(3)>div:nth-of-type(2)",
+      "hints": [
+        "animation-name:ax-float"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "ax-float",
+        "durationMs": 7000,
+        "delayMs": 0,
+        "easing": "ease-in-out",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:ax-float"
+        ],
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, -0.077924)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, -5.66437)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, 1, 0, -0.000379688)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "flex"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:span.absolute.size-[5px]": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(14)",
+      "hints": [
+        "animation-name:ax-firefly"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "ax-firefly",
+        "durationMs": 7600,
+        "delayMs": 4900,
+        "easing": "ease-in-out",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:ax-firefly"
+        ],
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0.6,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 0.22,
+          "transform": "matrix(0.526556, 0, 0, 0.526556, -0.95602, -0.743571)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 7256,
+          "snapshot": {
+            "opacity": 0.01,
+            "transform": "matrix(0.501178, 0, 0, 0.501178, -0.0423991, -0.0329771)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "mutation:hero": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "#hero",
+      "measured": {
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "sampleCount": 1
+      }
+    },
+    "mutation:div>p>span>span[1][0][1]": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "li:nth-of-type(3)>div:nth-of-type(2)>p:nth-of-type(2)>span>span:nth-of-type(2)",
+      "measured": {
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "inline"
+        },
+        "sampleCount": 1
+      }
+    },
+    "mutation:div>dd>span>span[1][0][1]": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "dl>div:nth-of-type(3)>dd:nth-of-type(1)>span>span:nth-of-type(2)",
+      "measured": {
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "inline"
+        },
+        "sampleCount": 1
+      }
+    },
+    "mutation:get-started": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "#get-started",
+      "measured": {
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 1
+      }
+    },
+    "mutation:div>p>span>span[1][0][0]": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "div:nth-of-type(2)>div>p:nth-of-type(1)>span>span:nth-of-type(2)",
+      "measured": {
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "inline"
+        },
+        "sampleCount": 1
+      }
+    }
+  },
+  "declared": {
+    "declared:Main": {
+      "hints": [
+        "animation-name:ax-drop"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "ax-drop",
+        "durationMs": 900,
+        "delayMs": 120,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "iterationCount": "1",
+        "signals": [
+          "animation-name:ax-drop"
+        ],
+        "reason": "named CSS animation ax-drop with 900ms duration"
+      },
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "flex"
+      },
+      "text": "fieldhandHow it worksOversightDashboardSavingsGet started"
+    },
+    "declared:span.inline-flex.items-center": {
+      "hints": [
+        "class-marker"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "flex"
+      },
+      "text": "fieldhand"
+    },
+    "declared:div.pointer-events-none.absolute": {
+      "hints": [
+        "animation-name:ax-in-left"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "ax-in-left",
+        "durationMs": 1800,
+        "delayMs": 150,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "iterationCount": "1",
+        "signals": [
+          "animation-name:ax-in-left"
+        ],
+        "reason": "named CSS animation ax-in-left with 1800ms duration"
+      },
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:div.absolute.inset-0": {
+      "hints": [
+        "animation-name:ax-settle"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "ax-settle",
+        "durationMs": 1800,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "iterationCount": "1",
+        "signals": [
+          "animation-name:ax-settle"
+        ],
+        "reason": "named CSS animation ax-settle with 1800ms duration"
+      },
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:span.absolute.motion-safe:animate-pop": {
+      "hints": [
+        "animation-name:ax-pop"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "ax-pop",
+        "durationMs": 750,
+        "delayMs": 1100,
+        "easing": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+        "iterationCount": "1",
+        "signals": [
+          "animation-name:ax-pop"
+        ],
+        "reason": "named CSS animation ax-pop with 750ms duration"
+      },
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:span.inline-block.motion-safe:animate-intro-words": {
+      "hints": [
+        "animation-name:ax-blur-rise"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "ax-blur-rise",
+        "durationMs": 1100,
+        "delayMs": 350,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "iterationCount": "1",
+        "signals": [
+          "animation-name:ax-blur-rise"
+        ],
+        "reason": "named CSS animation ax-blur-rise with 1100ms duration"
+      },
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "inline-block"
+      },
+      "text": "Hand"
+    },
+    "declared:div.group/stats.relative": {
+      "hints": [
+        "attr:data-anim"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "Repetitive work automated40%40%Teams on board1,200+1,200+Run"
+    },
+    "declared:div.w-full.rounded-[22px]": {
+      "hints": [
+        "attr:data-anim"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "New agentReady to runEvery morning, match yesterday's Stripe"
+    },
+    "declared:span.rounded-full.border": {
+      "hints": [
+        "animation-name:ax-pop"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "ax-pop",
+        "durationMs": 750,
+        "delayMs": 150,
+        "easing": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+        "iterationCount": "1",
+        "signals": [
+          "animation-name:ax-pop"
+        ],
+        "reason": "named CSS animation ax-pop with 750ms duration"
+      },
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "Stripe"
+    },
+    "declared:span.size-1.5.rounded-full": {
+      "hints": [
+        "animation-name:ping-soft"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "ping-soft",
+        "durationMs": 1800,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:ping-soft"
+        ],
+        "reason": "named CSS animation ping-soft with 1800ms duration"
+      },
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:figure.group/chart.rounded-[22px]": {
+      "hints": [
+        "attr:data-anim"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "Tasks completed per dayHover or use the arrow keys to read a"
+    },
+    "declared:span.absolute.right-0": {
+      "hints": [
+        "class-marker"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "0"
+    },
+    "declared:span.absolute.size-[5px]": {
+      "hints": [
+        "animation-name:ax-firefly"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "ax-firefly",
+        "durationMs": 7800,
+        "delayMs": 5800,
+        "easing": "ease-in-out",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:ax-firefly"
+        ],
+        "reason": "named CSS animation ax-firefly with 7800ms duration"
+      },
+      "startState": {
+        "opacity": 0.6,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:div.group/cta.relative": {
+      "hints": [
+        "attr:data-anim"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "Ready when you areGive your team its hours back.Set up your "
+    },
+    "declared:ul>li>a>svg[0][0][0]": {
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 150,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ]
+      },
+      "startState": {
+        "opacity": 0,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:ul>li>a>svg[0][0][1]": {
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 150,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ]
+      },
+      "startState": {
+        "opacity": 0,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:ul>li>a>svg[0][0][2]": {
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 150,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ]
+      },
+      "startState": {
+        "opacity": 0,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:ul>li>a>svg[0][0][3]": {
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 150,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ]
+      },
+      "startState": {
+        "opacity": 0,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:html>body>a[6][1]": {
+      "hints": [
+        "will-change:transform"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    }
+  }
+}

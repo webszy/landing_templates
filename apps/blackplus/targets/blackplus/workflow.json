@@ -1,0 +1,126 @@
+{
+  "name": "blackplus",
+  "url": "https://blackplus-template.modulify.website/",
+  "width": 1728,
+  "createdAt": "2026-10-17T17:00:09.372Z",
+  "phaseOrder": [
+    "target",
+    "assets",
+    "measure",
+    "build",
+    "visual",
+    "coverage",
+    "strict",
+    "behavior",
+    "review",
+    "done"
+  ],
+  "phases": {
+    "target": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "ca06ae61a5",
+      "sha256": "e9909eeda9c65c60",
+      "evidence": null,
+      "ts": "2026-10-17T17:00:09.417Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "assets": {
+      "status": "pass",
+      "kind": "attested",
+      "runId": "0c08d32ff2",
+      "sha256": "cd13e7f264880221",
+      "evidence": "Captured original DOM including SVG paths; capture-build self-hosted 130 fonts and 57 images; remaining CSS backgrounds and favicons localized from original URLs, no redrawn assets.",
+      "ts": "2026-10-17T17:07:27.347Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "measure": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "c53ea284f3",
+      "sha256": "24f710f83daa4e3e",
+      "evidence": null,
+      "ts": "2026-10-17T17:07:27.404Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "build": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "bf35070670",
+      "sha256": "552feafd6e5277ea",
+      "evidence": null,
+      "ts": "2026-10-18T02:06:50.903Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "visual": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "647397211a",
+      "sha256": "552feafd6e5277ea",
+      "evidence": null,
+      "ts": "2026-10-18T02:06:50.941Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "coverage": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "c22ff6f671",
+      "sha256": "79a1ac6e62109ed5",
+      "evidence": null,
+      "ts": "2026-10-18T02:06:50.972Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "strict": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "713eabfc46",
+      "sha256": "552feafd6e5277ea",
+      "evidence": null,
+      "ts": "2026-10-18T02:06:51.007Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "behavior": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "7c69673749",
+      "sha256": "1d84345ca1457459",
+      "evidence": null,
+      "ts": "2026-10-18T02:09:04.454Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "review": {
+      "status": "pending",
+      "kind": "machine",
+      "runId": null,
+      "sha256": null,
+      "evidence": null,
+      "ts": null,
+      "forced": false
+    },
+    "done": {
+      "status": "pending",
+      "kind": "machine",
+      "runId": null,
+      "sha256": null,
+      "evidence": null,
+      "ts": null,
+      "forced": false
+    }
+  }
+}

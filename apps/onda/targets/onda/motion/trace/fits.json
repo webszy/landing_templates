@@ -1,0 +1,2069 @@
+{
+  "url": "https://onda-template.modulify.website/",
+  "trigger": "scroll-sweep",
+  "engines": {
+    "engines": [],
+    "signals": {}
+  },
+  "staggers": [],
+  "fits": [
+    {
+      "elementId": 1,
+      "path": "#top > div:nth-of-type(1) > canvas",
+      "channel": "opacity",
+      "fit": {
+        "kind": "tween",
+        "transition": {
+          "type": "tween",
+          "duration": 0.4447,
+          "ease": [
+            0,
+            0.01,
+            0.3783,
+            0.9731
+          ]
+        },
+        "valueFrom": 0.862352,
+        "valueTo": 0.999855,
+        "nrmse": 0.0009182666719244104,
+        "delayMs": 0,
+        "confidence": 0.995,
+        "alternatives": [
+          {
+            "kind": "spring",
+            "nrmse": 0.0095
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4996
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 2,
+      "path": "#top > div:nth-of-type(2) > div:nth-of-type(2) > h1 > span:nth-of-type(2) > span:nth-of-type(1) > span > span",
+      "channel": "ty",
+      "fit": {
+        "kind": "tween",
+        "transition": {
+          "type": "tween",
+          "duration": 0.5942,
+          "ease": [
+            0.2223,
+            0.9562,
+            0.6477,
+            0.9778
+          ]
+        },
+        "valueFrom": 22.3982,
+        "valueTo": 0.0815837,
+        "nrmse": 0.0011243966363297493,
+        "delayMs": 0,
+        "confidence": 0.994,
+        "alternatives": [
+          {
+            "kind": "spring",
+            "nrmse": 0.003
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4991
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 3,
+      "path": "#top > div:nth-of-type(2) > div:nth-of-type(2) > h1 > span:nth-of-type(2) > span:nth-of-type(2) > span:nth-of-type(1) > span",
+      "channel": "ty",
+      "fit": {
+        "kind": "tween",
+        "transition": {
+          "type": "tween",
+          "duration": 0.6604,
+          "ease": [
+            0.1706,
+            0.7437,
+            0.4222,
+            0.9945
+          ]
+        },
+        "valueFrom": 38.7318,
+        "valueTo": 0.125102,
+        "nrmse": 0.001867968818713806,
+        "delayMs": 0,
+        "confidence": 0.991,
+        "alternatives": [
+          {
+            "kind": "spring",
+            "nrmse": 0.0026
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4986
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 4,
+      "path": "#top > div:nth-of-type(2) > div:nth-of-type(2) > h1 > span:nth-of-type(2) > span:nth-of-type(2) > span:nth-of-type(2) > span",
+      "channel": "ty",
+      "fit": {
+        "kind": "tween",
+        "transition": {
+          "type": "tween",
+          "duration": 0.7112,
+          "ease": [
+            0.2153,
+            0.9647,
+            0.585,
+            0.9735
+          ]
+        },
+        "valueFrom": 64.8124,
+        "valueTo": 0.232729,
+        "nrmse": 0.001134154711047885,
+        "delayMs": 0,
+        "confidence": 0.994,
+        "alternatives": [
+          {
+            "kind": "spring",
+            "nrmse": 0.0025
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.498
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 5,
+      "path": "#services > div:nth-of-type(2) > ul > li:nth-of-type(1) > div > div:nth-of-type(1) > canvas",
+      "channel": "opacity",
+      "fit": {
+        "kind": "tween",
+        "transition": {
+          "type": "tween",
+          "duration": 0.4447,
+          "ease": [
+            0,
+            0.01,
+            0.3783,
+            0.9731
+          ]
+        },
+        "valueFrom": 0.862352,
+        "valueTo": 0.999855,
+        "nrmse": 0.0009182666719244104,
+        "delayMs": 0,
+        "confidence": 0.995,
+        "alternatives": [
+          {
+            "kind": "spring",
+            "nrmse": 0.0095
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4996
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 6,
+      "path": "#services > div:nth-of-type(2) > ul > li:nth-of-type(2) > div > div:nth-of-type(1) > canvas",
+      "channel": "opacity",
+      "fit": {
+        "kind": "tween",
+        "transition": {
+          "type": "tween",
+          "duration": 0.4447,
+          "ease": [
+            0,
+            0.01,
+            0.3783,
+            0.9731
+          ]
+        },
+        "valueFrom": 0.862352,
+        "valueTo": 0.999855,
+        "nrmse": 0.0009182666719244104,
+        "delayMs": 0,
+        "confidence": 0.995,
+        "alternatives": [
+          {
+            "kind": "spring",
+            "nrmse": 0.0095
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4996
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 7,
+      "path": "#services > div:nth-of-type(2) > ul > li:nth-of-type(3) > div > div:nth-of-type(1) > canvas",
+      "channel": "opacity",
+      "fit": {
+        "kind": "tween",
+        "transition": {
+          "type": "tween",
+          "duration": 0.4447,
+          "ease": [
+            0,
+            0.01,
+            0.3783,
+            0.9731
+          ]
+        },
+        "valueFrom": 0.862352,
+        "valueTo": 0.999855,
+        "nrmse": 0.0009182666719244104,
+        "delayMs": 0,
+        "confidence": 0.995,
+        "alternatives": [
+          {
+            "kind": "spring",
+            "nrmse": 0.0095
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4996
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 8,
+      "path": "#services > div:nth-of-type(2) > ul > li:nth-of-type(4) > div > div:nth-of-type(1) > canvas",
+      "channel": "opacity",
+      "fit": {
+        "kind": "tween",
+        "transition": {
+          "type": "tween",
+          "duration": 0.4447,
+          "ease": [
+            0,
+            0.01,
+            0.3783,
+            0.9731
+          ]
+        },
+        "valueFrom": 0.862352,
+        "valueTo": 0.999855,
+        "nrmse": 0.0009182666719244104,
+        "delayMs": 0,
+        "confidence": 0.995,
+        "alternatives": [
+          {
+            "kind": "spring",
+            "nrmse": 0.0095
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4996
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 9,
+      "path": "#__next > div > div > footer > div > div:nth-of-type(2) > canvas",
+      "channel": "opacity",
+      "fit": {
+        "kind": "tween",
+        "transition": {
+          "type": "tween",
+          "duration": 0.4447,
+          "ease": [
+            0,
+            0.01,
+            0.3783,
+            0.9731
+          ]
+        },
+        "valueFrom": 0.862352,
+        "valueTo": 0.999855,
+        "nrmse": 0.0009182666719244104,
+        "delayMs": 0,
+        "confidence": 0.995,
+        "alternatives": [
+          {
+            "kind": "spring",
+            "nrmse": 0.0095
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4996
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 11,
+      "path": "#studio > div:nth-of-type(2) > div > div:nth-of-type(2)",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 242.91,
+          "damping": 40.78,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.03
+        },
+        "settleMs": 656,
+        "valueFrom": 24,
+        "valueTo": 0,
+        "nrmse": 0.0025073997518745435,
+        "delayMs": 30,
+        "confidence": 0.987,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0051
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4967
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 11,
+      "path": "#studio > div:nth-of-type(2) > div > div:nth-of-type(2)",
+      "channel": "opacity",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 242.91,
+          "damping": 40.78,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.03
+        },
+        "settleMs": 216,
+        "valueFrom": 0,
+        "valueTo": 1,
+        "nrmse": 0.00250740984629271,
+        "delayMs": 30,
+        "confidence": 0.987,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0051
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4967
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 12,
+      "path": "#studio > div:nth-of-type(2) > ul > li:nth-of-type(1) > div",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 250.1,
+          "damping": 42.02,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.063
+        },
+        "settleMs": 664,
+        "valueFrom": 24,
+        "valueTo": 0,
+        "nrmse": 0.0027960472938048687,
+        "delayMs": 63,
+        "confidence": 0.986,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0037
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4945
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 12,
+      "path": "#studio > div:nth-of-type(2) > ul > li:nth-of-type(1) > div",
+      "channel": "opacity",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 250.1,
+          "damping": 42.02,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.063
+        },
+        "settleMs": 216,
+        "valueFrom": 0,
+        "valueTo": 1,
+        "nrmse": 0.0027959598905650147,
+        "delayMs": 63,
+        "confidence": 0.986,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0037
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4945
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 13,
+      "path": "#studio > div:nth-of-type(2) > ul > li:nth-of-type(2) > div",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 169.23,
+          "damping": 29.94,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.142
+        },
+        "settleMs": 656,
+        "valueFrom": 24,
+        "valueTo": 0,
+        "nrmse": 0.002292115434640851,
+        "delayMs": 142,
+        "confidence": 0.989,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0068
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4898
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 13,
+      "path": "#studio > div:nth-of-type(2) > ul > li:nth-of-type(2) > div",
+      "channel": "opacity",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 169.23,
+          "damping": 29.94,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.142
+        },
+        "settleMs": 232,
+        "valueFrom": 0,
+        "valueTo": 1,
+        "nrmse": 0.0022920890164363954,
+        "delayMs": 142,
+        "confidence": 0.989,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0068
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4898
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 14,
+      "path": "#studio > div:nth-of-type(2) > ul > li:nth-of-type(3) > div",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 135.51,
+          "damping": 24.86,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.225
+        },
+        "settleMs": 656,
+        "valueFrom": 24,
+        "valueTo": 0,
+        "nrmse": 0.0029633171151282355,
+        "delayMs": 225,
+        "confidence": 0.985,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0067
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4803
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 14,
+      "path": "#studio > div:nth-of-type(2) > ul > li:nth-of-type(3) > div",
+      "channel": "opacity",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 135.51,
+          "damping": 24.86,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.225
+        },
+        "settleMs": 248,
+        "valueFrom": 0,
+        "valueTo": 1,
+        "nrmse": 0.002963177521224958,
+        "delayMs": 225,
+        "confidence": 0.985,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0067
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4803
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 15,
+      "path": "#studio > div:nth-of-type(2) > ul > li:nth-of-type(4) > div",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 188.2,
+          "damping": 32.8,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.326
+        },
+        "settleMs": 664,
+        "valueFrom": 24,
+        "valueTo": 0,
+        "nrmse": 0.0024716168702890967,
+        "delayMs": 326,
+        "confidence": 0.988,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0071
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4644
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 15,
+      "path": "#studio > div:nth-of-type(2) > ul > li:nth-of-type(4) > div",
+      "channel": "opacity",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 188.2,
+          "damping": 32.8,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.326
+        },
+        "settleMs": 232,
+        "valueFrom": 0,
+        "valueTo": 1,
+        "nrmse": 0.0024716369456061365,
+        "delayMs": 326,
+        "confidence": 0.988,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0071
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4644
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 16,
+      "path": "#services > div:nth-of-type(2) > div > div:nth-of-type(1) > h2 > span:nth-of-type(2) > span:nth-of-type(1) > span:nth-of-type(1) > span",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 165.75,
+          "damping": 34.07,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.094
+        },
+        "settleMs": 960,
+        "valueFrom": 72.2219,
+        "valueTo": 0,
+        "nrmse": 0.003186753342570082,
+        "delayMs": 94,
+        "confidence": 0.984,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0068
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.486
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 17,
+      "path": "#services > div:nth-of-type(2) > div > div:nth-of-type(1) > h2 > span:nth-of-type(2) > span:nth-of-type(1) > span:nth-of-type(2) > span",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 115.42,
+          "damping": 24.89,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.142
+        },
+        "settleMs": 952,
+        "valueFrom": 72.2219,
+        "valueTo": 0,
+        "nrmse": 0.002532334564502477,
+        "delayMs": 142,
+        "confidence": 0.987,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0067
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4811
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 18,
+      "path": "#services > div:nth-of-type(2) > div > div:nth-of-type(1) > h2 > span:nth-of-type(2) > span:nth-of-type(1) > span:nth-of-type(3) > span",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 139.45,
+          "damping": 29.29,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.209
+        },
+        "settleMs": 960,
+        "valueFrom": 72.2219,
+        "valueTo": 0,
+        "nrmse": 0.002685001912346124,
+        "delayMs": 209,
+        "confidence": 0.987,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0068
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4735
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 19,
+      "path": "#services > div:nth-of-type(2) > div > div:nth-of-type(1) > h2 > span:nth-of-type(2) > span:nth-of-type(1) > span:nth-of-type(4) > span",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 105.82,
+          "damping": 23.13,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.259
+        },
+        "settleMs": 944,
+        "valueFrom": 72.2219,
+        "valueTo": 0,
+        "nrmse": 0.002767494453480076,
+        "delayMs": 259,
+        "confidence": 0.986,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.007
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.463
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 20,
+      "path": "#services > div:nth-of-type(2) > div > div:nth-of-type(1) > h2 > span:nth-of-type(2) > span:nth-of-type(2) > span:nth-of-type(1) > span",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 126.19,
+          "damping": 26.89,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.326
+        },
+        "settleMs": 952,
+        "valueFrom": 72.2219,
+        "valueTo": 0,
+        "nrmse": 0.0025358007886056564,
+        "delayMs": 326,
+        "confidence": 0.987,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0067
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4491
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 21,
+      "path": "#services > div:nth-of-type(2) > div > div:nth-of-type(1) > h2 > span:nth-of-type(2) > span:nth-of-type(2) > span:nth-of-type(2) > span",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 155.17,
+          "damping": 32.19,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.392
+        },
+        "settleMs": 960,
+        "valueFrom": 72.2219,
+        "valueTo": 0,
+        "nrmse": 0.0031531759491282034,
+        "delayMs": 392,
+        "confidence": 0.984,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0074
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4314
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 22,
+      "path": "#services > div:nth-of-type(2) > div > div:nth-of-type(1) > h2 > span:nth-of-type(2) > span:nth-of-type(2) > span:nth-of-type(3) > span",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 116.54,
+          "damping": 25.1,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.443
+        },
+        "settleMs": 952,
+        "valueFrom": 72.2219,
+        "valueTo": 0,
+        "nrmse": 0.0025044585213238866,
+        "delayMs": 443,
+        "confidence": 0.987,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0068
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4097
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 23,
+      "path": "#services > div:nth-of-type(2) > div > div:nth-of-type(1) > h2 > span:nth-of-type(2) > span:nth-of-type(2) > span:nth-of-type(4) > span",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 135.34,
+          "damping": 28.54,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.508
+        },
+        "settleMs": 952,
+        "valueFrom": 72.2219,
+        "valueTo": 0,
+        "nrmse": 0.0026471945574022045,
+        "delayMs": 508,
+        "confidence": 0.987,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0066
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.3837
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 24,
+      "path": "#services > div:nth-of-type(2) > div > div:nth-of-type(2)",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 220.37,
+          "damping": 37.57,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.094
+        },
+        "settleMs": 664,
+        "valueFrom": 24,
+        "valueTo": 0,
+        "nrmse": 0.002738532158065995,
+        "delayMs": 94,
+        "confidence": 0.986,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0072
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.492
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 24,
+      "path": "#services > div:nth-of-type(2) > div > div:nth-of-type(2)",
+      "channel": "opacity",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 220.37,
+          "damping": 37.57,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.094
+        },
+        "settleMs": 224,
+        "valueFrom": 0,
+        "valueTo": 1,
+        "nrmse": 0.0027386089978825843,
+        "delayMs": 94,
+        "confidence": 0.986,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0072
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.492
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 25,
+      "path": "#services > div:nth-of-type(2) > ul > li:nth-of-type(1) > div",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 231.74,
+          "damping": 39.31,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.129
+        },
+        "settleMs": 664,
+        "valueFrom": 24,
+        "valueTo": 0,
+        "nrmse": 0.002611878993242987,
+        "delayMs": 129,
+        "confidence": 0.987,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0051
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4867
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 25,
+      "path": "#services > div:nth-of-type(2) > ul > li:nth-of-type(1) > div",
+      "channel": "opacity",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 231.74,
+          "damping": 39.31,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.129
+        },
+        "settleMs": 224,
+        "valueFrom": 0,
+        "valueTo": 1,
+        "nrmse": 0.002611868916363031,
+        "delayMs": 129,
+        "confidence": 0.987,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0051
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4867
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 26,
+      "path": "#services > div:nth-of-type(2) > ul > li:nth-of-type(2) > div",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 164.39,
+          "damping": 29.21,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.209
+        },
+        "settleMs": 656,
+        "valueFrom": 24,
+        "valueTo": 0,
+        "nrmse": 0.002192684511426201,
+        "delayMs": 209,
+        "confidence": 0.989,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0064
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4784
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 26,
+      "path": "#services > div:nth-of-type(2) > ul > li:nth-of-type(2) > div",
+      "channel": "opacity",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 164.39,
+          "damping": 29.21,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.209
+        },
+        "settleMs": 232,
+        "valueFrom": 0,
+        "valueTo": 1,
+        "nrmse": 0.002192639298814196,
+        "delayMs": 209,
+        "confidence": 0.989,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0064
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4784
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 27,
+      "path": "#services > div:nth-of-type(2) > ul > li:nth-of-type(3) > div",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 135.45,
+          "damping": 24.86,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.292
+        },
+        "settleMs": 656,
+        "valueFrom": 24,
+        "valueTo": 0,
+        "nrmse": 0.003080545843601215,
+        "delayMs": 292,
+        "confidence": 0.985,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.007
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.463
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 27,
+      "path": "#services > div:nth-of-type(2) > ul > li:nth-of-type(3) > div",
+      "channel": "opacity",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 135.45,
+          "damping": 24.86,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.292
+        },
+        "settleMs": 248,
+        "valueFrom": 0,
+        "valueTo": 1,
+        "nrmse": 0.0030805473600803526,
+        "delayMs": 292,
+        "confidence": 0.985,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.007
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.463
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 28,
+      "path": "#services > div:nth-of-type(2) > ul > li:nth-of-type(4) > div",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 182.36,
+          "damping": 31.94,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.392
+        },
+        "settleMs": 664,
+        "valueFrom": 24,
+        "valueTo": 0,
+        "nrmse": 0.0024341386132045784,
+        "delayMs": 392,
+        "confidence": 0.988,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0071
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4392
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 28,
+      "path": "#services > div:nth-of-type(2) > ul > li:nth-of-type(4) > div",
+      "channel": "opacity",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 182.36,
+          "damping": 31.94,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.392
+        },
+        "settleMs": 232,
+        "valueFrom": 0,
+        "valueTo": 1,
+        "nrmse": 0.0024340659179511895,
+        "delayMs": 392,
+        "confidence": 0.988,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0071
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4392
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 29,
+      "path": "#work > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h2 > span:nth-of-type(2) > span:nth-of-type(1) > span:nth-of-type(1) > span",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 172.56,
+          "damping": 35.35,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.228
+        },
+        "settleMs": 960,
+        "valueFrom": 72.2219,
+        "valueTo": 0,
+        "nrmse": 0.0031698159226898276,
+        "delayMs": 228,
+        "confidence": 0.984,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.004
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4533
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 30,
+      "path": "#work > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h2 > span:nth-of-type(2) > span:nth-of-type(1) > span:nth-of-type(2) > span",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 119.62,
+          "damping": 25.67,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.276
+        },
+        "settleMs": 952,
+        "valueFrom": 72.2219,
+        "valueTo": 0,
+        "nrmse": 0.0025491131284258567,
+        "delayMs": 276,
+        "confidence": 0.987,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0069
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4433
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 31,
+      "path": "#work > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h2 > span:nth-of-type(2) > span:nth-of-type(2) > span:nth-of-type(1) > span",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 145.67,
+          "damping": 30.44,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.343
+        },
+        "settleMs": 960,
+        "valueFrom": 72.2219,
+        "valueTo": 0,
+        "nrmse": 0.0028785739986930308,
+        "delayMs": 343,
+        "confidence": 0.986,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0067
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4275
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 32,
+      "path": "#work > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h2 > span:nth-of-type(2) > span:nth-of-type(2) > span:nth-of-type(2) > span",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 108.12,
+          "damping": 23.55,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.392
+        },
+        "settleMs": 944,
+        "valueFrom": 72.2219,
+        "valueTo": 0,
+        "nrmse": 0.002708627708210532,
+        "delayMs": 392,
+        "confidence": 0.986,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0071
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4066
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 33,
+      "path": "#work > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h2 > span:nth-of-type(2) > span:nth-of-type(2) > span:nth-of-type(3) > span",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 126.39,
+          "damping": 26.91,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.458
+        },
+        "settleMs": 952,
+        "valueFrom": 72.2219,
+        "valueTo": 0,
+        "nrmse": 0.0025487755953267294,
+        "delayMs": 458,
+        "confidence": 0.987,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0068
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.3807
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 34,
+      "path": "#work > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 230.07,
+          "damping": 39.06,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.228
+        },
+        "settleMs": 664,
+        "valueFrom": 24,
+        "valueTo": 0,
+        "nrmse": 0.002582457822940388,
+        "delayMs": 228,
+        "confidence": 0.987,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0043
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4681
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 34,
+      "path": "#work > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+      "channel": "opacity",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 230.07,
+          "damping": 39.06,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.228
+        },
+        "settleMs": 224,
+        "valueFrom": 0,
+        "valueTo": 1,
+        "nrmse": 0.0025824347853652895,
+        "delayMs": 228,
+        "confidence": 0.987,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0043
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4681
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 35,
+      "path": "#work > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(1) > div",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 230.07,
+          "damping": 39.06,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.228
+        },
+        "settleMs": 664,
+        "valueFrom": 24,
+        "valueTo": 0,
+        "nrmse": 0.002582457822940388,
+        "delayMs": 228,
+        "confidence": 0.987,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0043
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4681
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 35,
+      "path": "#work > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(1) > div",
+      "channel": "opacity",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 230.07,
+          "damping": 39.06,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.228
+        },
+        "settleMs": 224,
+        "valueFrom": 0,
+        "valueTo": 1,
+        "nrmse": 0.0025824347853652895,
+        "delayMs": 228,
+        "confidence": 0.987,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0043
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4681
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 36,
+      "path": "#work > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(2) > div",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 219.95,
+          "damping": 37.53,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.261
+        },
+        "settleMs": 664,
+        "valueFrom": 24,
+        "valueTo": 0,
+        "nrmse": 0.0027621434656998865,
+        "delayMs": 261,
+        "confidence": 0.986,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0072
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4615
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 36,
+      "path": "#work > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(2) > div",
+      "channel": "opacity",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 219.95,
+          "damping": 37.53,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.261
+        },
+        "settleMs": 224,
+        "valueFrom": 0,
+        "valueTo": 1,
+        "nrmse": 0.0027620942724333,
+        "delayMs": 261,
+        "confidence": 0.986,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0072
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4615
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 37,
+      "path": "#work > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(3) > div",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 234.09,
+          "damping": 39.7,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.361
+        },
+        "settleMs": 664,
+        "valueFrom": 24,
+        "valueTo": 0,
+        "nrmse": 0.0026628735653641666,
+        "delayMs": 361,
+        "confidence": 0.987,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0042
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4276
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 37,
+      "path": "#work > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(3) > div",
+      "channel": "opacity",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 234.09,
+          "damping": 39.7,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.361
+        },
+        "settleMs": 224,
+        "valueFrom": 0,
+        "valueTo": 1,
+        "nrmse": 0.002662868901193006,
+        "delayMs": 361,
+        "confidence": 0.987,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0042
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4276
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 38,
+      "path": "#work > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(4) > div",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 234.09,
+          "damping": 39.7,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.361
+        },
+        "settleMs": 664,
+        "valueFrom": 24,
+        "valueTo": 0,
+        "nrmse": 0.0026628735653641666,
+        "delayMs": 361,
+        "confidence": 0.987,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0042
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4276
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 38,
+      "path": "#work > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(4) > div",
+      "channel": "opacity",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 234.09,
+          "damping": 39.7,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.361
+        },
+        "settleMs": 224,
+        "valueFrom": 0,
+        "valueTo": 1,
+        "nrmse": 0.002662868901193006,
+        "delayMs": 361,
+        "confidence": 0.987,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0042
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.4276
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 39,
+      "path": "#testimonial > div:nth-of-type(2) > div",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 210.94,
+          "damping": 36.19,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.46
+        },
+        "settleMs": 664,
+        "valueFrom": 24,
+        "valueTo": 0,
+        "nrmse": 0.0028113690034935177,
+        "delayMs": 460,
+        "confidence": 0.986,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0077
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.3842
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 39,
+      "path": "#testimonial > div:nth-of-type(2) > div",
+      "channel": "opacity",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 211.05,
+          "damping": 36.21,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.46
+        },
+        "settleMs": 224,
+        "valueFrom": 0,
+        "valueTo": 1,
+        "nrmse": 0.0028112936243229977,
+        "delayMs": 460,
+        "confidence": 0.986,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0077
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.3842
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 40,
+      "path": "#testimonial > div:nth-of-type(2) > figure > div",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 190.99,
+          "damping": 33.24,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.577
+        },
+        "settleMs": 664,
+        "valueFrom": 24,
+        "valueTo": 0,
+        "nrmse": 0.0024637556389394597,
+        "delayMs": 577,
+        "confidence": 0.988,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0071
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.3166
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 40,
+      "path": "#testimonial > div:nth-of-type(2) > figure > div",
+      "channel": "opacity",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 190.99,
+          "damping": 33.24,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.577
+        },
+        "settleMs": 232,
+        "valueFrom": 0,
+        "valueTo": 1,
+        "nrmse": 0.002463759950586598,
+        "delayMs": 577,
+        "confidence": 0.988,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0071
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.3166
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 41,
+      "path": "#process > div:nth-of-type(2) > div > div:nth-of-type(1) > h2 > span:nth-of-type(2) > span:nth-of-type(1) > span:nth-of-type(1) > span",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 165.69,
+          "damping": 34.1,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.528
+        },
+        "settleMs": 960,
+        "valueFrom": 72.2219,
+        "valueTo": 0,
+        "nrmse": 0.0030398022580814615,
+        "delayMs": 528,
+        "confidence": 0.985,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0046
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.3016
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 42,
+      "path": "#process > div:nth-of-type(2) > div > div:nth-of-type(1) > h2 > span:nth-of-type(2) > span:nth-of-type(1) > span:nth-of-type(2) > span",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 119.39,
+          "damping": 25.67,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.577
+        },
+        "settleMs": 952,
+        "valueFrom": 72.2219,
+        "valueTo": 0,
+        "nrmse": 0.002687448138857791,
+        "delayMs": 577,
+        "confidence": 0.987,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0068
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.2698
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 43,
+      "path": "#process > div:nth-of-type(2) > div > div:nth-of-type(1) > h2 > span:nth-of-type(2) > span:nth-of-type(1) > span:nth-of-type(3) > span",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 141.36,
+          "damping": 29.72,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.643
+        },
+        "settleMs": 960,
+        "valueFrom": 72.2219,
+        "valueTo": 0,
+        "nrmse": 0.0029994572082472247,
+        "delayMs": 643,
+        "confidence": 0.985,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0066
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.2229
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 44,
+      "path": "#process > div:nth-of-type(2) > div > div:nth-of-type(1) > h2 > span:nth-of-type(2) > span:nth-of-type(1) > span:nth-of-type(4) > span",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 104.28,
+          "damping": 22.87,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.692
+        },
+        "settleMs": 944,
+        "valueFrom": 72.2219,
+        "valueTo": 0,
+        "nrmse": 0.003082363751602475,
+        "delayMs": 692,
+        "confidence": 0.985,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0068
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.167
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 45,
+      "path": "#process > div:nth-of-type(2) > div > div:nth-of-type(1) > h2 > span:nth-of-type(2) > span:nth-of-type(1) > span:nth-of-type(5) > span",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 125.5,
+          "damping": 26.83,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.759
+        },
+        "settleMs": 960,
+        "valueFrom": 72.2219,
+        "valueTo": 0,
+        "nrmse": 0.0031242635585849426,
+        "delayMs": 759,
+        "confidence": 0.984,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0069
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.1087
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 46,
+      "path": "#process > div:nth-of-type(2) > div > div:nth-of-type(1) > h2 > span:nth-of-type(2) > span:nth-of-type(2) > span:nth-of-type(1) > span",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 155.64,
+          "damping": 32.32,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.827
+        },
+        "settleMs": 960,
+        "valueFrom": 72.2219,
+        "valueTo": 0,
+        "nrmse": 0.004171477818195328,
+        "delayMs": 827,
+        "confidence": 0.979,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0085
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.0678
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 47,
+      "path": "#process > div:nth-of-type(2) > div > div:nth-of-type(1) > h2 > span:nth-of-type(2) > span:nth-of-type(2) > span:nth-of-type(2) > span",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 106.69,
+          "damping": 23.24,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.875
+        },
+        "settleMs": 944,
+        "valueFrom": 72.2219,
+        "valueTo": 0,
+        "nrmse": 0.0037343133474123397,
+        "delayMs": 875,
+        "confidence": 0.981,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0095
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.08
+          }
+        ]
+      }
+    },
+    {
+      "elementId": 48,
+      "path": "#process > div:nth-of-type(2) > div > div:nth-of-type(1) > h2 > span:nth-of-type(2) > span:nth-of-type(2) > span:nth-of-type(3) > span",
+      "channel": "ty",
+      "fit": {
+        "kind": "spring",
+        "transition": {
+          "type": "spring",
+          "stiffness": 129.02,
+          "damping": 27.14,
+          "mass": 1,
+          "velocity": 0,
+          "delay": 0.944
+        },
+        "settleMs": 944,
+        "valueFrom": 72.2219,
+        "valueTo": 0,
+        "nrmse": 0.0037578453994342,
+        "delayMs": 944,
+        "confidence": 0.981,
+        "alternatives": [
+          {
+            "kind": "tween",
+            "nrmse": 0.0084
+          },
+          {
+            "kind": "scroll-linear",
+            "nrmse": 0.1229
+          }
+        ]
+      }
+    }
+  ],
+  "maxElements": 48
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "pingfusi/verify-introspected@1",
+  "at": "2026-10-18T03:02:49.885Z",
+  "target": "fieldhand",
+  "item": "pass-css-361fecca",
+  "scope": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(8)",
+  "binding": {
+    "provenance": "introspected",
+    "docTrackId": "t-9c803b7cff11",
+    "trackFingerprint": "9c803b7cff111c9f210fe30f3ec95c54948dcb27a34b3c798c7437289514dafa",
+    "docTrackIds": [
+      "t-9c803b7cff11",
+      "t-84eeba082834"
+    ]
+  },
+  "tolerance": {
+    "durationMs": 1,
+    "delayMs": 1,
+    "numeric": 0.01
+  },
+  "liveDoc": {
+    "file": "targets/fieldhand/motion-doc.json",
+    "sha256_16": "29869e501b93047e"
+  },
+  "cloneDoc": {
+    "file": "targets/fieldhand/motion-doc-clone.json",
+    "sha256_16": "5785d66da4eff61d"
+  },
+  "ok": true,
+  "tracks": [
+    {
+      "docTrackId": "t-9c803b7cff11",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(8)",
+      "property": "transform",
+      "tier": "introspected-css",
+      "fingerprint": "9c803b7cff111c9f210fe30f3ec95c54948dcb27a34b3c798c7437289514dafa",
+      "ok": true,
+      "misses": [],
+      "cloneTrackId": "t-9c803b7cff11"
+    },
+    {
+      "docTrackId": "t-84eeba082834",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(8)",
+      "property": "opacity",
+      "tier": "introspected-css",
+      "fingerprint": "84eeba082834f4034663280d6b8959e35f48cf5e4b54a397c9bbb3692a56a845",
+      "ok": true,
+      "misses": [],
+      "cloneTrackId": "t-84eeba082834"
+    }
+  ],
+  "firstMismatch": null
+}

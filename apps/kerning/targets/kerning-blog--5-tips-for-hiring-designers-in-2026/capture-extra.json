@@ -1,0 +1,44 @@
+{
+  "route": "/blog/5-tips-for-hiring-designers-in-2026",
+  "leaves": 117,
+  "settle": {
+    "scrolledTo": 3693,
+    "frozenOpacity0": 1,
+    "stable": true,
+    "sweeps": 1,
+    "heights": [
+      3693
+    ],
+    "imagesPending": 0,
+    "lazyPromoted": 0,
+    "lazyPromotedSrcs": [],
+    "pendingImageSrcs": []
+  },
+  "probe": {
+    "ok": true,
+    "transient": false,
+    "rafHz": 64,
+    "attempts": 1
+  },
+  "links": [
+    "/",
+    "/how-it-works",
+    "/placements",
+    "/become-a-scout",
+    "/blog",
+    "/get-started",
+    "/log-in",
+    "/how-it-works",
+    "/placements",
+    "/become-a-scout",
+    "/blog",
+    "/get-started",
+    "/log-in",
+    "/blog",
+    "/blog",
+    "/blog/why-referrals-beat-inbound-for-design-roles",
+    "/blog/how-to-run-a-design-interview-that-tests-craft",
+    "/terms",
+    "/privacy"
+  ]
+}

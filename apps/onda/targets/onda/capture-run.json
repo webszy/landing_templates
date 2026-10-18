@@ -1,0 +1,97 @@
+{
+  "kitVersion": "0.17.1",
+  "at": "2026-10-18T02:08:09.079Z",
+  "mode": "cdp-launched",
+  "chromeVersion": "Chrome/155.0.8059.84",
+  "headless": true,
+  "profile": "temp",
+  "viewport": {
+    "width": 1728,
+    "height": 982,
+    "dpr": 2,
+    "sources": {
+      "width": "target.json",
+      "height": "live.json",
+      "dpr": "live.json"
+    }
+  },
+  "sides": [
+    {
+      "side": "clone",
+      "url": "http://127.0.0.1:55468/",
+      "leaves": 317,
+      "byKind": {
+        "text": 206,
+        "media": 56,
+        "painted-container": 35,
+        "bg-image": 1,
+        "painted-box": 19
+      },
+      "settle": {
+        "stable": true,
+        "scrolledTo": 9129,
+        "imagesPending": 0
+      },
+      "files": [
+        {
+          "file": "clone.json",
+          "bytes": 244678
+        }
+      ],
+      "tookMs": 9862,
+      "viewportRead": {
+        "iw": 1728,
+        "cw": 1728,
+        "ih": 982,
+        "dpr": 2
+      },
+      "probe": {
+        "rafHz": 62,
+        "anim": {
+          "expectedPxPerSec": 100,
+          "measuredPxPerSec": 94.72
+        },
+        "attempts": 1
+      },
+      "paint": {
+        "stat": {
+          "width": 3456,
+          "height": 1964,
+          "sampled": 212112,
+          "nonUniformRatio": 0.1038,
+          "lumaMean": 239.7,
+          "lumaStdev": 52.4,
+          "nearBlank": false
+        }
+      },
+      "freeze": {
+        "supported": true,
+        "frozen": 2,
+        "ids": [
+          "css:pulse@section:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>p:nth-of-type(2)>span",
+          "css:onda-marquee@main>section:nth-of-type(2)>div>div>ul"
+        ],
+        "players": [],
+        "alreadyPaused": 0,
+        "skipped": {
+          "finished": 2,
+          "scrollLinked": 0,
+          "agentDom": 0,
+          "kitPlayer": 0,
+          "failed": 0
+        },
+        "unfreezable": [],
+        "stillMoving": [],
+        "watch": {
+          "ran": true,
+          "intervals": 2,
+          "intervalMs": 180,
+          "tracked": 4,
+          "writes": 0,
+          "truncated": false
+        },
+        "excludedMarkCount": 0
+      }
+    }
+  ]
+}

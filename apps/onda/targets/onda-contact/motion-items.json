@@ -1,0 +1,31 @@
+{
+  "schema": "pingfusi/motion-items@2",
+  "items": [
+    {
+      "id": "pass-css-555ac9b9",
+      "createdAt": "2026-10-17T17:02:42.293Z",
+      "selector": "div>main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(1)",
+      "scope": "div>main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "3 track(s) carried by the captured CSS; @keyframes enter present in the clone's CSS — deep diff: pingfusi motion verify-introspected onda-contact pass-css-555ac9b9",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-17T17:02:42.293Z"
+    },
+    {
+      "id": "pass-css-d2358d87",
+      "createdAt": "2026-10-17T17:02:42.293Z",
+      "selector": "div>main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)",
+      "scope": "div>main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "3 track(s) carried by the captured CSS; @keyframes enter present in the clone's CSS — deep diff: pingfusi motion verify-introspected onda-contact pass-css-d2358d87",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-17T17:02:42.293Z"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+const fs=require('node:fs'),path=require('node:path');
+const root=path.resolve(__dirname,'..'),clone=path.join(root,'targets/onda/clone');
+let html=fs.readFileSync(path.join(clone,'index.html'),'utf8');
+const photos=['work-polaris-mobility.jpg','work-marea-bank.jpg','work-arcadia-health.jpg','work-vela-energy.jpg','testimonial-portrait.jpg'];
+let index=0;
+html=html.replace(/<img\b[^>]*class="halftone-photo[^>]*>/g,tag=>{
+ const name=photos[index++];
+ tag=tag.replace(/ data-original-image="[^"]*"/g,'');
+ return tag.replace('<img ',`<img data-original-image="/images/${name}" `);
+});
+html=html.replace(/href="https:\/\/onda-template\.modulify\.website\/favicon.svg"/g,'href="/favicon.svg"');
+html=html.replaceAll('href="/contact"','href="/contact.html"');
+fs.writeFileSync(path.join(clone,'index.html'),html);
+const source=path.join(root,'targets/onda-contact/clone');
+const dest=path.join(clone,'contact');fs.mkdirSync(dest,{recursive:true});
+let contact=fs.readFileSync(path.join(source,'index.html'),'utf8').replaceAll('/assets/','/contact/assets/');
+contact=contact.replace('</body>','<script src="/fixes.js" defer></script></body>');
+contact=contact.replace(/href="https:\/\/onda-template\.modulify\.website\/favicon.svg"/g,'href="/favicon.svg"');
+contact=contact.replaceAll('href="/contact"','href="/contact.html"');
+fs.writeFileSync(path.join(dest,'index.html'),contact);
+fs.writeFileSync(path.join(clone,'contact.html'),contact);
+fs.cpSync(path.join(source,'assets'),path.join(dest,'assets'),{recursive:true});
+console.log('Assembled homepage and /contact/ with local assets and original canvas sources.');

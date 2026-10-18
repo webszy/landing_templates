@@ -1,0 +1,191 @@
+{
+  "kitVersion": "0.17.1",
+  "at": "2026-10-17T17:08:28.736Z",
+  "mode": "cdp-launched",
+  "chromeVersion": "Chrome/155.0.8059.84",
+  "headless": true,
+  "profile": "temp",
+  "viewport": {
+    "width": 1728,
+    "height": 982,
+    "dpr": 2,
+    "sources": {
+      "width": "target.json",
+      "height": "live.json",
+      "dpr": "live.json"
+    }
+  },
+  "sides": [
+    {
+      "side": "clone",
+      "url": "http://127.0.0.1:52941/",
+      "leaves": 168,
+      "byKind": {
+        "media": 51,
+        "text": 77,
+        "painted-container": 22,
+        "painted-box": 8,
+        "bg-image": 10
+      },
+      "settle": {
+        "stable": true,
+        "scrolledTo": 11936,
+        "imagesPending": 0
+      },
+      "files": [
+        {
+          "file": "clone.json",
+          "bytes": 129078
+        }
+      ],
+      "tookMs": 10815,
+      "viewportRead": {
+        "iw": 1728,
+        "cw": 1728,
+        "ih": 982,
+        "dpr": 2
+      },
+      "probe": {
+        "rafHz": 64,
+        "anim": {
+          "expectedPxPerSec": 100,
+          "measuredPxPerSec": 96.5
+        },
+        "attempts": 1
+      },
+      "paint": {
+        "stat": {
+          "width": 3456,
+          "height": 1964,
+          "sampled": 212112,
+          "nonUniformRatio": 0.1933,
+          "lumaMean": 16.4,
+          "lumaStdev": 47.3,
+          "nearBlank": false
+        }
+      },
+      "freeze": {
+        "supported": true,
+        "frozen": 0,
+        "ids": [],
+        "players": [],
+        "alreadyPaused": 0,
+        "skipped": {
+          "finished": 0,
+          "scrollLinked": 0,
+          "agentDom": 0,
+          "kitPlayer": 0,
+          "failed": 0
+        },
+        "unfreezable": [
+          "main>div:nth-of-type(3)>div>div:nth-of-type(2)>div:nth-of-type(1)"
+        ],
+        "stillMoving": [],
+        "watch": {
+          "ran": true,
+          "intervals": 2,
+          "intervalMs": 180,
+          "tracked": 62,
+          "writes": 0,
+          "truncated": false
+        },
+        "excludedMarkCount": 2
+      }
+    },
+    {
+      "side": "live",
+      "url": "https://blackplus-template.modulify.website/",
+      "leaves": 168,
+      "byKind": {
+        "media": 51,
+        "text": 77,
+        "painted-container": 22,
+        "painted-box": 8,
+        "bg-image": 10
+      },
+      "settle": {
+        "stable": true,
+        "scrolledTo": 11936,
+        "imagesPending": 0
+      },
+      "files": [
+        {
+          "file": "live.json",
+          "bytes": 129099
+        },
+        {
+          "file": "coverage.json",
+          "bytes": 3876
+        },
+        {
+          "file": "dom.html",
+          "bytes": 49528
+        }
+      ],
+      "tookMs": 16595,
+      "viewportRead": {
+        "iw": 1728,
+        "cw": 1728,
+        "ih": 982,
+        "dpr": 2
+      },
+      "probe": {
+        "rafHz": 62,
+        "anim": {
+          "expectedPxPerSec": 100,
+          "measuredPxPerSec": 98.15
+        },
+        "attempts": 1
+      },
+      "paint": {
+        "stat": {
+          "width": 3456,
+          "height": 1964,
+          "sampled": 212112,
+          "nonUniformRatio": 0.1933,
+          "lumaMean": 16.4,
+          "lumaStdev": 47.3,
+          "nearBlank": false
+        }
+      },
+      "canvas": {
+        "schema": "pingfusi/canvas-dominant@1",
+        "viewport": {
+          "w": 1728,
+          "h": 982
+        },
+        "canvases": 0,
+        "bestCoverage": 0,
+        "marksInFront": 0,
+        "dominant": false
+      },
+      "freeze": {
+        "supported": true,
+        "frozen": 0,
+        "ids": [],
+        "players": [],
+        "alreadyPaused": 0,
+        "skipped": {
+          "finished": 0,
+          "scrollLinked": 0,
+          "agentDom": 0,
+          "kitPlayer": 0,
+          "failed": 0
+        },
+        "unfreezable": [
+          "main>div:nth-of-type(3)>div>div:nth-of-type(2)>div:nth-of-type(1)"
+        ],
+        "stillMoving": [],
+        "watch": {
+          "ran": true,
+          "intervals": 2,
+          "intervalMs": 180,
+          "tracked": 62,
+          "writes": 0,
+          "truncated": false
+        },
+        "excludedMarkCount": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+
+workflow — fieldhand  (https://fieldhand-template.modulify.website/ @ 1728px)
+  ✓ pass      target    Target + viewport fixed
+  ✓ attested  assets    Real assets extracted (fonts/icons/logo)
+  ✓ pass      measure   Live site measured at the fixed width
+  ✓ pass      build     Clone built to spec + captured
+  ✓ pass      visual    --visual gate green (pixels match)
+  ✓ pass      coverage  Coverage closed (every painted leaf targeted)
+  ✓ pass      strict    Strict deltas fixed or documented
+  ⚠ blocked   behavior  JS-driven dynamics reproduced (measured, not eyeballed)
+  · pending   review    Review approved (side-by-side verdict)
+  · pending   done      Pixel-perfect — verified end to end
+
+  ⚠ motion advisory — 22 temporal candidate(s) without a motion receipt: reveal:div.[--drift-x:70px].[--drift-y:-10px], reveal:div.[--drift-x:-70px].[--drift-y:8px], reveal:span.absolute.left-0, reveal:section>div>span>svg[0][0][2], reveal:section>div>span>svg[0][1][2], reveal:section>div>span>svg[0][2][2] … +16 more — informational (motion checks are build receipts, never gates); inspect with pingfusi next fieldhand
+
+  next: review — Review approved (side-by-side verdict)
+  gate: blocked — no review round recorded — push the clone as a hosted draft (node harness/draft.js push fieldhand), then: node harness/review-qa.js file fieldhand
+  run:  pingfusi draft fieldhand push   →   pingfusi review fieldhand file   (filing chains the wait)
+        (green machine gates are NOT done — a reviewer's approving verdict is the gate)
+        file it NOW despite the blocked gate(s) — the round documents the gap to the reviewer automatically; a reviewer look at a partial clone beats no look.

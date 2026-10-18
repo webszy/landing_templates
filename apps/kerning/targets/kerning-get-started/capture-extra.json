@@ -1,0 +1,40 @@
+{
+  "route": "/get-started",
+  "leaves": 65,
+  "settle": {
+    "scrolledTo": 1415,
+    "frozenOpacity0": 1,
+    "stable": true,
+    "sweeps": 1,
+    "heights": [
+      1415
+    ],
+    "imagesPending": 0,
+    "lazyPromoted": 0,
+    "lazyPromotedSrcs": [],
+    "pendingImageSrcs": []
+  },
+  "probe": {
+    "ok": true,
+    "transient": false,
+    "rafHz": 64,
+    "attempts": 1
+  },
+  "links": [
+    "/",
+    "/how-it-works",
+    "/placements",
+    "/become-a-scout",
+    "/blog",
+    "/get-started",
+    "/log-in",
+    "/how-it-works",
+    "/placements",
+    "/become-a-scout",
+    "/blog",
+    "/get-started",
+    "/log-in",
+    "/terms",
+    "/privacy"
+  ]
+}

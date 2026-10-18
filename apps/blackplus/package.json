@@ -1,0 +1,11 @@
+{
+  "name": "@templates/blackplus",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node --check targets/blackplus/clone/fixes.js"
+  }
+}

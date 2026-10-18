@@ -1,0 +1,32 @@
+[
+  {
+    "id": "pass-css-c281b145",
+    "pass": true,
+    "output": "✓ verified-introspected — 1 introspected track(s) match exactly (±1ms timing, ±0.01 numeric)\n  receipt: targets/kerning/motion/pass-css-c281b145/verify-introspected.json\n  no review round is needed for an exactly-matching introspected track — next: pingfusi next kerning\n"
+  },
+  {
+    "id": "pass-css-e5aa0019",
+    "pass": true,
+    "output": "✓ verified-introspected — 1 introspected track(s) match exactly (±1ms timing, ±0.01 numeric)\n  receipt: targets/kerning/motion/pass-css-e5aa0019/verify-introspected.json\n  no review round is needed for an exactly-matching introspected track — next: pingfusi next kerning\n"
+  },
+  {
+    "id": "pass-css-0893c926",
+    "pass": true,
+    "output": "✓ verified-introspected — 1 introspected track(s) match exactly (±1ms timing, ±0.01 numeric)\n  receipt: targets/kerning/motion/pass-css-0893c926/verify-introspected.json\n  no review round is needed for an exactly-matching introspected track — next: pingfusi next kerning\n"
+  },
+  {
+    "id": "pass-css-6a11d5a1",
+    "pass": true,
+    "output": "✓ verified-introspected — 1 introspected track(s) match exactly (±1ms timing, ±0.01 numeric)\n  receipt: targets/kerning/motion/pass-css-6a11d5a1/verify-introspected.json\n  no review round is needed for an exactly-matching introspected track — next: pingfusi next kerning\n"
+  },
+  {
+    "id": "pass-css-d32d143d",
+    "pass": true,
+    "output": "✓ verified-introspected — 1 introspected track(s) match exactly (±1ms timing, ±0.01 numeric)\n  receipt: targets/kerning/motion/pass-css-d32d143d/verify-introspected.json\n  no review round is needed for an exactly-matching introspected track — next: pingfusi next kerning\n"
+  },
+  {
+    "id": "pass-css-918f35d1",
+    "pass": true,
+    "output": "✓ verified-introspected — 1 introspected track(s) match exactly (±1ms timing, ±0.01 numeric)\n  receipt: targets/kerning/motion/pass-css-918f35d1/verify-introspected.json\n  no review round is needed for an exactly-matching introspected track — next: pingfusi next kerning\n"
+  }
+]

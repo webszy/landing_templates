@@ -1,0 +1,92 @@
+{
+  "schema": "pingfusi/motion-sample@1",
+  "at": "2026-10-17T17:02:28.962Z",
+  "target": "blackplus",
+  "item": "auto (capture-run)",
+  "url": "https://blackplus-template.modulify.website/",
+  "viewport": {
+    "width": 1728,
+    "height": 982,
+    "dpr": 2,
+    "sources": {
+      "width": "target.json",
+      "height": "default",
+      "dpr": "default"
+    }
+  },
+  "detected": [
+    {
+      "selector": "main>div:nth-of-type(3)>div>div:nth-of-type(2)>div:nth-of-type(1)",
+      "property": "transform",
+      "depth": 3140
+    }
+  ],
+  "depthsProbed": 14,
+  "runs": [
+    {
+      "trigger": "scroll-to:main>div:nth-of-type(3)>div>div:nth-of-type(2)>div:nth-of-type(1)",
+      "scopes": [
+        "main>div:nth-of-type(3)>div>div:nth-of-type(2)>div:nth-of-type(1)"
+      ],
+      "fps": 60,
+      "frames": 240,
+      "stepMs": 16.666666666666668,
+      "virtualTime": {
+        "mode": "hooked-clock",
+        "fallbackReason": "virtual time does not drive frames on this Chrome (1 rAF frame(s) across a 200 virtual-ms advance; headless=new has no begin-frame control)",
+        "epochMs": 1700000000000,
+        "hookedSurface": "performance.now+Date.now+rAF+setTimeout/Interval+IntersectionObserver",
+        "settlePolicy": "drain+step+freeze",
+        "networkPinning": "fetch-batch+layout-batch",
+        "cacheDisabled": true,
+        "wallBarrierMs": 3000,
+        "freezeMs": 250
+      },
+      "settle": {
+        "loadFrames": 0,
+        "preTriggerFrames": 120,
+        "loadDriftMs": null,
+        "preTriggerMs": null,
+        "frames": 120,
+        "policy": "hooked-clock-step",
+        "resourcesAtRecord": 68,
+        "network": {
+          "batches": 8,
+          "released": 69,
+          "streamingExcluded": 0,
+          "layoutBatchReleased": 36,
+          "heldAtStop": 0
+        }
+      },
+      "recorder": {
+        "tracking": 1,
+        "truncated": false,
+        "writes": 0
+      },
+      "sampling": {
+        "fps": 60,
+        "stepMs": 16.666666666666668,
+        "frames": 240,
+        "elements": 1,
+        "tracks": 0,
+        "staticDropped": 4,
+        "unaddressable": 0,
+        "writesTotal": 0,
+        "writesMerged": 0,
+        "truncated": false,
+        "ongoing": 0
+      },
+      "determinism": {
+        "runs": 1
+      },
+      "fit": {
+        "attempted": 0,
+        "attached": [],
+        "rejected": 0,
+        "reclassified": [],
+        "skipped": "no numeric series to fit"
+      },
+      "sampledTrackIds": []
+    }
+  ]
+}

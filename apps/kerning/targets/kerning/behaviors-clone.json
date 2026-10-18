@@ -1,0 +1,1523 @@
+{
+  "url": "http://127.0.0.1:58510/",
+  "viewport": {
+    "width": 1728,
+    "height": 982,
+    "dpr": 2
+  },
+  "mode": "CSS1Compat",
+  "discovery": {
+    "startedAt": "2026-10-18T03:05:56.254Z",
+    "endedAt": "2026-10-18T03:05:58.475Z",
+    "durationMs": 2220,
+    "documentHidden": false,
+    "scrollSweep": {
+      "from": 0,
+      "to": 7681,
+      "steps": 6,
+      "positions": [
+        0,
+        1280,
+        2560,
+        3841,
+        5121,
+        6401,
+        7681
+      ]
+    },
+    "observeMs": 1500,
+    "elementsScanned": 831,
+    "staticCandidateCount": 85,
+    "keyframesFound": [
+      "ambient-drift-1",
+      "ambient-drift-2",
+      "ambient-drift-3",
+      "blob-drift",
+      "enter-rise",
+      "enter-fade",
+      "drift",
+      "ticker",
+      "click-pulse",
+      "burst",
+      "caret",
+      "film-paper",
+      "film-circle",
+      "film-heart",
+      "film-bubble",
+      "film-scout",
+      "collective-avatar",
+      "spin",
+      "ping",
+      "pulse",
+      "enter",
+      "exit"
+    ],
+    "hoverTriggersProbed": [],
+    "marqueeSelectorsProbed": [],
+    "earlyMotionRecorder": {
+      "ran": true,
+      "durationMs": 3285.8,
+      "rowsObserved": 6,
+      "strongRows": 0
+    },
+    "runner": {
+      "kitVersion": "0.17.1",
+      "mode": "cdp-launched",
+      "chromeVersion": "Chrome/155.0.8059.84",
+      "headless": true,
+      "profile": "temp",
+      "viewport": {
+        "width": 1728,
+        "height": 982,
+        "dpr": 2,
+        "sources": {
+          "width": "target.json",
+          "height": "live.json",
+          "dpr": "live.json"
+        }
+      },
+      "rafProbe": {
+        "frames": 31,
+        "ms": 702,
+        "hz": 62,
+        "attempts": 1
+      },
+      "animProbe": {
+        "expectedPxPerSec": 100,
+        "measuredPxPerSec": 97.9
+      }
+    }
+  },
+  "behaviors": {
+    "reveal:span.absolute.left-0": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>header>a>span>span:nth-of-type(2)",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 300,
+        "delayMs": 0,
+        "easing": "ease, cubic-bezier(0.34, 1.36, 0.64, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep and returned to its start state"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(0.82, 0, 0, 0.82, 0, -10)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 0,
+          "transform": "matrix(0.82, 0, 0, 0.82, 0, -10)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 1280,
+          "snapshot": {
+            "opacity": 0.253,
+            "transform": "matrix(0.901788, 0, 0, 0.901788, 0, -10)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": true,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:div.ticker-track.flex": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(3)>div>div",
+      "hints": [
+        "animation-name:ticker"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "ticker",
+        "durationMs": 46000,
+        "delayMs": 0,
+        "easing": "linear",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:ticker"
+        ],
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, -145.769, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, -245.187, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, 1, -156.979, 0)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "flex"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:li.reveal.relative": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div:nth-of-type(2)>main>section:nth-of-type(2)>ul>li:nth-of-type(4)",
+      "hints": [
+        "will-change:transform",
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 1100,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "none",
+          "filter": "blur(6px)",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "during": {
+          "atY": 2560,
+          "snapshot": {
+            "opacity": 0.779,
+            "transform": "none",
+            "filter": "blur(1.32658px)",
+            "visibility": "visible",
+            "display": "flex"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:old-way-title": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "#old-way-title",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 1100,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "none",
+          "filter": "blur(6px)",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 2560,
+          "snapshot": {
+            "opacity": 0.779,
+            "transform": "none",
+            "filter": "blur(1.32658px)",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:li.reveal": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div:nth-of-type(2)>main>section:nth-of-type(5)>ul>li:nth-of-type(6)",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 1100,
+        "delayMs": 220,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "none",
+          "filter": "blur(6px)",
+          "visibility": "visible",
+          "display": "list-item"
+        },
+        "after": {
+          "opacity": 0.998,
+          "transform": "none",
+          "filter": "blur(0.0132805px)",
+          "visibility": "visible",
+          "display": "list-item"
+        },
+        "during": {
+          "atY": 7681,
+          "snapshot": {
+            "opacity": 0.8,
+            "transform": "none",
+            "filter": "blur(1.2007px)",
+            "visibility": "visible",
+            "display": "list-item"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div.rounded-[8px].border-[0.5px]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>div>div>div>div",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 1000,
+        "delayMs": 80,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "none",
+          "filter": "blur(5px)",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 3841,
+          "snapshot": {
+            "opacity": 0.608,
+            "transform": "none",
+            "filter": "blur(1.96097px)",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:span.pop.rounded-full": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>div>div>div:nth-of-type(1)>span",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 620,
+        "delayMs": 500,
+        "easing": "ease, cubic-bezier(0.34, 1.45, 0.64, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 5121,
+          "snapshot": {
+            "opacity": 0.994,
+            "transform": "none",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:li.rounded-[8px].border-[0.5px]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>div>div>ul>li:nth-of-type(6)",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 700,
+        "delayMs": 800,
+        "easing": "ease, cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "during": {
+          "atY": 6401,
+          "snapshot": {
+            "opacity": 0.434,
+            "transform": "none",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "flex"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:li.reveal.min-[992px]:mt-12": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div:nth-of-type(2)>main>section:nth-of-type(3)>ul>li:nth-of-type(2)",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 1100,
+        "delayMs": 120,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "none",
+          "filter": "blur(6px)",
+          "visibility": "visible",
+          "display": "list-item"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "list-item"
+        },
+        "during": {
+          "atY": 2560,
+          "snapshot": {
+            "opacity": 0.485,
+            "transform": "none",
+            "filter": "blur(3.09276px)",
+            "visibility": "visible",
+            "display": "list-item"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div.rise.mb-2": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>div>div>div>div:nth-of-type(1)",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 1000,
+        "delayMs": 80,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "none",
+          "filter": "blur(5px)",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "during": {
+          "atY": 2560,
+          "snapshot": {
+            "opacity": 0.656,
+            "transform": "none",
+            "filter": "blur(1.71961px)",
+            "visibility": "visible",
+            "display": "flex"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:span.pop.absolute": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>div>div>div>span",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 620,
+        "delayMs": 1400,
+        "easing": "ease, cubic-bezier(0.34, 1.45, 0.64, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 0.047,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "changedDuringSweep": false,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:li.reveal.sm:max-[991px]:col-span-2": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div:nth-of-type(2)>main>section:nth-of-type(3)>ul>li:nth-of-type(3)",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 1100,
+        "delayMs": 240,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "none",
+          "filter": "blur(6px)",
+          "visibility": "visible",
+          "display": "list-item"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "list-item"
+        },
+        "during": {
+          "atY": 5121,
+          "snapshot": {
+            "opacity": 0.768,
+            "transform": "none",
+            "filter": "blur(1.39366px)",
+            "visibility": "visible",
+            "display": "list-item"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:li.row-in.flex": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>div>div>ul>li:nth-of-type(7)",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 700,
+        "delayMs": 1140,
+        "easing": "ease, cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "after": {
+          "opacity": 0.675,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "changedDuringSweep": false,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div.reveal.flex": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>div:nth-of-type(2)>main>section:nth-of-type(5)>div",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 1100,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "none",
+          "filter": "blur(6px)",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "during": {
+          "atY": 5121,
+          "snapshot": {
+            "opacity": 0.75,
+            "transform": "none",
+            "filter": "blur(1.50012px)",
+            "visibility": "visible",
+            "display": "flex"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:li.reveal.min-[992px]:-mb-8": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div:nth-of-type(2)>main>section:nth-of-type(4)>ol>li:nth-of-type(4)",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 1100,
+        "delayMs": 330,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "none",
+          "filter": "blur(6px)",
+          "visibility": "visible",
+          "display": "list-item"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "blur(0.000324335px)",
+          "visibility": "visible",
+          "display": "list-item"
+        },
+        "during": {
+          "atY": 6401,
+          "snapshot": {
+            "opacity": 0.559,
+            "transform": "none",
+            "filter": "blur(2.64587px)",
+            "visibility": "visible",
+            "display": "list-item"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:dl.reveal.mt-16": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>div:nth-of-type(2)>main>section:nth-of-type(4)>dl",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 1100,
+        "delayMs": 200,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "none",
+          "filter": "blur(6px)",
+          "visibility": "visible",
+          "display": "grid"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "grid"
+        },
+        "during": {
+          "atY": 5121,
+          "snapshot": {
+            "opacity": 0.083,
+            "transform": "none",
+            "filter": "blur(5.50442px)",
+            "visibility": "visible",
+            "display": "grid"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:span.absolute.inset-0": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>div>p:nth-of-type(1)>span>span:nth-of-type(1)",
+      "hints": [
+        "animation-name:ping",
+        "class-marker"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "ping",
+        "durationMs": 1000,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:ping"
+        ],
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0.315,
+          "transform": "matrix(1.68493, 0, 0, 1.68493, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 0.087,
+          "transform": "matrix(1.91341, 0, 0, 1.91341, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 0.066,
+            "transform": "matrix(1.93396, 0, 0, 1.93396, 0, 0)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div.reveal.min-[992px]:sticky": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div:nth-of-type(2)>main>section:nth-of-type(6)>div:nth-of-type(2)>div:nth-of-type(1)",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 1100,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "none",
+          "filter": "blur(6px)",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 6401,
+          "snapshot": {
+            "opacity": 0.75,
+            "transform": "none",
+            "filter": "blur(1.50001px)",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div.relative.isolate": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div:nth-of-type(2)>main>section:nth-of-type(6)>div:nth-of-type(2)>div:nth-of-type(2)",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 1100,
+        "delayMs": 120,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "none",
+          "filter": "blur(6px)",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "blur(0.00149065px)",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 6401,
+          "snapshot": {
+            "opacity": 0.426,
+            "transform": "none",
+            "filter": "blur(3.44449px)",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div.reveal.relative": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>div:nth-of-type(2)>main>section:nth-of-type(7)>div",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 1100,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "none",
+          "filter": "blur(6px)",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 0.996,
+          "transform": "none",
+          "filter": "blur(0.0211066px)",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 7681,
+          "snapshot": {
+            "opacity": 0.75,
+            "transform": "none",
+            "filter": "blur(1.4999px)",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div.drift": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>div>div:nth-of-type(2)>div:nth-of-type(5)>div",
+      "hints": [
+        "animation-name:drift"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "drift",
+        "durationMs": 25000,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.65, 0, 0.35, 1)",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:drift"
+        ],
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(0.999912, 0.0132366, -0.0132366, 0.999912, 3.79211, -7.58421)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(0.999945, 0.0105132, -0.0105132, 0.999945, 3.01186, -6.02373)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 1,
+            "transform": "matrix(0.999915, 0.0130678, -0.0130678, 0.999915, 3.74375, -7.48751)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "mutation:i.font-serif.text-[26px]": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "header>a>span>span:nth-of-type(1)>i:nth-of-type(1)",
+      "measured": {
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 2
+      }
+    }
+  },
+  "declared": {
+    "declared:mobile-menu": {
+      "hints": [
+        "class-marker",
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 250,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), ease, ease",
+        "signals": [
+          "transition-from-start-state"
+        ]
+      },
+      "startState": {
+        "opacity": 0,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "hidden",
+        "display": "none"
+      },
+      "text": "How it worksPlacementsBecome a ScoutBlogGet startedLog in"
+    },
+    "declared:a.font-serif.text-[clamp(30px,6vw,38px)]": {
+      "hints": [
+        "class-marker",
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 300,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ]
+      },
+      "startState": {
+        "opacity": 0,
+        "transform": "none",
+        "filter": "blur(2px)",
+        "visibility": "hidden",
+        "display": "block"
+      },
+      "text": "How it works"
+    },
+    "declared:a.group/button.relative": {
+      "hints": [
+        "class-marker",
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 300,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ]
+      },
+      "startState": {
+        "opacity": 0,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "hidden",
+        "display": "inline-flex"
+      },
+      "text": "Get started"
+    },
+    "declared:a.-mt-6.text-[14px]": {
+      "hints": [
+        "class-marker",
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 300,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ]
+      },
+      "startState": {
+        "opacity": 0,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "hidden",
+        "display": "inline"
+      },
+      "text": "Log in"
+    },
+    "declared:div.enter-fade.pointer-events-none": {
+      "hints": [
+        "animation-name:enter-fade"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "enter-fade",
+        "durationMs": 1600,
+        "delayMs": 400,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "iterationCount": "1",
+        "signals": [
+          "animation-name:enter-fade"
+        ],
+        "reason": "named CSS animation enter-fade with 1600ms duration"
+      },
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:h1.type-hero.enter": {
+      "hints": [
+        "animation-name:enter-rise"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "enter-rise",
+        "durationMs": 1100,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "iterationCount": "1",
+        "signals": [
+          "animation-name:enter-rise"
+        ],
+        "reason": "named CSS animation enter-rise with 1100ms duration"
+      },
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "Hire designers who sweat the details through scouts who can "
+    },
+    "declared:p.type-lead.enter": {
+      "hints": [
+        "animation-name:enter-rise"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "enter-rise",
+        "durationMs": 1100,
+        "delayMs": 120,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "iterationCount": "1",
+        "signals": [
+          "animation-name:enter-rise"
+        ],
+        "reason": "named CSS animation enter-rise with 1100ms duration"
+      },
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "Scouts the design community trusts put forward one handpicke"
+    },
+    "declared:div.enter.mt-7": {
+      "hints": [
+        "animation-name:enter-rise"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "enter-rise",
+        "durationMs": 1100,
+        "delayMs": 220,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "iterationCount": "1",
+        "signals": [
+          "animation-name:enter-rise"
+        ],
+        "reason": "named CSS animation enter-rise with 1100ms duration"
+      },
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "flex"
+      },
+      "text": "Get startedHow it works"
+    },
+    "declared:div.relative.w-full": {
+      "hints": [
+        "animation-name:enter-rise"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "enter-rise",
+        "durationMs": 1100,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "iterationCount": "1",
+        "signals": [
+          "animation-name:enter-rise"
+        ],
+        "reason": "named CSS animation enter-rise with 1100ms duration"
+      },
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "From our network, hired byHalyardnorthfoldOstrava/LabsPendul"
+    },
+    "declared:div.@container.absolute": {
+      "hints": [
+        "class-marker",
+        "will-change:transform"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1.44444, 0, 0, 1.44444, 0, 0)",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "Senior Product DesignerApplications · Careers page312 newJBJ"
+    },
+    "declared:faq-a-how-designers-approached": {
+      "hints": [
+        "class-marker",
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 500,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ]
+      },
+      "startState": {
+        "opacity": 0,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "grid"
+      },
+      "text": "Privately, by a scout they know. The designer sees who the t"
+    },
+    "declared:faq-a-what-it-costs": {
+      "hints": [
+        "class-marker",
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 500,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ]
+      },
+      "startState": {
+        "opacity": 0,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "grid"
+      },
+      "text": "Nothing until someone accepts your offer. Then there is a si"
+    },
+    "declared:faq-a-how-fast": {
+      "hints": [
+        "class-marker",
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 500,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ]
+      },
+      "startState": {
+        "opacity": 0,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "grid"
+      },
+      "text": "Most teams get their first shortlist within nine working day"
+    },
+    "declared:faq-a-no-fit": {
+      "hints": [
+        "class-marker",
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 500,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ]
+      },
+      "startState": {
+        "opacity": 0,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "grid"
+      },
+      "text": "Tell us why and we go again with what we learned. If we stil"
+    },
+    "declared:html>body>a[2][1]": {
+      "hints": [
+        "will-change:transform"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    }
+  }
+}

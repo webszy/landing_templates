@@ -1,0 +1,257 @@
+{
+  "schema": "pingfusi/motion-items@2",
+  "items": [
+    {
+      "id": "pass-css-d2a2979c",
+      "createdAt": "2026-10-18T02:15:42.411Z",
+      "selector": "div>div:nth-of-type(2)>main>section:nth-of-type(1)>div:nth-of-type(1)",
+      "scope": "div>div:nth-of-type(2)>main>section:nth-of-type(1)>div:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes enter-fade present in the clone's CSS — deep diff: pingfusi motion verify-introspected kerning pass-css-d2a2979c",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:54.139Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-b80e34041da2",
+        "trackFingerprint": "b80e34041da23b3c0276216e749775124dba55fa3116183a207fdbf1ce90a35e"
+      }
+    },
+    {
+      "id": "pass-css-11fbcfda",
+      "createdAt": "2026-10-18T02:15:42.411Z",
+      "selector": "div>div:nth-of-type(2)>main>section:nth-of-type(1)>h1",
+      "scope": "div>div:nth-of-type(2)>main>section:nth-of-type(1)>h1",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "3 track(s) carried by the captured CSS; @keyframes enter-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected kerning pass-css-11fbcfda",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:54.139Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-2f24cea45695",
+        "trackFingerprint": "2f24cea4569528320efaa293ffb475e4b062faeabace4413c38b5520c22fe1a7",
+        "docTrackIds": [
+          "t-2f24cea45695",
+          "t-36e2839c8644",
+          "t-0c7688489bdb"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-76df75c1",
+      "createdAt": "2026-10-18T02:15:42.412Z",
+      "selector": "div>div:nth-of-type(2)>main>section:nth-of-type(1)>p",
+      "scope": "div>div:nth-of-type(2)>main>section:nth-of-type(1)>p",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "3 track(s) carried by the captured CSS; @keyframes enter-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected kerning pass-css-76df75c1",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:54.140Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-7cf5dcc0b9f3",
+        "trackFingerprint": "7cf5dcc0b9f3f93d2ca816732ba7c8cb7c365828eed44e7bedc85aa9f849bb9c",
+        "docTrackIds": [
+          "t-7cf5dcc0b9f3",
+          "t-0cc43c18a82d",
+          "t-3362ad8d7939"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-9da73324",
+      "createdAt": "2026-10-18T02:15:42.413Z",
+      "selector": "div>div:nth-of-type(2)>main>section:nth-of-type(1)>div:nth-of-type(2)",
+      "scope": "div>div:nth-of-type(2)>main>section:nth-of-type(1)>div:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "3 track(s) carried by the captured CSS; @keyframes enter-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected kerning pass-css-9da73324",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:54.140Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-885da10a51d2",
+        "trackFingerprint": "885da10a51d2dbc621d099efe357e041d09dbf5aebf1a38bc841b65e2575b90b",
+        "docTrackIds": [
+          "t-885da10a51d2",
+          "t-63a3c83d579a",
+          "t-3e7ecc2f7bcf"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-d9e32a17",
+      "createdAt": "2026-10-18T02:15:42.413Z",
+      "selector": "div>div:nth-of-type(2)>main>section:nth-of-type(1)>div:nth-of-type(3)",
+      "scope": "div>div:nth-of-type(2)>main>section:nth-of-type(1)>div:nth-of-type(3)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "3 track(s) carried by the captured CSS; @keyframes enter-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected kerning pass-css-d9e32a17",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:54.141Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-0dd03d2a03b5",
+        "trackFingerprint": "0dd03d2a03b5cd38f80069992f8c5a5959de66fa64e4ee4c6a88a2e5bbf01537",
+        "docTrackIds": [
+          "t-0dd03d2a03b5",
+          "t-fd46569e64eb",
+          "t-0e7fbe4dd55c"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-c281b145",
+      "createdAt": "2026-10-18T02:15:42.413Z",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(3)>div>div",
+      "scope": "main>section:nth-of-type(1)>div:nth-of-type(3)>div>div",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ticker present in the clone's CSS — deep diff: pingfusi motion verify-introspected kerning pass-css-c281b145",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:40.617Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-35b648ee6641",
+        "trackFingerprint": "35b648ee6641405be5f0900f4c674176569be0e07b5feed983b1d21b857e62a7"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:40.617Z",
+      "verifyReceipt": "targets/kerning/motion/pass-css-c281b145/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-d3109f1e",
+      "createdAt": "2026-10-18T02:15:42.413Z",
+      "selector": "div>div>p:nth-of-type(1)>span>span:nth-of-type(1)",
+      "scope": "div>div>p:nth-of-type(1)>span>span:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ping present in the clone's CSS — deep diff: pingfusi motion verify-introspected kerning pass-css-d3109f1e",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:54.142Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-ffac9e547246",
+        "trackFingerprint": "ffac9e547246a0915c8a04ae6f95e668c0f32efd2f7363b35ca9d3fe439e0a40",
+        "docTrackIds": [
+          "t-ffac9e547246",
+          "t-f048695699dd"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-e5aa0019",
+      "createdAt": "2026-10-18T02:15:42.414Z",
+      "selector": "div>div>div:nth-of-type(2)>div:nth-of-type(1)>div",
+      "scope": "div>div>div:nth-of-type(2)>div:nth-of-type(1)>div",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes drift present in the clone's CSS — deep diff: pingfusi motion verify-introspected kerning pass-css-e5aa0019",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:40.682Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-c7b589afc8af",
+        "trackFingerprint": "c7b589afc8af1372dd287afeaa161366f87860041672a2904db9035e1810b97e"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:40.682Z",
+      "verifyReceipt": "targets/kerning/motion/pass-css-e5aa0019/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-0893c926",
+      "createdAt": "2026-10-18T02:15:42.414Z",
+      "selector": "div>div>div:nth-of-type(2)>div:nth-of-type(2)>div",
+      "scope": "div>div>div:nth-of-type(2)>div:nth-of-type(2)>div",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes drift present in the clone's CSS — deep diff: pingfusi motion verify-introspected kerning pass-css-0893c926",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:40.743Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-5af2c2d110fe",
+        "trackFingerprint": "5af2c2d110feb747efc663166d029ad075713cd5ec71ba1cfa8ded222b745da9"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:40.743Z",
+      "verifyReceipt": "targets/kerning/motion/pass-css-0893c926/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-6a11d5a1",
+      "createdAt": "2026-10-18T02:15:42.414Z",
+      "selector": "div>div>div:nth-of-type(2)>div:nth-of-type(3)>div",
+      "scope": "div>div>div:nth-of-type(2)>div:nth-of-type(3)>div",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes drift present in the clone's CSS — deep diff: pingfusi motion verify-introspected kerning pass-css-6a11d5a1",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:40.806Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-140e75078eac",
+        "trackFingerprint": "140e75078eac3f1a736b9d999e7a9cd84e7120ff82310687b61b8770be45fd5a"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:40.806Z",
+      "verifyReceipt": "targets/kerning/motion/pass-css-6a11d5a1/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-d32d143d",
+      "createdAt": "2026-10-18T02:15:42.414Z",
+      "selector": "div>div>div:nth-of-type(2)>div:nth-of-type(4)>div",
+      "scope": "div>div>div:nth-of-type(2)>div:nth-of-type(4)>div",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes drift present in the clone's CSS — deep diff: pingfusi motion verify-introspected kerning pass-css-d32d143d",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:40.866Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-a6ab008ee496",
+        "trackFingerprint": "a6ab008ee49608ed5196db205a6a1f6014b1710b8e6bfad607fed6a32f804de0"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:40.866Z",
+      "verifyReceipt": "targets/kerning/motion/pass-css-d32d143d/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-918f35d1",
+      "createdAt": "2026-10-18T02:15:42.415Z",
+      "selector": "div>div>div:nth-of-type(2)>div:nth-of-type(5)>div",
+      "scope": "div>div>div:nth-of-type(2)>div:nth-of-type(5)>div",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes drift present in the clone's CSS — deep diff: pingfusi motion verify-introspected kerning pass-css-918f35d1",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:40.924Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-856b48a140ff",
+        "trackFingerprint": "856b48a140ff0793303784578314479a1d72c45951fdc720e462d6ee7f8389ff"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:40.924Z",
+      "verifyReceipt": "targets/kerning/motion/pass-css-918f35d1/verify-introspected.json"
+    }
+  ]
+}

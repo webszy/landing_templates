@@ -1,0 +1,151 @@
+{
+  "viewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 2
+  },
+  "results": [
+    {
+      "route": "/",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 6305 comparisons across 436 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/how-it-works",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 5967 comparisons across 402 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/placements",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 2483 comparisons across 197 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/blog",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 2383 comparisons across 203 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/get-started",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 919 comparisons across 70 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/log-in",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 632 comparisons across 48 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/privacy",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 1127 comparisons across 74 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/terms",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 1223 comparisons across 80 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/become-a-scout/apply",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 1106 comparisons across 80 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/blog/5-tips-for-hiring-designers-in-2026",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 1626 comparisons across 122 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/blog/what-makes-a-portfolio-worth-meeting",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 1586 comparisons across 121 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/blog/why-referrals-beat-inbound-for-design-roles",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 1572 comparisons across 119 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/blog/how-to-run-a-design-interview-that-tests-craft",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 1518 comparisons across 116 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/blog/a-scouts-diary-ten-portfolios-in-one-night",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 1491 comparisons across 114 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/blog/offers-designers-say-yes-to",
+      "pass": true,
+      "bad": [],
+      "diff": [
+        "✓ PASS — 1518 comparisons across 117 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/become-a-scout",
+      "pass": false,
+      "bad": [
+        {
+          "side": "live",
+          "missingImages": [
+            "https://kerning-template.modulify.website/_next/image?url=%2Fimages%2Fdesigners%2Felena-varga.png&w=3840&q=75",
+            "https://kerning-template.modulify.website/_next/image?url=%2Fimages%2Fdesigners%2Fluca-moretti.png&w=3840&q=75",
+            "https://kerning-template.modulify.website/_next/image?url=%2Fimages%2Fdesigners%2Fnora-hale.png&w=3840&q=75",
+            "https://kerning-template.modulify.website/_next/image?url=%2Fimages%2Fdesigners%2Fsofia-marin.png&w=3840&q=75",
+            "https://kerning-template.modulify.website/_next/image?url=%2Fimages%2Fdesigners%2Fmateo-alvarez.png&w=3840&q=75",
+            "https://kerning-template.modulify.website/_next/image?url=%2Fimages%2Fdesigners%2Fadrian-keller.png&w=3840&q=75"
+          ]
+        }
+      ],
+      "diff": [
+        "element           property              live            clone           Δ       ok",
+        "❌ FAIL — 2 of 3959 comparisons over 0.5px tolerance. Fix or explain each row above."
+      ]
+    }
+  ],
+  "errors": []
+}

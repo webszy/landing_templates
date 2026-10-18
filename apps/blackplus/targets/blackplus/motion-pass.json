@@ -1,0 +1,30 @@
+{
+  "schema": "pingfusi/motion-pass@1",
+  "at": "2026-10-17T17:07:08.530Z",
+  "target": "blackplus",
+  "ok": true,
+  "doc": {
+    "file": "targets/blackplus/motion-doc.json",
+    "sha256_16": "c92283abad2cc0b1"
+  },
+  "tracks": {
+    "total": 0,
+    "cssInherited": 0,
+    "playersApplied": 0,
+    "skipped": 0
+  },
+  "ownerProbe": {
+    "mode": "ran",
+    "changed": [],
+    "elements": 0
+  },
+  "replay": null,
+  "items": {
+    "schema": "pingfusi/motion-items@2",
+    "ids": []
+  },
+  "assets": [],
+  "skipped": [],
+  "warnings": [],
+  "summary": "0 track(s), 0 css-inherited, 0 player-applied, 0 skipped — receipts and warnings only; motion never fails a build"
+}

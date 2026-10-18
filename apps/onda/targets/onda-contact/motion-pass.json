@@ -1,0 +1,33 @@
+{
+  "schema": "pingfusi/motion-pass@1",
+  "at": "2026-10-17T17:02:42.291Z",
+  "target": "onda-contact",
+  "ok": true,
+  "doc": {
+    "file": "targets/onda-contact/motion-doc.json",
+    "sha256_16": "b04aad5985aeea30"
+  },
+  "tracks": {
+    "total": 6,
+    "cssInherited": 6,
+    "playersApplied": 0,
+    "skipped": 0
+  },
+  "ownerProbe": {
+    "mode": "ran",
+    "changed": [],
+    "elements": 0
+  },
+  "replay": null,
+  "items": {
+    "schema": "pingfusi/motion-items@2",
+    "ids": [
+      "pass-css-555ac9b9",
+      "pass-css-d2358d87"
+    ]
+  },
+  "assets": [],
+  "skipped": [],
+  "warnings": [],
+  "summary": "6 track(s), 6 css-inherited, 0 player-applied, 0 skipped — receipts and warnings only; motion never fails a build"
+}

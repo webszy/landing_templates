@@ -1,0 +1,41 @@
+{
+  "checks": [
+    {
+      "test": "Kerning mobile navigation and focus isolation",
+      "passed": true
+    },
+    {
+      "test": "Kerning mobile Escape closes menu",
+      "passed": true
+    },
+    {
+      "test": "Kerning FAQ single accordion state",
+      "passed": true
+    },
+    {
+      "test": "Kerning static placement photos on mobile",
+      "passed": true
+    },
+    {
+      "test": "Kerning application validation",
+      "passed": true
+    },
+    {
+      "test": "Kerning application stays local",
+      "passed": true
+    },
+    {
+      "test": "Kerning scout validates all required fields",
+      "passed": true
+    },
+    {
+      "test": "Kerning scout selection chips",
+      "passed": true
+    },
+    {
+      "test": "Kerning scout valid submission stays local",
+      "passed": true
+    }
+  ],
+  "browserErrors": []
+}

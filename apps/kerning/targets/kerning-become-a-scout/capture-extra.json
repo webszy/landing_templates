@@ -1,0 +1,44 @@
+{
+  "route": "/become-a-scout",
+  "leaves": 362,
+  "settle": {
+    "scrolledTo": 5111,
+    "frozenOpacity0": 1,
+    "stable": true,
+    "sweeps": 1,
+    "heights": [
+      5111
+    ],
+    "imagesPending": 0,
+    "lazyPromoted": 0,
+    "lazyPromotedSrcs": [],
+    "pendingImageSrcs": []
+  },
+  "probe": {
+    "ok": true,
+    "transient": false,
+    "rafHz": 64,
+    "attempts": 1
+  },
+  "links": [
+    "/",
+    "/how-it-works",
+    "/placements",
+    "/become-a-scout",
+    "/blog",
+    "/get-started",
+    "/log-in",
+    "/how-it-works",
+    "/placements",
+    "/become-a-scout",
+    "/blog",
+    "/get-started",
+    "/log-in",
+    "/become-a-scout/apply",
+    "/placements",
+    "/become-a-scout/apply",
+    "/become-a-scout/apply",
+    "/terms",
+    "/privacy"
+  ]
+}

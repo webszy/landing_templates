@@ -1,0 +1,39 @@
+{
+  "schema": "pingfusi/verify-introspected@1",
+  "at": "2026-10-18T03:02:40.806Z",
+  "target": "kerning",
+  "item": "pass-css-6a11d5a1",
+  "scope": "div>div>div:nth-of-type(2)>div:nth-of-type(3)>div",
+  "binding": {
+    "provenance": "introspected",
+    "docTrackId": "t-140e75078eac",
+    "trackFingerprint": "140e75078eac3f1a736b9d999e7a9cd84e7120ff82310687b61b8770be45fd5a"
+  },
+  "tolerance": {
+    "durationMs": 1,
+    "delayMs": 1,
+    "numeric": 0.01
+  },
+  "liveDoc": {
+    "file": "targets/kerning/motion-doc.json",
+    "sha256_16": "a7f3f2a28d5ce7dd"
+  },
+  "cloneDoc": {
+    "file": "targets/kerning/motion-doc-clone.json",
+    "sha256_16": "9f89d1e75cbb8871"
+  },
+  "ok": true,
+  "tracks": [
+    {
+      "docTrackId": "t-140e75078eac",
+      "selector": "div>div>div:nth-of-type(2)>div:nth-of-type(3)>div",
+      "property": "transform",
+      "tier": "introspected-css",
+      "fingerprint": "140e75078eac3f1a736b9d999e7a9cd84e7120ff82310687b61b8770be45fd5a",
+      "ok": true,
+      "misses": [],
+      "cloneTrackId": "t-140e75078eac"
+    }
+  ],
+  "firstMismatch": null
+}

@@ -1,0 +1,811 @@
+{
+  "schema": "pingfusi/motion-doc@1",
+  "url": "https://kerning-template.modulify.website/",
+  "capturedAt": "2026-10-18T02:56:38.328Z",
+  "viewport": {
+    "width": 1728,
+    "height": 982,
+    "dpr": 2
+  },
+  "tracks": [
+    {
+      "target": {
+        "selector": "div>div:nth-of-type(2)>main>section:nth-of-type(1)>div:nth-of-type(1)"
+      },
+      "property": "opacity",
+      "keyframes": [
+        {
+          "offset": 0,
+          "value": "0",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 1,
+          "value": "1",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        }
+      ],
+      "timing": {
+        "duration_ms": 1600,
+        "delay_ms": 400,
+        "iterations": 1,
+        "direction": "normal",
+        "fill": "both",
+        "playbackRate": 1
+      },
+      "timeline": {
+        "type": "document"
+      },
+      "provenance": {
+        "tier": "introspected-css",
+        "source": "css-animation:enter-fade"
+      },
+      "id": "t-b80e34041da2"
+    },
+    {
+      "target": {
+        "selector": "div>div:nth-of-type(2)>main>section:nth-of-type(1)>h1"
+      },
+      "property": "translate",
+      "keyframes": [
+        {
+          "offset": 0,
+          "value": "0px 10px",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 1,
+          "value": "0px",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        }
+      ],
+      "timing": {
+        "duration_ms": 1100,
+        "delay_ms": 0,
+        "iterations": 1,
+        "direction": "normal",
+        "fill": "both",
+        "playbackRate": 1
+      },
+      "timeline": {
+        "type": "document"
+      },
+      "provenance": {
+        "tier": "introspected-css",
+        "source": "css-animation:enter-rise"
+      },
+      "id": "t-2f24cea45695"
+    },
+    {
+      "target": {
+        "selector": "div>div:nth-of-type(2)>main>section:nth-of-type(1)>h1"
+      },
+      "property": "filter",
+      "keyframes": [
+        {
+          "offset": 0,
+          "value": "blur(6px)",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 1,
+          "value": "none",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        }
+      ],
+      "timing": {
+        "duration_ms": 1100,
+        "delay_ms": 0,
+        "iterations": 1,
+        "direction": "normal",
+        "fill": "both",
+        "playbackRate": 1
+      },
+      "timeline": {
+        "type": "document"
+      },
+      "provenance": {
+        "tier": "introspected-css",
+        "source": "css-animation:enter-rise"
+      },
+      "id": "t-36e2839c8644"
+    },
+    {
+      "target": {
+        "selector": "div>div:nth-of-type(2)>main>section:nth-of-type(1)>h1"
+      },
+      "property": "opacity",
+      "keyframes": [
+        {
+          "offset": 0,
+          "value": "0",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 1,
+          "value": "1",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        }
+      ],
+      "timing": {
+        "duration_ms": 1100,
+        "delay_ms": 0,
+        "iterations": 1,
+        "direction": "normal",
+        "fill": "both",
+        "playbackRate": 1
+      },
+      "timeline": {
+        "type": "document"
+      },
+      "provenance": {
+        "tier": "introspected-css",
+        "source": "css-animation:enter-rise"
+      },
+      "id": "t-0c7688489bdb"
+    },
+    {
+      "target": {
+        "selector": "div>div:nth-of-type(2)>main>section:nth-of-type(1)>p"
+      },
+      "property": "translate",
+      "keyframes": [
+        {
+          "offset": 0,
+          "value": "0px 10px",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 1,
+          "value": "0px",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        }
+      ],
+      "timing": {
+        "duration_ms": 1100,
+        "delay_ms": 120,
+        "iterations": 1,
+        "direction": "normal",
+        "fill": "both",
+        "playbackRate": 1
+      },
+      "timeline": {
+        "type": "document"
+      },
+      "provenance": {
+        "tier": "introspected-css",
+        "source": "css-animation:enter-rise"
+      },
+      "id": "t-7cf5dcc0b9f3"
+    },
+    {
+      "target": {
+        "selector": "div>div:nth-of-type(2)>main>section:nth-of-type(1)>p"
+      },
+      "property": "filter",
+      "keyframes": [
+        {
+          "offset": 0,
+          "value": "blur(6px)",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 1,
+          "value": "none",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        }
+      ],
+      "timing": {
+        "duration_ms": 1100,
+        "delay_ms": 120,
+        "iterations": 1,
+        "direction": "normal",
+        "fill": "both",
+        "playbackRate": 1
+      },
+      "timeline": {
+        "type": "document"
+      },
+      "provenance": {
+        "tier": "introspected-css",
+        "source": "css-animation:enter-rise"
+      },
+      "id": "t-0cc43c18a82d"
+    },
+    {
+      "target": {
+        "selector": "div>div:nth-of-type(2)>main>section:nth-of-type(1)>p"
+      },
+      "property": "opacity",
+      "keyframes": [
+        {
+          "offset": 0,
+          "value": "0",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 1,
+          "value": "1",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        }
+      ],
+      "timing": {
+        "duration_ms": 1100,
+        "delay_ms": 120,
+        "iterations": 1,
+        "direction": "normal",
+        "fill": "both",
+        "playbackRate": 1
+      },
+      "timeline": {
+        "type": "document"
+      },
+      "provenance": {
+        "tier": "introspected-css",
+        "source": "css-animation:enter-rise"
+      },
+      "id": "t-3362ad8d7939"
+    },
+    {
+      "target": {
+        "selector": "div>div:nth-of-type(2)>main>section:nth-of-type(1)>div:nth-of-type(2)"
+      },
+      "property": "translate",
+      "keyframes": [
+        {
+          "offset": 0,
+          "value": "0px 10px",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 1,
+          "value": "0px",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        }
+      ],
+      "timing": {
+        "duration_ms": 1100,
+        "delay_ms": 220,
+        "iterations": 1,
+        "direction": "normal",
+        "fill": "both",
+        "playbackRate": 1
+      },
+      "timeline": {
+        "type": "document"
+      },
+      "provenance": {
+        "tier": "introspected-css",
+        "source": "css-animation:enter-rise"
+      },
+      "id": "t-885da10a51d2"
+    },
+    {
+      "target": {
+        "selector": "div>div:nth-of-type(2)>main>section:nth-of-type(1)>div:nth-of-type(2)"
+      },
+      "property": "filter",
+      "keyframes": [
+        {
+          "offset": 0,
+          "value": "blur(6px)",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 1,
+          "value": "none",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        }
+      ],
+      "timing": {
+        "duration_ms": 1100,
+        "delay_ms": 220,
+        "iterations": 1,
+        "direction": "normal",
+        "fill": "both",
+        "playbackRate": 1
+      },
+      "timeline": {
+        "type": "document"
+      },
+      "provenance": {
+        "tier": "introspected-css",
+        "source": "css-animation:enter-rise"
+      },
+      "id": "t-63a3c83d579a"
+    },
+    {
+      "target": {
+        "selector": "div>div:nth-of-type(2)>main>section:nth-of-type(1)>div:nth-of-type(2)"
+      },
+      "property": "opacity",
+      "keyframes": [
+        {
+          "offset": 0,
+          "value": "0",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 1,
+          "value": "1",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        }
+      ],
+      "timing": {
+        "duration_ms": 1100,
+        "delay_ms": 220,
+        "iterations": 1,
+        "direction": "normal",
+        "fill": "both",
+        "playbackRate": 1
+      },
+      "timeline": {
+        "type": "document"
+      },
+      "provenance": {
+        "tier": "introspected-css",
+        "source": "css-animation:enter-rise"
+      },
+      "id": "t-3e7ecc2f7bcf"
+    },
+    {
+      "target": {
+        "selector": "div>div:nth-of-type(2)>main>section:nth-of-type(1)>div:nth-of-type(3)"
+      },
+      "property": "translate",
+      "keyframes": [
+        {
+          "offset": 0,
+          "value": "0px 10px",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 1,
+          "value": "0px",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        }
+      ],
+      "timing": {
+        "duration_ms": 1100,
+        "delay_ms": 0,
+        "iterations": 1,
+        "direction": "normal",
+        "fill": "both",
+        "playbackRate": 1
+      },
+      "timeline": {
+        "type": "document"
+      },
+      "provenance": {
+        "tier": "introspected-css",
+        "source": "css-animation:enter-rise"
+      },
+      "id": "t-0dd03d2a03b5"
+    },
+    {
+      "target": {
+        "selector": "div>div:nth-of-type(2)>main>section:nth-of-type(1)>div:nth-of-type(3)"
+      },
+      "property": "filter",
+      "keyframes": [
+        {
+          "offset": 0,
+          "value": "blur(6px)",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 1,
+          "value": "none",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        }
+      ],
+      "timing": {
+        "duration_ms": 1100,
+        "delay_ms": 0,
+        "iterations": 1,
+        "direction": "normal",
+        "fill": "both",
+        "playbackRate": 1
+      },
+      "timeline": {
+        "type": "document"
+      },
+      "provenance": {
+        "tier": "introspected-css",
+        "source": "css-animation:enter-rise"
+      },
+      "id": "t-fd46569e64eb"
+    },
+    {
+      "target": {
+        "selector": "div>div:nth-of-type(2)>main>section:nth-of-type(1)>div:nth-of-type(3)"
+      },
+      "property": "opacity",
+      "keyframes": [
+        {
+          "offset": 0,
+          "value": "0",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 1,
+          "value": "1",
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "composite": "auto"
+        }
+      ],
+      "timing": {
+        "duration_ms": 1100,
+        "delay_ms": 0,
+        "iterations": 1,
+        "direction": "normal",
+        "fill": "both",
+        "playbackRate": 1
+      },
+      "timeline": {
+        "type": "document"
+      },
+      "provenance": {
+        "tier": "introspected-css",
+        "source": "css-animation:enter-rise"
+      },
+      "id": "t-0e7fbe4dd55c"
+    },
+    {
+      "target": {
+        "selector": "main>section:nth-of-type(1)>div:nth-of-type(3)>div>div"
+      },
+      "property": "transform",
+      "keyframes": [
+        {
+          "offset": 0,
+          "value": "translate(0px)",
+          "easing": "linear",
+          "composite": "auto"
+        },
+        {
+          "offset": 1,
+          "value": "translate(-50%)",
+          "easing": "linear",
+          "composite": "auto"
+        }
+      ],
+      "timing": {
+        "duration_ms": 46000,
+        "delay_ms": 0,
+        "iterations": "infinite",
+        "direction": "normal",
+        "fill": "none",
+        "playbackRate": 1
+      },
+      "timeline": {
+        "type": "document"
+      },
+      "provenance": {
+        "tier": "introspected-css",
+        "source": "css-animation:ticker"
+      },
+      "id": "t-35b648ee6641"
+    },
+    {
+      "target": {
+        "selector": "div>div>p:nth-of-type(1)>span>span:nth-of-type(1)"
+      },
+      "property": "transform",
+      "keyframes": [
+        {
+          "offset": 0,
+          "value": "none",
+          "easing": "cubic-bezier(0, 0, 0.2, 1)",
+          "composite": "replace"
+        },
+        {
+          "offset": 0.75,
+          "value": "scale(2)",
+          "easing": "cubic-bezier(0, 0, 0.2, 1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 1,
+          "value": "scale(2)",
+          "easing": "cubic-bezier(0, 0, 0.2, 1)",
+          "composite": "auto"
+        }
+      ],
+      "timing": {
+        "duration_ms": 1000,
+        "delay_ms": 0,
+        "iterations": "infinite",
+        "direction": "normal",
+        "fill": "none",
+        "playbackRate": 1
+      },
+      "timeline": {
+        "type": "document"
+      },
+      "provenance": {
+        "tier": "introspected-css",
+        "source": "css-animation:ping"
+      },
+      "id": "t-ffac9e547246"
+    },
+    {
+      "target": {
+        "selector": "div>div>p:nth-of-type(1)>span>span:nth-of-type(1)"
+      },
+      "property": "opacity",
+      "keyframes": [
+        {
+          "offset": 0,
+          "value": "1",
+          "easing": "cubic-bezier(0, 0, 0.2, 1)",
+          "composite": "replace"
+        },
+        {
+          "offset": 0.75,
+          "value": "0",
+          "easing": "cubic-bezier(0, 0, 0.2, 1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 1,
+          "value": "0",
+          "easing": "cubic-bezier(0, 0, 0.2, 1)",
+          "composite": "auto"
+        }
+      ],
+      "timing": {
+        "duration_ms": 1000,
+        "delay_ms": 0,
+        "iterations": "infinite",
+        "direction": "normal",
+        "fill": "none",
+        "playbackRate": 1
+      },
+      "timeline": {
+        "type": "document"
+      },
+      "provenance": {
+        "tier": "introspected-css",
+        "source": "css-animation:ping"
+      },
+      "id": "t-f048695699dd"
+    },
+    {
+      "target": {
+        "selector": "div>div>div:nth-of-type(2)>div:nth-of-type(1)>div"
+      },
+      "property": "transform",
+      "keyframes": [
+        {
+          "offset": 0,
+          "value": "translate(0px) rotate(0deg)",
+          "easing": "cubic-bezier(0.65, 0, 0.35, 1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 0.5,
+          "value": "translate3d(4px, -8px, 0px) rotate(0.8deg)",
+          "easing": "cubic-bezier(0.65, 0, 0.35, 1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 1,
+          "value": "translate(0px) rotate(0deg)",
+          "easing": "cubic-bezier(0.65, 0, 0.35, 1)",
+          "composite": "auto"
+        }
+      ],
+      "timing": {
+        "duration_ms": 17000,
+        "delay_ms": 0,
+        "iterations": "infinite",
+        "direction": "normal",
+        "fill": "none",
+        "playbackRate": 1
+      },
+      "timeline": {
+        "type": "document"
+      },
+      "provenance": {
+        "tier": "introspected-css",
+        "source": "css-animation:drift"
+      },
+      "id": "t-c7b589afc8af"
+    },
+    {
+      "target": {
+        "selector": "div>div>div:nth-of-type(2)>div:nth-of-type(2)>div"
+      },
+      "property": "transform",
+      "keyframes": [
+        {
+          "offset": 0,
+          "value": "translate(0px) rotate(0deg)",
+          "easing": "cubic-bezier(0.65, 0, 0.35, 1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 0.5,
+          "value": "translate3d(4px, 8px, 0px) rotate(0.8deg)",
+          "easing": "cubic-bezier(0.65, 0, 0.35, 1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 1,
+          "value": "translate(0px) rotate(0deg)",
+          "easing": "cubic-bezier(0.65, 0, 0.35, 1)",
+          "composite": "auto"
+        }
+      ],
+      "timing": {
+        "duration_ms": 21000,
+        "delay_ms": -3000,
+        "iterations": "infinite",
+        "direction": "normal",
+        "fill": "none",
+        "playbackRate": 1
+      },
+      "timeline": {
+        "type": "document"
+      },
+      "provenance": {
+        "tier": "introspected-css",
+        "source": "css-animation:drift"
+      },
+      "id": "t-5af2c2d110fe"
+    },
+    {
+      "target": {
+        "selector": "div>div>div:nth-of-type(2)>div:nth-of-type(3)>div"
+      },
+      "property": "transform",
+      "keyframes": [
+        {
+          "offset": 0,
+          "value": "translate(0px) rotate(0deg)",
+          "easing": "cubic-bezier(0.65, 0, 0.35, 1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 0.5,
+          "value": "translate3d(4px, -8px, 0px) rotate(0.8deg)",
+          "easing": "cubic-bezier(0.65, 0, 0.35, 1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 1,
+          "value": "translate(0px) rotate(0deg)",
+          "easing": "cubic-bezier(0.65, 0, 0.35, 1)",
+          "composite": "auto"
+        }
+      ],
+      "timing": {
+        "duration_ms": 19000,
+        "delay_ms": -6000,
+        "iterations": "infinite",
+        "direction": "normal",
+        "fill": "none",
+        "playbackRate": 1
+      },
+      "timeline": {
+        "type": "document"
+      },
+      "provenance": {
+        "tier": "introspected-css",
+        "source": "css-animation:drift"
+      },
+      "id": "t-140e75078eac"
+    },
+    {
+      "target": {
+        "selector": "div>div>div:nth-of-type(2)>div:nth-of-type(4)>div"
+      },
+      "property": "transform",
+      "keyframes": [
+        {
+          "offset": 0,
+          "value": "translate(0px) rotate(0deg)",
+          "easing": "cubic-bezier(0.65, 0, 0.35, 1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 0.5,
+          "value": "translate3d(4px, 8px, 0px) rotate(0.8deg)",
+          "easing": "cubic-bezier(0.65, 0, 0.35, 1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 1,
+          "value": "translate(0px) rotate(0deg)",
+          "easing": "cubic-bezier(0.65, 0, 0.35, 1)",
+          "composite": "auto"
+        }
+      ],
+      "timing": {
+        "duration_ms": 23000,
+        "delay_ms": -9000,
+        "iterations": "infinite",
+        "direction": "normal",
+        "fill": "none",
+        "playbackRate": 1
+      },
+      "timeline": {
+        "type": "document"
+      },
+      "provenance": {
+        "tier": "introspected-css",
+        "source": "css-animation:drift"
+      },
+      "id": "t-a6ab008ee496"
+    },
+    {
+      "target": {
+        "selector": "div>div>div:nth-of-type(2)>div:nth-of-type(5)>div"
+      },
+      "property": "transform",
+      "keyframes": [
+        {
+          "offset": 0,
+          "value": "translate(0px) rotate(0deg)",
+          "easing": "cubic-bezier(0.65, 0, 0.35, 1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 0.5,
+          "value": "translate3d(4px, -8px, 0px) rotate(0.8deg)",
+          "easing": "cubic-bezier(0.65, 0, 0.35, 1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 1,
+          "value": "translate(0px) rotate(0deg)",
+          "easing": "cubic-bezier(0.65, 0, 0.35, 1)",
+          "composite": "auto"
+        }
+      ],
+      "timing": {
+        "duration_ms": 25000,
+        "delay_ms": -12000,
+        "iterations": "infinite",
+        "direction": "normal",
+        "fill": "none",
+        "playbackRate": 1
+      },
+      "timeline": {
+        "type": "document"
+      },
+      "provenance": {
+        "tier": "introspected-css",
+        "source": "css-animation:drift"
+      },
+      "id": "t-856b48a140ff"
+    }
+  ],
+  "assets": []
+}

@@ -1,0 +1,8 @@
+{
+  "declared:div.navbar.w-nav": {
+    "reason": "Weak legacy data-animation=\"default\" marker on the static navbar wrapper, not an observed temporal track. Actual entrance runs on .nav-menu-container using the original GSAP declarations. Mobile state behavior reproduced with data-nav-menu-open and w--open, verified open and closed in the browser at 390x844 on source and clone."
+  },
+  "declared:html>body>a[13][1]": {
+    "reason": "Modulify fixed badge: weak will-change marker, no observed temporal track. Same badge markup and authored CSS transition (transform/filter 0.18s) preserved. Clone discovery identifies it as declared:html>body>a[11][1] because script nodes were stripped; both record opacity 1, transform none, visible/block. This is selector-index drift, not missing content."
+  }
+}

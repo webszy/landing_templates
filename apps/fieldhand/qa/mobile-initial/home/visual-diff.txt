@@ -1,0 +1,14 @@
+element           property              live            clone           Δ       ok
+──────────────────────────────────────────────────────────────────────────────────────
+svg_2             glyph.cx              -32.8           14              46.8    ❌
+svg_3             glyph.cx              -36.3           10.5            46.8    ❌
+svg_4             glyph.cx              -35.6           11.2            46.8    ❌
+svg_5             glyph.cx              -39.1           7.7             46.8    ❌
+section_hero      glyph.cx              -32.8           14              46.8    ❌
+section_proof     glyph.painted         false           true                    ❌
+img_z_10          glyph.cx              189.28          195             5.72    ❌
+img_z_10          glyph.cy              5050.16         5055.83         5.67    ❌
+img_z_10          glyph.w               381.5           350             31.5    ❌
+img_z_10          glyph.h               566.8           520             46.8    ❌
+
+❌ FAIL — 10 of 6304 comparisons over 0.5px tolerance. Fix or explain each row above.

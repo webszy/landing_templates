@@ -1,0 +1,4017 @@
+{
+  "schema": "pingfusi/motion-items@2",
+  "items": [
+    {
+      "id": "pass-css-4c837015",
+      "createdAt": "2026-10-18T02:16:41.844Z",
+      "selector": "div>div>div>header>nav",
+      "scope": "div>div>div>header>nav",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-drop present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-4c837015",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.140Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-63ae6aa6d83f",
+        "trackFingerprint": "63ae6aa6d83f55ac2d0cf822b828c2e24e3da820300e204286369cff22df1b2e",
+        "docTrackIds": [
+          "t-63ae6aa6d83f",
+          "t-74be09bed907"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-edf584bc",
+      "createdAt": "2026-10-18T02:16:41.846Z",
+      "selector": "div>div>main>section:nth-of-type(1)>div:nth-of-type(1)",
+      "scope": "div>div>main>section:nth-of-type(1)>div:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-in-left present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-edf584bc",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.141Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-ec274f3134c9",
+        "trackFingerprint": "ec274f3134c9d0aa957f9040d71fe0fe01de2106b7b1c8de5a165caadf3761db",
+        "docTrackIds": [
+          "t-ec274f3134c9",
+          "t-c2c0950cd30a"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-a1a636ae",
+      "createdAt": "2026-10-18T02:16:41.846Z",
+      "selector": "div>main>section:nth-of-type(1)>div:nth-of-type(1)>div",
+      "scope": "div>main>section:nth-of-type(1)>div:nth-of-type(1)>div",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes drift present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-a1a636ae",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:43.977Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-93df2e0096b1",
+        "trackFingerprint": "93df2e0096b1fce9c4c7e8245e4622a13557f3a3480ade690c134f18c8dec3bf"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:43.976Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-a1a636ae/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-450bd579",
+      "createdAt": "2026-10-18T02:16:41.847Z",
+      "selector": "div>div>main>section:nth-of-type(1)>div:nth-of-type(2)",
+      "scope": "div>div>main>section:nth-of-type(1)>div:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-in-right present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-450bd579",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.143Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-97fa7065333b",
+        "trackFingerprint": "97fa7065333b74e7046b2f7be07b09510185f7960890915ae298378ec8ed1b8d",
+        "docTrackIds": [
+          "t-97fa7065333b",
+          "t-81cbf9c8bb25"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-042ee169",
+      "createdAt": "2026-10-18T02:16:41.847Z",
+      "selector": "div>main>section:nth-of-type(1)>div:nth-of-type(2)>div",
+      "scope": "div>main>section:nth-of-type(1)>div:nth-of-type(2)>div",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes drift present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-042ee169",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:44.047Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-a1a57417948e",
+        "trackFingerprint": "a1a57417948eb82e5fe9190b05078845004afc7c80f6cf5df4256db337f598aa"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:44.045Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-042ee169/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-0185ccd1",
+      "createdAt": "2026-10-18T02:16:41.847Z",
+      "selector": "div>main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(1)",
+      "scope": "div>main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-fly present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-0185ccd1",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:44.112Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-e3d6326b3f40",
+        "trackFingerprint": "e3d6326b3f40392d96b8be8a4e79837a4abd63a60094af0c99fb2a6fb20af41e"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:44.111Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-0185ccd1/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-a2831b84",
+      "createdAt": "2026-10-18T02:16:41.849Z",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(1)>svg",
+      "scope": "main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(1)>svg",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-flap present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-a2831b84",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:44.177Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-813deec3b779",
+        "trackFingerprint": "813deec3b779d42270329c9f7c2733fd2dc1eda405437905595a1eddf410bac4"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:44.176Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-a2831b84/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-f3332dac",
+      "createdAt": "2026-10-18T02:16:41.849Z",
+      "selector": "div>main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(2)",
+      "scope": "div>main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-fly present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-f3332dac",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:44.243Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-b3d5248921df",
+        "trackFingerprint": "b3d5248921df31d9c3b5ccffa30044cfe6a788a6f55b770380ba545077b2993a"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:44.242Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-f3332dac/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-f16ecd3f",
+      "createdAt": "2026-10-18T02:16:41.850Z",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(2)>svg",
+      "scope": "main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(2)>svg",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-flap present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-f16ecd3f",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:44.309Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-dcdd285190c3",
+        "trackFingerprint": "dcdd285190c30f2794287a90af1434ecbcd5d331be0d3d0c33a942a277026676"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:44.307Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-f16ecd3f/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-d198cded",
+      "createdAt": "2026-10-18T02:16:41.850Z",
+      "selector": "div>main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(3)",
+      "scope": "div>main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(3)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-fly present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-d198cded",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:44.374Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-8d220b9fc785",
+        "trackFingerprint": "8d220b9fc785e8c8e2cd8d8b0cb5660a598479995e8b5687f77ed13b60c7710f"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:44.373Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-d198cded/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-d5497a8a",
+      "createdAt": "2026-10-18T02:16:41.850Z",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(3)>svg",
+      "scope": "main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(3)>svg",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-flap present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-d5497a8a",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:44.437Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-e0674e6fcb66",
+        "trackFingerprint": "e0674e6fcb6697e31a48c18436d08930e46a4c67329fe1934e0f66f4a3d42bbd"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:44.436Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-d5497a8a/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-a3f5ad7b",
+      "createdAt": "2026-10-18T02:16:41.850Z",
+      "selector": "div>main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(4)",
+      "scope": "div>main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(4)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-fly present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-a3f5ad7b",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:44.503Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-f99481ac5620",
+        "trackFingerprint": "f99481ac5620a3149c0520e8be640d4cae087ceb4a2b89160b0a739cf24afb62"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:44.501Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-a3f5ad7b/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-4a063681",
+      "createdAt": "2026-10-18T02:16:41.851Z",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(4)>svg",
+      "scope": "main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(4)>svg",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-flap present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-4a063681",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:44.567Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-7aa138d11967",
+        "trackFingerprint": "7aa138d1196708131d7197c50063bb6f78246e6e352a8208316732e680563a25"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:44.565Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-4a063681/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-2105afea",
+      "createdAt": "2026-10-18T02:16:41.853Z",
+      "selector": "div>main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(5)",
+      "scope": "div>main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(5)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-fly present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-2105afea",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:44.629Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-6e1e890a0c26",
+        "trackFingerprint": "6e1e890a0c262f1d8e3e1c5610bfdd4ed88111f78302e15329b66f5f6f8753c1"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:44.627Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-2105afea/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-20ea8a72",
+      "createdAt": "2026-10-18T02:16:41.854Z",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(5)>svg",
+      "scope": "main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(5)>svg",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-flap present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-20ea8a72",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:44.694Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-93fef6d13936",
+        "trackFingerprint": "93fef6d13936e0f17812e864f3ec21f2b25448b32ac6736b027f1e2b2bab2530"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:44.693Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-20ea8a72/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-0a669cbb",
+      "createdAt": "2026-10-18T02:16:41.868Z",
+      "selector": "div>main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(6)",
+      "scope": "div>main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(6)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-fly present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-0a669cbb",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:44.756Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-f068a8112adc",
+        "trackFingerprint": "f068a8112adcc46501be74beff227f00fe1312224b9dfea3eb57d579517d8a93"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:44.755Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-0a669cbb/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-e18826cb",
+      "createdAt": "2026-10-18T02:16:41.870Z",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(6)>svg",
+      "scope": "main>section:nth-of-type(1)>div:nth-of-type(3)>span:nth-of-type(6)>svg",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-flap present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-e18826cb",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:44.822Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-9041914a64dd",
+        "trackFingerprint": "9041914a64dd2059a18dbb00001af1e60f5cafbd33562ec61e1907e7917f47a1"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:44.820Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-e18826cb/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-6ed74232",
+      "createdAt": "2026-10-18T02:16:41.873Z",
+      "selector": "div>main>section:nth-of-type(1)>div:nth-of-type(4)>div",
+      "scope": "div>main>section:nth-of-type(1)>div:nth-of-type(4)>div",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-settle present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-6ed74232",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.157Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-41d9bbcb7c28",
+        "trackFingerprint": "41d9bbcb7c282d07ab2c8fb7185b4908fa13be4956cc3387861482a9095fd1ba",
+        "docTrackIds": [
+          "t-41d9bbcb7c28",
+          "t-30b7c9515dc3"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-e4fd43e8",
+      "createdAt": "2026-10-18T02:16:41.886Z",
+      "selector": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(1)>span:nth-of-type(1)",
+      "scope": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(1)>span:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-pop present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-e4fd43e8",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.158Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-819c0191d8a1",
+        "trackFingerprint": "819c0191d8a1e28d3fb7d37e04fed1a305fa47228f221f7c45cde27ce9e0c88d"
+      }
+    },
+    {
+      "id": "pass-css-5c719a3c",
+      "createdAt": "2026-10-18T02:16:41.888Z",
+      "selector": "div:nth-of-type(4)>div>div:nth-of-type(1)>span:nth-of-type(1)>span",
+      "scope": "div:nth-of-type(4)>div>div:nth-of-type(1)>span:nth-of-type(1)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes breathe present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-5c719a3c",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:44.887Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-dde5d39e8f3c",
+        "trackFingerprint": "dde5d39e8f3c485241cb3f09dddabd9c25a804062c9b53a47d278eba6e7ce8ad",
+        "docTrackIds": [
+          "t-dde5d39e8f3c",
+          "t-0bda75a7119d"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:44.885Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-5c719a3c/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-0ed41669",
+      "createdAt": "2026-10-18T02:16:41.889Z",
+      "selector": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(1)>span:nth-of-type(2)",
+      "scope": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(1)>span:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-pop present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-0ed41669",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.160Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-d7034a312153",
+        "trackFingerprint": "d7034a312153a41c0cfd15cc45b971d095b87e807b113c0cf3228acfddc45330"
+      }
+    },
+    {
+      "id": "pass-css-77b5635e",
+      "createdAt": "2026-10-18T02:16:41.890Z",
+      "selector": "div:nth-of-type(4)>div>div:nth-of-type(1)>span:nth-of-type(2)>span",
+      "scope": "div:nth-of-type(4)>div>div:nth-of-type(1)>span:nth-of-type(2)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes breathe present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-77b5635e",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:44.951Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-5fe8fc9ce829",
+        "trackFingerprint": "5fe8fc9ce829f177551edfe89c32d2075d79f2cb7d97574aa68d1c0e02003194",
+        "docTrackIds": [
+          "t-5fe8fc9ce829",
+          "t-0cc2475b7cac"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:44.949Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-77b5635e/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-7838d3cd",
+      "createdAt": "2026-10-18T02:16:41.891Z",
+      "selector": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(1)>span:nth-of-type(3)",
+      "scope": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(1)>span:nth-of-type(3)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-pop present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-7838d3cd",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.165Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-9764fd583932",
+        "trackFingerprint": "9764fd5839326fb707046f6c109a5b8756831b56535e2f566c770b3cbe8b4995"
+      }
+    },
+    {
+      "id": "pass-css-bb27fe6b",
+      "createdAt": "2026-10-18T02:16:41.894Z",
+      "selector": "div:nth-of-type(4)>div>div:nth-of-type(1)>span:nth-of-type(3)>span",
+      "scope": "div:nth-of-type(4)>div>div:nth-of-type(1)>span:nth-of-type(3)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes breathe present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-bb27fe6b",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:45.014Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-108e02e080f6",
+        "trackFingerprint": "108e02e080f6759e4f2080ac076b0b6eb53e46eeff1faed8d62542170f2d2cb4",
+        "docTrackIds": [
+          "t-108e02e080f6",
+          "t-1a0aee280f00"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:45.013Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-bb27fe6b/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-739b20d4",
+      "createdAt": "2026-10-18T02:16:41.896Z",
+      "selector": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(1)>span:nth-of-type(4)",
+      "scope": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(1)>span:nth-of-type(4)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-pop present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-739b20d4",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.167Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-e9baabe41adc",
+        "trackFingerprint": "e9baabe41adceeae4e9572ca241a0da2d363ef76777272f4fa0ad17af1d0816c"
+      }
+    },
+    {
+      "id": "pass-css-dd225732",
+      "createdAt": "2026-10-18T02:16:41.908Z",
+      "selector": "div:nth-of-type(4)>div>div:nth-of-type(1)>span:nth-of-type(4)>span",
+      "scope": "div:nth-of-type(4)>div>div:nth-of-type(1)>span:nth-of-type(4)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes breathe present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-dd225732",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:45.082Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-22988dbedaed",
+        "trackFingerprint": "22988dbedaed356c1f694cfc56978a057a74400d4040a2287cb34c1a7b94ec2d",
+        "docTrackIds": [
+          "t-22988dbedaed",
+          "t-56d4936251a5"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:45.080Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-dd225732/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-4c5c7db4",
+      "createdAt": "2026-10-18T02:16:41.909Z",
+      "selector": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(1)>span:nth-of-type(5)",
+      "scope": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(1)>span:nth-of-type(5)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-pop present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-4c5c7db4",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.176Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-105ddf80303d",
+        "trackFingerprint": "105ddf80303dfca07e1841109622068c0248924a9e6ffaa99b6db4de02736abd"
+      }
+    },
+    {
+      "id": "pass-css-b502cc91",
+      "createdAt": "2026-10-18T02:16:41.910Z",
+      "selector": "div:nth-of-type(4)>div>div:nth-of-type(1)>span:nth-of-type(5)>span",
+      "scope": "div:nth-of-type(4)>div>div:nth-of-type(1)>span:nth-of-type(5)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes breathe present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-b502cc91",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:45.149Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-8b08a80b070d",
+        "trackFingerprint": "8b08a80b070de6af661faef712bf6e07fd2f20345166107d14904c215e3577de",
+        "docTrackIds": [
+          "t-8b08a80b070d",
+          "t-9f04de2e0461"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:45.147Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-b502cc91/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-021f6cac",
+      "createdAt": "2026-10-18T02:16:41.911Z",
+      "selector": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(1)>span:nth-of-type(6)",
+      "scope": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(1)>span:nth-of-type(6)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-pop present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-021f6cac",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.180Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-95f5c688a1dd",
+        "trackFingerprint": "95f5c688a1dd535c6cd30237a21e2f06b7abdd0f7fd595253a2ac2e469d05a89"
+      }
+    },
+    {
+      "id": "pass-css-6c84c608",
+      "createdAt": "2026-10-18T02:16:41.912Z",
+      "selector": "div:nth-of-type(4)>div>div:nth-of-type(1)>span:nth-of-type(6)>span",
+      "scope": "div:nth-of-type(4)>div>div:nth-of-type(1)>span:nth-of-type(6)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes breathe present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-6c84c608",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:45.220Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-5c93d34f6124",
+        "trackFingerprint": "5c93d34f61243b2d62d9aa8ebb034232366fd097867194bccdab9c668d91300a",
+        "docTrackIds": [
+          "t-5c93d34f6124",
+          "t-52692db7493e"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:45.218Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-6c84c608/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-47bc12ed",
+      "createdAt": "2026-10-18T02:16:41.918Z",
+      "selector": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(1)",
+      "scope": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-pop present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-47bc12ed",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.182Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-fecc47f04c3b",
+        "trackFingerprint": "fecc47f04c3b239b753e6d886fb68bedeff78253a68333a64bb192e3b5b6105d"
+      }
+    },
+    {
+      "id": "pass-css-58f9728b",
+      "createdAt": "2026-10-18T02:16:41.919Z",
+      "selector": "div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(1)>span",
+      "scope": "div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(1)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes breathe present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-58f9728b",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:45.287Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-0706c21ce8ad",
+        "trackFingerprint": "0706c21ce8ad9b3d4239934ecc3a2ea690aef490f18aef95059f476aba4a002b",
+        "docTrackIds": [
+          "t-0706c21ce8ad",
+          "t-5e5898a9bf6f"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:45.286Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-58f9728b/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-62754ac2",
+      "createdAt": "2026-10-18T02:16:41.921Z",
+      "selector": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(2)",
+      "scope": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-pop present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-62754ac2",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.183Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-b7650b63c79b",
+        "trackFingerprint": "b7650b63c79b1d8018ac4990118a34ba8c4f70e2feabeaf69f2a4a349e85e910"
+      }
+    },
+    {
+      "id": "pass-css-2f10c2f1",
+      "createdAt": "2026-10-18T02:16:41.922Z",
+      "selector": "div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(2)>span",
+      "scope": "div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(2)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes breathe present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-2f10c2f1",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:45.357Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-f94a770cf869",
+        "trackFingerprint": "f94a770cf869ec752786d3eb324426702558c5f6dcce14f270dc1eb95f779527",
+        "docTrackIds": [
+          "t-f94a770cf869",
+          "t-d16d23ccc57e"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:45.356Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-2f10c2f1/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-cd2b69fa",
+      "createdAt": "2026-10-18T02:16:41.922Z",
+      "selector": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(3)",
+      "scope": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(3)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-pop present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-cd2b69fa",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.185Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-1bb1274675a2",
+        "trackFingerprint": "1bb1274675a27ce0c7d1898862cff0e02fda9219e04e48886f0f799b9a7f40b6"
+      }
+    },
+    {
+      "id": "pass-css-a93b8f23",
+      "createdAt": "2026-10-18T02:16:41.924Z",
+      "selector": "div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(3)>span",
+      "scope": "div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(3)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes breathe present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-a93b8f23",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:45.426Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-0a24748b9fac",
+        "trackFingerprint": "0a24748b9fac3ea18c3144871bab8b194998884e03e8b899fd70329b25e64d0f",
+        "docTrackIds": [
+          "t-0a24748b9fac",
+          "t-dd9558f09a16"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:45.425Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-a93b8f23/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-de16cccf",
+      "createdAt": "2026-10-18T02:16:41.929Z",
+      "selector": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(4)",
+      "scope": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(4)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-pop present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-de16cccf",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.186Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-2b1361536ad2",
+        "trackFingerprint": "2b1361536ad2be9bb6b8b6cb2034b7ec19304e54ddb80c4d8d678bfde9a028c4"
+      }
+    },
+    {
+      "id": "pass-css-0a31dbd5",
+      "createdAt": "2026-10-18T02:16:41.930Z",
+      "selector": "div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(4)>span",
+      "scope": "div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(4)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes breathe present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-0a31dbd5",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:45.494Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-58c5d18f7d51",
+        "trackFingerprint": "58c5d18f7d51dcb6c32be8ba1977f760c52efe1d71bdb07f103523d33de0cd9e",
+        "docTrackIds": [
+          "t-58c5d18f7d51",
+          "t-ab53d845d203"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:45.492Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-0a31dbd5/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-c2df330c",
+      "createdAt": "2026-10-18T02:16:41.930Z",
+      "selector": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(5)",
+      "scope": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(5)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-pop present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-c2df330c",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.188Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-0852c134a11a",
+        "trackFingerprint": "0852c134a11af8b8159ca496c591981eebe00a895b77cf5012185dc595c2a1b7"
+      }
+    },
+    {
+      "id": "pass-css-eb96061f",
+      "createdAt": "2026-10-18T02:16:41.930Z",
+      "selector": "div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(5)>span",
+      "scope": "div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(5)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes breathe present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-eb96061f",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:45.560Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-9513b03b8627",
+        "trackFingerprint": "9513b03b8627a64b950ccc06e067367f05d232f4feeb1d9613c92e94c8d7dbf2",
+        "docTrackIds": [
+          "t-9513b03b8627",
+          "t-2ac68e997b77"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:45.559Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-eb96061f/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-16827fb2",
+      "createdAt": "2026-10-18T02:16:41.931Z",
+      "selector": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(6)",
+      "scope": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(6)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-pop present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-16827fb2",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.190Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-542db6cecdba",
+        "trackFingerprint": "542db6cecdba44fdba35fc034923ca827345f39ff5f99c8950fd62953e798f04"
+      }
+    },
+    {
+      "id": "pass-css-84293920",
+      "createdAt": "2026-10-18T02:16:41.931Z",
+      "selector": "div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(6)>span",
+      "scope": "div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(6)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes breathe present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-84293920",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:45.625Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-cbea7f043ab7",
+        "trackFingerprint": "cbea7f043ab74f5c85b6a1e7cb1841f9735f987f9e75db42436bf96aeadebd94",
+        "docTrackIds": [
+          "t-cbea7f043ab7",
+          "t-df8d5461db67"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:45.623Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-84293920/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-9d2bf85b",
+      "createdAt": "2026-10-18T02:16:41.931Z",
+      "selector": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(7)",
+      "scope": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(7)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-pop present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-9d2bf85b",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.191Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-2d926c33099a",
+        "trackFingerprint": "2d926c33099a48fd6c2dd0ba5fcc38ba34b14f8b10107b5bf1a8edd94aa2845c"
+      }
+    },
+    {
+      "id": "pass-css-3a93e392",
+      "createdAt": "2026-10-18T02:16:41.932Z",
+      "selector": "div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(7)>span",
+      "scope": "div:nth-of-type(4)>div>div:nth-of-type(2)>span:nth-of-type(7)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes breathe present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-3a93e392",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:45.688Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-44a760b9014b",
+        "trackFingerprint": "44a760b9014b4fcc61dfa4339050ef9ed5feba9706c4175fc9f7ded521bbc40c",
+        "docTrackIds": [
+          "t-44a760b9014b",
+          "t-bda73429c63e"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:45.687Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-3a93e392/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-89ffaa50",
+      "createdAt": "2026-10-18T02:16:41.932Z",
+      "selector": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(3)>span:nth-of-type(1)",
+      "scope": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(3)>span:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-pop present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-89ffaa50",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.193Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-2b4c568b0634",
+        "trackFingerprint": "2b4c568b063469457f6f554c8150fc312953021d87a6420ea662a99441dc4238"
+      }
+    },
+    {
+      "id": "pass-css-cbc08fd5",
+      "createdAt": "2026-10-18T02:16:41.932Z",
+      "selector": "div:nth-of-type(4)>div>div:nth-of-type(3)>span:nth-of-type(1)>span",
+      "scope": "div:nth-of-type(4)>div>div:nth-of-type(3)>span:nth-of-type(1)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes breathe present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-cbc08fd5",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:45.753Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-5ecf690dc531",
+        "trackFingerprint": "5ecf690dc53146edf5b339db7c5ed48761a58b2c35700a9bb790f5f8c8c05cdc",
+        "docTrackIds": [
+          "t-5ecf690dc531",
+          "t-4733d2873e8f"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:45.752Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-cbc08fd5/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-d9d8f31e",
+      "createdAt": "2026-10-18T02:16:41.932Z",
+      "selector": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(3)>span:nth-of-type(2)",
+      "scope": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(3)>span:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-pop present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-d9d8f31e",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.195Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-dec1ddbf2fe0",
+        "trackFingerprint": "dec1ddbf2fe0bba289e1511478f4e64051e9969a4e9d3ad7e111362c06ced938"
+      }
+    },
+    {
+      "id": "pass-css-f7974c3a",
+      "createdAt": "2026-10-18T02:16:41.933Z",
+      "selector": "div:nth-of-type(4)>div>div:nth-of-type(3)>span:nth-of-type(2)>span",
+      "scope": "div:nth-of-type(4)>div>div:nth-of-type(3)>span:nth-of-type(2)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes breathe present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-f7974c3a",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:45.818Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-77b0b909fa68",
+        "trackFingerprint": "77b0b909fa68617de6de901c75065f6be15594b2b98500212bd08bf3e1c7b8db",
+        "docTrackIds": [
+          "t-77b0b909fa68",
+          "t-2e954f04c7b0"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:45.816Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-f7974c3a/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-9825aa8f",
+      "createdAt": "2026-10-18T02:16:41.933Z",
+      "selector": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(3)>span:nth-of-type(3)",
+      "scope": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(3)>span:nth-of-type(3)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-pop present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-9825aa8f",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.197Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-ca0230510379",
+        "trackFingerprint": "ca0230510379539f1aa0f963f7217ddd514dde4b13c10fe395fccf5567c64544"
+      }
+    },
+    {
+      "id": "pass-css-15fc2c5a",
+      "createdAt": "2026-10-18T02:16:41.933Z",
+      "selector": "div:nth-of-type(4)>div>div:nth-of-type(3)>span:nth-of-type(3)>span",
+      "scope": "div:nth-of-type(4)>div>div:nth-of-type(3)>span:nth-of-type(3)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes breathe present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-15fc2c5a",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:45.883Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-cf8c4bbe4cd5",
+        "trackFingerprint": "cf8c4bbe4cd5d7d66d1374f4821ae9caaa577304ff045889400595929efa1d48",
+        "docTrackIds": [
+          "t-cf8c4bbe4cd5",
+          "t-0974a7f2ef30"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:45.881Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-15fc2c5a/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-a47df546",
+      "createdAt": "2026-10-18T02:16:41.934Z",
+      "selector": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(3)>span:nth-of-type(4)",
+      "scope": "section:nth-of-type(1)>div:nth-of-type(4)>div>div:nth-of-type(3)>span:nth-of-type(4)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-pop present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-a47df546",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.199Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-7f6f7e00c1d3",
+        "trackFingerprint": "7f6f7e00c1d340efefca147043e446752b86e9615f9891a3837bab39b410dfc9"
+      }
+    },
+    {
+      "id": "pass-css-414a44c6",
+      "createdAt": "2026-10-18T02:16:41.934Z",
+      "selector": "div:nth-of-type(4)>div>div:nth-of-type(3)>span:nth-of-type(4)>span",
+      "scope": "div:nth-of-type(4)>div>div:nth-of-type(3)>span:nth-of-type(4)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes breathe present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-414a44c6",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:45.950Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-9613e46a1278",
+        "trackFingerprint": "9613e46a1278a2575bf44d9a71de4f3ee1fbd3daf423792f5c9c429591026f62",
+        "docTrackIds": [
+          "t-9613e46a1278",
+          "t-8f031f4f87fc"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:45.948Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-414a44c6/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-6828d4a7",
+      "createdAt": "2026-10-18T02:16:41.934Z",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(5)>h1>span:nth-of-type(1)",
+      "scope": "main>section:nth-of-type(1)>div:nth-of-type(5)>h1>span:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "3 track(s) carried by the captured CSS; @keyframes ax-blur-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-6828d4a7",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.200Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-edfa73e1e7a1",
+        "trackFingerprint": "edfa73e1e7a11cf389b881fa3ccea5ec05c8b9a6919f40a3eaf4a871a4fbcf59",
+        "docTrackIds": [
+          "t-edfa73e1e7a1",
+          "t-618395735d65",
+          "t-9224c0d01cd7"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-8d99771d",
+      "createdAt": "2026-10-18T02:16:41.935Z",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(5)>h1>span:nth-of-type(2)",
+      "scope": "main>section:nth-of-type(1)>div:nth-of-type(5)>h1>span:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "3 track(s) carried by the captured CSS; @keyframes ax-blur-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-8d99771d",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.201Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-014ab29003b9",
+        "trackFingerprint": "014ab29003b9c67fee7b2c429960e67e278a49271c0001b931946717437f994e",
+        "docTrackIds": [
+          "t-014ab29003b9",
+          "t-6cef29fac78f",
+          "t-d4d67012e60a"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-133fd9d4",
+      "createdAt": "2026-10-18T02:16:41.935Z",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(5)>h1>span:nth-of-type(3)",
+      "scope": "main>section:nth-of-type(1)>div:nth-of-type(5)>h1>span:nth-of-type(3)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "3 track(s) carried by the captured CSS; @keyframes ax-blur-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-133fd9d4",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.202Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-9dee64accac6",
+        "trackFingerprint": "9dee64accac64bb5c67b9ed5f9cae6fd32e647ba6826964f33d9ca06dc267b1f",
+        "docTrackIds": [
+          "t-9dee64accac6",
+          "t-9df754c31b00",
+          "t-95ba2571a210"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-a22627a9",
+      "createdAt": "2026-10-18T02:16:41.935Z",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(5)>h1>span:nth-of-type(4)",
+      "scope": "main>section:nth-of-type(1)>div:nth-of-type(5)>h1>span:nth-of-type(4)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "3 track(s) carried by the captured CSS; @keyframes ax-blur-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-a22627a9",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.203Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-0f0a4f931128",
+        "trackFingerprint": "0f0a4f931128fff5a198996c08007f1a8ec2793dd5119961ad08da78caf21059",
+        "docTrackIds": [
+          "t-0f0a4f931128",
+          "t-a170d59232a1",
+          "t-10b02b32c50d"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-0001b1cd",
+      "createdAt": "2026-10-18T02:16:41.936Z",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(5)>h1>span:nth-of-type(5)",
+      "scope": "main>section:nth-of-type(1)>div:nth-of-type(5)>h1>span:nth-of-type(5)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "3 track(s) carried by the captured CSS; @keyframes ax-blur-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-0001b1cd",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.203Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-b435f34c4695",
+        "trackFingerprint": "b435f34c4695e8cc48bd0c2627b60f7cc6d2cd5e0b0f9a0b33214100d4118eab",
+        "docTrackIds": [
+          "t-b435f34c4695",
+          "t-d646de33932e",
+          "t-3a0983a81fea"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-c8d6382b",
+      "createdAt": "2026-10-18T02:16:41.936Z",
+      "selector": "section:nth-of-type(1)>div:nth-of-type(5)>h1>em>span:nth-of-type(1)",
+      "scope": "section:nth-of-type(1)>div:nth-of-type(5)>h1>em>span:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "3 track(s) carried by the captured CSS; @keyframes ax-blur-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-c8d6382b",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.204Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-7454eda2e643",
+        "trackFingerprint": "7454eda2e643ef4be3ffed2476d3816409cd7bf4062a536736d27c37ca08f4f5",
+        "docTrackIds": [
+          "t-7454eda2e643",
+          "t-72f251f25dfc",
+          "t-e58231b80b30"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-d49944fd",
+      "createdAt": "2026-10-18T02:16:41.936Z",
+      "selector": "section:nth-of-type(1)>div:nth-of-type(5)>h1>em>span:nth-of-type(2)",
+      "scope": "section:nth-of-type(1)>div:nth-of-type(5)>h1>em>span:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "3 track(s) carried by the captured CSS; @keyframes ax-blur-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-d49944fd",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.205Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-53a5f579ebdb",
+        "trackFingerprint": "53a5f579ebdbeec3aa4062633b980cf04f2037bb5e255bdc9ebc0e71eadbba68",
+        "docTrackIds": [
+          "t-53a5f579ebdb",
+          "t-02498722f521",
+          "t-1a188fbe1c27"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-9f723620",
+      "createdAt": "2026-10-18T02:16:41.937Z",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(5)>h1>span:nth-of-type(6)",
+      "scope": "main>section:nth-of-type(1)>div:nth-of-type(5)>h1>span:nth-of-type(6)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "3 track(s) carried by the captured CSS; @keyframes ax-blur-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-9f723620",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.205Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-93fb0a5be27e",
+        "trackFingerprint": "93fb0a5be27e5a129ed3d60a7e60e22c5180fc3a20700e19d0941d322907d785",
+        "docTrackIds": [
+          "t-93fb0a5be27e",
+          "t-05b436a7f3b3",
+          "t-f047b44b0ee3"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-82833c7e",
+      "createdAt": "2026-10-18T02:16:41.937Z",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(5)>h1>span:nth-of-type(7)",
+      "scope": "main>section:nth-of-type(1)>div:nth-of-type(5)>h1>span:nth-of-type(7)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "3 track(s) carried by the captured CSS; @keyframes ax-blur-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-82833c7e",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.206Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-2e31aa183aa3",
+        "trackFingerprint": "2e31aa183aa3897de5aada6398e79b9839cf8e9653a5ae7641567c3b20fae62f",
+        "docTrackIds": [
+          "t-2e31aa183aa3",
+          "t-ac64ae6ac956",
+          "t-6b3df687df7e"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-075ff367",
+      "createdAt": "2026-10-18T02:16:41.937Z",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(5)>h1>span:nth-of-type(8)",
+      "scope": "main>section:nth-of-type(1)>div:nth-of-type(5)>h1>span:nth-of-type(8)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "3 track(s) carried by the captured CSS; @keyframes ax-blur-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-075ff367",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.207Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-cb0a42d68438",
+        "trackFingerprint": "cb0a42d68438355e08caeddeaca47b9b41faf33803b0060d267ca16b895f93d9",
+        "docTrackIds": [
+          "t-cb0a42d68438",
+          "t-89fa61a9545a",
+          "t-e16841dcaa20"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-7b74c19f",
+      "createdAt": "2026-10-18T02:16:41.938Z",
+      "selector": "div>main>section:nth-of-type(2)>div:nth-of-type(1)>span:nth-of-type(1)",
+      "scope": "div>main>section:nth-of-type(2)>div:nth-of-type(1)>span:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-7b74c19f",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:46.016Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-3cc1fcbb54ab",
+        "trackFingerprint": "3cc1fcbb54ab54b000b94bf8796798f82515f0afc6f5529faaf5560c7e29adb5"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:46.014Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-7b74c19f/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-d17cce52",
+      "createdAt": "2026-10-18T02:16:41.938Z",
+      "selector": "div>main>section:nth-of-type(2)>div:nth-of-type(1)>span:nth-of-type(2)",
+      "scope": "div>main>section:nth-of-type(2)>div:nth-of-type(1)>span:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-d17cce52",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:46.079Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-7db4fe83f6d4",
+        "trackFingerprint": "7db4fe83f6d454dbd2179b6e5accac3421ddf4958590a47e4ecf96660e50bedd"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:46.078Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-d17cce52/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-ebac4b13",
+      "createdAt": "2026-10-18T02:16:41.938Z",
+      "selector": "div>main>section:nth-of-type(2)>div:nth-of-type(1)>span:nth-of-type(3)",
+      "scope": "div>main>section:nth-of-type(2)>div:nth-of-type(1)>span:nth-of-type(3)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-ebac4b13",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:46.142Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-9a4b3d67e66c",
+        "trackFingerprint": "9a4b3d67e66c6d822dfcc495b68817e2579a0cf83aa89f0ad1ccb0e9ec244715"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:46.141Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-ebac4b13/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-74e6613e",
+      "createdAt": "2026-10-18T02:16:41.939Z",
+      "selector": "div>main>section:nth-of-type(2)>div:nth-of-type(1)>span:nth-of-type(4)",
+      "scope": "div>main>section:nth-of-type(2)>div:nth-of-type(1)>span:nth-of-type(4)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-74e6613e",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:46.207Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-9720de780758",
+        "trackFingerprint": "9720de780758113ddda0c7978b0805ccafe55a1335d5d6448e41114802cd8f42"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:46.205Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-74e6613e/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-37ad51fd",
+      "createdAt": "2026-10-18T02:16:41.939Z",
+      "selector": "div>main>section:nth-of-type(2)>div:nth-of-type(1)>span:nth-of-type(5)",
+      "scope": "div>main>section:nth-of-type(2)>div:nth-of-type(1)>span:nth-of-type(5)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-37ad51fd",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:46.271Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-78fdc794e9b4",
+        "trackFingerprint": "78fdc794e9b4b48a555ec4355d7966af06309942114ba80eaf18fb61a2893401"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:46.270Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-37ad51fd/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-ba9fe3ac",
+      "createdAt": "2026-10-18T02:16:41.939Z",
+      "selector": "div>main>section:nth-of-type(2)>div:nth-of-type(1)>span:nth-of-type(6)",
+      "scope": "div>main>section:nth-of-type(2)>div:nth-of-type(1)>span:nth-of-type(6)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-ba9fe3ac",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:46.335Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-ebab13b991de",
+        "trackFingerprint": "ebab13b991dec5ced5dafbc948b9ea420b9b0de7bb734a53a5ee02b189bb8d37"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:46.334Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-ba9fe3ac/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-19a28867",
+      "createdAt": "2026-10-18T02:16:41.940Z",
+      "selector": "div>main>section:nth-of-type(2)>div:nth-of-type(1)>span:nth-of-type(7)",
+      "scope": "div>main>section:nth-of-type(2)>div:nth-of-type(1)>span:nth-of-type(7)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-19a28867",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:46.399Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-8c7a04f18372",
+        "trackFingerprint": "8c7a04f183724b3fe81bcba495d5d3e1c7e4155886f5a277150c69b2b90ae325"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:46.397Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-19a28867/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-a72706fa",
+      "createdAt": "2026-10-18T02:16:41.940Z",
+      "selector": "div>main>section:nth-of-type(2)>div:nth-of-type(1)>span:nth-of-type(8)",
+      "scope": "div>main>section:nth-of-type(2)>div:nth-of-type(1)>span:nth-of-type(8)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-a72706fa",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:46.462Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-d31b005e3e8a",
+        "trackFingerprint": "d31b005e3e8a3329166a4aef84535ca23068bda850501cbf486c57a380dd7288"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:46.460Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-a72706fa/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-76a6f20a",
+      "createdAt": "2026-10-18T02:16:41.940Z",
+      "selector": "div>main>section:nth-of-type(2)>div:nth-of-type(2)>span:nth-of-type(1)",
+      "scope": "div>main>section:nth-of-type(2)>div:nth-of-type(2)>span:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-76a6f20a",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:46.526Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-435b22943040",
+        "trackFingerprint": "435b22943040451564ad06d4dddb38d89468f06b1c5e42a5c5930a45360fe0c8"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:46.525Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-76a6f20a/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-4c81c9b8",
+      "createdAt": "2026-10-18T02:16:41.941Z",
+      "selector": "div>main>section:nth-of-type(2)>div:nth-of-type(2)>span:nth-of-type(2)",
+      "scope": "div>main>section:nth-of-type(2)>div:nth-of-type(2)>span:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-4c81c9b8",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:46.591Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-633e78c57eef",
+        "trackFingerprint": "633e78c57eef9ff8fcc87a53b708fa049e40ddbac7ea08e73293f0e50bb27336"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:46.590Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-4c81c9b8/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-44ce11b0",
+      "createdAt": "2026-10-18T02:16:41.941Z",
+      "selector": "div>main>section:nth-of-type(2)>div:nth-of-type(2)>span:nth-of-type(3)",
+      "scope": "div>main>section:nth-of-type(2)>div:nth-of-type(2)>span:nth-of-type(3)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-44ce11b0",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:46.658Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-927f66e44d34",
+        "trackFingerprint": "927f66e44d34ed4b9835aab9aed4472a02d2d3f1f841bf8f283f3d9939e9b828"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:46.657Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-44ce11b0/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-bdcad653",
+      "createdAt": "2026-10-18T02:16:41.942Z",
+      "selector": "div>main>section:nth-of-type(2)>div:nth-of-type(2)>span:nth-of-type(4)",
+      "scope": "div>main>section:nth-of-type(2)>div:nth-of-type(2)>span:nth-of-type(4)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-bdcad653",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:46.723Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-786ba3dda9b1",
+        "trackFingerprint": "786ba3dda9b1fd87e485a85e914fb715080f6c9594b847579f9de7abcff64dea"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:46.722Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-bdcad653/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-3fff0ee4",
+      "createdAt": "2026-10-18T02:16:41.942Z",
+      "selector": "div>main>section:nth-of-type(2)>div:nth-of-type(2)>span:nth-of-type(5)",
+      "scope": "div>main>section:nth-of-type(2)>div:nth-of-type(2)>span:nth-of-type(5)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-3fff0ee4",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:46.788Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-1fe746c9f2eb",
+        "trackFingerprint": "1fe746c9f2eb084ab722b779dfbeb63361a59e22d0cc1729aedd1ede2e51ee43"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:46.787Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-3fff0ee4/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-e09d3af6",
+      "createdAt": "2026-10-18T02:16:41.942Z",
+      "selector": "div>main>section:nth-of-type(2)>div:nth-of-type(2)>span:nth-of-type(6)",
+      "scope": "div>main>section:nth-of-type(2)>div:nth-of-type(2)>span:nth-of-type(6)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-e09d3af6",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:46.854Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-61e44981dcf1",
+        "trackFingerprint": "61e44981dcf1fbdd312300ece77eafb67395130f33b87d5ee29f79a36411a491"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:46.852Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-e09d3af6/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-cf9e14b2",
+      "createdAt": "2026-10-18T02:16:41.943Z",
+      "selector": "div>main>section:nth-of-type(2)>div:nth-of-type(2)>span:nth-of-type(7)",
+      "scope": "div>main>section:nth-of-type(2)>div:nth-of-type(2)>span:nth-of-type(7)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-cf9e14b2",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:46.919Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-6a0c4fc09e13",
+        "trackFingerprint": "6a0c4fc09e135e1c9b61310e54e792dba1fd16953d3a0cc4bbd159821368c11d"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:46.917Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-cf9e14b2/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-9f977511",
+      "createdAt": "2026-10-18T02:16:41.943Z",
+      "selector": "div>main>section:nth-of-type(2)>div:nth-of-type(2)>span:nth-of-type(8)",
+      "scope": "div>main>section:nth-of-type(2)>div:nth-of-type(2)>span:nth-of-type(8)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-9f977511",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:46.984Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-59386d647677",
+        "trackFingerprint": "59386d647677d3fa82fc28eb67ca62e30806f1caebcce1ebbced791d5fcdd1b5"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:46.983Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-9f977511/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-5f9672d1",
+      "createdAt": "2026-10-18T02:16:41.943Z",
+      "selector": "div>main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(1)",
+      "scope": "div>main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-grow-tree present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-5f9672d1",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.222Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-56a28c0acd9b",
+        "trackFingerprint": "56a28c0acd9bc7f14f99263cd25bf4ef0b18b95ce9a3ccd748ed0717c1d5e5ad",
+        "docTrackIds": [
+          "t-56a28c0acd9b",
+          "t-fe25f1b78f46"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-f30b99f5",
+      "createdAt": "2026-10-18T02:16:41.944Z",
+      "selector": "main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(2)>span:nth-of-type(1)",
+      "scope": "main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(2)>span:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-f30b99f5",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:47.048Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-ac6428c2c949",
+        "trackFingerprint": "ac6428c2c9496c56a0997689072d4ca072fcefbe1f0938661a265047f55e316c"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:47.046Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-f30b99f5/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-572ba2a5",
+      "createdAt": "2026-10-18T02:16:41.945Z",
+      "selector": "main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(2)>span:nth-of-type(2)",
+      "scope": "main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(2)>span:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-572ba2a5",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:47.111Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-44a38bc5ace2",
+        "trackFingerprint": "44a38bc5ace29ebba959d5fc08bf280b90dc4b8d73dd47be14212fbee2911d7f"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:47.109Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-572ba2a5/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-5ee1c4d8",
+      "createdAt": "2026-10-18T02:16:41.946Z",
+      "selector": "main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(2)>span:nth-of-type(3)",
+      "scope": "main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(2)>span:nth-of-type(3)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-5ee1c4d8",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:47.176Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-226dd0c0e812",
+        "trackFingerprint": "226dd0c0e8120121364cf3d813567c9cb8f6bb3c0a9be1c6ab12ceedb8bae16a"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:47.175Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-5ee1c4d8/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-047ff728",
+      "createdAt": "2026-10-18T02:16:41.946Z",
+      "selector": "main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(2)>span:nth-of-type(4)",
+      "scope": "main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(2)>span:nth-of-type(4)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-047ff728",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:47.241Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-e9d89edea2a9",
+        "trackFingerprint": "e9d89edea2a94a13952c00fc705f535d8bb319d0e2cfe39999a7b6b671e14022"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:47.239Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-047ff728/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-4377208b",
+      "createdAt": "2026-10-18T02:16:41.947Z",
+      "selector": "main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(2)>span:nth-of-type(5)",
+      "scope": "main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(2)>span:nth-of-type(5)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-4377208b",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:47.305Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-c2938de3e96b",
+        "trackFingerprint": "c2938de3e96b9fe07cea21349e1c3329f818243a40ff2c5c4c8a4931723f5d86"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:47.304Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-4377208b/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-7954d4a3",
+      "createdAt": "2026-10-18T02:16:41.947Z",
+      "selector": "main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(2)>span:nth-of-type(6)",
+      "scope": "main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(2)>span:nth-of-type(6)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-7954d4a3",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:47.370Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-6cf12a075b99",
+        "trackFingerprint": "6cf12a075b99265e25914d7e1a8f4ef61f87a17fa148bd908ba1cd32f88f34ee"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:47.368Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-7954d4a3/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-e596526c",
+      "createdAt": "2026-10-18T02:16:41.947Z",
+      "selector": "main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(3)>span:nth-of-type(1)",
+      "scope": "main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(3)>span:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-e596526c",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:47.434Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-581a310042a9",
+        "trackFingerprint": "581a310042a9699b222abcde5ac1c29cd46715b51ec1e7afcf7ea833ccc272c2"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:47.432Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-e596526c/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-f5b3342a",
+      "createdAt": "2026-10-18T02:16:41.948Z",
+      "selector": "main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(3)>span:nth-of-type(2)",
+      "scope": "main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(3)>span:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-f5b3342a",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:47.495Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-3c2bc18938d8",
+        "trackFingerprint": "3c2bc18938d8a96be859c03b7c1c40d9e1f165ef53e408c949c7bac29dc941d9"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:47.494Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-f5b3342a/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-23abd6e3",
+      "createdAt": "2026-10-18T02:16:41.948Z",
+      "selector": "main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(3)>span:nth-of-type(3)",
+      "scope": "main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(3)>span:nth-of-type(3)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-23abd6e3",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:47.561Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-fb76ea5c4548",
+        "trackFingerprint": "fb76ea5c4548036c0d705980435bd1f783d4ca0d9650dbf774200dbf7f8e5bf9"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:47.560Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-23abd6e3/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-a76ea615",
+      "createdAt": "2026-10-18T02:16:41.949Z",
+      "selector": "main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(3)>span:nth-of-type(4)",
+      "scope": "main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(3)>span:nth-of-type(4)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-a76ea615",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:47.626Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-35d13f89b785",
+        "trackFingerprint": "35d13f89b785456960caaf91bde24f169293991488d328933bf943d77311a9f0"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:47.625Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-a76ea615/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-02d1176c",
+      "createdAt": "2026-10-18T02:16:41.949Z",
+      "selector": "main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(3)>span:nth-of-type(5)",
+      "scope": "main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(3)>span:nth-of-type(5)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-02d1176c",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:47.691Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-d1c03e501bbf",
+        "trackFingerprint": "d1c03e501bbf0b9833238a3d143c2d389c2291c926cda40c4df82233fc5806e3"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:47.690Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-02d1176c/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-87444344",
+      "createdAt": "2026-10-18T02:16:41.949Z",
+      "selector": "main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(3)>span:nth-of-type(6)",
+      "scope": "main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(3)>span:nth-of-type(6)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-87444344",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:47.755Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-5b108bbc4c39",
+        "trackFingerprint": "5b108bbc4c39bc0605789bead8ffe4de699f33b19c31aa75ede502b44f993508"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:47.754Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-87444344/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-0bcd521c",
+      "createdAt": "2026-10-18T02:16:41.950Z",
+      "selector": "section:nth-of-type(2)>div:nth-of-type(4)>ul>li:nth-of-type(1)>div:nth-of-type(1)",
+      "scope": "section:nth-of-type(2)>div:nth-of-type(4)>ul>li:nth-of-type(1)>div:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-0bcd521c",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.233Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-ee865c7dacbc",
+        "trackFingerprint": "ee865c7dacbc82078bab59e89fc93f01fabcce9fedeee4894ab36963a859bce1",
+        "docTrackIds": [
+          "t-ee865c7dacbc",
+          "t-7645c6d9b3ed"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-34ed9163",
+      "createdAt": "2026-10-18T02:16:41.950Z",
+      "selector": "section:nth-of-type(2)>div:nth-of-type(4)>ul>li:nth-of-type(1)>div:nth-of-type(2)",
+      "scope": "section:nth-of-type(2)>div:nth-of-type(4)>ul>li:nth-of-type(1)>div:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-34ed9163",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.234Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-4acc3f1f8008",
+        "trackFingerprint": "4acc3f1f80083f495cb05c0a706e14f139f1f62d0f0beeb7f2a9e6e245a1b280",
+        "docTrackIds": [
+          "t-4acc3f1f8008",
+          "t-227edea6fdbc"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-5f50123f",
+      "createdAt": "2026-10-18T02:16:41.950Z",
+      "selector": "section:nth-of-type(2)>div:nth-of-type(4)>ul>li:nth-of-type(2)>div:nth-of-type(1)",
+      "scope": "section:nth-of-type(2)>div:nth-of-type(4)>ul>li:nth-of-type(2)>div:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-5f50123f",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.235Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-64ae40f34edb",
+        "trackFingerprint": "64ae40f34edb0054969c08db2cffceb4d499db08ab2757eddfb58557e45bb05d",
+        "docTrackIds": [
+          "t-64ae40f34edb",
+          "t-2fcf5e388adf"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-83c0545e",
+      "createdAt": "2026-10-18T02:16:41.951Z",
+      "selector": "section:nth-of-type(2)>div:nth-of-type(4)>ul>li:nth-of-type(2)>div:nth-of-type(2)",
+      "scope": "section:nth-of-type(2)>div:nth-of-type(4)>ul>li:nth-of-type(2)>div:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-83c0545e",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.235Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-3dca3c0023cd",
+        "trackFingerprint": "3dca3c0023cde9d97fa8027af7bd5f96cec1945c4b056e99e58dbb2c105ff99c",
+        "docTrackIds": [
+          "t-3dca3c0023cd",
+          "t-47fef444ef56"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-dca21a33",
+      "createdAt": "2026-10-18T02:16:41.951Z",
+      "selector": "section:nth-of-type(2)>div:nth-of-type(4)>ul>li:nth-of-type(3)>div:nth-of-type(1)",
+      "scope": "section:nth-of-type(2)>div:nth-of-type(4)>ul>li:nth-of-type(3)>div:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-dca21a33",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.236Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-644dc9e6d79a",
+        "trackFingerprint": "644dc9e6d79a11fee0282266fd2efd963208bd880d5ba097cfcf1fea481f88d4",
+        "docTrackIds": [
+          "t-644dc9e6d79a",
+          "t-2b286ced825d"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-1e8b5d28",
+      "createdAt": "2026-10-18T02:16:41.952Z",
+      "selector": "section:nth-of-type(2)>div:nth-of-type(4)>ul>li:nth-of-type(3)>div:nth-of-type(2)",
+      "scope": "section:nth-of-type(2)>div:nth-of-type(4)>ul>li:nth-of-type(3)>div:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-1e8b5d28",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.237Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-873cd9b35245",
+        "trackFingerprint": "873cd9b35245ab8022b66c830f22a0227de79f6a9c7f8c9d7077548246ac5842",
+        "docTrackIds": [
+          "t-873cd9b35245",
+          "t-8cfd3ffc8cc6"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-b5a6a5df",
+      "createdAt": "2026-10-18T02:16:41.952Z",
+      "selector": "section:nth-of-type(2)>div:nth-of-type(4)>ul>li:nth-of-type(4)>div:nth-of-type(1)",
+      "scope": "section:nth-of-type(2)>div:nth-of-type(4)>ul>li:nth-of-type(4)>div:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-b5a6a5df",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.237Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-14bff2e74677",
+        "trackFingerprint": "14bff2e746777a36885c455a6fe251890ed7bf80368a2dd8e2220986b0e25e5f",
+        "docTrackIds": [
+          "t-14bff2e74677",
+          "t-1b092a847d68"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-fed8bf4c",
+      "createdAt": "2026-10-18T02:16:41.953Z",
+      "selector": "section:nth-of-type(2)>div:nth-of-type(4)>ul>li:nth-of-type(4)>div:nth-of-type(2)",
+      "scope": "section:nth-of-type(2)>div:nth-of-type(4)>ul>li:nth-of-type(4)>div:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-fed8bf4c",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.238Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-5a13cf2ee601",
+        "trackFingerprint": "5a13cf2ee60163d933ec44863bcda120e0c3bffa62bd1dc71fa6f057678385b7",
+        "docTrackIds": [
+          "t-5a13cf2ee601",
+          "t-b057801cfcd7"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-5a592bfe",
+      "createdAt": "2026-10-18T02:16:41.953Z",
+      "selector": "div>main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(4)",
+      "scope": "div>main>section:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(4)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-5a592bfe",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.239Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-d0286f111033",
+        "trackFingerprint": "d0286f1110338c56f3af085b62ffe401ac6329dcbcbf401c0bd2f6bbf41fa724",
+        "docTrackIds": [
+          "t-d0286f111033",
+          "t-eed17b6106b1"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-cc9fbdf6",
+      "createdAt": "2026-10-18T02:16:41.954Z",
+      "selector": "div:nth-of-type(4)>div:nth-of-type(4)>ul>li:nth-of-type(1)>span:nth-of-type(2)",
+      "scope": "div:nth-of-type(4)>div:nth-of-type(4)>ul>li:nth-of-type(1)>span:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-cc9fbdf6",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.240Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-9244aa1e67ff",
+        "trackFingerprint": "9244aa1e67ff4b727a3f03ce9a153db46c1d8f75a1ae682e744a1d2392010886",
+        "docTrackIds": [
+          "t-9244aa1e67ff",
+          "t-0d77944c20fa"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-994e8aa5",
+      "createdAt": "2026-10-18T02:16:41.954Z",
+      "selector": "div:nth-of-type(4)>div:nth-of-type(4)>ul>li:nth-of-type(2)>span:nth-of-type(2)",
+      "scope": "div:nth-of-type(4)>div:nth-of-type(4)>ul>li:nth-of-type(2)>span:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-994e8aa5",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.241Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-b46e80a5c0d2",
+        "trackFingerprint": "b46e80a5c0d2b0758a32042b057246118a101c44244a71c85d673d55c9789d9a",
+        "docTrackIds": [
+          "t-b46e80a5c0d2",
+          "t-7e213e92e142"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-1f528076",
+      "createdAt": "2026-10-18T02:16:41.955Z",
+      "selector": "div:nth-of-type(4)>div:nth-of-type(4)>ul>li:nth-of-type(3)>span:nth-of-type(2)",
+      "scope": "div:nth-of-type(4)>div:nth-of-type(4)>ul>li:nth-of-type(3)>span:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-1f528076",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.242Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-8db63806d830",
+        "trackFingerprint": "8db63806d8303af32983ca24085ff4e3b5c5efed552aea9527c1426153e8a4c0",
+        "docTrackIds": [
+          "t-8db63806d830",
+          "t-128dee8dfa84"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-f489b98f",
+      "createdAt": "2026-10-18T02:16:41.955Z",
+      "selector": "div:nth-of-type(4)>div:nth-of-type(4)>ul>li:nth-of-type(4)>span:nth-of-type(2)",
+      "scope": "div:nth-of-type(4)>div:nth-of-type(4)>ul>li:nth-of-type(4)>span:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-f489b98f",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.242Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-b708c472eb72",
+        "trackFingerprint": "b708c472eb7205b65bdf864b377b3f67fff7a8ad0bc22f4c7248374ab4b16ff4",
+        "docTrackIds": [
+          "t-b708c472eb72",
+          "t-97f75ab7c464"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-33508564",
+      "createdAt": "2026-10-18T02:16:41.956Z",
+      "selector": "div>main>section:nth-of-type(3)>div:nth-of-type(1)>span:nth-of-type(1)",
+      "scope": "div>main>section:nth-of-type(3)>div:nth-of-type(1)>span:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-33508564",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:47.819Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-42ccd6033a4f",
+        "trackFingerprint": "42ccd6033a4f4b5463c4a97e4ad8a5ffe63476b7fca1ec430fb2e206e53c864b"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:47.818Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-33508564/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-de57a4ee",
+      "createdAt": "2026-10-18T02:16:41.956Z",
+      "selector": "div>main>section:nth-of-type(3)>div:nth-of-type(1)>span:nth-of-type(2)",
+      "scope": "div>main>section:nth-of-type(3)>div:nth-of-type(1)>span:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-de57a4ee",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:47.883Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-666b356fef2c",
+        "trackFingerprint": "666b356fef2c8f0815af52df06e77f975ceeb2f1a09e84f1612ee82ee840f053"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:47.882Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-de57a4ee/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-b400084c",
+      "createdAt": "2026-10-18T02:16:41.957Z",
+      "selector": "div>main>section:nth-of-type(3)>div:nth-of-type(1)>span:nth-of-type(3)",
+      "scope": "div>main>section:nth-of-type(3)>div:nth-of-type(1)>span:nth-of-type(3)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-b400084c",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:47.948Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-1071098a62b1",
+        "trackFingerprint": "1071098a62b16432ef11c715762cf86aa07662febb81dbc92140a8550b02daf7"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:47.946Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-b400084c/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-5f5b47da",
+      "createdAt": "2026-10-18T02:16:41.957Z",
+      "selector": "div>main>section:nth-of-type(3)>div:nth-of-type(1)>span:nth-of-type(4)",
+      "scope": "div>main>section:nth-of-type(3)>div:nth-of-type(1)>span:nth-of-type(4)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-5f5b47da",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:48.011Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-eeae8c093852",
+        "trackFingerprint": "eeae8c09385223ff6c5230693a29a22d0a5fdf5bff535b0d5d77c7c2fc1c4d09"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:48.010Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-5f5b47da/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-b9ad91db",
+      "createdAt": "2026-10-18T02:16:41.958Z",
+      "selector": "div>main>section:nth-of-type(3)>div:nth-of-type(1)>span:nth-of-type(5)",
+      "scope": "div>main>section:nth-of-type(3)>div:nth-of-type(1)>span:nth-of-type(5)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-b9ad91db",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:48.077Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-83dd7fae28f5",
+        "trackFingerprint": "83dd7fae28f5b3222303ec1e04a47907c1d6bd5268bec95c2a0a919096c7726e"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:48.075Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-b9ad91db/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-ce8bd629",
+      "createdAt": "2026-10-18T02:16:41.958Z",
+      "selector": "div:nth-of-type(2)>div>p>span:nth-of-type(2)>span",
+      "scope": "div:nth-of-type(2)>div>p>span:nth-of-type(2)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-caret present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-ce8bd629",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.248Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-c1829df237c8",
+        "trackFingerprint": "c1829df237c88fe2e1ed0347566e6aad8ce61eee905ab279a82ecd1dcfe3b25b"
+      }
+    },
+    {
+      "id": "pass-css-f2713533",
+      "createdAt": "2026-10-18T02:16:41.959Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(2)>span:nth-of-type(1)",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(2)>span:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-pop present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-f2713533",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.249Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-dcaa5dda26fb",
+        "trackFingerprint": "dcaa5dda26fb0068b001e6506e59260748961fa729d03a79861616b2184537e9"
+      }
+    },
+    {
+      "id": "pass-css-ee4977aa",
+      "createdAt": "2026-10-18T02:16:41.959Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(2)>span:nth-of-type(2)",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(2)>span:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-pop present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-ee4977aa",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.250Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-b953714481f7",
+        "trackFingerprint": "b953714481f7311522f426b4bf2e5eec30a986383fd19aba053cae2d3d57d6dd"
+      }
+    },
+    {
+      "id": "pass-css-d33c3a1e",
+      "createdAt": "2026-10-18T02:16:41.960Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(2)>span:nth-of-type(3)",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(2)>span:nth-of-type(3)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-pop present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-d33c3a1e",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.251Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-35e7a5abf978",
+        "trackFingerprint": "35e7a5abf978bf5257b48a3e3912b25d5afda715831778ebdc36e26203e923b1"
+      }
+    },
+    {
+      "id": "pass-css-fcf72071",
+      "createdAt": "2026-10-18T02:16:41.960Z",
+      "selector": "div:nth-of-type(2)>div>div>span:nth-of-type(2)>span",
+      "scope": "div:nth-of-type(2)>div>div>span:nth-of-type(2)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ping-soft present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-fcf72071",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.252Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-32e42ce85a96",
+        "trackFingerprint": "32e42ce85a96715b79df4e721f820118cd0506e028b814929a714e81410eb5b4"
+      }
+    },
+    {
+      "id": "pass-css-e1041d33",
+      "createdAt": "2026-10-18T02:16:41.961Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>ol>li:nth-of-type(1)",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>ol>li:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-e1041d33",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.252Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-b0527f66d156",
+        "trackFingerprint": "b0527f66d156fccfa0ab3f7cb4cbd77328605594cee48a2f986d6c49910ed2af",
+        "docTrackIds": [
+          "t-b0527f66d156",
+          "t-d575df25fb70"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-c8cc9345",
+      "createdAt": "2026-10-18T02:16:41.963Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>ol>li:nth-of-type(2)",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>ol>li:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-c8cc9345",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.253Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-eaf91376c992",
+        "trackFingerprint": "eaf91376c9928555e8c2b88a457a7397b74dcace042a6a2fb1a863061178f955",
+        "docTrackIds": [
+          "t-eaf91376c992",
+          "t-1ca8e1248b6c"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-c276ed64",
+      "createdAt": "2026-10-18T02:16:41.963Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>ol>li:nth-of-type(3)",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>ol>li:nth-of-type(3)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-c276ed64",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.254Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-6d08ff53d540",
+        "trackFingerprint": "6d08ff53d540291c95d8ab7b5b525002189127b3306df6d5a965f9b2c7c38a18",
+        "docTrackIds": [
+          "t-6d08ff53d540",
+          "t-a691d9d1576c"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-69901dba",
+      "createdAt": "2026-10-18T02:16:41.964Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>ol>li:nth-of-type(4)",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>ol>li:nth-of-type(4)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-69901dba",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.255Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-8f6375d54c23",
+        "trackFingerprint": "8f6375d54c236e38f15305e99b40dd0241cd9291f238fc5a84b3aebeafd0071f",
+        "docTrackIds": [
+          "t-8f6375d54c23",
+          "t-80f2607d2f81"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-65d3ce2f",
+      "createdAt": "2026-10-18T02:16:41.965Z",
+      "selector": "div:nth-of-type(2)>div>div:nth-of-type(3)>div:nth-of-type(1)>span",
+      "scope": "div:nth-of-type(2)>div>div:nth-of-type(3)>div:nth-of-type(1)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-65d3ce2f",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.255Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-64b2b3fc180b",
+        "trackFingerprint": "64b2b3fc180b7ce385729c48778f4bc6fbc6364b04d6fe96e03c0cdaf14a047f"
+      }
+    },
+    {
+      "id": "pass-css-24810bcf",
+      "createdAt": "2026-10-18T02:16:41.965Z",
+      "selector": "div:nth-of-type(2)>div>div:nth-of-type(3)>div:nth-of-type(2)>span",
+      "scope": "div:nth-of-type(2)>div>div:nth-of-type(3)>div:nth-of-type(2)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-24810bcf",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.256Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-6fc22d50a9f2",
+        "trackFingerprint": "6fc22d50a9f26a067ac1134ca5b8b40013f44d571ceeb653bd36b318ea5bbaa3"
+      }
+    },
+    {
+      "id": "pass-css-99ab7075",
+      "createdAt": "2026-10-18T02:16:41.966Z",
+      "selector": "div:nth-of-type(2)>div>div:nth-of-type(3)>div:nth-of-type(3)>span",
+      "scope": "div:nth-of-type(2)>div>div:nth-of-type(3)>div:nth-of-type(3)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-99ab7075",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.257Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-638b1bdc8f98",
+        "trackFingerprint": "638b1bdc8f982da84ba64bf36a2c77b0c98d0497d69c1dceaa7742b16dc2d591"
+      }
+    },
+    {
+      "id": "pass-css-929eb964",
+      "createdAt": "2026-10-18T02:16:41.966Z",
+      "selector": "div:nth-of-type(2)>div>div:nth-of-type(3)>div:nth-of-type(4)>span",
+      "scope": "div:nth-of-type(2)>div>div:nth-of-type(3)>div:nth-of-type(4)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-929eb964",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.258Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-5ecf5eaf3ce7",
+        "trackFingerprint": "5ecf5eaf3ce7c0c2e62f0de6d4f8dd3d1a10aca55ace47647dfb7a1fd58cdb97"
+      }
+    },
+    {
+      "id": "pass-css-b51179ad",
+      "createdAt": "2026-10-18T02:16:41.967Z",
+      "selector": "div:nth-of-type(2)>div>div:nth-of-type(3)>div:nth-of-type(5)>span",
+      "scope": "div:nth-of-type(2)>div>div:nth-of-type(3)>div:nth-of-type(5)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-b51179ad",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.259Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-f7204b4f7c9c",
+        "trackFingerprint": "f7204b4f7c9c0d051a4156464f3cfed30e134282e304a227e25c97b8c08214cc"
+      }
+    },
+    {
+      "id": "pass-css-f33c01c7",
+      "createdAt": "2026-10-18T02:16:41.967Z",
+      "selector": "div:nth-of-type(2)>div>div:nth-of-type(3)>div:nth-of-type(6)>span",
+      "scope": "div:nth-of-type(2)>div>div:nth-of-type(3)>div:nth-of-type(6)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-f33c01c7",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.261Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-a8e6fab18bf8",
+        "trackFingerprint": "a8e6fab18bf8aedda9a18b9ff1aa242c6776fbe07a639197679b89d2a5c6c44a"
+      }
+    },
+    {
+      "id": "pass-css-f04404c2",
+      "createdAt": "2026-10-18T02:16:41.968Z",
+      "selector": "div:nth-of-type(2)>div>div:nth-of-type(3)>div:nth-of-type(7)>span",
+      "scope": "div:nth-of-type(2)>div>div:nth-of-type(3)>div:nth-of-type(7)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-f04404c2",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.264Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-c242d7b2a1fb",
+        "trackFingerprint": "c242d7b2a1fb30428521ee4c1c109daf0bbe213942ab2e9103b5200f6c725b97"
+      }
+    },
+    {
+      "id": "pass-css-952600fe",
+      "createdAt": "2026-10-18T02:16:41.968Z",
+      "selector": "section:nth-of-type(4)>div>div:nth-of-type(2)>div>img",
+      "scope": "section:nth-of-type(4)>div>div:nth-of-type(2)>div>img",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-kenburns present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-952600fe",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:48.141Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-53f39bee1e63",
+        "trackFingerprint": "53f39bee1e636ad6d700ee83049983fa7db44b622bfc3878000b424e29875cb8"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:48.140Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-952600fe/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-229097ab",
+      "createdAt": "2026-10-18T02:16:41.969Z",
+      "selector": "div:nth-of-type(2)>div>div:nth-of-type(1)>span:nth-of-type(1)>span",
+      "scope": "div:nth-of-type(2)>div>div:nth-of-type(1)>span:nth-of-type(1)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes breathe present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-229097ab",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:48.205Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-5d8319e2d756",
+        "trackFingerprint": "5d8319e2d75638f441271188d0379243bd8d5f234a6a379dc55fa79f4dc1fd35",
+        "docTrackIds": [
+          "t-5d8319e2d756",
+          "t-c4241bf52096"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:48.203Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-229097ab/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-7871d03d",
+      "createdAt": "2026-10-18T02:16:41.969Z",
+      "selector": "div:nth-of-type(2)>div>div:nth-of-type(1)>span:nth-of-type(2)>span",
+      "scope": "div:nth-of-type(2)>div>div:nth-of-type(1)>span:nth-of-type(2)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes breathe present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-7871d03d",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:48.269Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-c9076436a0e7",
+        "trackFingerprint": "c9076436a0e798802e0ce6fa7d6c546f56fab401ab7a66d7cb0d9919e086278d",
+        "docTrackIds": [
+          "t-c9076436a0e7",
+          "t-aef73d899494"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:48.268Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-7871d03d/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-668c874f",
+      "createdAt": "2026-10-18T02:16:41.970Z",
+      "selector": "div:nth-of-type(2)>div>div:nth-of-type(1)>span:nth-of-type(3)>span",
+      "scope": "div:nth-of-type(2)>div>div:nth-of-type(1)>span:nth-of-type(3)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes breathe present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-668c874f",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:48.335Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-4e8486c107d9",
+        "trackFingerprint": "4e8486c107d988c6327549b535757fdf7dd18a7e00948978ac49b256c9f803d6",
+        "docTrackIds": [
+          "t-4e8486c107d9",
+          "t-ccc8ec1d80b4"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:48.333Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-668c874f/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-91e326e6",
+      "createdAt": "2026-10-18T02:16:41.970Z",
+      "selector": "div:nth-of-type(2)>div>div:nth-of-type(2)>span:nth-of-type(1)>span",
+      "scope": "div:nth-of-type(2)>div>div:nth-of-type(2)>span:nth-of-type(1)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes breathe present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-91e326e6",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:48.399Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-f8549d027fc8",
+        "trackFingerprint": "f8549d027fc8692fe21f308ec3722a153b2daeea6c15f0e746fffb50bcb9fcc1",
+        "docTrackIds": [
+          "t-f8549d027fc8",
+          "t-23b473803e8b"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:48.398Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-91e326e6/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-a463a852",
+      "createdAt": "2026-10-18T02:16:41.971Z",
+      "selector": "div:nth-of-type(2)>div>div:nth-of-type(2)>span:nth-of-type(2)>span",
+      "scope": "div:nth-of-type(2)>div>div:nth-of-type(2)>span:nth-of-type(2)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes breathe present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-a463a852",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:48.464Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-b4c40216602b",
+        "trackFingerprint": "b4c40216602b7f33930809e10ab82ffc150647db6ad008c64faad2a82d4188a1",
+        "docTrackIds": [
+          "t-b4c40216602b",
+          "t-4d417a832aff"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:48.463Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-a463a852/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-40d8e23a",
+      "createdAt": "2026-10-18T02:16:41.972Z",
+      "selector": "div:nth-of-type(2)>div>div:nth-of-type(2)>span:nth-of-type(3)>span",
+      "scope": "div:nth-of-type(2)>div>div:nth-of-type(2)>span:nth-of-type(3)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes breathe present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-40d8e23a",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:48.529Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-e27045b78541",
+        "trackFingerprint": "e27045b78541a4305ac77676ed20cb3ca4958cf4d0e4a2be0ba515247d0372cf",
+        "docTrackIds": [
+          "t-e27045b78541",
+          "t-8c0bac56fdf8"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:48.528Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-40d8e23a/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-e6af43d6",
+      "createdAt": "2026-10-18T02:16:41.972Z",
+      "selector": "div:nth-of-type(2)>div>div:nth-of-type(2)>span:nth-of-type(4)>span",
+      "scope": "div:nth-of-type(2)>div>div:nth-of-type(2)>span:nth-of-type(4)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes breathe present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-e6af43d6",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:48.595Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-29257d85951e",
+        "trackFingerprint": "29257d85951e66cbfaeaab883e34c2b9c47f4d06cc9ffc4ae3833a138119864d",
+        "docTrackIds": [
+          "t-29257d85951e",
+          "t-9ae68507600d"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:48.593Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-e6af43d6/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-71033c98",
+      "createdAt": "2026-10-18T02:16:41.973Z",
+      "selector": "div>div:nth-of-type(2)>div>div:nth-of-type(3)>div:nth-of-type(1)",
+      "scope": "div>div:nth-of-type(2)>div>div:nth-of-type(3)>div:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-float present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-71033c98",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.273Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-b86cc139580b",
+        "trackFingerprint": "b86cc139580b2658bc30d5fa7cdede50ea84c896d29123d83620125aa48bc7ac"
+      }
+    },
+    {
+      "id": "pass-css-375ef329",
+      "createdAt": "2026-10-18T02:16:41.973Z",
+      "selector": "div>div:nth-of-type(2)>div>div:nth-of-type(3)>div:nth-of-type(2)",
+      "scope": "div>div:nth-of-type(2)>div>div:nth-of-type(3)>div:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-float present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-375ef329",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.275Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-c6cf7ccf3af1",
+        "trackFingerprint": "c6cf7ccf3af12c59047b7d2c879004c55c0d17aa36ba4dc727d2223ddb3a08d1"
+      }
+    },
+    {
+      "id": "pass-css-75d0b3f9",
+      "createdAt": "2026-10-18T02:16:41.974Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(1)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(1)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-75d0b3f9",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.276Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-ff2641bf670b",
+        "trackFingerprint": "ff2641bf670b93aab8d0c071479319bfc70bbf74f1a2392bb154fd81a00bf3ea"
+      }
+    },
+    {
+      "id": "pass-css-b903c0e8",
+      "createdAt": "2026-10-18T02:16:41.974Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(2)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(2)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-b903c0e8",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.278Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-9b93c84f3c46",
+        "trackFingerprint": "9b93c84f3c46a075678aeac3c28cd5cd6c6deafb6e548a5a49dfdf05126470f1"
+      }
+    },
+    {
+      "id": "pass-css-3877cf41",
+      "createdAt": "2026-10-18T02:16:41.975Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(3)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(3)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-3877cf41",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.279Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-708ef74d1d2d",
+        "trackFingerprint": "708ef74d1d2d81ad1d3c57c6466ff28fa86c7cb1fc4e69c4d9f3503d52bf49bb"
+      }
+    },
+    {
+      "id": "pass-css-0c7cdf1f",
+      "createdAt": "2026-10-18T02:16:41.975Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(4)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(4)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-0c7cdf1f",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.280Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-bb12892fa0db",
+        "trackFingerprint": "bb12892fa0db80dc82a56bb1a1e60c2127d1f8ddbbd20892b5f4d0d9b7076120"
+      }
+    },
+    {
+      "id": "pass-css-a0d7b24a",
+      "createdAt": "2026-10-18T02:16:41.976Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(5)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(5)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-a0d7b24a",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.281Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-4e68622b5bbb",
+        "trackFingerprint": "4e68622b5bbb2ece60f167e400362a6041922369dc687f963b4405576c7191cb"
+      }
+    },
+    {
+      "id": "pass-css-7291d493",
+      "createdAt": "2026-10-18T02:16:41.976Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(6)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(6)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-7291d493",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.282Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-4be70133bb15",
+        "trackFingerprint": "4be70133bb15946c196558d6a3ffd506ba068e115b7aa56fc393763ac1935a48"
+      }
+    },
+    {
+      "id": "pass-css-00d7e5e7",
+      "createdAt": "2026-10-18T02:16:41.977Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(7)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(7)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-00d7e5e7",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.283Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-32915d1ad521",
+        "trackFingerprint": "32915d1ad5210ff97481e0d48c477e64423ec604ed28cfcb0abed76d313df173"
+      }
+    },
+    {
+      "id": "pass-css-0b8b20c3",
+      "createdAt": "2026-10-18T02:16:41.978Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(8)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(8)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-0b8b20c3",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.283Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-e39191e7f71a",
+        "trackFingerprint": "e39191e7f71a582d218527843a3c3f608f8c8ad38262ef8b1594504dcfc32a7f"
+      }
+    },
+    {
+      "id": "pass-css-f3ef1e1b",
+      "createdAt": "2026-10-18T02:16:41.979Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(9)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(9)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-f3ef1e1b",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.284Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-100814f90dd9",
+        "trackFingerprint": "100814f90dd9097d309fe1dc7f10075a8acc014a86ab554ce2c624bdd02f60b6"
+      }
+    },
+    {
+      "id": "pass-css-949ada84",
+      "createdAt": "2026-10-18T02:16:41.979Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(10)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(10)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-949ada84",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.285Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-21646653e09f",
+        "trackFingerprint": "21646653e09ffb1c9d587855266a47751400edd80862effbfa019b5420dd3e1e"
+      }
+    },
+    {
+      "id": "pass-css-4e3aca9c",
+      "createdAt": "2026-10-18T02:16:41.980Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(11)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(11)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-4e3aca9c",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.286Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-ec50d9f92f65",
+        "trackFingerprint": "ec50d9f92f6564307c703ae4c9313bd7f988eec8f01ea4b13802a85f8ff35772"
+      }
+    },
+    {
+      "id": "pass-css-b07f1b90",
+      "createdAt": "2026-10-18T02:16:41.981Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(12)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(12)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-b07f1b90",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.286Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-4626c8586442",
+        "trackFingerprint": "4626c8586442de360bb73a8a6b022b011cdbad8e35cdb1ea4402f6c75cd6e3c7"
+      }
+    },
+    {
+      "id": "pass-css-7b1e89ee",
+      "createdAt": "2026-10-18T02:16:41.981Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(13)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(13)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-7b1e89ee",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.288Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-38c6f879fb44",
+        "trackFingerprint": "38c6f879fb449b9e02f30feaf47df77ca0f86eaef9993c39987be0b4c318e00a"
+      }
+    },
+    {
+      "id": "pass-css-dcabe364",
+      "createdAt": "2026-10-18T02:16:41.982Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(14)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(14)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-dcabe364",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.289Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-818f6c6379fc",
+        "trackFingerprint": "818f6c6379fc13a9f0e3b83b417ddd8e910c271eee3ea27e42c76955486e73c3"
+      }
+    },
+    {
+      "id": "pass-css-73880420",
+      "createdAt": "2026-10-18T02:16:41.982Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(15)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(15)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-73880420",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.290Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-d71a6b1e690a",
+        "trackFingerprint": "d71a6b1e690a5a4197e1adb5e9e9b1148ae187549a1b2c6ae7aeca7aa6adacc3"
+      }
+    },
+    {
+      "id": "pass-css-1dd647bc",
+      "createdAt": "2026-10-18T02:16:41.983Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(16)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(16)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-1dd647bc",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.290Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-fea2ee826723",
+        "trackFingerprint": "fea2ee82672394381428db24e472038533e43edbdd3d7dbfb360e7cac34ced62"
+      }
+    },
+    {
+      "id": "pass-css-30496903",
+      "createdAt": "2026-10-18T02:16:41.983Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(17)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(17)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-30496903",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.291Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-5acbc1a1d6e6",
+        "trackFingerprint": "5acbc1a1d6e6fccb63ac0a6117cc8f1a627d1b2ef51815badae1a2fcf28319f1"
+      }
+    },
+    {
+      "id": "pass-css-aabf42cb",
+      "createdAt": "2026-10-18T02:16:41.984Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(18)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(18)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-aabf42cb",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.293Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-bfc949acde0e",
+        "trackFingerprint": "bfc949acde0e454e8c0f63121dae19be9dcf9a0fac201c293d2ee6eda91a5fb6"
+      }
+    },
+    {
+      "id": "pass-css-1f8011b2",
+      "createdAt": "2026-10-18T02:16:41.985Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(19)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(19)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-1f8011b2",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.295Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-ef935c42bee5",
+        "trackFingerprint": "ef935c42bee503c48ec67a45abde59b8f7215907825687045a8bebb06c1f5c1b"
+      }
+    },
+    {
+      "id": "pass-css-d68cccda",
+      "createdAt": "2026-10-18T02:16:41.985Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(20)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(20)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-d68cccda",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.296Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-63785ff3d8f8",
+        "trackFingerprint": "63785ff3d8f815763a3e14c20b5cfb8a80d4b05dbaab5dd036572a54bb0cf788"
+      }
+    },
+    {
+      "id": "pass-css-c187c49c",
+      "createdAt": "2026-10-18T02:16:41.986Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(21)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(21)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-c187c49c",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.297Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-6b7a94a0aed9",
+        "trackFingerprint": "6b7a94a0aed9300e65daa254621a2d463299bae24a902e3438c9916cb19348a0"
+      }
+    },
+    {
+      "id": "pass-css-ecb8e219",
+      "createdAt": "2026-10-18T02:16:41.986Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(22)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(22)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-ecb8e219",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.298Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-30d6f29c8cbf",
+        "trackFingerprint": "30d6f29c8cbf763de85b77e92914033f1a9a616e0f438c231ea9f874891885a6"
+      }
+    },
+    {
+      "id": "pass-css-2db95e0f",
+      "createdAt": "2026-10-18T02:16:41.987Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(23)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(23)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-2db95e0f",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.299Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-63ded2d330f7",
+        "trackFingerprint": "63ded2d330f7d9e379e0799d2f68471c225d955aed86f7f0231f0120b9e9f2f5"
+      }
+    },
+    {
+      "id": "pass-css-5a96955e",
+      "createdAt": "2026-10-18T02:16:41.987Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(24)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(24)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-5a96955e",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.300Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-ce5772a75328",
+        "trackFingerprint": "ce5772a75328281ab92cadd1c0ab06664b59a1ced19ddf381736c5650f3fbf64"
+      }
+    },
+    {
+      "id": "pass-css-194047c1",
+      "createdAt": "2026-10-18T02:16:41.988Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(25)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(25)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-194047c1",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.300Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-54d6379d04e3",
+        "trackFingerprint": "54d6379d04e3d4b0d24553579a1daea73dc34301d13cc888a1674685e2f51eeb"
+      }
+    },
+    {
+      "id": "pass-css-70b4ce25",
+      "createdAt": "2026-10-18T02:16:41.989Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(26)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(26)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-70b4ce25",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.301Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-985a177d863c",
+        "trackFingerprint": "985a177d863cb38c74a8cb9be4628f2a0a9987ca34d6ca53113c086e05090522"
+      }
+    },
+    {
+      "id": "pass-css-01b9c9a7",
+      "createdAt": "2026-10-18T02:16:41.989Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(27)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(27)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-01b9c9a7",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.302Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-106be6f6da0b",
+        "trackFingerprint": "106be6f6da0b72993d50b909bbf9bf67666c064d4f8066487ef3adb6927a05e3"
+      }
+    },
+    {
+      "id": "pass-css-11d0fecd",
+      "createdAt": "2026-10-18T02:16:41.990Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(28)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(28)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-11d0fecd",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.303Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-06ffd425d5fc",
+        "trackFingerprint": "06ffd425d5fcb335970737f01b6f78b6838e7026324739565ff55dd040a91b06"
+      }
+    },
+    {
+      "id": "pass-css-c8d29c11",
+      "createdAt": "2026-10-18T02:16:41.991Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(29)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(29)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-c8d29c11",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.304Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-84c80c4f06b0",
+        "trackFingerprint": "84c80c4f06b0de64dabba66c6fd79fd511c8c4634ef07ce3f9bd5f092189a010"
+      }
+    },
+    {
+      "id": "pass-css-390b1dcc",
+      "createdAt": "2026-10-18T02:16:41.991Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(30)>span",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(30)>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-grow-y present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-390b1dcc",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.305Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-3dd6997b857d",
+        "trackFingerprint": "3dd6997b857d662c742ad654c24746a92251d018958a6d258a9dc7f13f3a4c06"
+      }
+    },
+    {
+      "id": "pass-css-2fe54d11",
+      "createdAt": "2026-10-18T02:16:41.992Z",
+      "selector": "div>main>section:nth-of-type(6)>div:nth-of-type(1)>span:nth-of-type(1)",
+      "scope": "div>main>section:nth-of-type(6)>div:nth-of-type(1)>span:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-2fe54d11",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:48.661Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-5f7ebf5bc771",
+        "trackFingerprint": "5f7ebf5bc771c70a57b151480235d5e68a51117f965648612f7e0805b0a0e2d6"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:48.660Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-2fe54d11/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-085d1def",
+      "createdAt": "2026-10-18T02:16:41.993Z",
+      "selector": "div>main>section:nth-of-type(6)>div:nth-of-type(1)>span:nth-of-type(2)",
+      "scope": "div>main>section:nth-of-type(6)>div:nth-of-type(1)>span:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-085d1def",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:48.725Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-42787c240f01",
+        "trackFingerprint": "42787c240f01763ea65ad47e417bcdc2aab5c76a5e288a9134d9def70cb1e685"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:48.724Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-085d1def/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-69f36438",
+      "createdAt": "2026-10-18T02:16:41.993Z",
+      "selector": "div>main>section:nth-of-type(6)>div:nth-of-type(1)>span:nth-of-type(3)",
+      "scope": "div>main>section:nth-of-type(6)>div:nth-of-type(1)>span:nth-of-type(3)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-69f36438",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:48.788Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-969d167ca50a",
+        "trackFingerprint": "969d167ca50a06d13af9e6e55a78de478f17530205be22478248c1ee051a7705"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:48.787Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-69f36438/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-782f9ed8",
+      "createdAt": "2026-10-18T02:16:41.995Z",
+      "selector": "div>main>section:nth-of-type(6)>div:nth-of-type(1)>span:nth-of-type(4)",
+      "scope": "div>main>section:nth-of-type(6)>div:nth-of-type(1)>span:nth-of-type(4)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-782f9ed8",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:48.852Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-6d2a422222f8",
+        "trackFingerprint": "6d2a422222f8214f96ad60c1839e97369414beb6291b608bf84c334092cf6055"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:48.851Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-782f9ed8/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-51a2182a",
+      "createdAt": "2026-10-18T02:16:41.996Z",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(1)>span:nth-of-type(1)",
+      "scope": "div>main>section:nth-of-type(7)>div:nth-of-type(1)>span:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-51a2182a",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:48.917Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-b4f71dcb5014",
+        "trackFingerprint": "b4f71dcb5014e42ba2ae14a928c9eb026697fe09def9b38e32e69a585ca47f9f"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:48.915Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-51a2182a/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-94233276",
+      "createdAt": "2026-10-18T02:16:41.996Z",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(1)>span:nth-of-type(2)",
+      "scope": "div>main>section:nth-of-type(7)>div:nth-of-type(1)>span:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-94233276",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:48.980Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-f27930aed511",
+        "trackFingerprint": "f27930aed5118bde48a3527a6e2ecbd3f98c73fa72f7196ed0cc978355a67b2e"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:48.979Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-94233276/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-679ad700",
+      "createdAt": "2026-10-18T02:16:41.997Z",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(1)>span:nth-of-type(3)",
+      "scope": "div>main>section:nth-of-type(7)>div:nth-of-type(1)>span:nth-of-type(3)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-679ad700",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:49.044Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-ff76c9b1659b",
+        "trackFingerprint": "ff76c9b1659bbcf9ec9adc6ac965ec4a70fc15cb9a2be37f4dbe9b9414611ea1"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:49.043Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-679ad700/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-cc1108cc",
+      "createdAt": "2026-10-18T02:16:41.998Z",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(1)>span:nth-of-type(4)",
+      "scope": "div>main>section:nth-of-type(7)>div:nth-of-type(1)>span:nth-of-type(4)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-cc1108cc",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:49.108Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-8133df3097f6",
+        "trackFingerprint": "8133df3097f6a948d689d404e3957f0f7f307ba99aecbefd43702102938c8420"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:49.106Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-cc1108cc/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-288b2791",
+      "createdAt": "2026-10-18T02:16:41.999Z",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(2)>span:nth-of-type(1)",
+      "scope": "div>main>section:nth-of-type(7)>div:nth-of-type(2)>span:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-288b2791",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:49.172Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-de3fbfa429d2",
+        "trackFingerprint": "de3fbfa429d2a589aed6a9288ceaa54e5f5827f21c5febe22df0ec855e3fc67e"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:49.171Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-288b2791/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-bbe187f0",
+      "createdAt": "2026-10-18T02:16:42.000Z",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(2)>span:nth-of-type(2)",
+      "scope": "div>main>section:nth-of-type(7)>div:nth-of-type(2)>span:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-bbe187f0",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:49.237Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-7b7504f9279f",
+        "trackFingerprint": "7b7504f9279f259b542f06b4fe425b6541062548e3b7db597beffc8c7f6c21b3"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:49.236Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-bbe187f0/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-2a3d1afe",
+      "createdAt": "2026-10-18T02:16:42.001Z",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(2)>span:nth-of-type(3)",
+      "scope": "div>main>section:nth-of-type(7)>div:nth-of-type(2)>span:nth-of-type(3)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-2a3d1afe",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:49.301Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-71169d4d3627",
+        "trackFingerprint": "71169d4d36279c103e26f8630c7a66d3cae68981965d72cc1f45ba4c5723e902"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:49.300Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-2a3d1afe/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-0b0e4767",
+      "createdAt": "2026-10-18T02:16:42.002Z",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(2)>span:nth-of-type(4)",
+      "scope": "div>main>section:nth-of-type(7)>div:nth-of-type(2)>span:nth-of-type(4)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes ax-blink present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-0b0e4767",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:49.365Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-6ad1a0325c3f",
+        "trackFingerprint": "6ad1a0325c3ff03031ea1dc47ae35bf0d22c1e9f9087b0c27831dd5aa85859ea"
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:49.363Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-0b0e4767/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-a40b871a",
+      "createdAt": "2026-10-18T02:16:42.003Z",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(1)",
+      "scope": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-firefly present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-a40b871a",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:49.434Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-7a28be506670",
+        "trackFingerprint": "7a28be506670d3556943b81bdd3c4b2ba9b5104e00606a75587af63f03e5c448",
+        "docTrackIds": [
+          "t-7a28be506670",
+          "t-697406d13f16"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:49.433Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-a40b871a/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-6129e4a9",
+      "createdAt": "2026-10-18T02:16:42.004Z",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(2)",
+      "scope": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-firefly present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-6129e4a9",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:49.498Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-7a056104d5d3",
+        "trackFingerprint": "7a056104d5d3aab66516cd0b3ae27a998d39ec1394d6d6c1bd1269082dc9f9e0",
+        "docTrackIds": [
+          "t-7a056104d5d3",
+          "t-ffa121e525a9"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:49.496Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-6129e4a9/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-c4829707",
+      "createdAt": "2026-10-18T02:16:42.005Z",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(3)",
+      "scope": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(3)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-firefly present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-c4829707",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:49.561Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-3cd426d5e1bd",
+        "trackFingerprint": "3cd426d5e1bdb969fbdfa274006622a89558e63209d484b29555cfb65b44f84a",
+        "docTrackIds": [
+          "t-3cd426d5e1bd",
+          "t-0bedc222cf8b"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:49.560Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-c4829707/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-880a6b86",
+      "createdAt": "2026-10-18T02:16:42.007Z",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(4)",
+      "scope": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(4)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-firefly present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-880a6b86",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:49.626Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-818220b32ac5",
+        "trackFingerprint": "818220b32ac5395fb2a8ac36f4c85a5a53bc90aa648158c62ccc2a35ba4dbe1b",
+        "docTrackIds": [
+          "t-818220b32ac5",
+          "t-25dff23596b6"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:49.625Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-880a6b86/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-71ed1229",
+      "createdAt": "2026-10-18T02:16:42.008Z",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(5)",
+      "scope": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(5)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-firefly present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-71ed1229",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:49.693Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-8ea100a8e6fa",
+        "trackFingerprint": "8ea100a8e6fabee31a8615705ec1a5bfeab635a39bbfababf7b3fe5706a9cc50",
+        "docTrackIds": [
+          "t-8ea100a8e6fa",
+          "t-0e219b00f272"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:49.692Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-71ed1229/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-6da8b66e",
+      "createdAt": "2026-10-18T02:16:42.010Z",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(6)",
+      "scope": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(6)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-firefly present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-6da8b66e",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:49.757Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-04f94ecf0017",
+        "trackFingerprint": "04f94ecf001791dadb01eba269eea31e799614061b3a1e1f5d17846e0877e5ee",
+        "docTrackIds": [
+          "t-04f94ecf0017",
+          "t-8903c5ec3362"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:49.756Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-6da8b66e/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-7df19ea5",
+      "createdAt": "2026-10-18T02:16:42.012Z",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(7)",
+      "scope": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(7)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-firefly present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-7df19ea5",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:49.821Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-c25c547b6f20",
+        "trackFingerprint": "c25c547b6f202f0966efe3dbac44c79e3773e5851546caa0b998d62261e5ac5f",
+        "docTrackIds": [
+          "t-c25c547b6f20",
+          "t-335f85584ce8"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:49.820Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-7df19ea5/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-361fecca",
+      "createdAt": "2026-10-18T02:16:42.013Z",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(8)",
+      "scope": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(8)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-firefly present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-361fecca",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:49.886Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-9c803b7cff11",
+        "trackFingerprint": "9c803b7cff111c9f210fe30f3ec95c54948dcb27a34b3c798c7437289514dafa",
+        "docTrackIds": [
+          "t-9c803b7cff11",
+          "t-84eeba082834"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:49.885Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-361fecca/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-57ea70f5",
+      "createdAt": "2026-10-18T02:16:42.014Z",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(9)",
+      "scope": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(9)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-firefly present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-57ea70f5",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:49.950Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-8ea882fbc0c9",
+        "trackFingerprint": "8ea882fbc0c9a1453f16e6b4003bb893d45488c711481cfb45a280f78453e54f",
+        "docTrackIds": [
+          "t-8ea882fbc0c9",
+          "t-37d2f8dbb4c5"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:49.948Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-57ea70f5/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-7b2fadef",
+      "createdAt": "2026-10-18T02:16:42.015Z",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(10)",
+      "scope": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(10)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-firefly present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-7b2fadef",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:50.018Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-7a957a6eda35",
+        "trackFingerprint": "7a957a6eda35558522c4372de758bb8f6bc24737b7274bfa68add7575bce7663",
+        "docTrackIds": [
+          "t-7a957a6eda35",
+          "t-eb86e0343960"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:50.016Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-7b2fadef/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-3629915d",
+      "createdAt": "2026-10-18T02:16:42.016Z",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(11)",
+      "scope": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(11)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-firefly present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-3629915d",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:50.082Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-c0c6d3addd67",
+        "trackFingerprint": "c0c6d3addd676cde2db5f7baadfd43551dae3ae0eaebd7a87f4e3119e2267458",
+        "docTrackIds": [
+          "t-c0c6d3addd67",
+          "t-1b4b9c0b9705"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:50.080Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-3629915d/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-01ddee30",
+      "createdAt": "2026-10-18T02:16:42.017Z",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(12)",
+      "scope": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(12)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-firefly present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-01ddee30",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:50.147Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-b75458a1af8e",
+        "trackFingerprint": "b75458a1af8e311ca7036d6f97839f71409e59bfbe422486f96a1d1e76786f48",
+        "docTrackIds": [
+          "t-b75458a1af8e",
+          "t-afcb5f25faaa"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:50.146Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-01ddee30/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-c39bc9ed",
+      "createdAt": "2026-10-18T02:16:42.018Z",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(13)",
+      "scope": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(13)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-firefly present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-c39bc9ed",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:50.212Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-08aa227d1f6b",
+        "trackFingerprint": "08aa227d1f6b6f1a1f1089651758774037e2669251bc619fd53de63911f2ed4c",
+        "docTrackIds": [
+          "t-08aa227d1f6b",
+          "t-e46c6fc4190e"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:50.211Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-c39bc9ed/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-791125e5",
+      "createdAt": "2026-10-18T02:16:42.019Z",
+      "selector": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(14)",
+      "scope": "div>main>section:nth-of-type(7)>div:nth-of-type(3)>span:nth-of-type(14)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-firefly present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-791125e5",
+      "source": "motion-pass",
+      "status": "verified-introspected",
+      "updatedAt": "2026-10-18T03:02:50.278Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-81a73c460d88",
+        "trackFingerprint": "81a73c460d88aa610ab4dcc9f83018f5d962a8a12666c82f707f17a2641a0841",
+        "docTrackIds": [
+          "t-81a73c460d88",
+          "t-6bc1a2aee8b6"
+        ]
+      },
+      "verifiedIntrospectedAt": "2026-10-18T03:02:50.276Z",
+      "verifyReceipt": "targets/fieldhand/motion/pass-css-791125e5/verify-introspected.json"
+    },
+    {
+      "id": "pass-css-10d4369e",
+      "createdAt": "2026-10-18T02:16:42.020Z",
+      "selector": "main>section:nth-of-type(7)>div:nth-of-type(4)>div>div:nth-of-type(1)",
+      "scope": "main>section:nth-of-type(7)>div:nth-of-type(4)>div>div:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-10d4369e",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.335Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-2a73008b25e4",
+        "trackFingerprint": "2a73008b25e487239c33dd66f1850b4804dc578d2faaa0b5cfe10f305a9e1d98",
+        "docTrackIds": [
+          "t-2a73008b25e4",
+          "t-b0a67df79f85"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-723e2603",
+      "createdAt": "2026-10-18T02:16:42.021Z",
+      "selector": "#cta-title",
+      "scope": "#cta-title",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-723e2603",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.336Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-97bb56591f51",
+        "trackFingerprint": "97bb56591f51e0d610670ae6e79e02d290fdf0524b78b012fdea44e165899b96",
+        "docTrackIds": [
+          "t-97bb56591f51",
+          "t-3cd7faabc70c"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-1eac6e0a",
+      "createdAt": "2026-10-18T02:16:42.021Z",
+      "selector": "main>section:nth-of-type(7)>div:nth-of-type(4)>div>p",
+      "scope": "main>section:nth-of-type(7)>div:nth-of-type(4)>div>p",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-1eac6e0a",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.337Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-ed0b0d1666e3",
+        "trackFingerprint": "ed0b0d1666e3ff5beb53a3df52982ad5a6bf1164ccdd5d5b1f0ea6c386e10f39",
+        "docTrackIds": [
+          "t-ed0b0d1666e3",
+          "t-376e4736a6ad"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-2d612e37",
+      "createdAt": "2026-10-18T02:16:42.022Z",
+      "selector": "main>section:nth-of-type(7)>div:nth-of-type(4)>div>div:nth-of-type(2)",
+      "scope": "main>section:nth-of-type(7)>div:nth-of-type(4)>div>div:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes ax-rise present in the clone's CSS — deep diff: pingfusi motion verify-introspected fieldhand pass-css-2d612e37",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T02:17:56.338Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-691a44a20235",
+        "trackFingerprint": "691a44a2023565fadf1fe7d3928337ee389f412555748e80cec8deb7496f4c15",
+        "docTrackIds": [
+          "t-691a44a20235",
+          "t-5371e099da2f"
+        ]
+      }
+    }
+  ]
+}

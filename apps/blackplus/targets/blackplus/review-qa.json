@@ -1,0 +1,22 @@
+{
+  "rounds": [
+    {
+      "ping_id": "5c1b4414-e95c-4b8e-b578-91b0308fc70d",
+      "draft_url": "https://pingfusi.com/d/IDvayCRyyqE7",
+      "region": "blackplus-template.modulify.website — is the clone identical? (round 1)",
+      "n_target": 1,
+      "approve_verdicts": [
+        "Cloned region identical"
+      ],
+      "verdict_options": [
+        "Cloned region identical",
+        "Cloned region slightly off",
+        "Cloned region clearly different"
+      ],
+      "review_contract": null,
+      "filed_at": "2026-10-18T03:51:33.926Z",
+      "last": null,
+      "checked_at": null
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "route": "/blog/what-makes-a-portfolio-worth-meeting",
+  "leaves": 116,
+  "settle": {
+    "scrolledTo": 3461,
+    "frozenOpacity0": 1,
+    "stable": true,
+    "sweeps": 1,
+    "heights": [
+      3461
+    ],
+    "imagesPending": 0,
+    "lazyPromoted": 0,
+    "lazyPromotedSrcs": [],
+    "pendingImageSrcs": []
+  },
+  "probe": {
+    "ok": true,
+    "transient": false,
+    "rafHz": 64,
+    "attempts": 1
+  },
+  "links": [
+    "/",
+    "/how-it-works",
+    "/placements",
+    "/become-a-scout",
+    "/blog",
+    "/get-started",
+    "/log-in",
+    "/how-it-works",
+    "/placements",
+    "/become-a-scout",
+    "/blog",
+    "/get-started",
+    "/log-in",
+    "/blog",
+    "/blog",
+    "/blog/5-tips-for-hiring-designers-in-2026",
+    "/blog/why-referrals-beat-inbound-for-design-roles",
+    "/terms",
+    "/privacy"
+  ]
+}

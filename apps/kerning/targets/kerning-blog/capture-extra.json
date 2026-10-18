@@ -1,0 +1,48 @@
+{
+  "route": "/blog",
+  "leaves": 198,
+  "settle": {
+    "scrolledTo": 3209,
+    "frozenOpacity0": 1,
+    "stable": true,
+    "sweeps": 1,
+    "heights": [
+      3209
+    ],
+    "imagesPending": 0,
+    "lazyPromoted": 0,
+    "lazyPromotedSrcs": [],
+    "pendingImageSrcs": []
+  },
+  "probe": {
+    "ok": true,
+    "transient": false,
+    "rafHz": 64,
+    "attempts": 1
+  },
+  "links": [
+    "/",
+    "/how-it-works",
+    "/placements",
+    "/become-a-scout",
+    "/blog",
+    "/get-started",
+    "/log-in",
+    "/how-it-works",
+    "/placements",
+    "/become-a-scout",
+    "/blog",
+    "/get-started",
+    "/log-in",
+    "/blog/5-tips-for-hiring-designers-in-2026",
+    "/blog/5-tips-for-hiring-designers-in-2026",
+    "/blog/what-makes-a-portfolio-worth-meeting",
+    "/blog/why-referrals-beat-inbound-for-design-roles",
+    "/blog/how-to-run-a-design-interview-that-tests-craft",
+    "/blog/a-scouts-diary-ten-portfolios-in-one-night",
+    "/blog/offers-designers-say-yes-to",
+    "/get-started",
+    "/terms",
+    "/privacy"
+  ]
+}

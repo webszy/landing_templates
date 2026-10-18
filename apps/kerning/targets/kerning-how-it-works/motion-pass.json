@@ -1,0 +1,9 @@
+{
+  "schema": "pingfusi/motion-pass@1",
+  "at": "2026-10-18T02:51:33.114Z",
+  "target": "kerning-how-it-works",
+  "ok": true,
+  "noop": true,
+  "summary": "no-op — no motion-doc.json (capture recorded no motion)",
+  "warnings": []
+}

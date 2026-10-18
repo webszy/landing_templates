@@ -1,0 +1,43 @@
+{
+  "schema": "pingfusi/motion-pass@1",
+  "at": "2026-10-18T02:15:42.408Z",
+  "target": "kerning",
+  "ok": true,
+  "doc": {
+    "file": "targets/kerning/motion-doc.json",
+    "sha256_16": "16fdfeccc33e0d4f"
+  },
+  "tracks": {
+    "total": 21,
+    "cssInherited": 21,
+    "playersApplied": 0,
+    "skipped": 0
+  },
+  "ownerProbe": {
+    "mode": "ran",
+    "changed": [],
+    "elements": 0
+  },
+  "replay": null,
+  "items": {
+    "schema": "pingfusi/motion-items@2",
+    "ids": [
+      "pass-css-d2a2979c",
+      "pass-css-11fbcfda",
+      "pass-css-76df75c1",
+      "pass-css-9da73324",
+      "pass-css-d9e32a17",
+      "pass-css-c281b145",
+      "pass-css-d3109f1e",
+      "pass-css-e5aa0019",
+      "pass-css-0893c926",
+      "pass-css-6a11d5a1",
+      "pass-css-d32d143d",
+      "pass-css-918f35d1"
+    ]
+  },
+  "assets": [],
+  "skipped": [],
+  "warnings": [],
+  "summary": "21 track(s), 21 css-inherited, 0 player-applied, 0 skipped — receipts and warnings only; motion never fails a build"
+}
