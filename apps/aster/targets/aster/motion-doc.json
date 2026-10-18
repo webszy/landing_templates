@@ -1,0 +1,49 @@
+{
+  "schema": "pingfusi/motion-doc@1",
+  "url": "https://aster-template.modulify.website/",
+  "capturedAt": "2026-10-18T12:14:48.082Z",
+  "viewport": {
+    "width": 1728,
+    "height": 982,
+    "dpr": 2
+  },
+  "tracks": [
+    {
+      "target": {
+        "selector": "div>div:nth-of-type(2)>button>span:nth-of-type(2)>svg"
+      },
+      "property": "transform",
+      "keyframes": [
+        {
+          "offset": 0,
+          "value": "none",
+          "easing": "linear",
+          "composite": "replace"
+        },
+        {
+          "offset": 1,
+          "value": "rotate(360deg)",
+          "easing": "linear",
+          "composite": "auto"
+        }
+      ],
+      "timing": {
+        "duration_ms": 900,
+        "delay_ms": 0,
+        "iterations": "infinite",
+        "direction": "normal",
+        "fill": "none",
+        "playbackRate": 1
+      },
+      "timeline": {
+        "type": "document"
+      },
+      "provenance": {
+        "tier": "introspected-css",
+        "source": "css-animation:aster-spin"
+      },
+      "id": "t-dd662032f047"
+    }
+  ],
+  "assets": []
+}

@@ -1,0 +1,22 @@
+{
+  "source": "https://aster-template.modulify.website/_next/static/chunks/13zz61rp1921k.js",
+  "sha256": "52d882ef14c50fab09af58a99ae8ba911957cabad1bb219291abbddcae57d9a6",
+  "basis": "Authored page module; local clone runtime and behavioral parity not tested.",
+  "parameters": {
+    "letterRotationDeg": -270,
+    "letterDurationMs": 2100,
+    "letterStaggerMs": 55,
+    "letterEase": "power1.out",
+    "revealY": 24,
+    "revealBlurPx": 8,
+    "revealDurationMs": 1000,
+    "revealDelayMs": 150,
+    "revealStaggerMs": 120,
+    "revealEase": "power3.out",
+    "pointerSmoothing": 0.05,
+    "pointerRotateXRangeDeg": 8,
+    "pointerRotateYRangeDeg": 10,
+    "loadingMs": 1400,
+    "successMs": 4000
+  }
+}

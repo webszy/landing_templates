@@ -1,6 +1,6 @@
 # Templates monorepo
 
-使用 npm Workspaces 管理 Black Plus、Fieldhand、Kerning 和 Onda Studio 四个静态站点。每个应用保留自己的源码、素材、脚本和审核记录。
+使用 npm Workspaces 管理 Aster、Black Plus、Fieldhand、Kerning 和 Onda Studio 五个静态站点。每个应用保留自己的源码、素材、脚本和审核记录。
 
 ## 环境与安装
 
@@ -21,6 +21,7 @@ npm ci
 ```sh
 npm run dev              # 同时启动全部站点，Ctrl+C 统一停止
 npm run dev -- onda kerning  # 只同时启动指定站点
+npm run dev:aster        # Aster 订阅页模板
 npm run dev:blackplus    # 单独启动一个站点
 npm run dev:fieldhand
 npm run dev:kerning
@@ -29,6 +30,7 @@ npm run dev:onda
 
 | 应用 | Workspace | 默认地址 | 构建产物 |
 | --- | --- | --- | --- |
+| Aster | `@templates/aster` | http://127.0.0.1:3004 | `apps/aster/dist/` |
 | Black Plus | `@templates/blackplus` | http://127.0.0.1:4174 | `apps/blackplus/dist/` |
 | Fieldhand | `@templates/fieldhand` | http://127.0.0.1:3003 | `apps/fieldhand/dist/` |
 | Kerning | `@templates/kerning` | http://127.0.0.1:3002 | `apps/kerning/dist/` |
@@ -57,6 +59,7 @@ npm run effects --workspace=@templates/onda    # 重新生成 Onda 动效
 ```text
 Templates/
 ├── apps/
+│   ├── aster/
 │   ├── blackplus/
 │   ├── fieldhand/
 │   ├── kerning/

@@ -1,0 +1,12 @@
+{
+  "name": "@templates/aster",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aster template captured with Copy Anything / Pingfusi, with local assets and restored interactions.",
+  "scripts": {
+    "dev": "node scripts/serve.cjs",
+    "start": "node scripts/serve.cjs",
+    "build": "node scripts/build.cjs",
+    "check": "node --check scripts/serve.cjs && node --check scripts/build.cjs && node --check targets/aster/clone/fixes.js && node scripts/check.cjs"
+  }
+}

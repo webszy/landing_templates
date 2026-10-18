@@ -1,0 +1,110 @@
+{
+  "source": "https://aster-template.modulify.website/",
+  "files": [
+    {
+      "path": "assets/css/00-0jhc.mhigh70d.css",
+      "bytes": 26337,
+      "sha256": "f0cb1c0548cef2cabe76cee044ca7288653014f2ea28d08d3df0cdfae6994aa2"
+    },
+    {
+      "path": "assets/fonts/3fd967fc5374d70a-s.17n1p.kggnicm.woff2",
+      "bytes": 13856,
+      "sha256": "54a956ea5b2cfddfea2d336dd36bfcba64f40fa8b2d41685d9d4edf4a2910ab8"
+    },
+    {
+      "path": "assets/fonts/4e1c87b7aa9e2f2f-s.12gpghvmuotht.woff2",
+      "bytes": 31460,
+      "sha256": "c3880f0c5afb7890a102bc4b9c8257703664388f708b4be880ec5f5f68e8ea9d"
+    },
+    {
+      "path": "assets/fonts/4fa387ec64143e14-s.0wkzwje483f-.woff2",
+      "bytes": 12872,
+      "sha256": "75b3bedbebc35f347c0ae3b416aa871941555357e7b0f83767eb5987875589ed"
+    },
+    {
+      "path": "assets/fonts/53b9e256198e5412-s.0-wfv7uh4i7h9.woff2",
+      "bytes": 7968,
+      "sha256": "f689f638f29fff460a2d5749edb5d5c38d7bef0389f32032d871f23fc6ebb008"
+    },
+    {
+      "path": "assets/fonts/5ce348bf30bf5439-s.0zgw-jeven.3w.woff2",
+      "bytes": 6204,
+      "sha256": "e27f657e38d52887baa3b6b2f812bef93dfdd356f0810e40edd4ee284cc7e9f6"
+    },
+    {
+      "path": "assets/fonts/6306c77e7c8268e4-s.0rhz0arwfsn5.woff2",
+      "bytes": 5892,
+      "sha256": "d67e4a94ba498635f764ddca7d1ec4271f5642f032eb24b426764480f66f8497"
+    },
+    {
+      "path": "assets/fonts/7178b3e590c64307-s.0nx0ww8fni_q3.woff2",
+      "bytes": 16540,
+      "sha256": "58a6b173d5ca1dec92166ea3c6cb1a84a4144556d10928ac14e8e6b40e4787bd"
+    },
+    {
+      "path": "assets/fonts/797e433ab948586e-s.p.08e28id.o-okb.woff2",
+      "bytes": 23108,
+      "sha256": "5f3d6ad60f29d6cb708414ec6887163d63bf197377ef5417d2483ff31ace6c3b"
+    },
+    {
+      "path": "assets/fonts/7d817b4c03b0c5f1-s.0l76wvqk9d84w.woff2",
+      "bytes": 7728,
+      "sha256": "16e1d48b6dd29eb240aec5db36184eb182933c082cd43de7f35af686d58087d2"
+    },
+    {
+      "path": "assets/fonts/8a480f0b521d4e75-s.0jzbimsg8vl84.woff2",
+      "bytes": 14900,
+      "sha256": "6129fc8571c3e0cb0a4c41f5160c974a843b055009dc4ad8858bd808e18a2d86"
+    },
+    {
+      "path": "assets/fonts/b59689b1142d37ce-s.p.0f8qglggluhl.woff2",
+      "bytes": 50892,
+      "sha256": "d7f07f8a308ce0a7287d79a65a85cfbc0f4741ef426bf1a3902d24392cc71723"
+    },
+    {
+      "path": "assets/fonts/bbc41e54d2fcbd21-s.0k4k9394f2q-k.woff2",
+      "bytes": 14712,
+      "sha256": "745994b5cd950ec201b66526375f057d540847cccfc70f4f24f5f571d26d3923"
+    },
+    {
+      "path": "assets/fonts/caa3a2e1cccd8315-s.p.09u27dqhyhd6.woff2",
+      "bytes": 29288,
+      "sha256": "9b6f5ff45b278c744b5f379a2c4ecbaf858a842b8eaf82ac8d21b699ca16c608"
+    },
+    {
+      "path": "assets/fonts/d0d9446e69c4847e-s.10blc4._e8owh.woff2",
+      "bytes": 1816,
+      "sha256": "5501f713602e4960a52d096d6a4afb72b5d163c5bf27173e93da41a6837e3a2d"
+    },
+    {
+      "path": "assets/fonts/dd14639a62c56cb2-s.06a7f.f9wwf6c.woff2",
+      "bytes": 117648,
+      "sha256": "ed84482df7b95e6a56a113de1ba2a8d54337f499ba19d54ca697a7e15427ff5f"
+    },
+    {
+      "path": "assets/fonts/fef07dbb0973bf53-s.12tyk43_3sh9u.woff2",
+      "bytes": 7252,
+      "sha256": "b7a545bbb08256bd809f11cfe66d88da3e22d169ea4407737b1ef0ec1ed3d791"
+    },
+    {
+      "path": "assets/media/aster.mp4",
+      "bytes": 22772929,
+      "sha256": "c80cf4a07eb0a2aa04934dddabb326ee9254f4004b43e99f81afac36b2bc23ba"
+    },
+    {
+      "path": "assets/media/aster.webm",
+      "bytes": 4726187,
+      "sha256": "76a96f789425990d381b284a4c0801a60c65292dd056d86cbe77f8b42e0eba41"
+    },
+    {
+      "path": "assets/media/favicon.png",
+      "bytes": 2847,
+      "sha256": "c59601b44a97ccdc920bb8d1e3b8d6fb76434167f8dec591fd3f5491608db7b1"
+    },
+    {
+      "path": "assets/media/logo.svg",
+      "bytes": 1901,
+      "sha256": "723a96f75165055cef000212fb39ef8e690e724fc2524395793f82b2b066e75e"
+    }
+  ]
+}
