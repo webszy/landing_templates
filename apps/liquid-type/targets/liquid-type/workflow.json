@@ -1,0 +1,116 @@
+{
+  "name": "liquid-type",
+  "url": "https://liquid-type-template.modulify.website/",
+  "width": 1728,
+  "createdAt": "2026-10-18T12:25:30.928Z",
+  "phaseOrder": [
+    "target",
+    "assets",
+    "measure",
+    "build",
+    "visual",
+    "coverage",
+    "strict",
+    "behavior",
+    "review",
+    "done"
+  ],
+  "phases": {
+    "target": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "1a0d40758e",
+      "sha256": "6be378ea398749a5",
+      "evidence": null,
+      "ts": "2026-10-18T12:25:38.596Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "assets": {
+      "status": "pass",
+      "kind": "attested",
+      "runId": "34d8fb153d",
+      "sha256": "3178f794890caea3",
+      "evidence": "Original CSS, 11 WOFF2 fonts and original images/icons saved locally; static reference and file signature checks pass. Canvas reproduction is source-based and has not been run.",
+      "ts": "2026-10-18T12:29:55.170Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "measure": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "fab79d283a",
+      "sha256": "5a2040a6018c8bd3",
+      "evidence": null,
+      "ts": "2026-10-18T12:29:55.249Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "build": {
+      "status": "pending",
+      "kind": "machine",
+      "runId": null,
+      "sha256": null,
+      "evidence": null,
+      "ts": null,
+      "forced": false
+    },
+    "visual": {
+      "status": "pending",
+      "kind": "machine",
+      "runId": null,
+      "sha256": null,
+      "evidence": null,
+      "ts": null,
+      "forced": false
+    },
+    "coverage": {
+      "status": "pending",
+      "kind": "machine",
+      "runId": null,
+      "sha256": null,
+      "evidence": null,
+      "ts": null,
+      "forced": false
+    },
+    "strict": {
+      "status": "pending",
+      "kind": "machine",
+      "runId": null,
+      "sha256": null,
+      "evidence": null,
+      "ts": null,
+      "forced": false
+    },
+    "behavior": {
+      "status": "pending",
+      "kind": "machine",
+      "runId": null,
+      "sha256": null,
+      "evidence": null,
+      "ts": null,
+      "forced": false
+    },
+    "review": {
+      "status": "pending",
+      "kind": "machine",
+      "runId": null,
+      "sha256": null,
+      "evidence": null,
+      "ts": null,
+      "forced": false
+    },
+    "done": {
+      "status": "pending",
+      "kind": "machine",
+      "runId": null,
+      "sha256": null,
+      "evidence": null,
+      "ts": null,
+      "forced": false
+    }
+  }
+}

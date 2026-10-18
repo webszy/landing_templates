@@ -1,0 +1,12 @@
+{
+  "schema": "pingfusi/motion-doc@1",
+  "url": "https://membrane-template.modulify.website/",
+  "capturedAt": "2026-10-18T12:25:50.055Z",
+  "viewport": {
+    "width": 1728,
+    "height": 982,
+    "dpr": 2
+  },
+  "tracks": [],
+  "assets": []
+}

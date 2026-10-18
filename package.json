@@ -17,6 +17,8 @@
     "dev:blackplus": "npm run dev --workspace=@templates/blackplus",
     "dev:fieldhand": "npm run dev --workspace=@templates/fieldhand",
     "dev:kerning": "npm run dev --workspace=@templates/kerning",
+    "dev:liquid-type": "npm run dev --workspace=@templates/liquid-type",
+    "dev:membrane": "npm run dev --workspace=@templates/membrane",
     "dev:onda": "npm run dev --workspace=@templates/onda",
     "build": "npm run build --workspaces",
     "check": "node --check scripts/dev.mjs && npm run check --workspaces"

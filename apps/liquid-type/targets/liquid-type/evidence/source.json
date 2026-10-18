@@ -1,0 +1,27 @@
+{
+  "url": "https://liquid-type-template.modulify.website/",
+  "script": "https://liquid-type-template.modulify.website/_next/static/chunks/0_fb6va8joisf.js",
+  "sha256": "1f131eb1b0070b2e801f3bd4cb1f86fb70e1a9a12b83ebd5bb84cac69b36c262",
+  "basis": "Authored page module; native reproduction has not been browser-verified.",
+  "parameters": {
+    "baseWeight": 300,
+    "proximityRadius": 180,
+    "proximityWeightGain": 550,
+    "proximityScaleGain": 0.12,
+    "spring": 0.035,
+    "damping": 0.92,
+    "rippleStepPerFrame": 5,
+    "rippleRadiusFraction": 0.6,
+    "rippleImpactBand": 60,
+    "canvasFadeMs": 2000,
+    "canvasFadeEase": "power2.inOut",
+    "letterDurationMs": 900,
+    "letterDelayMs": 500,
+    "letterStaggerMs": 45,
+    "letterEase": "power4.out",
+    "revealDurationMs": 1000,
+    "revealDelayMs": 400,
+    "revealStaggerMs": 130,
+    "revealEase": "power4.out"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "url": "https://membrane-template.modulify.website/",
+  "script": "https://membrane-template.modulify.website/_next/static/chunks/0chxenfvqqm28.js",
+  "sha256": "81ec19b528b16c5ea2daf88747c95ef9b277882edeece7fbf47c89423d2c91eb",
+  "basis": "Authored page module; native reproduction has not been browser-verified.",
+  "parameters": {
+    "gridColumns": 50,
+    "gridRows": 30,
+    "timeStep": 0.016,
+    "idleRadius": 130,
+    "pressRadius": 200,
+    "idleStrength": 15,
+    "pressStrength": 30,
+    "restSpring": 0.025,
+    "damping": 0.93,
+    "neighborCoupling": 0.18,
+    "depthProjection": 0.3,
+    "canvasFadeMs": 2000,
+    "canvasFadeEase": "power2.inOut",
+    "revealDurationMs": 1000,
+    "revealDelayMs": 500,
+    "revealStaggerMs": 130,
+    "revealEase": "power4.out"
+  }
+}

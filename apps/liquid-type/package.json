@@ -1,0 +1,12 @@
+{
+  "name": "@templates/liquid-type",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Liquid Type template cloned with Copy Anything / Pingfusi, with local assets and restored canvas interactions.",
+  "scripts": {
+    "dev": "node scripts/serve.cjs",
+    "start": "node scripts/serve.cjs",
+    "build": "node scripts/build.cjs",
+    "check": "node --check scripts/serve.cjs && node --check scripts/build.cjs && node --check targets/liquid-type/clone/fixes.js && node scripts/check.cjs"
+  }
+}

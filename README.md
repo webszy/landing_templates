@@ -1,6 +1,6 @@
 # Templates monorepo
 
-使用 npm Workspaces 管理 Aster、Black Plus、Fieldhand、Kerning 和 Onda Studio 五个静态站点。每个应用保留自己的源码、素材、脚本和审核记录。
+使用 npm Workspaces 管理 Aster、Black Plus、Fieldhand、Kerning、Liquid Type、Membrane 和 Onda Studio 七个静态站点。每个应用保留自己的源码、素材、脚本和审核记录。
 
 ## 环境与安装
 
@@ -25,6 +25,8 @@ npm run dev:aster        # Aster 订阅页模板
 npm run dev:blackplus    # 单独启动一个站点
 npm run dev:fieldhand
 npm run dev:kerning
+npm run dev:liquid-type
+npm run dev:membrane
 npm run dev:onda
 ```
 
@@ -34,12 +36,15 @@ npm run dev:onda
 | Black Plus | `@templates/blackplus` | http://127.0.0.1:4174 | `apps/blackplus/dist/` |
 | Fieldhand | `@templates/fieldhand` | http://127.0.0.1:3003 | `apps/fieldhand/dist/` |
 | Kerning | `@templates/kerning` | http://127.0.0.1:3002 | `apps/kerning/dist/` |
+| Liquid Type | `@templates/liquid-type` | http://127.0.0.1:3006 | `apps/liquid-type/dist/` |
+| Membrane | `@templates/membrane` | http://127.0.0.1:3005 | `apps/membrane/dist/` |
 | Onda Studio | `@templates/onda` | http://127.0.0.1:3000 | `apps/onda/dist/` |
 
 单独启动时可使用 `PORT=4000 npm run dev:onda` 修改端口。同时启动多个应用时，可分别设置 `<应用名大写>_PORT`，避免将同一个 `PORT` 传给所有站点：
 
 ```sh
 ONDA_PORT=4000 KERNING_PORT=4002 npm run dev
+MEMBRANE_PORT=4005 LIQUID_TYPE_PORT=4006 npm run dev -- membrane liquid-type
 ```
 
 ## 检查与构建
@@ -63,6 +68,8 @@ Templates/
 │   ├── blackplus/
 │   ├── fieldhand/
 │   ├── kerning/
+│   ├── liquid-type/
+│   ├── membrane/
 │   └── onda/
 ├── scripts/
 │   └── dev.mjs
