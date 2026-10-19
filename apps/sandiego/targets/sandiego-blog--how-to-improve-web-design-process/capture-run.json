@@ -1,0 +1,113 @@
+{
+  "kitVersion": "0.17.1",
+  "at": "2026-10-18T06:09:08.110Z",
+  "mode": "cdp-launched",
+  "chromeVersion": "Chrome/155.0.8059.84",
+  "headless": true,
+  "profile": "temp",
+  "viewport": {
+    "width": 1728,
+    "height": 982,
+    "dpr": 2,
+    "sources": {
+      "width": "target.json",
+      "height": "default",
+      "dpr": "default"
+    }
+  },
+  "sides": [
+    {
+      "side": "live",
+      "url": "https://sandiego-template.modulify.website/blog/how-to-improve-web-design-process",
+      "leaves": 141,
+      "byKind": {
+        "painted-box": 8,
+        "media": 18,
+        "text": 88,
+        "bg-image": 15,
+        "painted-container": 12
+      },
+      "settle": {
+        "stable": true,
+        "scrolledTo": 7838,
+        "imagesPending": 0
+      },
+      "files": [
+        {
+          "file": "live.json",
+          "bytes": 108756
+        },
+        {
+          "file": "coverage.json",
+          "bytes": 3395
+        },
+        {
+          "file": "dom.html",
+          "bytes": 61220
+        }
+      ],
+      "tookMs": 38987,
+      "viewportRead": {
+        "iw": 1728,
+        "cw": 1728,
+        "ih": 982,
+        "dpr": 2
+      },
+      "probe": {
+        "rafHz": 64,
+        "anim": {
+          "expectedPxPerSec": 100,
+          "measuredPxPerSec": 99.68
+        },
+        "attempts": 1
+      },
+      "paint": {
+        "stat": {
+          "width": 3456,
+          "height": 1964,
+          "sampled": 212112,
+          "nonUniformRatio": 0.0104,
+          "lumaMean": 254.1,
+          "lumaStdev": 12,
+          "nearBlank": true
+        }
+      },
+      "canvas": {
+        "schema": "pingfusi/canvas-dominant@1",
+        "viewport": {
+          "w": 1728,
+          "h": 982
+        },
+        "canvases": 0,
+        "bestCoverage": 0,
+        "marksInFront": 0,
+        "dominant": false
+      },
+      "freeze": {
+        "supported": true,
+        "frozen": 0,
+        "ids": [],
+        "players": [],
+        "alreadyPaused": 0,
+        "skipped": {
+          "finished": 0,
+          "scrollLinked": 0,
+          "agentDom": 0,
+          "kitPlayer": 0,
+          "failed": 0
+        },
+        "unfreezable": [],
+        "stillMoving": [],
+        "watch": {
+          "ran": true,
+          "intervals": 2,
+          "intervalMs": 180,
+          "tracked": 19,
+          "writes": 0,
+          "truncated": false
+        },
+        "excludedMarkCount": 0
+      }
+    }
+  ]
+}

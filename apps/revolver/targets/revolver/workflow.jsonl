@@ -1,0 +1,2 @@
+{"ts":"2026-10-18T05:52:46.668Z","phase":"target","runId":"50acfaae67","gate":"pass","forced":false,"blocked":false,"overrode":[],"sha256":"51bec7195462e18b","artifact":"targets/revolver/target.json","evidence":null,"reason":"target https://revolver-template.modulify.website/ @ 1728px"}
+{"ts":"2026-10-18T05:56:49.582Z","event":"motion-pass","phase":null,"runId":"1090fe02b0","gate":null,"forced":false,"reason":"14 track(s), 0 css-inherited, 4 player-applied, 10 skipped, 10 warning(s) — receipts and warnings only; motion never fails a build"}

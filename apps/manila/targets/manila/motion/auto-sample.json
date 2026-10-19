@@ -1,0 +1,338 @@
+{
+  "schema": "pingfusi/motion-sample@1",
+  "at": "2026-10-18T05:59:35.147Z",
+  "target": "manila",
+  "item": "auto (capture-run)",
+  "url": "https://manila-template.modulify.website/",
+  "viewport": {
+    "width": 1728,
+    "height": 982,
+    "dpr": 2,
+    "sources": {
+      "width": "target.json",
+      "height": "default",
+      "dpr": "default"
+    }
+  },
+  "detected": [
+    {
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "property": "transform",
+      "depth": 0
+    },
+    {
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)",
+      "property": "transform",
+      "depth": 0
+    },
+    {
+      "selector": "div>main>div:nth-of-type(1)>div:nth-of-type(2)>div",
+      "property": "transform",
+      "depth": 0
+    },
+    {
+      "selector": "div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div",
+      "property": "transform",
+      "depth": 0
+    },
+    {
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div>img",
+      "property": "transform",
+      "depth": 0
+    },
+    {
+      "selector": "div:nth-of-type(8)>div:nth-of-type(1)>div>div>img:nth-of-type(2)",
+      "property": "transform",
+      "depth": 0
+    },
+    {
+      "selector": "div:nth-of-type(2)>div>div>div>div:nth-of-type(1)",
+      "property": "transform",
+      "depth": 785
+    },
+    {
+      "selector": "div:nth-of-type(2)>div>div>div>div:nth-of-type(3)",
+      "property": "transform",
+      "depth": 785
+    },
+    {
+      "selector": "div:nth-of-type(1)>div:nth-of-type(3)>div:nth-of-type(2)>div>img",
+      "property": "transform",
+      "depth": 785
+    },
+    {
+      "selector": "div:nth-of-type(8)>div:nth-of-type(1)>div>div>img:nth-of-type(1)",
+      "property": "transform",
+      "depth": 785
+    }
+  ],
+  "depthsProbed": 13,
+  "runs": [
+    {
+      "trigger": "load",
+      "scopes": [
+        "div>main>div:nth-of-type(1)>div:nth-of-type(2)>div"
+      ],
+      "fps": 60,
+      "frames": 240,
+      "stepMs": 16.666666666666668,
+      "virtualTime": {
+        "mode": "hooked-clock",
+        "fallbackReason": "virtual time does not drive frames on this Chrome (0 rAF frame(s) across a 200 virtual-ms advance; headless=new has no begin-frame control)",
+        "epochMs": 1700000000000,
+        "hookedSurface": "performance.now+Date.now+rAF+setTimeout/Interval+IntersectionObserver",
+        "settlePolicy": "drain+step+freeze",
+        "networkPinning": "fetch-batch+layout-batch",
+        "cacheDisabled": true,
+        "wallBarrierMs": 3000,
+        "freezeMs": 250
+      },
+      "settle": {
+        "loadFrames": 0,
+        "preTriggerFrames": 120,
+        "loadDriftMs": null,
+        "preTriggerMs": null,
+        "frames": 120,
+        "policy": "hooked-clock-step",
+        "resourcesAtRecord": 47,
+        "network": {
+          "batches": 4,
+          "released": 48,
+          "streamingExcluded": 0,
+          "layoutBatchReleased": 31,
+          "heldAtStop": 0
+        }
+      },
+      "recorder": {
+        "tracking": 1,
+        "truncated": false,
+        "writes": 240
+      },
+      "sampling": {
+        "fps": 60,
+        "stepMs": 16.666666666666668,
+        "frames": 240,
+        "elements": 1,
+        "tracks": 1,
+        "staticDropped": 3,
+        "unaddressable": 0,
+        "writesTotal": 240,
+        "writesMerged": 240,
+        "truncated": false,
+        "ongoing": 1
+      },
+      "determinism": {
+        "runs": 1
+      },
+      "fit": {
+        "attempted": 3,
+        "attached": [
+          {
+            "selector": "div>main>div:nth-of-type(1)>div:nth-of-type(2)>div",
+            "property": "transform",
+            "channel": "rot",
+            "kind": "tween",
+            "nrmse": 0
+          }
+        ],
+        "rejected": 0,
+        "reclassified": []
+      },
+      "sampledTrackIds": [
+        "t-d43153124646"
+      ]
+    },
+    {
+      "trigger": "scroll-to:div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "scopes": [
+        "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+        "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)",
+        "div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div",
+        "div:nth-of-type(2)>div>div>div>div:nth-of-type(1)",
+        "div:nth-of-type(2)>div>div>div>div:nth-of-type(3)"
+      ],
+      "fps": 60,
+      "frames": 240,
+      "stepMs": 16.666666666666668,
+      "virtualTime": {
+        "mode": "hooked-clock",
+        "fallbackReason": "virtual time does not drive frames on this Chrome (0 rAF frame(s) across a 200 virtual-ms advance; headless=new has no begin-frame control)",
+        "epochMs": 1700000000000,
+        "hookedSurface": "performance.now+Date.now+rAF+setTimeout/Interval+IntersectionObserver",
+        "settlePolicy": "drain+step+freeze",
+        "networkPinning": "fetch-batch+layout-batch",
+        "cacheDisabled": true,
+        "wallBarrierMs": 3000,
+        "freezeMs": 250
+      },
+      "settle": {
+        "loadFrames": 0,
+        "preTriggerFrames": 120,
+        "loadDriftMs": null,
+        "preTriggerMs": null,
+        "frames": 120,
+        "policy": "hooked-clock-step",
+        "resourcesAtRecord": 47,
+        "network": {
+          "batches": 5,
+          "released": 48,
+          "streamingExcluded": 0,
+          "layoutBatchReleased": 31,
+          "heldAtStop": 0
+        }
+      },
+      "recorder": {
+        "tracking": 61,
+        "truncated": false,
+        "writes": 720
+      },
+      "sampling": {
+        "fps": 60,
+        "stepMs": 16.666666666666668,
+        "frames": 240,
+        "elements": 61,
+        "tracks": 3,
+        "staticDropped": 241,
+        "unaddressable": 0,
+        "writesTotal": 720,
+        "writesMerged": 720,
+        "truncated": false,
+        "ongoing": 3
+      },
+      "determinism": {
+        "runs": 1
+      },
+      "fit": {
+        "attempted": 5,
+        "attached": [
+          {
+            "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+            "property": "transform",
+            "channel": "tx",
+            "kind": "marquee",
+            "nrmse": 0
+          },
+          {
+            "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)",
+            "property": "transform",
+            "channel": "tx",
+            "kind": "marquee",
+            "nrmse": 0
+          }
+        ],
+        "rejected": 1,
+        "reclassified": [
+          {
+            "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+            "property": "transform",
+            "channel": "tx",
+            "from": "tween",
+            "to": "marquee",
+            "velocityPxPerSec": 63.9
+          },
+          {
+            "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)",
+            "property": "transform",
+            "channel": "tx",
+            "from": "tween",
+            "to": "marquee",
+            "velocityPxPerSec": 63.9
+          }
+        ]
+      },
+      "sampledTrackIds": [
+        "t-bce33375fb0b",
+        "t-bf40eedfc49f",
+        "t-96703c1905f2"
+      ]
+    },
+    {
+      "trigger": "scroll-to:div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div>img",
+      "scopes": [
+        "div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div>img"
+      ],
+      "fps": 60,
+      "frames": 240,
+      "stepMs": 16.666666666666668,
+      "virtualTime": {
+        "mode": "hooked-clock",
+        "fallbackReason": "virtual time does not drive frames on this Chrome (0 rAF frame(s) across a 200 virtual-ms advance; headless=new has no begin-frame control)",
+        "epochMs": 1700000000000,
+        "hookedSurface": "performance.now+Date.now+rAF+setTimeout/Interval+IntersectionObserver",
+        "settlePolicy": "drain+step+freeze",
+        "networkPinning": "fetch-batch+layout-batch",
+        "cacheDisabled": true,
+        "wallBarrierMs": 3000,
+        "freezeMs": 250
+      },
+      "settle": {
+        "loadFrames": 0,
+        "preTriggerFrames": 120,
+        "loadDriftMs": null,
+        "preTriggerMs": null,
+        "frames": 120,
+        "policy": "hooked-clock-step",
+        "resourcesAtRecord": 60,
+        "network": {
+          "batches": 5,
+          "released": 61,
+          "streamingExcluded": 0,
+          "layoutBatchReleased": 44,
+          "heldAtStop": 0
+        }
+      },
+      "recorder": {
+        "tracking": 4,
+        "truncated": false,
+        "writes": 240
+      },
+      "sampling": {
+        "fps": 60,
+        "stepMs": 16.666666666666668,
+        "frames": 240,
+        "elements": 4,
+        "tracks": 1,
+        "staticDropped": 15,
+        "unaddressable": 0,
+        "writesTotal": 240,
+        "writesMerged": 240,
+        "truncated": false,
+        "ongoing": 0
+      },
+      "determinism": {
+        "runs": 1
+      },
+      "fit": {
+        "attempted": 5,
+        "attached": [
+          {
+            "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div>img",
+            "property": "transform",
+            "channel": "tx",
+            "kind": "tween",
+            "nrmse": 0.00175
+          },
+          {
+            "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div>img",
+            "property": "transform",
+            "channel": "ty",
+            "kind": "tween",
+            "nrmse": 0.00175
+          },
+          {
+            "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div>img",
+            "property": "transform",
+            "channel": "rot",
+            "kind": "tween",
+            "nrmse": 0.00175
+          }
+        ],
+        "rejected": 0,
+        "reclassified": []
+      },
+      "sampledTrackIds": [
+        "t-ccbb7b953abb"
+      ]
+    }
+  ]
+}

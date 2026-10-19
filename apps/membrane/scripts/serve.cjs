@@ -12,7 +12,7 @@ const types = {
   '.webm': 'video/webm', '.mp4': 'video/mp4',
 };
 
-http.createServer((req, res) => {
+const server=http.createServer((req, res) => {
   if (req.method !== 'GET' && req.method !== 'HEAD') {
     res.writeHead(405, { Allow: 'GET, HEAD' }).end();
     return;
@@ -63,6 +63,5 @@ http.createServer((req, res) => {
   res.writeHead(status, headers);
   if (req.method === 'HEAD') res.end();
   else fs.createReadStream(file, { start, end }).on('error', () => res.destroy()).pipe(res);
-}).listen(port, '127.0.0.1', () => {
-  console.log(`Membrane preview: http://127.0.0.1:${port}`);
 });
+require('../../../scripts/listen-preview.cjs')(server, { name: 'membrane' });

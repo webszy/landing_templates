@@ -1,0 +1,122 @@
+{
+  "schema": "pingfusi/motion-items@2",
+  "items": [
+    {
+      "id": "pass-sampled-1fac86f1",
+      "createdAt": "2026-10-18T05:56:52.969Z",
+      "selector": "main>section>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "scope": "main>section>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "tier": "sampled",
+      "action": "player-applied",
+      "verify": "pass",
+      "receipt": "1 track(s) replayed as time-based WAAPI in clone/motion-replay.js (parameters verbatim from motion-doc.json; owner probe clean)",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T05:56:52.969Z"
+    },
+    {
+      "id": "pass-sampled-bdbaa9d9",
+      "createdAt": "2026-10-18T05:56:52.970Z",
+      "selector": "main>section>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)",
+      "scope": "main>section>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)",
+      "tier": "sampled",
+      "action": "player-applied",
+      "verify": "pass",
+      "receipt": "1 track(s) replayed as time-based WAAPI in clone/motion-replay.js (parameters verbatim from motion-doc.json; owner probe clean)",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-18T05:56:52.970Z"
+    },
+    {
+      "id": "pass-sampled-43bd024c",
+      "createdAt": "2026-10-18T05:56:52.970Z",
+      "selector": "div>main>section>div:nth-of-type(2)>div:nth-of-type(4)",
+      "scope": "div>main>section>div:nth-of-type(2)>div:nth-of-type(4)",
+      "tier": "sampled",
+      "action": "player-applied",
+      "verify": "warn",
+      "receipt": "2 track(s) replayed as time-based WAAPI in clone/motion-replay.js (parameters verbatim from motion-doc.json; owner probe clean); 1 track(s) skipped",
+      "source": "motion-pass",
+      "status": "pending",
+      "updatedAt": "2026-10-18T05:56:52.970Z"
+    },
+    {
+      "id": "pass-sampled-889d930e",
+      "createdAt": "2026-10-18T05:56:52.970Z",
+      "selector": "div>main>section>div:nth-of-type(2)>div:nth-of-type(5)",
+      "scope": "div>main>section>div:nth-of-type(2)>div:nth-of-type(5)",
+      "tier": "sampled",
+      "action": "skipped",
+      "verify": "warn",
+      "receipt": "skipped — ongoing motion with no periodic fit — a clip that stops is a fabricated ending; sample longer so the marquee class can win, or the element stays static in the draft",
+      "source": "motion-pass",
+      "status": "pending",
+      "updatedAt": "2026-10-18T05:56:52.970Z"
+    },
+    {
+      "id": "pass-sampled-a0f7550b",
+      "createdAt": "2026-10-18T05:56:52.970Z",
+      "selector": "div>main>section>div:nth-of-type(2)>div:nth-of-type(6)",
+      "scope": "div>main>section>div:nth-of-type(2)>div:nth-of-type(6)",
+      "tier": "sampled",
+      "action": "skipped",
+      "verify": "warn",
+      "receipt": "skipped — ongoing motion with no periodic fit — a clip that stops is a fabricated ending; sample longer so the marquee class can win, or the element stays static in the draft",
+      "source": "motion-pass",
+      "status": "pending",
+      "updatedAt": "2026-10-18T05:56:52.970Z"
+    },
+    {
+      "id": "pass-sampled-6fdf40ce",
+      "createdAt": "2026-10-18T05:56:52.970Z",
+      "selector": "div>main>section>div:nth-of-type(2)>div:nth-of-type(1)",
+      "scope": "div>main>section>div:nth-of-type(2)>div:nth-of-type(1)",
+      "tier": "sampled",
+      "action": "skipped",
+      "verify": "warn",
+      "receipt": "skipped — ongoing motion with no periodic fit — a clip that stops is a fabricated ending; sample longer so the marquee class can win, or the element stays static in the draft",
+      "source": "motion-pass",
+      "status": "pending",
+      "updatedAt": "2026-10-18T05:56:52.970Z"
+    },
+    {
+      "id": "pass-sampled-1e907b84",
+      "createdAt": "2026-10-18T05:56:52.971Z",
+      "selector": "div>main>section>div:nth-of-type(2)>div:nth-of-type(2)",
+      "scope": "div>main>section>div:nth-of-type(2)>div:nth-of-type(2)",
+      "tier": "sampled",
+      "action": "skipped",
+      "verify": "warn",
+      "receipt": "skipped — ongoing motion with no periodic fit — a clip that stops is a fabricated ending; sample longer so the marquee class can win, or the element stays static in the draft",
+      "source": "motion-pass",
+      "status": "pending",
+      "updatedAt": "2026-10-18T05:56:52.971Z"
+    },
+    {
+      "id": "pass-sampled-97239450",
+      "createdAt": "2026-10-18T05:56:52.971Z",
+      "selector": "main>section>div:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(1)",
+      "scope": "main>section>div:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(1)",
+      "tier": "sampled",
+      "action": "skipped",
+      "verify": "warn",
+      "receipt": "skipped — ongoing motion with no periodic fit — a clip that stops is a fabricated ending; sample longer so the marquee class can win, or the element stays static in the draft",
+      "source": "motion-pass",
+      "status": "pending",
+      "updatedAt": "2026-10-18T05:56:52.971Z"
+    },
+    {
+      "id": "pass-sampled-413500fd",
+      "createdAt": "2026-10-18T05:56:52.971Z",
+      "selector": "main>section>div:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(2)",
+      "scope": "main>section>div:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(2)",
+      "tier": "sampled",
+      "action": "skipped",
+      "verify": "warn",
+      "receipt": "skipped — ongoing motion with no periodic fit — a clip that stops is a fabricated ending; sample longer so the marquee class can win, or the element stays static in the draft",
+      "source": "motion-pass",
+      "status": "pending",
+      "updatedAt": "2026-10-18T05:56:52.971Z"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "name": "manila",
+  "url": "https://manila-template.modulify.website/",
+  "width": 1728,
+  "createdAt": "2026-10-18T05:54:36.113Z",
+  "phaseOrder": [
+    "target",
+    "assets",
+    "measure",
+    "build",
+    "visual",
+    "coverage",
+    "strict",
+    "behavior",
+    "review",
+    "done"
+  ],
+  "phases": {
+    "target": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "1a758c502b",
+      "sha256": "3a95f6dd564667f3",
+      "evidence": null,
+      "ts": "2026-10-18T05:54:36.149Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "assets": {
+      "status": "pass",
+      "kind": "attested",
+      "runId": "7c2291cd0d",
+      "sha256": "97871ec668c05e98",
+      "evidence": "Captured source DOM and original SVG/raster assets, both source stylesheets and 170 wOF2 font files through capture-build; original GSAP module reused byte-for-byte with source SHA-256 in qa/provenance.json.",
+      "ts": "2026-10-18T06:03:51.531Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "measure": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "d5e8c7e970",
+      "sha256": "957b20a9de216198",
+      "evidence": null,
+      "ts": "2026-10-18T06:03:51.580Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "build": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "ef795fa89a",
+      "sha256": "1d9060e9478f475a",
+      "evidence": null,
+      "ts": "2026-10-18T06:05:35.197Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "visual": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "89eed882bb",
+      "sha256": "1d9060e9478f475a",
+      "evidence": null,
+      "ts": "2026-10-18T06:05:35.236Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "coverage": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "1ff3e4cce3",
+      "sha256": "212ace127bb5fbea",
+      "evidence": null,
+      "ts": "2026-10-18T06:05:35.272Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "strict": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "6115acae0c",
+      "sha256": "1d9060e9478f475a",
+      "evidence": null,
+      "ts": "2026-10-18T06:05:35.309Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "behavior": {
+      "status": "pending",
+      "kind": "machine",
+      "runId": null,
+      "sha256": null,
+      "evidence": null,
+      "ts": null,
+      "forced": false
+    },
+    "review": {
+      "status": "pending",
+      "kind": "machine",
+      "runId": null,
+      "sha256": null,
+      "evidence": null,
+      "ts": null,
+      "forced": false
+    },
+    "done": {
+      "status": "pending",
+      "kind": "machine",
+      "runId": null,
+      "sha256": null,
+      "evidence": null,
+      "ts": null,
+      "forced": false
+    }
+  }
+}

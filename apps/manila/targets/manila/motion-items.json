@@ -1,0 +1,70 @@
+{
+  "schema": "pingfusi/motion-items@2",
+  "items": [
+    {
+      "id": "pass-sampled-fe1cfef5",
+      "createdAt": "2026-10-18T06:06:16.640Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "tier": "sampled",
+      "action": "player-applied",
+      "verify": "warn",
+      "receipt": "1 track(s) replayed as time-based WAAPI in clone/motion-replay.js (parameters verbatim from motion-doc.json; owner probe unavailable)",
+      "source": "motion-pass",
+      "status": "pending",
+      "updatedAt": "2026-10-18T06:06:16.640Z"
+    },
+    {
+      "id": "pass-sampled-0c6a40e2",
+      "createdAt": "2026-10-18T06:06:16.640Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)",
+      "tier": "sampled",
+      "action": "player-applied",
+      "verify": "warn",
+      "receipt": "1 track(s) replayed as time-based WAAPI in clone/motion-replay.js (parameters verbatim from motion-doc.json; owner probe unavailable)",
+      "source": "motion-pass",
+      "status": "pending",
+      "updatedAt": "2026-10-18T06:06:16.640Z"
+    },
+    {
+      "id": "pass-sampled-9a24f845",
+      "createdAt": "2026-10-18T06:06:16.640Z",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div>img",
+      "scope": "div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div>img",
+      "tier": "sampled",
+      "action": "player-applied",
+      "verify": "warn",
+      "receipt": "1 track(s) replayed as time-based WAAPI in clone/motion-replay.js (parameters verbatim from motion-doc.json; owner probe unavailable)",
+      "source": "motion-pass",
+      "status": "pending",
+      "updatedAt": "2026-10-18T06:06:16.640Z"
+    },
+    {
+      "id": "pass-sampled-6d3c6921",
+      "createdAt": "2026-10-18T06:06:16.640Z",
+      "selector": "div>main>div:nth-of-type(1)>div:nth-of-type(2)>div",
+      "scope": "div>main>div:nth-of-type(1)>div:nth-of-type(2)>div",
+      "tier": "sampled",
+      "action": "skipped",
+      "verify": "warn",
+      "receipt": "skipped — ongoing motion with no periodic fit — a clip that stops is a fabricated ending; sample longer so the marquee class can win, or the element stays static in the draft",
+      "source": "motion-pass",
+      "status": "pending",
+      "updatedAt": "2026-10-18T06:06:16.640Z"
+    },
+    {
+      "id": "pass-sampled-20664630",
+      "createdAt": "2026-10-18T06:06:16.640Z",
+      "selector": "div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div",
+      "scope": "div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div",
+      "tier": "sampled",
+      "action": "skipped",
+      "verify": "warn",
+      "receipt": "skipped — ongoing motion with no periodic fit — a clip that stops is a fabricated ending; sample longer so the marquee class can win, or the element stays static in the draft",
+      "source": "motion-pass",
+      "status": "pending",
+      "updatedAt": "2026-10-18T06:06:16.640Z"
+    }
+  ]
+}

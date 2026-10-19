@@ -1,0 +1,42 @@
+{
+  "schema": "pingfusi/motion-pass@1",
+  "at": "2026-10-18T05:59:18.165Z",
+  "target": "sandiego",
+  "ok": true,
+  "doc": {
+    "file": "targets/sandiego/motion-doc.json",
+    "sha256_16": "af67b663780b9723"
+  },
+  "tracks": {
+    "total": 2,
+    "cssInherited": 0,
+    "playersApplied": 2,
+    "skipped": 0
+  },
+  "ownerProbe": {
+    "mode": "unavailable",
+    "reason": "owner probe could not watch 7 element(s) beyond 5 viewport group(s) (first: div>div:nth-of-type(2)>div>div>div:nth-of-type(1)) — apply items separately or narrow their scopes",
+    "changed": [],
+    "elements": 0
+  },
+  "replay": {
+    "file": "targets/sandiego/clone/motion-replay.js",
+    "sha256_16": "46150f239add34e1",
+    "bytes": 7690,
+    "scriptTag": "inserted",
+    "tracks": 2
+  },
+  "items": {
+    "schema": "pingfusi/motion-items@2",
+    "ids": [
+      "pass-sampled-4618af54",
+      "pass-sampled-41cc420f"
+    ]
+  },
+  "assets": [],
+  "skipped": [],
+  "warnings": [
+    "owner probe unavailable (owner probe could not watch 7 element(s) beyond 5 viewport group(s) (first: div>div:nth-of-type(2)>div>div>div:nth-of-type(1)) — apply items separately or narrow their scopes) — players applied with ownership UNVERIFIED (receipted)"
+  ],
+  "summary": "2 track(s), 0 css-inherited, 2 player-applied, 0 skipped, 1 warning(s) — receipts and warnings only; motion never fails a build"
+}

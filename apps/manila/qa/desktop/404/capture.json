@@ -1,0 +1,57 @@
+{
+  "route": "/404",
+  "mode": "desktop",
+  "viewport": {
+    "width": 1728,
+    "height": 982,
+    "dpr": 2
+  },
+  "settle": {
+    "scrolledTo": 2609,
+    "frozenOpacity0": 2,
+    "stable": true,
+    "sweeps": 1,
+    "heights": [
+      2609
+    ],
+    "imagesPending": 0,
+    "lazyPromoted": 0,
+    "lazyPromotedSrcs": [],
+    "pendingImageSrcs": []
+  },
+  "leaves": 60,
+  "freeze": {
+    "supported": true,
+    "frozen": 0,
+    "ids": [],
+    "players": [],
+    "alreadyPaused": 0,
+    "skipped": {
+      "finished": 0,
+      "scrollLinked": 0,
+      "agentDom": 0,
+      "kitPlayer": 0,
+      "failed": 0
+    },
+    "unfreezable": [
+      "div:nth-of-type(2)>div:nth-of-type(1)>div>div>img:nth-of-type(1)",
+      "div:nth-of-type(2)>div:nth-of-type(1)>div>div>img:nth-of-type(2)"
+    ],
+    "stillMoving": [
+      "div:nth-of-type(2)>div:nth-of-type(1)>div>div>img:nth-of-type(1)",
+      "div:nth-of-type(2)>div:nth-of-type(1)>div>div>img:nth-of-type(2)"
+    ],
+    "watch": {
+      "ran": true,
+      "intervals": 2,
+      "intervalMs": 180,
+      "tracked": 23,
+      "writes": 4,
+      "truncated": false
+    },
+    "excludedMarks": {
+      "img_cta_cone_image": "div:nth-of-type(2)>div:nth-of-type(1)>div>div>img:nth-of-type(1)",
+      "img_cta_circle_image": "div:nth-of-type(2)>div:nth-of-type(1)>div>div>img:nth-of-type(2)"
+    }
+  }
+}

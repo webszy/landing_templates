@@ -1,0 +1,4 @@
+{
+  "marqueeSelectors": [["client_logos", ".trusted-by-grid"]],
+  "hoverTriggers": [["pages_menu", ".nav-pages"]]
+}

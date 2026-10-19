@@ -1,0 +1,2 @@
+{"ts":"2026-10-18T05:52:46.531Z","phase":"target","runId":"1870c15162","gate":"pass","forced":false,"blocked":false,"overrode":[],"sha256":"77186aba3edd8b6d","artifact":"targets/sandiego/target.json","evidence":null,"reason":"target https://sandiego-template.modulify.website/ @ 1728px"}
+{"ts":"2026-10-18T05:59:18.165Z","event":"motion-pass","phase":null,"runId":"6584230b2f","gate":null,"forced":false,"reason":"2 track(s), 0 css-inherited, 2 player-applied, 0 skipped, 1 warning(s) — receipts and warnings only; motion never fails a build"}

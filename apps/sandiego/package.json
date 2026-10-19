@@ -1,0 +1,18 @@
+{
+  "name": "@templates/sandiego",
+  "version": "1.0.0",
+  "private": true,
+  "description": "San Diego template cloned from its captured public DOM with CopyAnything.",
+  "config": {
+    "siteRoot": "targets/sandiego/clone",
+    "port": 3007
+  },
+  "scripts": {
+    "dev": "node ../../scripts/static-site.mjs serve",
+    "start": "node ../../scripts/static-site.mjs serve",
+    "build": "node ../../scripts/static-site.mjs build",
+    "check": "node ../../scripts/static-site.mjs check",
+    "effects": "node scripts/restore-interactions.mjs",
+    "capture:routes": "node scripts/capture-routes.mjs"
+  }
+}

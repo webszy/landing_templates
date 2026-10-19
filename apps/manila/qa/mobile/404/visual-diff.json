@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "rows": [],
+  "warnings": [],
+  "excluded": [],
+  "summary": {
+    "targets": 50,
+    "comparisons": 592,
+    "failures": 0,
+    "excluded": 0,
+    "tol": 0.5
+  }
+}

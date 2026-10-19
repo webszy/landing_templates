@@ -1,0 +1,391 @@
+{
+  "kitVersion": "0.17.1",
+  "at": "2026-10-18T05:55:41.193Z",
+  "mode": "cdp-launched",
+  "chromeVersion": "Chrome/155.0.8059.84",
+  "headless": true,
+  "profile": "temp",
+  "viewport": {
+    "width": 1728,
+    "height": 982,
+    "dpr": 2,
+    "sources": {
+      "width": "target.json",
+      "height": "default",
+      "dpr": "default"
+    }
+  },
+  "sides": [
+    {
+      "side": "live",
+      "url": "https://revolver-template.modulify.website/",
+      "leaves": 120,
+      "byKind": {
+        "text": 48,
+        "media": 27,
+        "painted-container": 3,
+        "bg-image": 24,
+        "painted-box": 18
+      },
+      "settle": {
+        "stable": true,
+        "scrolledTo": 982,
+        "imagesPending": 0
+      },
+      "files": [
+        {
+          "file": "live.json",
+          "bytes": 100220
+        },
+        {
+          "file": "coverage.json",
+          "bytes": 2772
+        },
+        {
+          "file": "dom.html",
+          "bytes": 47487
+        }
+      ],
+      "tookMs": 153542,
+      "viewportRead": {
+        "iw": 1728,
+        "cw": 1728,
+        "ih": 982,
+        "dpr": 2
+      },
+      "probe": {
+        "rafHz": 62,
+        "anim": {
+          "expectedPxPerSec": 100,
+          "measuredPxPerSec": 81.46
+        },
+        "attempts": 1
+      },
+      "paint": {
+        "stat": {
+          "width": 3456,
+          "height": 1964,
+          "sampled": 212112,
+          "nonUniformRatio": 0.12,
+          "lumaMean": 245.4,
+          "lumaStdev": 36.6,
+          "nearBlank": false
+        }
+      },
+      "canvas": {
+        "schema": "pingfusi/canvas-dominant@1",
+        "viewport": {
+          "w": 1728,
+          "h": 982
+        },
+        "canvases": 0,
+        "bestCoverage": 0,
+        "marksInFront": 0,
+        "dominant": false
+      },
+      "freeze": {
+        "supported": true,
+        "frozen": 0,
+        "ids": [],
+        "players": [],
+        "alreadyPaused": 0,
+        "skipped": {
+          "finished": 0,
+          "scrollLinked": 0,
+          "agentDom": 0,
+          "kitPlayer": 0,
+          "failed": 0
+        },
+        "unfreezable": [
+          "div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div>div:nth-of-type(1)",
+          "div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(1)",
+          "div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div>div:nth-of-type(1)",
+          "div:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(1)>div>div:nth-of-type(1)",
+          "div:nth-of-type(2)>div:nth-of-type(5)>div:nth-of-type(1)>div>div:nth-of-type(1)",
+          "div:nth-of-type(2)>div:nth-of-type(6)>div:nth-of-type(1)>div>div:nth-of-type(1)",
+          "div>main>section>div:nth-of-type(2)>div:nth-of-type(1)",
+          "div>main>section>div:nth-of-type(2)>div:nth-of-type(2)",
+          "div>main>section>div:nth-of-type(2)>div:nth-of-type(3)",
+          "div>main>section>div:nth-of-type(2)>div:nth-of-type(4)",
+          "div>main>section>div:nth-of-type(2)>div:nth-of-type(5)",
+          "div>main>section>div:nth-of-type(2)>div:nth-of-type(6)",
+          "main>section>div:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(1)",
+          "main>section>div:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(2)"
+        ],
+        "stillMoving": [
+          "div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div>div:nth-of-type(1)",
+          "div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(1)",
+          "div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>div>div:nth-of-type(1)",
+          "div:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(1)>div>div:nth-of-type(1)",
+          "div:nth-of-type(2)>div:nth-of-type(5)>div:nth-of-type(1)>div>div:nth-of-type(1)",
+          "div:nth-of-type(2)>div:nth-of-type(6)>div:nth-of-type(1)>div>div:nth-of-type(1)",
+          "div>main>section>div:nth-of-type(2)>div:nth-of-type(1)",
+          "div>main>section>div:nth-of-type(2)>div:nth-of-type(2)",
+          "div>main>section>div:nth-of-type(2)>div:nth-of-type(3)",
+          "div>main>section>div:nth-of-type(2)>div:nth-of-type(4)",
+          "div>main>section>div:nth-of-type(2)>div:nth-of-type(5)",
+          "div>main>section>div:nth-of-type(2)>div:nth-of-type(6)"
+        ],
+        "watch": {
+          "ran": true,
+          "intervals": 2,
+          "intervalMs": 180,
+          "tracked": 26,
+          "writes": 39,
+          "truncated": false
+        },
+        "excludedMarkCount": 102
+      },
+      "freezePatch": {
+        "selectors": [
+          "main>section>div:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(1)",
+          "main>section>div:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(2)"
+        ],
+        "marks": 17
+      },
+      "motion": {
+        "warnings": [],
+        "sampled": {
+          "detected": 5,
+          "depthsProbed": 1,
+          "groups": 2,
+          "runs": [
+            {
+              "trigger": "load",
+              "scopes": [
+                "div>main>section>div:nth-of-type(2)>div:nth-of-type(5)",
+                "div>main>section>div:nth-of-type(2)>div:nth-of-type(6)",
+                "div>main>section>div:nth-of-type(2)>div:nth-of-type(1)",
+                "div>main>section>div:nth-of-type(2)>div:nth-of-type(2)"
+              ],
+              "fps": 60,
+              "frames": 240,
+              "stepMs": 16.666666666666668,
+              "virtualTime": {
+                "mode": "hooked-clock",
+                "fallbackReason": "virtual time does not drive frames on this Chrome (1 rAF frame(s) across a 200 virtual-ms advance; headless=new has no begin-frame control)",
+                "epochMs": 1700000000000,
+                "hookedSurface": "performance.now+Date.now+rAF+setTimeout/Interval+IntersectionObserver",
+                "settlePolicy": "drain+step+freeze",
+                "networkPinning": "fetch-batch+layout-batch",
+                "cacheDisabled": true,
+                "wallBarrierMs": 3000,
+                "freezeMs": 250
+              },
+              "settle": {
+                "loadFrames": 0,
+                "preTriggerFrames": 120,
+                "loadDriftMs": null,
+                "preTriggerMs": null,
+                "frames": 120,
+                "policy": "hooked-clock-step",
+                "resourcesAtRecord": 22,
+                "network": {
+                  "batches": 6,
+                  "released": 23,
+                  "streamingExcluded": 0,
+                  "layoutBatchReleased": 9,
+                  "heldAtStop": 0
+                }
+              },
+              "recorder": {
+                "tracking": 12,
+                "truncated": false,
+                "writes": 2845
+              },
+              "sampling": {
+                "fps": 60,
+                "stepMs": 16.666666666666668,
+                "frames": 240,
+                "elements": 12,
+                "tracks": 9,
+                "staticDropped": 39,
+                "unaddressable": 0,
+                "writesTotal": 2845,
+                "writesMerged": 1030,
+                "truncated": false,
+                "ongoing": 7
+              },
+              "determinism": {
+                "runs": 1
+              },
+              "fit": {
+                "attempted": 18,
+                "attached": [
+                  {
+                    "selector": "div>main>section>div:nth-of-type(2)>div:nth-of-type(6)",
+                    "property": "transform",
+                    "channel": "ty",
+                    "kind": "tween",
+                    "nrmse": 0.03981
+                  },
+                  {
+                    "selector": "div>main>section>div:nth-of-type(2)>div:nth-of-type(6)",
+                    "property": "transform",
+                    "channel": "sx",
+                    "kind": "tween",
+                    "nrmse": 0.04372
+                  },
+                  {
+                    "selector": "div>main>section>div:nth-of-type(2)>div:nth-of-type(6)",
+                    "property": "opacity",
+                    "channel": "opacity",
+                    "kind": "tween",
+                    "nrmse": 0.00521
+                  },
+                  {
+                    "selector": "div>main>section>div:nth-of-type(2)>div:nth-of-type(1)",
+                    "property": "transform",
+                    "channel": "ty",
+                    "kind": "tween",
+                    "nrmse": 0.04592
+                  },
+                  {
+                    "selector": "div>main>section>div:nth-of-type(2)>div:nth-of-type(1)",
+                    "property": "transform",
+                    "channel": "sx",
+                    "kind": "tween",
+                    "nrmse": 0.0494
+                  },
+                  {
+                    "selector": "div>main>section>div:nth-of-type(2)>div:nth-of-type(1)",
+                    "property": "transform",
+                    "channel": "rot",
+                    "kind": "tween",
+                    "nrmse": 0.03573
+                  },
+                  {
+                    "selector": "div>main>section>div:nth-of-type(2)>div:nth-of-type(2)",
+                    "property": "transform",
+                    "channel": "ty",
+                    "kind": "tween",
+                    "nrmse": 0.04144
+                  }
+                ],
+                "rejected": 10,
+                "reclassified": []
+              },
+              "sampledTrackIds": [
+                "t-f57f20dcf3f8",
+                "t-dbed90add177",
+                "t-9e5662f75e8a",
+                "t-6862c7a81c56",
+                "t-f8e6dbc9869a",
+                "t-6f50671845dd",
+                "t-5c50767a4550",
+                "t-9b818fe515ef",
+                "t-1dc291528296"
+              ]
+            },
+            {
+              "trigger": "scroll-to:div>main>section>div:nth-of-type(2)>div:nth-of-type(4)",
+              "scopes": [
+                "div>main>section>div:nth-of-type(2)>div:nth-of-type(4)"
+              ],
+              "fps": 60,
+              "frames": 240,
+              "stepMs": 16.666666666666668,
+              "virtualTime": {
+                "mode": "hooked-clock",
+                "fallbackReason": "virtual time does not drive frames on this Chrome (1 rAF frame(s) across a 200 virtual-ms advance; headless=new has no begin-frame control)",
+                "epochMs": 1700000000000,
+                "hookedSurface": "performance.now+Date.now+rAF+setTimeout/Interval+IntersectionObserver",
+                "settlePolicy": "drain+step+freeze",
+                "networkPinning": "fetch-batch+layout-batch",
+                "cacheDisabled": true,
+                "wallBarrierMs": 3000,
+                "freezeMs": 250
+              },
+              "settle": {
+                "loadFrames": 0,
+                "preTriggerFrames": 120,
+                "loadDriftMs": null,
+                "preTriggerMs": null,
+                "frames": 120,
+                "policy": "hooked-clock-step",
+                "resourcesAtRecord": 22,
+                "network": {
+                  "batches": 6,
+                  "released": 23,
+                  "streamingExcluded": 0,
+                  "layoutBatchReleased": 9,
+                  "heldAtStop": 0
+                }
+              },
+              "recorder": {
+                "tracking": 3,
+                "truncated": false,
+                "writes": 700
+              },
+              "sampling": {
+                "fps": 60,
+                "stepMs": 16.666666666666668,
+                "frames": 240,
+                "elements": 3,
+                "tracks": 5,
+                "staticDropped": 7,
+                "unaddressable": 0,
+                "writesTotal": 700,
+                "writesMerged": 260,
+                "truncated": false,
+                "ongoing": 3
+              },
+              "determinism": {
+                "runs": 1
+              },
+              "fit": {
+                "attempted": 5,
+                "attached": [
+                  {
+                    "selector": "div>main>section>div:nth-of-type(2)>div:nth-of-type(4)",
+                    "property": "transform",
+                    "channel": "ty",
+                    "kind": "marquee",
+                    "nrmse": 0.08912
+                  },
+                  {
+                    "selector": "div>main>section>div:nth-of-type(2)>div:nth-of-type(4)",
+                    "property": "transform",
+                    "channel": "sx",
+                    "kind": "spring",
+                    "nrmse": 0.08586
+                  },
+                  {
+                    "selector": "div>main>section>div:nth-of-type(2)>div:nth-of-type(4)",
+                    "property": "opacity",
+                    "channel": "opacity",
+                    "kind": "spring",
+                    "nrmse": 0.00603
+                  }
+                ],
+                "rejected": 2,
+                "reclassified": [
+                  {
+                    "selector": "div>main>section>div:nth-of-type(2)>div:nth-of-type(4)",
+                    "property": "transform",
+                    "channel": "ty",
+                    "from": "tween",
+                    "to": "marquee",
+                    "velocityPxPerSec": 11.9545
+                  }
+                ]
+              },
+              "sampledTrackIds": [
+                "t-fd714d176d05",
+                "t-77884cb58cb8",
+                "t-c199df98f52a",
+                "t-ea1c63808423",
+                "t-6021a9fa635c"
+              ]
+            }
+          ],
+          "receipt": "targets/revolver/motion/auto-sample.json",
+          "tracks": 14
+        },
+        "file": "motion-doc.json",
+        "tracks": 14,
+        "assets": 0
+      }
+    }
+  ]
+}

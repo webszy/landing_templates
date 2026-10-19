@@ -1,0 +1,95 @@
+{
+  "viewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 2
+  },
+  "results": [
+    {
+      "route": "/",
+      "pass": true,
+      "state": {
+        "title": "Manila",
+        "width": 390,
+        "scrollWidth": 390,
+        "missingImages": [],
+        "externalResources": []
+      },
+      "summary": [
+        "⚠  65 mark(s) EXCLUDED from comparison — inside unfreezable movers' subtrees (rAF-driven; phase cannot be frozen, receipted in the snapshots' freeze field):",
+        "✓ PASS — 2341 comparisons across 245 targets, all within 0.5px. 65 mark(s) excluded (unfreezable movers — listed above)."
+      ]
+    },
+    {
+      "route": "/privacy",
+      "pass": true,
+      "state": {
+        "title": "Privacy | Manila",
+        "width": 390,
+        "scrollWidth": 390,
+        "missingImages": [],
+        "externalResources": []
+      },
+      "summary": [
+        "✓ PASS — 1365 comparisons across 89 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/404",
+      "pass": true,
+      "state": {
+        "title": "Page not found | Manila",
+        "width": 390,
+        "scrollWidth": 390,
+        "missingImages": [],
+        "externalResources": []
+      },
+      "summary": [
+        "✓ PASS — 592 comparisons across 50 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/post/building-ecommerce-now-a-breeze",
+      "pass": true,
+      "state": {
+        "title": "Building Ecommerce Now a Breeze | Manila",
+        "width": 390,
+        "scrollWidth": 390,
+        "missingImages": [],
+        "externalResources": []
+      },
+      "summary": [
+        "✓ PASS — 1450 comparisons across 97 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/post/result-driven-modulify-templates",
+      "pass": true,
+      "state": {
+        "title": "Result Driven Modulify Templates | Manila",
+        "width": 390,
+        "scrollWidth": 390,
+        "missingImages": [],
+        "externalResources": []
+      },
+      "summary": [
+        "✓ PASS — 1450 comparisons across 97 targets, all within 0.5px."
+      ]
+    },
+    {
+      "route": "/post/top-10-modulify-template-categories",
+      "pass": true,
+      "state": {
+        "title": "Top 10 Modulify Template Categories | Manila",
+        "width": 390,
+        "scrollWidth": 390,
+        "missingImages": [],
+        "externalResources": []
+      },
+      "summary": [
+        "✓ PASS — 1661 comparisons across 104 targets, all within 0.5px."
+      ]
+    }
+  ],
+  "errors": []
+}

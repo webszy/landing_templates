@@ -1,0 +1,469 @@
+{
+  "ok": true,
+  "rows": [],
+  "warnings": [],
+  "excluded": [
+    {
+      "target": "img_client_logo",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "img_client_logo_2",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "img_client_logo_3",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "img_client_logo_4",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "img_client_logo_5",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "img_client_logo_6",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "img_client_logo_7",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "img_client_logo_8",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "img_client_logo_9",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "img_client_logo_10",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "img_client_logo_11",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "img_client_logo_12",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "h3_task_creation_and_editing",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_users_can_easily_add_edit_an",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "img_cone_image",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "img_task_creation_interface",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_task_creation_image_holder",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "img_ethan_montgomery",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_we_have_a_flexible_schedule__2",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_ethan_montgomery",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_ceo_greenwave",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "img_qoute_icon_2",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_slider_header_container_2",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_pro",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "span_100",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_year",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_price_holder_2",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_for_anyone_validating_framer_2",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "li_everything_in_starter",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "li_up_to_2_editors_2",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "li_up_to_3_projects_2",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "li_anonymous_board_viewers",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "li_up_to_2_editors_3",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_subscribe",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_button_gradient_bg_2",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_pricing_item_2",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "h4_empowering_dreams_one_dollar",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "img_arrow_right_image",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_link_button_with_icon",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_hello_modulify_ai",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "svg",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_link_background",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "svg_2",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_link_background_2",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "svg_3",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_link_background_3",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "svg_4",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_link_background_4",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_sections",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_product",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_features",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_testimonial",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_pricing",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_company",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_blog",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_privacy",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_resources",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_blog_post",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_404",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_help",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_get_demo",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_contact",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "img_manila_2",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_2026_manila_all_rights_reser",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)",
+      "sides": [
+        "live"
+      ]
+    },
+    {
+      "target": "div_made_by_section",
+      "selector": "div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)",
+      "sides": [
+        "live"
+      ]
+    }
+  ],
+  "summary": {
+    "targets": 245,
+    "comparisons": 2341,
+    "failures": 0,
+    "excluded": 65,
+    "tol": 0.5
+  }
+}

@@ -1,0 +1,10 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const root = path.resolve(__dirname, '..');
+const original = fs.readFileSync(path.join(__dirname, 'vendor/gsap-source.js'), 'utf8');
+const start = original.indexOf('t=>{');
+if (start < 0 || !original.endsWith('}]);')) throw new Error('Original GSAP module shape changed.');
+const factory = original.slice(start, -3);
+const runtime = `// Captured GSAP 3.15 runtime from Manila's 09fhys-zcne0-.js.\n(() => {\nconst exports = {};\n(${factory})({s(values) { for (let i = 0; i < values.length; i += 3) exports[values[i]] = values[i + 2]; }});\nwindow.ManilaRuntime = exports;\n})();\n`;
+fs.writeFileSync(path.join(root, 'targets/manila/clone/fixes.js'), runtime + fs.readFileSync(path.join(__dirname, 'interactions.js'), 'utf8'));
+console.log('Restored original GSAP runtime and Manila interactions into clone/fixes.js');

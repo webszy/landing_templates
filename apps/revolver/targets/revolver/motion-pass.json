@@ -1,0 +1,120 @@
+{
+  "schema": "pingfusi/motion-pass@1",
+  "at": "2026-10-18T05:56:49.582Z",
+  "target": "revolver",
+  "ok": true,
+  "doc": {
+    "file": "targets/revolver/motion-doc.json",
+    "sha256_16": "3474f19fdadeaf2e"
+  },
+  "tracks": {
+    "total": 14,
+    "cssInherited": 0,
+    "playersApplied": 4,
+    "skipped": 10
+  },
+  "ownerProbe": {
+    "mode": "ran",
+    "changed": [],
+    "elements": 3,
+    "missing": [],
+    "replayHeld": false
+  },
+  "replay": {
+    "file": "targets/revolver/clone/motion-replay.js",
+    "sha256_16": "3fbd7205bd164f88",
+    "bytes": 101237,
+    "scriptTag": "inserted",
+    "tracks": 4
+  },
+  "items": {
+    "schema": "pingfusi/motion-items@2",
+    "ids": [
+      "pass-sampled-1fac86f1",
+      "pass-sampled-bdbaa9d9",
+      "pass-sampled-43bd024c",
+      "pass-sampled-889d930e",
+      "pass-sampled-a0f7550b",
+      "pass-sampled-6fdf40ce",
+      "pass-sampled-1e907b84",
+      "pass-sampled-97239450",
+      "pass-sampled-413500fd"
+    ]
+  },
+  "assets": [],
+  "skipped": [
+    {
+      "track": "t-f57f20dcf3f8",
+      "selector": "div>main>section>div:nth-of-type(2)>div:nth-of-type(5)",
+      "tier": "sampled",
+      "reason": "ongoing motion with no periodic fit — a clip that stops is a fabricated ending; sample longer so the marquee class can win, or the element stays static in the draft"
+    },
+    {
+      "track": "t-dbed90add177",
+      "selector": "div>main>section>div:nth-of-type(2)>div:nth-of-type(5)",
+      "tier": "sampled",
+      "reason": "ongoing motion with no periodic fit — a clip that stops is a fabricated ending; sample longer so the marquee class can win, or the element stays static in the draft"
+    },
+    {
+      "track": "t-9e5662f75e8a",
+      "selector": "div>main>section>div:nth-of-type(2)>div:nth-of-type(5)",
+      "tier": "sampled",
+      "reason": "ongoing motion with no periodic fit — a clip that stops is a fabricated ending; sample longer so the marquee class can win, or the element stays static in the draft"
+    },
+    {
+      "track": "t-6862c7a81c56",
+      "selector": "div>main>section>div:nth-of-type(2)>div:nth-of-type(6)",
+      "tier": "sampled",
+      "reason": "ongoing motion with no periodic fit — a clip that stops is a fabricated ending; sample longer so the marquee class can win, or the element stays static in the draft"
+    },
+    {
+      "track": "t-f8e6dbc9869a",
+      "selector": "div>main>section>div:nth-of-type(2)>div:nth-of-type(6)",
+      "tier": "sampled",
+      "reason": "ongoing motion with no periodic fit — a clip that stops is a fabricated ending; sample longer so the marquee class can win, or the element stays static in the draft"
+    },
+    {
+      "track": "t-6f50671845dd",
+      "selector": "div>main>section>div:nth-of-type(2)>div:nth-of-type(1)",
+      "tier": "sampled",
+      "reason": "ongoing motion with no periodic fit — a clip that stops is a fabricated ending; sample longer so the marquee class can win, or the element stays static in the draft"
+    },
+    {
+      "track": "t-1dc291528296",
+      "selector": "div>main>section>div:nth-of-type(2)>div:nth-of-type(2)",
+      "tier": "sampled",
+      "reason": "ongoing motion with no periodic fit — a clip that stops is a fabricated ending; sample longer so the marquee class can win, or the element stays static in the draft"
+    },
+    {
+      "track": "t-fd714d176d05",
+      "selector": "div>main>section>div:nth-of-type(2)>div:nth-of-type(4)",
+      "tier": "sampled",
+      "reason": "ongoing motion with no periodic fit — a clip that stops is a fabricated ending; sample longer so the marquee class can win, or the element stays static in the draft"
+    },
+    {
+      "track": "t-ea1c63808423",
+      "selector": "main>section>div:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(1)",
+      "tier": "sampled",
+      "reason": "ongoing motion with no periodic fit — a clip that stops is a fabricated ending; sample longer so the marquee class can win, or the element stays static in the draft"
+    },
+    {
+      "track": "t-6021a9fa635c",
+      "selector": "main>section>div:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(2)",
+      "tier": "sampled",
+      "reason": "ongoing motion with no periodic fit — a clip that stops is a fabricated ending; sample longer so the marquee class can win, or the element stays static in the draft"
+    }
+  ],
+  "warnings": [
+    "div>main>section>div:nth-of-type(2)>div:nth-of-type(5) transform: ongoing motion with no periodic fit — skipped (a one-shot clip would freeze mid-motion; re-sample with more --frames)",
+    "div>main>section>div:nth-of-type(2)>div:nth-of-type(5) opacity: ongoing motion with no periodic fit — skipped (a one-shot clip would freeze mid-motion; re-sample with more --frames)",
+    "div>main>section>div:nth-of-type(2)>div:nth-of-type(5) visibility: ongoing motion with no periodic fit — skipped (a one-shot clip would freeze mid-motion; re-sample with more --frames)",
+    "div>main>section>div:nth-of-type(2)>div:nth-of-type(6) transform: ongoing motion with no periodic fit — skipped (a one-shot clip would freeze mid-motion; re-sample with more --frames)",
+    "div>main>section>div:nth-of-type(2)>div:nth-of-type(6) opacity: ongoing motion with no periodic fit — skipped (a one-shot clip would freeze mid-motion; re-sample with more --frames)",
+    "div>main>section>div:nth-of-type(2)>div:nth-of-type(1) transform: ongoing motion with no periodic fit — skipped (a one-shot clip would freeze mid-motion; re-sample with more --frames)",
+    "div>main>section>div:nth-of-type(2)>div:nth-of-type(2) transform: ongoing motion with no periodic fit — skipped (a one-shot clip would freeze mid-motion; re-sample with more --frames)",
+    "div>main>section>div:nth-of-type(2)>div:nth-of-type(4) transform: ongoing motion with no periodic fit — skipped (a one-shot clip would freeze mid-motion; re-sample with more --frames)",
+    "main>section>div:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(1) visibility: ongoing motion with no periodic fit — skipped (a one-shot clip would freeze mid-motion; re-sample with more --frames)",
+    "main>section>div:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(2) visibility: ongoing motion with no periodic fit — skipped (a one-shot clip would freeze mid-motion; re-sample with more --frames)"
+  ],
+  "summary": "14 track(s), 0 css-inherited, 4 player-applied, 10 skipped, 10 warning(s) — receipts and warnings only; motion never fails a build"
+}

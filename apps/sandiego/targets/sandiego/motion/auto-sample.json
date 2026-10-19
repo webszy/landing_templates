@@ -1,0 +1,196 @@
+{
+  "schema": "pingfusi/motion-sample@1",
+  "at": "2026-10-18T05:55:52.531Z",
+  "target": "sandiego",
+  "item": "auto (capture-run)",
+  "url": "https://sandiego-template.modulify.website/",
+  "viewport": {
+    "width": 1728,
+    "height": 982,
+    "dpr": 2,
+    "sources": {
+      "width": "target.json",
+      "height": "default",
+      "dpr": "default"
+    }
+  },
+  "detected": [
+    {
+      "selector": "div>div:nth-of-type(2)>div>div>div:nth-of-type(1)",
+      "property": "transform",
+      "depth": 0
+    },
+    {
+      "selector": "div>div:nth-of-type(2)>div>div>div:nth-of-type(2)",
+      "property": "transform",
+      "depth": 0
+    }
+  ],
+  "depthsProbed": 12,
+  "runs": [
+    {
+      "trigger": "scroll-to:div>div:nth-of-type(2)>div>div>div:nth-of-type(1)",
+      "scopes": [
+        "div>div:nth-of-type(2)>div>div>div:nth-of-type(1)"
+      ],
+      "fps": 60,
+      "frames": 240,
+      "stepMs": 16.666666666666668,
+      "virtualTime": {
+        "mode": "hooked-clock",
+        "fallbackReason": "virtual time does not drive frames on this Chrome (1 rAF frame(s) across a 200 virtual-ms advance; headless=new has no begin-frame control)",
+        "epochMs": 1700000000000,
+        "hookedSurface": "performance.now+Date.now+rAF+setTimeout/Interval+IntersectionObserver",
+        "settlePolicy": "drain+step+freeze",
+        "networkPinning": "fetch-batch+layout-batch",
+        "cacheDisabled": true,
+        "wallBarrierMs": 3000,
+        "freezeMs": 250
+      },
+      "settle": {
+        "loadFrames": 0,
+        "preTriggerFrames": 120,
+        "loadDriftMs": null,
+        "preTriggerMs": null,
+        "frames": 120,
+        "policy": "hooked-clock-step",
+        "resourcesAtRecord": 56,
+        "network": {
+          "batches": 10,
+          "released": 57,
+          "streamingExcluded": 0,
+          "layoutBatchReleased": 28,
+          "heldAtStop": 0
+        }
+      },
+      "recorder": {
+        "tracking": 21,
+        "truncated": false,
+        "writes": 542
+      },
+      "sampling": {
+        "fps": 60,
+        "stepMs": 16.666666666666668,
+        "frames": 240,
+        "elements": 21,
+        "tracks": 2,
+        "staticDropped": 82,
+        "unaddressable": 0,
+        "writesTotal": 542,
+        "writesMerged": 480,
+        "truncated": false,
+        "ongoing": 2
+      },
+      "determinism": {
+        "runs": 1
+      },
+      "fit": {
+        "attempted": 2,
+        "attached": [
+          {
+            "selector": "div>div:nth-of-type(2)>div>div>div:nth-of-type(1)",
+            "property": "transform",
+            "channel": "tx",
+            "kind": "marquee",
+            "nrmse": 0
+          },
+          {
+            "selector": "div>div:nth-of-type(2)>div>div>div:nth-of-type(2)",
+            "property": "transform",
+            "channel": "tx",
+            "kind": "marquee",
+            "nrmse": 0
+          }
+        ],
+        "rejected": 0,
+        "reclassified": []
+      },
+      "sampledTrackIds": [
+        "t-dcdccac3cb8a",
+        "t-00084b0fdeb0"
+      ]
+    },
+    {
+      "trigger": "scroll-to:div>div:nth-of-type(2)>div>div>div:nth-of-type(2)",
+      "scopes": [
+        "div>div:nth-of-type(2)>div>div>div:nth-of-type(2)"
+      ],
+      "fps": 60,
+      "frames": 240,
+      "stepMs": 16.666666666666668,
+      "virtualTime": {
+        "mode": "hooked-clock",
+        "fallbackReason": "virtual time does not drive frames on this Chrome (1 rAF frame(s) across a 200 virtual-ms advance; headless=new has no begin-frame control)",
+        "epochMs": 1700000000000,
+        "hookedSurface": "performance.now+Date.now+rAF+setTimeout/Interval+IntersectionObserver",
+        "settlePolicy": "drain+step+freeze",
+        "networkPinning": "fetch-batch+layout-batch",
+        "cacheDisabled": true,
+        "wallBarrierMs": 3000,
+        "freezeMs": 250
+      },
+      "settle": {
+        "loadFrames": 0,
+        "preTriggerFrames": 120,
+        "loadDriftMs": null,
+        "preTriggerMs": null,
+        "frames": 120,
+        "policy": "hooked-clock-step",
+        "resourcesAtRecord": 55,
+        "network": {
+          "batches": 9,
+          "released": 56,
+          "streamingExcluded": 0,
+          "layoutBatchReleased": 27,
+          "heldAtStop": 0
+        }
+      },
+      "recorder": {
+        "tracking": 18,
+        "truncated": false,
+        "writes": 480
+      },
+      "sampling": {
+        "fps": 60,
+        "stepMs": 16.666666666666668,
+        "frames": 240,
+        "elements": 18,
+        "tracks": 2,
+        "staticDropped": 70,
+        "unaddressable": 0,
+        "writesTotal": 480,
+        "writesMerged": 480,
+        "truncated": false,
+        "ongoing": 2
+      },
+      "determinism": {
+        "runs": 1
+      },
+      "fit": {
+        "attempted": 2,
+        "attached": [
+          {
+            "selector": "div>div:nth-of-type(2)>div>div>div:nth-of-type(1)",
+            "property": "transform",
+            "channel": "tx",
+            "kind": "marquee",
+            "nrmse": 0
+          },
+          {
+            "selector": "div>div:nth-of-type(2)>div>div>div:nth-of-type(2)",
+            "property": "transform",
+            "channel": "tx",
+            "kind": "marquee",
+            "nrmse": 0
+          }
+        ],
+        "rejected": 0,
+        "reclassified": []
+      },
+      "sampledTrackIds": [
+        "t-dcdccac3cb8a",
+        "t-00084b0fdeb0"
+      ]
+    }
+  ]
+}

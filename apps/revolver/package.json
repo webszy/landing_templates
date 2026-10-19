@@ -1,0 +1,17 @@
+{
+  "name": "@templates/revolver",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Revolver template cloned from its captured public DOM with CopyAnything.",
+  "config": {
+    "siteRoot": "targets/revolver/clone",
+    "port": 3008
+  },
+  "scripts": {
+    "dev": "node ../../scripts/static-site.mjs serve",
+    "start": "node ../../scripts/static-site.mjs serve",
+    "build": "node ../../scripts/static-site.mjs build",
+    "check": "node ../../scripts/static-site.mjs check",
+    "effects": "node scripts/restore-interactions.mjs"
+  }
+}

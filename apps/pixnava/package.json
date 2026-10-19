@@ -1,0 +1,16 @@
+{
+  "name": "@templates/pixnava",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pixnova creative companion \u2014 standalone landing page, adapted from the Manila static template.",
+  "config": {
+    "siteRoot": "targets/pixnava/clone",
+    "port": 3010
+  },
+  "scripts": {
+    "dev": "node ../../scripts/static-site.mjs serve",
+    "start": "node ../../scripts/static-site.mjs serve",
+    "build": "node ../../scripts/static-site.mjs build",
+    "check": "node ../../scripts/static-site.mjs check"
+  }
+}

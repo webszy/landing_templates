@@ -1,0 +1,122 @@
+[
+  {
+    "route": "/features",
+    "target": "sandiego-features",
+    "leaves": 149
+  },
+  {
+    "route": "/company",
+    "target": "sandiego-company",
+    "leaves": 129
+  },
+  {
+    "route": "/pricing",
+    "target": "sandiego-pricing",
+    "leaves": 120
+  },
+  {
+    "route": "/support",
+    "target": "sandiego-support",
+    "leaves": 102
+  },
+  {
+    "route": "/contact",
+    "target": "sandiego-contact",
+    "leaves": 96
+  },
+  {
+    "route": "/blog",
+    "target": "sandiego-blog",
+    "leaves": 140
+  },
+  {
+    "route": "/blog/get-running",
+    "target": "sandiego-blog--get-running",
+    "leaves": 141
+  },
+  {
+    "route": "/blog/category/product",
+    "target": "sandiego-blog--category--product",
+    "leaves": 99
+  },
+  {
+    "route": "/support/how",
+    "target": "sandiego-support--how",
+    "leaves": 97
+  },
+  {
+    "route": "/search",
+    "target": "sandiego-search",
+    "leaves": 85
+  },
+  {
+    "route": "/privacy",
+    "target": "sandiego-privacy",
+    "leaves": 81
+  },
+  {
+    "route": "/support/password",
+    "target": "sandiego-support--password",
+    "leaves": 96
+  },
+  {
+    "route": "/support/invite",
+    "target": "sandiego-support--invite",
+    "leaves": 99
+  },
+  {
+    "route": "/support/payment",
+    "target": "sandiego-support--payment",
+    "leaves": 95
+  },
+  {
+    "route": "/support/profile",
+    "target": "sandiego-support--profile",
+    "leaves": 96
+  },
+  {
+    "route": "/support/social-media",
+    "target": "sandiego-support--social-media",
+    "leaves": 95
+  },
+  {
+    "route": "/support/account",
+    "target": "sandiego-support--account",
+    "leaves": 98
+  },
+  {
+    "route": "/blog/designing-for-emotional",
+    "target": "sandiego-blog--designing-for-emotional",
+    "leaves": 141
+  },
+  {
+    "route": "/blog/how-to-improve-web-design-process",
+    "target": "sandiego-blog--how-to-improve-web-design-process",
+    "leaves": 141
+  },
+  {
+    "route": "/blog/sell-online",
+    "target": "sandiego-blog--sell-online",
+    "leaves": 141
+  },
+  {
+    "route": "/blog/2-mins",
+    "target": "sandiego-blog--2-mins",
+    "leaves": 141
+  },
+  {
+    "route": "/blog/interview",
+    "target": "sandiego-blog--interview",
+    "leaves": 141
+  },
+  {
+    "route": "/blog/great-ux",
+    "target": "sandiego-blog--great-ux",
+    "leaves": 141
+  },
+  {
+    "route": "/blog/category/sed-et-temporibus-aut",
+    "target": "sandiego-blog--category--sed-et-temporibus-aut",
+    "leaves": 106
+  }
+]

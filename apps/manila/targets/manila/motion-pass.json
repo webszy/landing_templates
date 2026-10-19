@@ -1,0 +1,60 @@
+{
+  "schema": "pingfusi/motion-pass@1",
+  "at": "2026-10-18T06:06:08.667Z",
+  "target": "manila",
+  "ok": true,
+  "doc": {
+    "file": "targets/manila/motion-doc.json",
+    "sha256_16": "9c96b7ae405d6c3f"
+  },
+  "tracks": {
+    "total": 5,
+    "cssInherited": 0,
+    "playersApplied": 3,
+    "skipped": 2
+  },
+  "ownerProbe": {
+    "mode": "unavailable",
+    "reason": "owner probe could not watch 4 element(s) beyond 5 viewport group(s) (first: div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)) — apply items separately or narrow their scopes",
+    "changed": [],
+    "elements": 0
+  },
+  "replay": {
+    "file": "targets/manila/clone/motion-replay.js",
+    "sha256_16": "df5adb29e77bf283",
+    "bytes": 45786,
+    "scriptTag": "inserted",
+    "tracks": 3
+  },
+  "items": {
+    "schema": "pingfusi/motion-items@2",
+    "ids": [
+      "pass-sampled-fe1cfef5",
+      "pass-sampled-0c6a40e2",
+      "pass-sampled-9a24f845",
+      "pass-sampled-6d3c6921",
+      "pass-sampled-20664630"
+    ]
+  },
+  "assets": [],
+  "skipped": [
+    {
+      "track": "t-d43153124646",
+      "selector": "div>main>div:nth-of-type(1)>div:nth-of-type(2)>div",
+      "tier": "sampled",
+      "reason": "ongoing motion with no periodic fit — a clip that stops is a fabricated ending; sample longer so the marquee class can win, or the element stays static in the draft"
+    },
+    {
+      "track": "t-96703c1905f2",
+      "selector": "div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div",
+      "tier": "sampled",
+      "reason": "ongoing motion with no periodic fit — a clip that stops is a fabricated ending; sample longer so the marquee class can win, or the element stays static in the draft"
+    }
+  ],
+  "warnings": [
+    "div>main>div:nth-of-type(1)>div:nth-of-type(2)>div transform: ongoing motion with no periodic fit — skipped (a one-shot clip would freeze mid-motion; re-sample with more --frames)",
+    "div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>div transform: ongoing motion with no periodic fit — skipped (a one-shot clip would freeze mid-motion; re-sample with more --frames)",
+    "owner probe unavailable (owner probe could not watch 4 element(s) beyond 5 viewport group(s) (first: div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)) — apply items separately or narrow their scopes) — players applied with ownership UNVERIFIED (receipted)"
+  ],
+  "summary": "5 track(s), 0 css-inherited, 3 player-applied, 2 skipped, 3 warning(s) — receipts and warnings only; motion never fails a build"
+}

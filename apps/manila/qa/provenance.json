@@ -1,0 +1,46 @@
+{
+  "source": "https://manila-template.modulify.website/",
+  "capturedAt": "2026-10-18T06:03:17.966Z",
+  "runtime": {
+    "url": "https://manila-template.modulify.website/_next/static/chunks/09fhys-zcne0-.js",
+    "sha256": "1aa7b4e886c269a1a5a697c326adc2712b80ee81d0d13914e9faa9ccffd34d70"
+  },
+  "sourceModules": [
+    "18cb~h.9pnxik.js",
+    "0rqtiex_7ktb4.js"
+  ],
+  "breakpoints": [
+    479,
+    767,
+    991,
+    1280,
+    1440
+  ],
+  "routes": [
+    {
+      "route": "/",
+      "target": "manila"
+    },
+    {
+      "route": "/privacy",
+      "target": "manila-privacy"
+    },
+    {
+      "route": "/404",
+      "target": "manila-404"
+    },
+    {
+      "route": "/post/building-ecommerce-now-a-breeze",
+      "target": "manila-post--building-ecommerce-now-a-breeze"
+    },
+    {
+      "route": "/post/result-driven-modulify-templates",
+      "target": "manila-post--result-driven-modulify-templates"
+    },
+    {
+      "route": "/post/top-10-modulify-template-categories",
+      "target": "manila-post--top-10-modulify-template-categories"
+    }
+  ],
+  "form": "Source client success markup; no external submission in local clone."
+}

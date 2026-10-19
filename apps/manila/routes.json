@@ -1,0 +1,26 @@
+[
+  {
+    "route": "/",
+    "target": "manila"
+  },
+  {
+    "route": "/privacy",
+    "target": "manila-privacy"
+  },
+  {
+    "route": "/404",
+    "target": "manila-404"
+  },
+  {
+    "route": "/post/building-ecommerce-now-a-breeze",
+    "target": "manila-post--building-ecommerce-now-a-breeze"
+  },
+  {
+    "route": "/post/result-driven-modulify-templates",
+    "target": "manila-post--result-driven-modulify-templates"
+  },
+  {
+    "route": "/post/top-10-modulify-template-categories",
+    "target": "manila-post--top-10-modulify-template-categories"
+  }
+]

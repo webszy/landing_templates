@@ -1,0 +1,6 @@
+{
+  "source": "source-scripts/09-3dcrt239~r.js",
+  "sha256": "0e3b04db22f84ad445758b01d4723a0b311695349b5a3dbb192a89df9f32024a",
+  "method": "Original GSAP and carousel source, bound to the captured DOM without React or Next.js.",
+  "form": "Local validation only; no subscription request is sent."
+}

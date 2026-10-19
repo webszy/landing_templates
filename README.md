@@ -32,13 +32,15 @@ npm run dev:onda
 
 | 应用 | Workspace | 默认地址 | 构建产物 |
 | --- | --- | --- | --- |
-| Aster | `@templates/aster` | http://127.0.0.1:3004 | `apps/aster/dist/` |
-| Black Plus | `@templates/blackplus` | http://127.0.0.1:4174 | `apps/blackplus/dist/` |
-| Fieldhand | `@templates/fieldhand` | http://127.0.0.1:3003 | `apps/fieldhand/dist/` |
-| Kerning | `@templates/kerning` | http://127.0.0.1:3002 | `apps/kerning/dist/` |
-| Liquid Type | `@templates/liquid-type` | http://127.0.0.1:3006 | `apps/liquid-type/dist/` |
-| Membrane | `@templates/membrane` | http://127.0.0.1:3005 | `apps/membrane/dist/` |
-| Onda Studio | `@templates/onda` | http://127.0.0.1:3000 | `apps/onda/dist/` |
+| Aster | `@templates/aster` | 随机端口 3100–3200（见启动日志） | `apps/aster/dist/` |
+| Black Plus | `@templates/blackplus` | 随机端口 3100–3200（见启动日志） | `apps/blackplus/dist/` |
+| Fieldhand | `@templates/fieldhand` | 随机端口 3100–3200（见启动日志） | `apps/fieldhand/dist/` |
+| Kerning | `@templates/kerning` | 随机端口 3100–3200（见启动日志） | `apps/kerning/dist/` |
+| Liquid Type | `@templates/liquid-type` | 随机端口 3100–3200（见启动日志） | `apps/liquid-type/dist/` |
+| Membrane | `@templates/membrane` | 随机端口 3100–3200（见启动日志） | `apps/membrane/dist/` |
+| Onda Studio | `@templates/onda` | 随机端口 3100–3200（见启动日志） | `apps/onda/dist/` |
+
+所有 dev 命令每次启动都会随机选择 3100–3200 内的端口，占用时自动重试；实际地址见启动日志。
 
 单独启动时可使用 `PORT=4000 npm run dev:onda` 修改端口。同时启动多个应用时，可分别设置 `<应用名大写>_PORT`，避免将同一个 `PORT` 传给所有站点：
 
