@@ -1,0 +1,15 @@
+{
+  "url": "https://aurora-template.modulify.website/",
+  "trigger": "load",
+  "engines": {
+    "engines": [],
+    "signals": {}
+  },
+  "staggers": [],
+  "fits": [],
+  "maxElements": 48,
+  "scope": {
+    "selector": "section",
+    "matchedAtStart": 1
+  }
+}

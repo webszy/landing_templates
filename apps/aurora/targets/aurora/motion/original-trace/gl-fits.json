@@ -1,0 +1,13 @@
+{
+  "url": "https://aurora-template.modulify.website/",
+  "trigger": "load",
+  "capturedAt": "2026-10-20T14:07:37.784Z",
+  "perspectivePx": 848.1,
+  "ok": false,
+  "kind": null,
+  "model": null,
+  "replay": null,
+  "warnings": [
+    "only 1 track(s) — not a tunnel field"
+  ]
+}

@@ -15,6 +15,7 @@
     "dev": "node scripts/dev.mjs",
     "dev:aster": "npm run dev --workspace=@templates/aster",
     "dev:blackplus": "npm run dev --workspace=@templates/blackplus",
+    "dev:crema": "npm run dev --workspace=@templates/crema",
     "dev:fieldhand": "npm run dev --workspace=@templates/fieldhand",
     "dev:kerning": "npm run dev --workspace=@templates/kerning",
     "dev:liquid-type": "npm run dev --workspace=@templates/liquid-type",
@@ -25,6 +26,7 @@
     "dev:sandiego": "npm run dev --workspace=@templates/sandiego",
     "dev:revolver": "npm run dev --workspace=@templates/revolver",
     "build": "npm run build --workspaces",
-    "check": "node --check scripts/dev.mjs && node --check scripts/static-site.mjs && npm run check --workspaces"
+    "check": "node --check scripts/dev.mjs && node --check scripts/static-site.mjs && npm run check --workspaces",
+    "dev:aurora": "npm run dev --workspace=@templates/aurora"
   }
 }

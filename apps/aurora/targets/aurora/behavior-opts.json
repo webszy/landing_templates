@@ -1,0 +1,1 @@
+{"settleMs": 5000, "hoverTriggers": [["mode", "button[aria-pressed]"], ["tune", "button:last-child"]]}

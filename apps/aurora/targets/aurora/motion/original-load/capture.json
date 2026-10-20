@@ -1,0 +1,21 @@
+{
+  "url": "https://aurora-template.modulify.website/",
+  "trigger": "load",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "capturedAt": "2026-10-20T14:07:10.182Z",
+  "engine": "chromium",
+  "referenceVideo": "reference.webm",
+  "referenceVideoSeekable": true,
+  "crossCheck": {
+    "matched": 0,
+    "cdpOnly": [],
+    "pageOnly": [],
+    "joinFailures": [],
+    "warnings": [],
+    "truncated": null
+  },
+  "animations": []
+}

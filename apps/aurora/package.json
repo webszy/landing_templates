@@ -1,0 +1,14 @@
+{
+  "name": "@templates/aurora",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aurora cloned with CopyAnything, with locally hosted original visual runtime.",
+  "config": { "siteRoot": "targets/aurora/clone" },
+  "scripts": {
+    "dev": "node ../../scripts/static-site.mjs serve",
+    "start": "node ../../scripts/static-site.mjs serve",
+    "build": "node ../../scripts/static-site.mjs build",
+    "check": "node ../../scripts/static-site.mjs check",
+    "restore-runtime": "node scripts/restore-runtime.mjs"
+  }
+}
