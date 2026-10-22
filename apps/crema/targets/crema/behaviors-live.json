@@ -1,0 +1,1400 @@
+{
+  "url": "https://crema-template.modulify.website/",
+  "viewport": {
+    "width": 1728,
+    "height": 982,
+    "dpr": 2
+  },
+  "mode": "CSS1Compat",
+  "discovery": {
+    "startedAt": "2026-10-20T12:46:00.228Z",
+    "endedAt": "2026-10-20T12:46:04.440Z",
+    "durationMs": 4212.1,
+    "documentHidden": false,
+    "scrollSweep": {
+      "from": 0,
+      "to": 0,
+      "steps": 6,
+      "positions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "observeMs": 1500,
+    "elementsScanned": 225,
+    "staticCandidateCount": 29,
+    "keyframesFound": [],
+    "hoverTriggersProbed": [
+      "app_store",
+      "google_play"
+    ],
+    "marqueeSelectorsProbed": [],
+    "earlyMotionRecorder": {
+      "ran": true,
+      "durationMs": 6032.9,
+      "rowsObserved": 25,
+      "strongRows": 1
+    },
+    "runner": {
+      "kitVersion": "0.17.1",
+      "mode": "cdp-launched",
+      "chromeVersion": "Chrome/155.0.8059.85",
+      "headless": true,
+      "profile": "temp",
+      "viewport": {
+        "width": 1728,
+        "height": 982,
+        "dpr": 2,
+        "sources": {
+          "width": "target.json",
+          "height": "live.json",
+          "dpr": "live.json"
+        }
+      },
+      "rafProbe": {
+        "frames": 25,
+        "ms": 702,
+        "hz": 50,
+        "attempts": 1
+      },
+      "animProbe": {
+        "expectedPxPerSec": 100,
+        "measuredPxPerSec": 98.08
+      }
+    }
+  },
+  "behaviors": {
+    "reveal:div>div>h1>span[0][0][0]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(1)",
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0.096,
+          "transform": "matrix(0.5932, 0, 0, 0.5932, 0, 45.196)",
+          "filter": "blur(19.8863px)",
+          "visibility": "visible",
+          "display": "inline-block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)",
+          "visibility": "visible",
+          "display": "inline-block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 0.777,
+            "transform": "matrix(0.8995, 0, 0, 0.8995, 0, 11.1666)",
+            "filter": "blur(4.9133px)",
+            "visibility": "visible",
+            "display": "inline-block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 3,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:div>div>h1>span[1][0][0]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(2)",
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(0.55, 0, 0, 0.55, 0, 50)",
+          "filter": "blur(22px)",
+          "visibility": "hidden",
+          "display": "inline-block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)",
+          "visibility": "visible",
+          "display": "inline-block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 0.722,
+            "transform": "matrix(0.8748, 0, 0, 0.8748, 0, 13.9148)",
+            "filter": "blur(6.1225px)",
+            "visibility": "visible",
+            "display": "inline-block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 4,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:div>div>h1>span[2][0][0]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(3)",
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(0.55, 0, 0, 0.55, 0, 50)",
+          "filter": "blur(22px)",
+          "visibility": "hidden",
+          "display": "inline-block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)",
+          "visibility": "visible",
+          "display": "inline-block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 0.656,
+            "transform": "matrix(0.8454, 0, 0, 0.8454, 0, 17.1792)",
+            "filter": "blur(7.5588px)",
+            "visibility": "visible",
+            "display": "inline-block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 4,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:div>div>h1>span[3][0][0]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(4)",
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(0.55, 0, 0, 0.55, 0, 50)",
+          "filter": "blur(22px)",
+          "visibility": "hidden",
+          "display": "inline-block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)",
+          "visibility": "visible",
+          "display": "inline-block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 0.579,
+            "transform": "matrix(0.8107, 0, 0, 0.8107, 0, 21.0294)",
+            "filter": "blur(9.2529px)",
+            "visibility": "visible",
+            "display": "inline-block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 4,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:div>div>h1>span[5][0][0]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(5)",
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(0.55, 0, 0, 0.55, 0, 50)",
+          "filter": "blur(22px)",
+          "visibility": "hidden",
+          "display": "inline-block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)",
+          "visibility": "visible",
+          "display": "inline-block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 0.489,
+            "transform": "matrix(0.7701, 0, 0, 0.7701, 0, 25.5409)",
+            "filter": "blur(11.238px)",
+            "visibility": "visible",
+            "display": "inline-block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 4,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:div>div>h1>span[6][0][0]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(6)",
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(0.55, 0, 0, 0.55, 0, 50)",
+          "filter": "blur(22px)",
+          "visibility": "hidden",
+          "display": "inline-block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)",
+          "visibility": "visible",
+          "display": "inline-block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 0.384,
+            "transform": "matrix(0.7228, 0, 0, 0.7228, 0, 30.7956)",
+            "filter": "blur(13.55px)",
+            "visibility": "visible",
+            "display": "inline-block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 4,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:div>div>h1>span[7][0][0]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(7)",
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(0.55, 0, 0, 0.55, 0, 50)",
+          "filter": "blur(22px)",
+          "visibility": "hidden",
+          "display": "inline-block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)",
+          "visibility": "visible",
+          "display": "inline-block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 0.262,
+            "transform": "matrix(0.6681, 0, 0, 0.6681, 0, 36.8815)",
+            "filter": "blur(16.2278px)",
+            "visibility": "visible",
+            "display": "inline-block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 4,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:div>div>h1>span[8][0][0]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(8)",
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(0.55, 0, 0, 0.55, 0, 50)",
+          "filter": "blur(22px)",
+          "visibility": "hidden",
+          "display": "inline-block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)",
+          "visibility": "visible",
+          "display": "inline-block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 0.122,
+            "transform": "matrix(0.605, 0, 0, 0.605, 0, 43.8936)",
+            "filter": "blur(19.3132px)",
+            "visibility": "visible",
+            "display": "inline-block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 4,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:div>div>h1>span[9][0][0]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(9)",
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(0.55, 0, 0, 0.55, 0, 50)",
+          "filter": "blur(22px)",
+          "visibility": "hidden",
+          "display": "inline-block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)",
+          "visibility": "visible",
+          "display": "inline-block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 0.756,
+            "transform": "matrix(0.8901, 0, 0, 0.8901, 0, 12.2081)",
+            "filter": "blur(5.3716px)",
+            "visibility": "visible",
+            "display": "inline-block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 4,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:div>div>h1>span[10][0][0]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(10)",
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(0.55, 0, 0, 0.55, 0, 50)",
+          "filter": "blur(22px)",
+          "visibility": "hidden",
+          "display": "inline-block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)",
+          "visibility": "visible",
+          "display": "inline-block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 0.697,
+            "transform": "matrix(0.8636, 0, 0, 0.8636, 0, 15.1548)",
+            "filter": "blur(6.6681px)",
+            "visibility": "visible",
+            "display": "inline-block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 4,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:div>div>h1>span[11][0][0]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(11)",
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(0.55, 0, 0, 0.55, 0, 50)",
+          "filter": "blur(22px)",
+          "visibility": "hidden",
+          "display": "inline-block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)",
+          "visibility": "visible",
+          "display": "inline-block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 0.627,
+            "transform": "matrix(0.8322, 0, 0, 0.8322, 0, 18.6449)",
+            "filter": "blur(8.2038px)",
+            "visibility": "visible",
+            "display": "inline-block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 4,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:div>div>h1>span[12][0][0]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(12)",
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(0.55, 0, 0, 0.55, 0, 50)",
+          "filter": "blur(22px)",
+          "visibility": "hidden",
+          "display": "inline-block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)",
+          "visibility": "visible",
+          "display": "inline-block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 0.545,
+            "transform": "matrix(0.7952, 0, 0, 0.7952, 0, 22.7502)",
+            "filter": "blur(10.0101px)",
+            "visibility": "visible",
+            "display": "inline-block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 4,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:div>div>h1>span[13][0][0]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(13)",
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(0.55, 0, 0, 0.55, 0, 50)",
+          "filter": "blur(22px)",
+          "visibility": "hidden",
+          "display": "inline-block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)",
+          "visibility": "visible",
+          "display": "inline-block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 0.449,
+            "transform": "matrix(0.7521, 0, 0, 0.7521, 0, 27.5488)",
+            "filter": "blur(12.1215px)",
+            "visibility": "visible",
+            "display": "inline-block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 4,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:div>div>h1>span[14][0][0]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(14)",
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(0.55, 0, 0, 0.55, 0, 50)",
+          "filter": "blur(22px)",
+          "visibility": "hidden",
+          "display": "inline-block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)",
+          "visibility": "visible",
+          "display": "inline-block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 0.338,
+            "transform": "matrix(0.7019, 0, 0, 0.7019, 0, 33.125)",
+            "filter": "blur(14.575px)",
+            "visibility": "visible",
+            "display": "inline-block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 4,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:div>div>h1>span[15][0][0]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(15)",
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(0.55, 0, 0, 0.55, 0, 50)",
+          "filter": "blur(22px)",
+          "visibility": "hidden",
+          "display": "inline-block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)",
+          "visibility": "visible",
+          "display": "inline-block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 0.209,
+            "transform": "matrix(0.6439, 0, 0, 0.6439, 0, 39.5696)",
+            "filter": "blur(17.4106px)",
+            "visibility": "visible",
+            "display": "inline-block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 4,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:div>div>h1>span[16][0][0]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(16)",
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(0.55, 0, 0, 0.55, 0, 50)",
+          "filter": "blur(22px)",
+          "visibility": "hidden",
+          "display": "inline-block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)",
+          "visibility": "visible",
+          "display": "inline-block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 0.06,
+            "transform": "matrix(0.5772, 0, 0, 0.5772, 0, 46.9805)",
+            "filter": "blur(20.6714px)",
+            "visibility": "visible",
+            "display": "inline-block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 4,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:div>div>h1>span[17][0][0]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(17)",
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(0.55, 0, 0, 0.55, 0, 50)",
+          "filter": "blur(22px)",
+          "visibility": "hidden",
+          "display": "inline-block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)",
+          "visibility": "visible",
+          "display": "inline-block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 0.708,
+            "transform": "matrix(0.8685, 0, 0, 0.8685, 0, 14.613)",
+            "filter": "blur(6.4297px)",
+            "visibility": "visible",
+            "display": "inline-block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 4,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:div>div>div>div[0][1][0]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "section>div:nth-of-type(3)>div>div:nth-of-type(2)>div:nth-of-type(1)",
+      "hints": [
+        "will-change:transform"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix3d(-0.034624, 0, -0.991501, 0, 0, 0.992105, 0, 0, 0.991501, 0, -0.034624, 0, 0, 0, 0, 1)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix3d(0.740489, 0, 0.184625, 0, 0, 0.763158, 0, 0, -0.184625, 0, 0.740489, 0, 0, 0, 0, 1)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 1,
+            "transform": "matrix3d(-0.576114, 0, 0.668729, 0, 0, 0.88267, 0, 0, -0.668729, 0, -0.576114, 0, 0, 0, 0, 1)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:div>div>div>div[0][0][1]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div:nth-of-type(3)>div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "hints": [
+        "will-change:transform"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, -60, 1)",
+          "filter": "drop-shadow(rgba(14, 31, 26, 0.18) 0px 16px 22px)",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix3d(0.932424, -0.267368, 0, 0, 0.267368, 0.932424, 0, 0, 0, 0, 1, 0, 0, 0, -60, 1)",
+          "filter": "drop-shadow(rgba(14, 31, 26, 0.18) 0px 16px 22px)",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "changedDuringSweep": false,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div>div>div>div[1][0][1]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div:nth-of-type(3)>div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)",
+      "hints": [
+        "will-change:transform"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 60, 1)",
+          "filter": "drop-shadow(rgba(14, 31, 26, 0.18) 0px 16px 22px)",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix3d(0.941187, 0.234664, 0, 0, -0.234664, 0.941187, 0, 0, 0, 0, 1, 0, 0, 0, 60, 1)",
+          "filter": "drop-shadow(rgba(14, 31, 26, 0.18) 0px 16px 22px)",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "changedDuringSweep": false,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div>div>div>div[2][0][1]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div:nth-of-type(3)>div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(3)",
+      "hints": [
+        "will-change:transform"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 90, 1)",
+          "filter": "drop-shadow(rgba(14, 31, 26, 0.18) 0px 16px 22px)",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix3d(0.96056, 0.134998, 0, 0, -0.134998, 0.96056, 0, 0, 0, 0, 1, 0, 0, 0, 90, 1)",
+          "filter": "drop-shadow(rgba(14, 31, 26, 0.18) 0px 16px 22px)",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "changedDuringSweep": false,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div>div>div>div[3][0][1]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div:nth-of-type(3)>div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(4)",
+      "hints": [
+        "will-change:transform"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 70, 1)",
+          "filter": "drop-shadow(rgba(14, 31, 26, 0.18) 0px 16px 22px)",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix3d(0.96056, -0.134998, 0, 0, 0.134998, 0.96056, 0, 0, 0, 0, 1, 0, 0, 0, 70, 1)",
+          "filter": "drop-shadow(rgba(14, 31, 26, 0.18) 0px 16px 22px)",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "changedDuringSweep": false,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div>div>div>div[4][0][1]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div:nth-of-type(3)>div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(5)",
+      "hints": [
+        "will-change:transform"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 130, 1)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix3d(0.99863, -0.052336, 0, 0, 0.052336, 0.99863, 0, 0, 0, 0, 1, 0, 0, 0, 130, 1)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "changedDuringSweep": false,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div>div>div>div[0][5][0]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(1)",
+      "hints": [
+        "will-change:transform"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 20, 1)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "grid"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix3d(0.97, 0, 0, 0, 0, 0.97, 0, 0, 0, 0, 1, 0, 0, 0, 20, 1)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "grid"
+        },
+        "changedDuringSweep": false,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div>div>div>div[1][5][0]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(2)",
+      "hints": [
+        "will-change:transform"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 26, 1)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "grid"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix3d(0.97, 0, 0, 0, 0, 0.97, 0, 0, 0, 0, 1, 0, 0, 0, 26, 1)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "grid"
+        },
+        "changedDuringSweep": false,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div>div>div>div[2][5][0]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)>div:nth-of-type(3)",
+      "hints": [
+        "will-change:transform"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 32, 1)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "grid"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix3d(0.97, 0, 0, 0, 0, 0.97, 0, 0, 0, 0, 1, 0, 0, 0, 32, 1)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "grid"
+        },
+        "changedDuringSweep": false,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div>div>div>div[1][1][0]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "section>div:nth-of-type(3)>div>div:nth-of-type(2)>div:nth-of-type(2)",
+      "hints": [
+        "will-change:transform"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix3d(-0.034624, 0, -0.991501, 0, 0, 0.992105, 0, 0, 0.991501, 0, -0.034624, 0, 20.7725, 0, -0.72539, 1)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix3d(0.740489, 0, 0.184625, 0, 0, 0.763158, 0, 0, -0.184625, 0, 0.740489, 0, -3.86798, 0, 15.5136, 1)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 1,
+            "transform": "matrix3d(-0.576114, 0, 0.668729, 0, 0, 0.88267, 0, 0, -0.668729, 0, -0.576114, 0, -14.0102, 0, -12.0699, 1)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:div>div>div>div[0][1][1]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div:nth-of-type(3)>div>div:nth-of-type(2)>div:nth-of-type(2)>div",
+      "hints": [
+        "will-change:opacity"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "changedDuringSweep": false,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "mutation:section>div>div>p[1][0][1]": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "main>section>div:nth-of-type(2)>div>p",
+      "measured": {
+        "before": {
+          "opacity": 0.021,
+          "transform": "matrix(1, 0, 0, 1, 0, 15.6658)",
+          "filter": "blur(7.8329px)",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "opacity": 0.09,
+          "transform": "matrix(1, 0, 0, 1, 0, 14.5686)",
+          "filter": "blur(7.2843px)",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 56,
+        "returnedToStart": false
+      }
+    },
+    "mutation:div.crema-store-buttons": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "main>section>div:nth-of-type(2)>div>div:nth-of-type(1)",
+      "measured": {
+        "before": {
+          "opacity": 0.023,
+          "transform": "matrix(1, 0, 0, 1, 0, 17.5802)",
+          "filter": "blur(7.8134px)",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "during": {
+          "opacity": 0.095,
+          "transform": "matrix(1, 0, 0, 1, 0, 16.286)",
+          "filter": "blur(7.2382px)",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "sampleCount": 50,
+        "returnedToStart": false
+      }
+    },
+    "mutation:div.crema-stage": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "div>main>section>div:nth-of-type(3)>div",
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 285.926, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 271.574, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 80,
+        "returnedToStart": false
+      }
+    },
+    "mutation:section>div>div>div[3][0][1]": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "main>section>div:nth-of-type(2)>div>div:nth-of-type(2)",
+      "measured": {
+        "before": {
+          "opacity": 0.023,
+          "transform": "matrix(1, 0, 0, 1, 0, 17.5802)",
+          "filter": "blur(7.8134px)",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "during": {
+          "opacity": 0.095,
+          "transform": "matrix(1, 0, 0, 1, 0, 16.286)",
+          "filter": "blur(7.2382px)",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "sampleCount": 50,
+        "returnedToStart": false
+      }
+    },
+    "hover:app_store": {
+      "trigger": "hover",
+      "kind": "hover-mount",
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 6
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, -2)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 6
+        },
+        "changed": true
+      }
+    },
+    "hover:google_play": {
+      "trigger": "hover",
+      "kind": "hover-mount",
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 22
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, -2)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 22
+        },
+        "changed": true
+      }
+    },
+    "startup:section>div:nth-of-type(2)>div>h1>span:nth-of-type(1)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(1)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 67,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(0.55, 0, 0, 0.55, 0, 50)",
+          "filter": "blur(22px)"
+        },
+        "after": {
+          "opacity": "0.0961",
+          "transform": "matrix(0.5932, 0, 0, 0.5932, 0, 45.196)",
+          "filter": "blur(19.8863px)"
+        },
+        "during": {
+          "opacity": "0.0236",
+          "transform": "matrix(0.5606, 0, 0, 0.5606, 0, 48.8208)",
+          "filter": "blur(21.4812px)"
+        },
+        "sampleCount": 3,
+        "durationMs": 67,
+        "returnedToStart": false
+      }
+    }
+  },
+  "declared": {
+    "declared:html>body>a[5][1]": {
+      "hints": [
+        "will-change:transform"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    }
+  }
+}

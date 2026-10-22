@@ -1,0 +1,56 @@
+{
+  "initial": {
+    "canvas": [
+      {
+        "width": 3456,
+        "height": 1964
+      }
+    ],
+    "buttons": [
+      "Get started",
+      "See it live",
+      "Get started",
+      "See it live",
+      "Stream",
+      "Cascade",
+      "Veil",
+      "Ember",
+      "Dusk",
+      "Tune"
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://modulify.ai/dashboard/templates/aurora-template"
+      }
+    ]
+  },
+  "modes": [
+    {
+      "name": "Cascade",
+      "pressed": "true"
+    },
+    {
+      "name": "Veil",
+      "pressed": "true"
+    },
+    {
+      "name": "Ember",
+      "pressed": "true"
+    },
+    {
+      "name": "Dusk",
+      "pressed": "true"
+    },
+    {
+      "name": "Stream",
+      "pressed": "true"
+    }
+  ],
+  "mobile": {
+    "scrollWidth": 390,
+    "width": 390
+  },
+  "errors": [],
+  "missing": []
+}

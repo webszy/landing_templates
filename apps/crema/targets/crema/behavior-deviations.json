@@ -1,0 +1,8 @@
+{
+  "startup:section>div:nth-of-type(2)>div>h1>span:nth-of-type(1)": {
+    "reason": "The live early-motion recorder closed this letter's sample at 67ms, still at scale 0.59 and blur(19.8863px). The clone plays the page's own letter intro (delay 0.05s, duration 1.05s, power4.out, stagger 0.035s) and the last sample is the captured rest pose: opacity 1, identity transform, blur(0px). Filter is an exact-string compare, so a finished intro cannot equal a 67ms slice of the same intro. The settled letters are what the visual gate measured (534 comparisons, 0 fails)."
+  },
+  "declared:html>body>a[5][1]": {
+    "reason": "This is the Modulify badge link. The only motion hint is will-change:transform, and the captured stylesheet already has [data-modulify-badge]:hover { transform: translateY(-2px) }. A synthetic mouse event does not set CSS :hover, so the clone's behavior pass never observes that descriptor. The rule is the captured CSS, not a second animation."
+  }
+}

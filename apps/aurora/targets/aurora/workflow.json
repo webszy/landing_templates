@@ -1,0 +1,128 @@
+{
+  "name": "aurora",
+  "url": "https://aurora-template.modulify.website/",
+  "width": 1728,
+  "createdAt": "2026-10-20T13:58:11.843Z",
+  "phaseOrder": [
+    "target",
+    "assets",
+    "measure",
+    "build",
+    "visual",
+    "coverage",
+    "strict",
+    "behavior",
+    "review",
+    "done"
+  ],
+  "phases": {
+    "target": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "c1f432e3c9",
+      "sha256": "c225e565b155a882",
+      "evidence": null,
+      "ts": "2026-10-20T13:58:11.930Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "assets": {
+      "status": "pass",
+      "kind": "attested",
+      "runId": "07f8e29ba9",
+      "sha256": "53c80a3cda44ae84",
+      "evidence": "capture-build self-hosted the captured original stylesheet and 11 woff2 fonts; SVG and logo markup preserved from captured DOM, not redrawn",
+      "ts": "2026-10-20T13:59:41.410Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "measure": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "c38c6aa3c9",
+      "sha256": "f29fb4a0ca47586d",
+      "evidence": null,
+      "ts": "2026-10-20T13:59:41.512Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "build": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "1a8d6eccff",
+      "sha256": "1721fc730072ef40",
+      "evidence": null,
+      "ts": "2026-10-20T14:02:18.421Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "visual": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "eea33efa96",
+      "sha256": "1721fc730072ef40",
+      "evidence": null,
+      "ts": "2026-10-20T14:02:18.455Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "coverage": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "9d3da1b243",
+      "sha256": "50dd67f7b5011151",
+      "evidence": null,
+      "ts": "2026-10-20T14:02:18.488Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "strict": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "f541d3d551",
+      "sha256": "1721fc730072ef40",
+      "evidence": null,
+      "ts": "2026-10-20T14:02:18.524Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "behavior": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "583a3768fb",
+      "sha256": null,
+      "evidence": "Kit-owned behavior capture retried with default and 5000ms equal settle; original JS runtime is localized and browser interaction checks pass, but startup eyebrow duration samples differ with independent page/network startup; synthetic hover on click controls is inconclusive. Motion capture found 0 declarations; trace attempted. Preserve raw evidence and request side-by-side review; no temporal deviation or forced pass.",
+      "ts": "2026-10-20T14:07:55.120Z",
+      "forced": true,
+      "blocked": true,
+      "overrode": [
+        "blocked-env"
+      ]
+    },
+    "review": {
+      "status": "pending",
+      "kind": "machine",
+      "runId": null,
+      "sha256": null,
+      "evidence": null,
+      "ts": null,
+      "forced": false
+    },
+    "done": {
+      "status": "pending",
+      "kind": "machine",
+      "runId": null,
+      "sha256": null,
+      "evidence": null,
+      "ts": null,
+      "forced": false
+    }
+  }
+}

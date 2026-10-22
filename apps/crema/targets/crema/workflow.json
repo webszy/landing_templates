@@ -1,0 +1,126 @@
+{
+  "name": "crema",
+  "url": "https://crema-template.modulify.website/",
+  "width": 1728,
+  "createdAt": "2026-10-20T12:16:53.747Z",
+  "phaseOrder": [
+    "target",
+    "assets",
+    "measure",
+    "build",
+    "visual",
+    "coverage",
+    "strict",
+    "behavior",
+    "review",
+    "done"
+  ],
+  "phases": {
+    "target": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "32293bd25b",
+      "sha256": "ed629a32e960d728",
+      "evidence": null,
+      "ts": "2026-10-20T12:16:53.780Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "assets": {
+      "status": "pass",
+      "kind": "attested",
+      "runId": "ea1c2e79e6",
+      "sha256": "414b13da8b0bb262",
+      "evidence": "17 wOFF2 files self-hosted by capture-build from the settled live DOM; each file starts with wOF2 magic bytes. Inline store/rating SVGs and the Modulify badge data-URI SVG are the captured DOM, not redrawn. Background rasters stay the live absolute URLs that capture-build absolutized.",
+      "ts": "2026-10-20T12:19:04.003Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "measure": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "eeed78d086",
+      "sha256": "8041c3f294e8a7c4",
+      "evidence": null,
+      "ts": "2026-10-20T12:19:04.043Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "build": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "c9480841da",
+      "sha256": "4c363fc66efa25b5",
+      "evidence": null,
+      "ts": "2026-10-20T12:26:30.456Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "visual": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "3ee2d090fc",
+      "sha256": "4c363fc66efa25b5",
+      "evidence": null,
+      "ts": "2026-10-20T12:26:30.492Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "coverage": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "048360d8ed",
+      "sha256": "96abdca22fe0e5d1",
+      "evidence": null,
+      "ts": "2026-10-20T12:26:30.522Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "strict": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "6f1a5decbb",
+      "sha256": "4c363fc66efa25b5",
+      "evidence": null,
+      "ts": "2026-10-20T12:26:30.552Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "behavior": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "d600d2769d",
+      "sha256": "2090204fd406dd13",
+      "evidence": null,
+      "ts": "2026-10-20T12:46:57.849Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "review": {
+      "status": "pending",
+      "kind": "machine",
+      "runId": null,
+      "sha256": null,
+      "evidence": null,
+      "ts": null,
+      "forced": false
+    },
+    "done": {
+      "status": "pending",
+      "kind": "machine",
+      "runId": null,
+      "sha256": null,
+      "evidence": null,
+      "ts": null,
+      "forced": false
+    }
+  }
+}

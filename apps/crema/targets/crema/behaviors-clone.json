@@ -1,0 +1,1234 @@
+{
+  "url": "http://127.0.0.1:64504/",
+  "viewport": {
+    "width": 1728,
+    "height": 982,
+    "dpr": 2
+  },
+  "mode": "CSS1Compat",
+  "discovery": {
+    "startedAt": "2026-10-20T12:45:48.521Z",
+    "endedAt": "2026-10-20T12:45:51.704Z",
+    "durationMs": 3183.5,
+    "documentHidden": false,
+    "scrollSweep": {
+      "from": 0,
+      "to": 0,
+      "steps": 6,
+      "positions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "observeMs": 1500,
+    "elementsScanned": 214,
+    "staticCandidateCount": 29,
+    "keyframesFound": [],
+    "hoverTriggersProbed": [
+      "app_store",
+      "google_play"
+    ],
+    "marqueeSelectorsProbed": [],
+    "earlyMotionRecorder": {
+      "ran": true,
+      "durationMs": 5290.3,
+      "rowsObserved": 28,
+      "strongRows": 23
+    },
+    "runner": {
+      "kitVersion": "0.17.1",
+      "mode": "cdp-launched",
+      "chromeVersion": "Chrome/155.0.8059.85",
+      "headless": true,
+      "profile": "temp",
+      "viewport": {
+        "width": 1728,
+        "height": 982,
+        "dpr": 2,
+        "sources": {
+          "width": "target.json",
+          "height": "live.json",
+          "dpr": "live.json"
+        }
+      },
+      "rafProbe": {
+        "frames": 31,
+        "ms": 702,
+        "hz": 62,
+        "attempts": 1
+      },
+      "animProbe": {
+        "expectedPxPerSec": 100,
+        "measuredPxPerSec": 96.56
+      }
+    }
+  },
+  "behaviors": {
+    "hover:app_store": {
+      "trigger": "hover",
+      "kind": "hover-mount",
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 6
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, -2)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 6
+        },
+        "changed": true
+      }
+    },
+    "hover:google_play": {
+      "trigger": "hover",
+      "kind": "hover-mount",
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 22
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, -2)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 22
+        },
+        "changed": true
+      }
+    },
+    "startup:section>div:nth-of-type(2)>div>h1>span:nth-of-type(1)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(1)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1104,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(22px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.292465",
+          "transform": "matrix(0.681609, 0, 0, 0.681609, 0, 35.3768)",
+          "filter": "blur(15.5658px)"
+        },
+        "sampleCount": 60,
+        "durationMs": 1104,
+        "returnedToStart": false
+      }
+    },
+    "startup:section>div:nth-of-type(2)>div>h1>span:nth-of-type(2)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(2)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1137,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(22px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.183859",
+          "transform": "matrix(0.632737, 0, 0, 0.632737, 0, 40.807)",
+          "filter": "blur(17.9551px)"
+        },
+        "sampleCount": 62,
+        "durationMs": 1137,
+        "returnedToStart": false
+      }
+    },
+    "startup:section>div:nth-of-type(2)>div>h1>span:nth-of-type(3)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(3)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1170,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(22px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.063206",
+          "transform": "matrix(0.578443, 0, 0, 0.578443, 0, 46.8397)",
+          "filter": "blur(20.6095px)"
+        },
+        "sampleCount": 64,
+        "durationMs": 1170,
+        "returnedToStart": false
+      }
+    },
+    "startup:section>div:nth-of-type(2)>div>h1>span:nth-of-type(4)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(4)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1221,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(22px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.0573886",
+          "transform": "matrix(0.575825, 0, 0, 0.575825, 0, 47.1306)",
+          "filter": "blur(20.7375px)"
+        },
+        "sampleCount": 65,
+        "durationMs": 1221,
+        "returnedToStart": false
+      }
+    },
+    "startup:section>div:nth-of-type(2)>div>h1>span:nth-of-type(5)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(5)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1253,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(22px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.0511779",
+          "transform": "matrix(0.57303, 0, 0, 0.57303, 0, 47.4411)",
+          "filter": "blur(20.8741px)"
+        },
+        "sampleCount": 65,
+        "durationMs": 1253,
+        "returnedToStart": false
+      }
+    },
+    "startup:section>div:nth-of-type(2)>div>h1>span:nth-of-type(6)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(6)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1288,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(22px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.0449366",
+          "transform": "matrix(0.570221, 0, 0, 0.570221, 0, 47.7532)",
+          "filter": "blur(21.0114px)"
+        },
+        "sampleCount": 65,
+        "durationMs": 1288,
+        "returnedToStart": false
+      }
+    },
+    "startup:section>div:nth-of-type(2)>div>h1>span:nth-of-type(7)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(7)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1321,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(22px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.0390343",
+          "transform": "matrix(0.567565, 0, 0, 0.567565, 0, 48.0483)",
+          "filter": "blur(21.1412px)"
+        },
+        "sampleCount": 65,
+        "durationMs": 1321,
+        "returnedToStart": false
+      }
+    },
+    "startup:section>div:nth-of-type(2)>div>h1>span:nth-of-type(8)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(8)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1353,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(22px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.0331047",
+          "transform": "matrix(0.564897, 0, 0, 0.564897, 0, 48.3448)",
+          "filter": "blur(21.2717px)"
+        },
+        "sampleCount": 65,
+        "durationMs": 1353,
+        "returnedToStart": false
+      }
+    },
+    "startup:section>div:nth-of-type(2)>div>h1>span:nth-of-type(9)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(9)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1387,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(22px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.0264012",
+          "transform": "matrix(0.561881, 0, 0, 0.561881, 0, 48.6799)",
+          "filter": "blur(21.4192px)"
+        },
+        "sampleCount": 65,
+        "durationMs": 1387,
+        "returnedToStart": false
+      }
+    },
+    "startup:section>div:nth-of-type(2)>div>h1>span:nth-of-type(10)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(10)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1420,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(22px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.0204133",
+          "transform": "matrix(0.559186, 0, 0, 0.559186, 0, 48.9793)",
+          "filter": "blur(21.5509px)"
+        },
+        "sampleCount": 65,
+        "durationMs": 1420,
+        "returnedToStart": false
+      }
+    },
+    "startup:section>div:nth-of-type(2)>div>h1>span:nth-of-type(11)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(11)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1453,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(22px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.0140209",
+          "transform": "matrix(0.556309, 0, 0, 0.556309, 0, 49.299)",
+          "filter": "blur(21.6915px)"
+        },
+        "sampleCount": 65,
+        "durationMs": 1453,
+        "returnedToStart": false
+      }
+    },
+    "startup:section>div:nth-of-type(2)>div>h1>span:nth-of-type(12)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(12)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1488,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(22px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.00759731",
+          "transform": "matrix(0.553419, 0, 0, 0.553419, 0, 49.6201)",
+          "filter": "blur(21.8329px)"
+        },
+        "sampleCount": 65,
+        "durationMs": 1488,
+        "returnedToStart": false
+      }
+    },
+    "startup:section>div:nth-of-type(2)>div>h1>span:nth-of-type(13)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(13)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1521,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(22px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.00152294",
+          "transform": "matrix(0.550685, 0, 0, 0.550685, 0, 49.9239)",
+          "filter": "blur(21.9665px)"
+        },
+        "sampleCount": 65,
+        "durationMs": 1521,
+        "returnedToStart": false
+      }
+    },
+    "startup:section>div:nth-of-type(2)>div>h1>span:nth-of-type(14)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(14)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1570,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(22px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.0573886",
+          "transform": "matrix(0.575825, 0, 0, 0.575825, 0, 47.1306)",
+          "filter": "blur(20.7375px)"
+        },
+        "sampleCount": 65,
+        "durationMs": 1570,
+        "returnedToStart": false
+      }
+    },
+    "startup:section>div:nth-of-type(2)>div>h1>span:nth-of-type(15)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(15)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1604,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(22px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.0511779",
+          "transform": "matrix(0.57303, 0, 0, 0.57303, 0, 47.4411)",
+          "filter": "blur(20.8741px)"
+        },
+        "sampleCount": 65,
+        "durationMs": 1604,
+        "returnedToStart": false
+      }
+    },
+    "startup:section>div:nth-of-type(2)>div>h1>span:nth-of-type(16)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(16)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1637,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(22px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.0453046",
+          "transform": "matrix(0.570387, 0, 0, 0.570387, 0, 47.7348)",
+          "filter": "blur(21.0033px)"
+        },
+        "sampleCount": 65,
+        "durationMs": 1637,
+        "returnedToStart": false
+      }
+    },
+    "startup:section>div:nth-of-type(2)>div>h1>span:nth-of-type(17)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section>div:nth-of-type(2)>div>h1>span:nth-of-type(17)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1670,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(22px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.0390343",
+          "transform": "matrix(0.567565, 0, 0, 0.567565, 0, 48.0483)",
+          "filter": "blur(21.1412px)"
+        },
+        "sampleCount": 65,
+        "durationMs": 1670,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section>div:nth-of-type(2)>div>p": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section>div:nth-of-type(2)>div>p",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 2003,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(8px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.0116388",
+          "transform": "matrix(1, 0, 0, 1, 0, 15.8138)",
+          "filter": "blur(7.90689px)"
+        },
+        "sampleCount": 58,
+        "durationMs": 2003,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section>div:nth-of-type(2)>div>div:nth-of-type(1)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section>div:nth-of-type(2)>div>div:nth-of-type(1)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 2404,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(8px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.0130021",
+          "transform": "matrix(1, 0, 0, 1, 0, 17.766)",
+          "filter": "blur(7.89598px)"
+        },
+        "sampleCount": 52,
+        "durationMs": 2404,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section>div:nth-of-type(2)>div>div:nth-of-type(2)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section>div:nth-of-type(2)>div>div:nth-of-type(2)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 2604,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(8px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.0130021",
+          "transform": "matrix(1, 0, 0, 1, 0, 17.766)",
+          "filter": "blur(7.89598px)"
+        },
+        "sampleCount": 53,
+        "durationMs": 2604,
+        "returnedToStart": false
+      }
+    },
+    "startup:div>main>section>div:nth-of-type(3)>div": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "div>main>section>div:nth-of-type(3)>div",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1317,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 311.199, 0)",
+          "filter": "none"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 299.475, 0)",
+          "filter": "none"
+        },
+        "sampleCount": 80,
+        "durationMs": 1317,
+        "returnedToStart": false
+      }
+    },
+    "startup:section>div:nth-of-type(3)>div>div:nth-of-type(2)>div:nth-of-type(1)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section>div:nth-of-type(3)>div>div:nth-of-type(2)>div:nth-of-type(1)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1317,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "1",
+          "transform": "matrix3d(0.437986, 0, 0.805311, 0, 0, 0.91671, 0, 0, -0.805311, 0, 0.437986, 0, 0, 0, 0, 1)",
+          "filter": "none"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix3d(0.740489, 0, 0.184625, 0, 0, 0.763158, 0, 0, -0.184625, 0, 0.740489, 0, 0, 0, 0, 1)",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "1",
+          "transform": "matrix3d(0.262768, 0, 0.872203, 0, 0, 0.910925, 0, 0, -0.872203, 0, 0.262768, 0, 0, 0, 0, 1)",
+          "filter": "none"
+        },
+        "sampleCount": 80,
+        "durationMs": 1317,
+        "returnedToStart": false
+      }
+    },
+    "startup:section>div:nth-of-type(3)>div>div:nth-of-type(2)>div:nth-of-type(2)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section>div:nth-of-type(3)>div>div:nth-of-type(2)>div:nth-of-type(2)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1317,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "1",
+          "transform": "matrix3d(0.437986, 0, 0.805311, 0, 0, 0.91671, 0, 0, -0.805311, 0, 0.437986, 0, -16.8717, 0, 9.17603, 1)",
+          "filter": "none"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix3d(0.740489, 0, 0.184625, 0, 0, 0.763158, 0, 0, -0.184625, 0, 0.740489, 0, -3.86798, 0, 15.5136, 1)",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "1",
+          "transform": "matrix3d(0.262768, 0, 0.872203, 0, 0, 0.910925, 0, 0, -0.872203, 0, 0.262768, 0, -18.2731, 0, 5.50514, 1)",
+          "filter": "none"
+        },
+        "sampleCount": 80,
+        "durationMs": 1317,
+        "returnedToStart": false
+      }
+    }
+  },
+  "declared": {
+    "declared:div>div>h1>span[0][0][0]": {
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "inline-block"
+      },
+      "text": "Y"
+    },
+    "declared:div>div>h1>span[1][0][0]": {
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "inline-block"
+      },
+      "text": "o"
+    },
+    "declared:div>div>h1>span[2][0][0]": {
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "inline-block"
+      },
+      "text": "u"
+    },
+    "declared:div>div>h1>span[3][0][0]": {
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "inline-block"
+      },
+      "text": "r"
+    },
+    "declared:div>div>h1>span[5][0][0]": {
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "inline-block"
+      },
+      "text": "c"
+    },
+    "declared:div>div>h1>span[6][0][0]": {
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "inline-block"
+      },
+      "text": "o"
+    },
+    "declared:div>div>h1>span[7][0][0]": {
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "inline-block"
+      },
+      "text": "f"
+    },
+    "declared:div>div>h1>span[8][0][0]": {
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "inline-block"
+      },
+      "text": "f"
+    },
+    "declared:div>div>h1>span[9][0][0]": {
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "inline-block"
+      },
+      "text": "e"
+    },
+    "declared:div>div>h1>span[10][0][0]": {
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "inline-block"
+      },
+      "text": "e"
+    },
+    "declared:div>div>h1>span[11][0][0]": {
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "inline-block"
+      },
+      "text": ","
+    },
+    "declared:div>div>h1>span[12][0][0]": {
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "inline-block"
+      },
+      "text": null
+    },
+    "declared:div>div>h1>span[13][0][0]": {
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "inline-block"
+      },
+      "text": "f"
+    },
+    "declared:div>div>h1>span[14][0][0]": {
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "inline-block"
+      },
+      "text": "a"
+    },
+    "declared:div>div>h1>span[15][0][0]": {
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "inline-block"
+      },
+      "text": "s"
+    },
+    "declared:div>div>h1>span[16][0][0]": {
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "inline-block"
+      },
+      "text": "t"
+    },
+    "declared:div>div>h1>span[17][0][0]": {
+      "hints": [
+        "will-change:transform, filter, opacity"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "inline-block"
+      },
+      "text": "."
+    },
+    "declared:div>div>div>div[0][1][0]": {
+      "hints": [
+        "will-change:transform"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix3d(0.740489, 0, 0.184625, 0, 0, 0.763158, 0, 0, -0.184625, 0, 0.740489, 0, 0, 0, 0, 1)",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "Diego R.Austin · 3y memberGOLD“Best shake I've had, cookie c"
+    },
+    "declared:div>div>div>div[0][0][1]": {
+      "hints": [
+        "will-change:transform"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix3d(0.932424, -0.267368, 0, 0, 0.267368, 0.932424, 0, 0, 0, 0, 1, 0, 0, 0, -60, 1)",
+        "filter": "drop-shadow(rgba(14, 31, 26, 0.18) 0px 16px 22px)",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:div>div>div>div[1][0][1]": {
+      "hints": [
+        "will-change:transform"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix3d(0.941187, 0.234664, 0, 0, -0.234664, 0.941187, 0, 0, 0, 0, 1, 0, 0, 0, 60, 1)",
+        "filter": "drop-shadow(rgba(14, 31, 26, 0.18) 0px 16px 22px)",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:div>div>div>div[2][0][1]": {
+      "hints": [
+        "will-change:transform"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix3d(0.96056, 0.134998, 0, 0, -0.134998, 0.96056, 0, 0, 0, 0, 1, 0, 0, 0, 90, 1)",
+        "filter": "drop-shadow(rgba(14, 31, 26, 0.18) 0px 16px 22px)",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:div>div>div>div[3][0][1]": {
+      "hints": [
+        "will-change:transform"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix3d(0.96056, -0.134998, 0, 0, 0.134998, 0.96056, 0, 0, 0, 0, 1, 0, 0, 0, 70, 1)",
+        "filter": "drop-shadow(rgba(14, 31, 26, 0.18) 0px 16px 22px)",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:div>div>div>div[4][0][1]": {
+      "hints": [
+        "will-change:transform"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix3d(0.99863, -0.052336, 0, 0, 0.052336, 0.99863, 0, 0, 0, 0, 1, 0, 0, 0, 130, 1)",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "Diego R.Austin · 3y memberGOLD“Best shake I've had, cookie c"
+    },
+    "declared:div>div>div>div[0][5][0]": {
+      "hints": [
+        "will-change:transform"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix3d(0.97, 0, 0, 0, 0, 0.97, 0, 0, 0, 0, 1, 0, 0, 0, 20, 1)",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "grid"
+      },
+      "text": null
+    },
+    "declared:div>div>div>div[1][5][0]": {
+      "hints": [
+        "will-change:transform"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix3d(0.97, 0, 0, 0, 0, 0.97, 0, 0, 0, 0, 1, 0, 0, 0, 26, 1)",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "grid"
+      },
+      "text": null
+    },
+    "declared:div>div>div>div[2][5][0]": {
+      "hints": [
+        "will-change:transform"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix3d(0.97, 0, 0, 0, 0, 0.97, 0, 0, 0, 0, 1, 0, 0, 0, 32, 1)",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "grid"
+      },
+      "text": null
+    },
+    "declared:div>div>div>div[1][1][0]": {
+      "hints": [
+        "will-change:transform"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix3d(0.740489, 0, 0.184625, 0, 0, 0.763158, 0, 0, -0.184625, 0, 0.740489, 0, -3.86798, 0, 15.5136, 1)",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "9:41Shake lover?Sip and savor.Search shakes…Discover shakesC"
+    },
+    "declared:div>div>div>div[0][1][1]": {
+      "hints": [
+        "will-change:opacity"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "9:41Shake lover?Sip and savor.Search shakes…Discover shakesC"
+    },
+    "declared:html>body>a[3][1]": {
+      "hints": [
+        "will-change:transform"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    }
+  }
+}

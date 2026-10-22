@@ -1,0 +1,268 @@
+{
+  "url": "http://127.0.0.1:49367/",
+  "viewport": {
+    "width": 1728,
+    "height": 982,
+    "dpr": 2
+  },
+  "mode": "CSS1Compat",
+  "discovery": {
+    "startedAt": "2026-10-20T14:06:47.609Z",
+    "endedAt": "2026-10-20T14:06:50.248Z",
+    "durationMs": 2638.9,
+    "documentHidden": false,
+    "scrollSweep": {
+      "from": 0,
+      "to": 0,
+      "steps": 6,
+      "positions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "observeMs": 5000,
+    "elementsScanned": 69,
+    "staticCandidateCount": 1,
+    "keyframesFound": [
+      "auroraPanelIn"
+    ],
+    "hoverTriggersProbed": [
+      "mode",
+      "tune"
+    ],
+    "marqueeSelectorsProbed": [],
+    "earlyMotionRecorder": {
+      "ran": true,
+      "durationMs": 6766.3,
+      "rowsObserved": 8,
+      "strongRows": 4
+    },
+    "runner": {
+      "kitVersion": "0.17.1",
+      "mode": "cdp-launched",
+      "chromeVersion": "Chrome/155.0.8059.85",
+      "headless": true,
+      "profile": "temp",
+      "viewport": {
+        "width": 1728,
+        "height": 982,
+        "dpr": 2,
+        "sources": {
+          "width": "target.json",
+          "height": "live.json",
+          "dpr": "live.json"
+        }
+      },
+      "rafProbe": {
+        "frames": 31,
+        "ms": 702,
+        "hz": 62,
+        "attempts": 1
+      },
+      "animProbe": {
+        "expectedPxPerSec": 100,
+        "measuredPxPerSec": 99.87
+      }
+    }
+  },
+  "behaviors": {
+    "hover:mode": {
+      "trigger": "hover",
+      "kind": "hover-mount",
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 69
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 69
+        },
+        "changed": false,
+        "inconclusive": true,
+        "inconclusiveReason": "the probe observed nothing — which is NOT proof nothing happens. Either the mechanism did not fire (a synthetic MouseEvent sets no CSS :hover and satisfies no trusted-event-gated JS), or the reveal paints OUTSIDE the snapshotted scope (aloyoga: a PRE-MOUNTED panel that only flips `visibility`, so the default scope — document.body — sees neither a style change nor a descendant-count change). Pass a findScope pointing at the element that actually paints, then re-probe"
+      }
+    },
+    "hover:tune": {
+      "trigger": "hover",
+      "kind": "hover-mount",
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 69
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 69
+        },
+        "changed": false,
+        "inconclusive": true,
+        "inconclusiveReason": "the probe observed nothing — which is NOT proof nothing happens. Either the mechanism did not fire (a synthetic MouseEvent sets no CSS :hover and satisfies no trusted-event-gated JS), or the reveal paints OUTSIDE the snapshotted scope (aloyoga: a PRE-MOUNTED panel that only flips `visibility`, so the default scope — document.body — sees neither a style change nor a descendant-count change). Pass a findScope pointing at the element that actually paints, then re-probe"
+      }
+    },
+    "startup:body>div>div>section>div:nth-of-type(2)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "body>div>div>section>div:nth-of-type(2)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1315,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0.7006",
+          "transform": "none",
+          "filter": "blur(3.8923px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.7219",
+          "transform": "none",
+          "filter": "blur(3.6153px)"
+        },
+        "sampleCount": 80,
+        "durationMs": 1315,
+        "returnedToStart": false
+      }
+    },
+    "startup:div>section>div:nth-of-type(3)>div>span": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "div>section>div:nth-of-type(3)>div>span",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 660,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 22)",
+          "filter": "blur(8px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.0297",
+          "transform": "matrix(1, 0, 0, 1, 0, 21.3466)",
+          "filter": "blur(7.7624px)"
+        },
+        "sampleCount": 38,
+        "durationMs": 660,
+        "returnedToStart": false
+      }
+    },
+    "startup:section>div:nth-of-type(3)>div>div>span:nth-of-type(1)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section>div:nth-of-type(3)>div>div>span:nth-of-type(1)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 3010,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(0.96, 0, 0, 0.96, 0, 18)",
+          "filter": "blur(6px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.0861",
+          "transform": "matrix(0.9634, 0, 0, 0.9634, 0, 16.4501)",
+          "filter": "blur(5.4834px)"
+        },
+        "sampleCount": 37,
+        "durationMs": 3010,
+        "returnedToStart": false
+      }
+    },
+    "startup:section>div:nth-of-type(3)>div>div>span:nth-of-type(2)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section>div:nth-of-type(3)>div>div>span:nth-of-type(2)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 3127,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(0.96, 0, 0, 0.96, 0, 18)",
+          "filter": "blur(6px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.0679",
+          "transform": "matrix(0.9627, 0, 0, 0.9627, 0, 16.7782)",
+          "filter": "blur(5.5927px)"
+        },
+        "sampleCount": 37,
+        "durationMs": 3127,
+        "returnedToStart": false
+      }
+    }
+  },
+  "declared": {
+    "declared:html>body>a[3][1]": {
+      "hints": [
+        "will-change:transform"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    }
+  }
+}

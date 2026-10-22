@@ -1,0 +1,12 @@
+{
+  "name": "@templates/crema",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Crema order-ahead landing captured with Copy Anything / Pingfusi.",
+  "scripts": {
+    "dev": "node scripts/serve.cjs",
+    "start": "node scripts/serve.cjs",
+    "build": "node scripts/build.cjs",
+    "check": "node --check scripts/serve.cjs && node --check scripts/build.cjs && node --check scripts/check.cjs && node --check targets/crema/clone/fixes.js && node --check targets/crema/clone/vendor/crema-motion.js && node scripts/check.cjs"
+  }
+}

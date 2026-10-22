@@ -1,0 +1,268 @@
+{
+  "url": "https://aurora-template.modulify.website/",
+  "viewport": {
+    "width": 1728,
+    "height": 982,
+    "dpr": 2
+  },
+  "mode": "CSS1Compat",
+  "discovery": {
+    "startedAt": "2026-10-20T14:07:00.938Z",
+    "endedAt": "2026-10-20T14:07:03.578Z",
+    "durationMs": 2640.1,
+    "documentHidden": false,
+    "scrollSweep": {
+      "from": 0,
+      "to": 0,
+      "steps": 6,
+      "positions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "observeMs": 5000,
+    "elementsScanned": 56,
+    "staticCandidateCount": 1,
+    "keyframesFound": [
+      "auroraPanelIn"
+    ],
+    "hoverTriggersProbed": [
+      "mode",
+      "tune"
+    ],
+    "marqueeSelectorsProbed": [],
+    "earlyMotionRecorder": {
+      "ran": true,
+      "durationMs": 8144.5,
+      "rowsObserved": 8,
+      "strongRows": 4
+    },
+    "runner": {
+      "kitVersion": "0.17.1",
+      "mode": "cdp-launched",
+      "chromeVersion": "Chrome/155.0.8059.85",
+      "headless": true,
+      "profile": "temp",
+      "viewport": {
+        "width": 1728,
+        "height": 982,
+        "dpr": 2,
+        "sources": {
+          "width": "target.json",
+          "height": "live.json",
+          "dpr": "live.json"
+        }
+      },
+      "rafProbe": {
+        "frames": 31,
+        "ms": 701,
+        "hz": 62,
+        "attempts": 1
+      },
+      "animProbe": {
+        "expectedPxPerSec": 100,
+        "measuredPxPerSec": 98.18
+      }
+    }
+  },
+  "behaviors": {
+    "hover:mode": {
+      "trigger": "hover",
+      "kind": "hover-mount",
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 56
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 56
+        },
+        "changed": false,
+        "inconclusive": true,
+        "inconclusiveReason": "the probe observed nothing — which is NOT proof nothing happens. Either the mechanism did not fire (a synthetic MouseEvent sets no CSS :hover and satisfies no trusted-event-gated JS), or the reveal paints OUTSIDE the snapshotted scope (aloyoga: a PRE-MOUNTED panel that only flips `visibility`, so the default scope — document.body — sees neither a style change nor a descendant-count change). Pass a findScope pointing at the element that actually paints, then re-probe"
+      }
+    },
+    "hover:tune": {
+      "trigger": "hover",
+      "kind": "hover-mount",
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 56
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 56
+        },
+        "changed": false,
+        "inconclusive": true,
+        "inconclusiveReason": "the probe observed nothing — which is NOT proof nothing happens. Either the mechanism did not fire (a synthetic MouseEvent sets no CSS :hover and satisfies no trusted-event-gated JS), or the reveal paints OUTSIDE the snapshotted scope (aloyoga: a PRE-MOUNTED panel that only flips `visibility`, so the default scope — document.body — sees neither a style change nor a descendant-count change). Pass a findScope pointing at the element that actually paints, then re-probe"
+      }
+    },
+    "startup:body>div>div>section>div:nth-of-type(2)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "body>div>div>section>div:nth-of-type(2)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1317,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0.7006",
+          "transform": "none",
+          "filter": "blur(3.8923px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.7231",
+          "transform": "none",
+          "filter": "blur(3.5996px)"
+        },
+        "sampleCount": 80,
+        "durationMs": 1317,
+        "returnedToStart": false
+      }
+    },
+    "startup:div>section>div:nth-of-type(3)>div>span": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "div>section>div:nth-of-type(3)>div>span",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1122,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 22)",
+          "filter": "blur(8px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.0346",
+          "transform": "matrix(1, 0, 0, 1, 0, 21.2389)",
+          "filter": "blur(7.7233px)"
+        },
+        "sampleCount": 38,
+        "durationMs": 1122,
+        "returnedToStart": false
+      }
+    },
+    "startup:section>div:nth-of-type(3)>div>div>span:nth-of-type(1)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section>div:nth-of-type(3)>div>div>span:nth-of-type(1)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 3471,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(0.96, 0, 0, 0.96, 0, 18)",
+          "filter": "blur(6px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.0981",
+          "transform": "matrix(0.9639, 0, 0, 0.9639, 0, 16.2341)",
+          "filter": "blur(5.4114px)"
+        },
+        "sampleCount": 37,
+        "durationMs": 3471,
+        "returnedToStart": false
+      }
+    },
+    "startup:section>div:nth-of-type(3)>div>div>span:nth-of-type(2)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section>div:nth-of-type(3)>div>div>span:nth-of-type(2)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 3588,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(0.96, 0, 0, 0.96, 0, 18)",
+          "filter": "blur(6px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "blur(0px)"
+        },
+        "during": {
+          "opacity": "0.074",
+          "transform": "matrix(0.963, 0, 0, 0.963, 0, 16.6683)",
+          "filter": "blur(5.5561px)"
+        },
+        "sampleCount": 37,
+        "durationMs": 3588,
+        "returnedToStart": false
+      }
+    }
+  },
+  "declared": {
+    "declared:html>body>a[5][1]": {
+      "hints": [
+        "will-change:transform"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    }
+  }
+}

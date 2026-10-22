@@ -1,6 +1,8 @@
 # Templates monorepo
 
-使用 npm Workspaces 管理 Aster、Black Plus、Fieldhand、Kerning、Liquid Type、Membrane 和 Onda Studio 七个静态站点。每个应用保留自己的源码、素材、脚本和审核记录。
+模板来源：[Modulify Templates](https://modulify.ai/templates)。
+
+使用 npm Workspaces 管理 Aster、Black Plus、Crema、Fieldhand、Kerning、Liquid Type、Membrane 和 Onda Studio 等静态站点。每个应用保留自己的源码、素材、脚本和审核记录。
 
 ## 环境与安装
 
@@ -23,6 +25,7 @@ npm run dev              # 同时启动全部站点，Ctrl+C 统一停止
 npm run dev -- onda kerning  # 只同时启动指定站点
 npm run dev:aster        # Aster 订阅页模板
 npm run dev:blackplus    # 单独启动一个站点
+npm run dev:crema        # Crema 点单落地页
 npm run dev:fieldhand
 npm run dev:kerning
 npm run dev:liquid-type
@@ -34,6 +37,7 @@ npm run dev:onda
 | --- | --- | --- | --- |
 | Aster | `@templates/aster` | 随机端口 3100–3200（见启动日志） | `apps/aster/dist/` |
 | Black Plus | `@templates/blackplus` | 随机端口 3100–3200（见启动日志） | `apps/blackplus/dist/` |
+| Crema | `@templates/crema` | 随机端口 3100–3200（见启动日志） | `apps/crema/dist/` |
 | Fieldhand | `@templates/fieldhand` | 随机端口 3100–3200（见启动日志） | `apps/fieldhand/dist/` |
 | Kerning | `@templates/kerning` | 随机端口 3100–3200（见启动日志） | `apps/kerning/dist/` |
 | Liquid Type | `@templates/liquid-type` | 随机端口 3100–3200（见启动日志） | `apps/liquid-type/dist/` |
@@ -68,6 +72,7 @@ Templates/
 ├── apps/
 │   ├── aster/
 │   ├── blackplus/
+│   ├── crema/
 │   ├── fieldhand/
 │   ├── kerning/
 │   ├── liquid-type/
@@ -93,3 +98,7 @@ npm install -D <工具名>  # 所有应用共用的开发工具
 ```
 
 后续出现实际共享的代码时，可新增 `packages/`，并将 `packages/*` 加入根目录 `workspaces`。本仓库以根目录作为单一 Git 仓库；`dist/`、`node_modules/`、捕获缓存和本地环境变量文件已在 `.gitignore` 中排除。
+
+## Aurora
+
+CopyAnything 复刻位于 `apps/aurora/`，包含原站 WebGL 背景、五种模式和 Tune 面板。运行 `npm run dev -- aurora` 或 `npm run dev:aurora`，实际端口见日志。构建使用 `npm run build --workspace=@templates/aurora`。校验与审核状态见 `apps/aurora/QA.md`。
