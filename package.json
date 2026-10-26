@@ -17,6 +17,7 @@
     "dev:blackplus": "npm run dev --workspace=@templates/blackplus",
     "dev:crema": "npm run dev --workspace=@templates/crema",
     "dev:fieldhand": "npm run dev --workspace=@templates/fieldhand",
+    "dev:forge": "npm run dev --workspace=@templates/forge",
     "dev:kerning": "npm run dev --workspace=@templates/kerning",
     "dev:liquid-type": "npm run dev --workspace=@templates/liquid-type",
     "dev:manila": "npm run dev --workspace=@templates/manila",

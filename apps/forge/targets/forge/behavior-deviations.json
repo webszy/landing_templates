@@ -1,0 +1,155 @@
+{
+  "reveal:div.halftone-drift.absolute": {
+    "reason": "Phase only, not a reproduction gap: the clone carries the page's own `halftone-wander` keyframes (16000ms, ease-in-out, infinite) — identical name/duration/delay/easing to the live row. The behavior pass samples each side at an arbitrary instant of an infinite loop, so the frozen opacity differs (live 0.892 / clone 0.996) while the animation itself matches. Verified: both sides' behaviors-*.json temporal blocks agree on animationName, durationMs, delayMs, easing and iterationCount."
+  },
+  "reveal:ul.logo-fade.marquee-track": {
+    "reason": "Phase only: `marquee` 55000ms linear infinite on both sides (same animation-name/duration/delay/easing). The sampled translate differs (live -214.6px / clone -164.4px) because the two captures start the loop at different wall-clock times — a 55s loop cannot be phase-aligned by the capture, and the pixel gates freeze it deterministically (see the visual snapshot's phase-freeze receipt)."
+  },
+  "reveal:div>div>span>svg[0][2][1]": {
+    "reason": "Phase only: the spinner icon carries the page's own `spin` animation (same name/duration/delay/easing/iteration count on both sides). The sampled opacity (0.163 vs 0) and rotation matrix differ by the loop's phase at sampling time; the animation definition is identical."
+  },
+  "reveal:span.watch-progress.block": {
+    "reason": "Phase plus one deliberate iteration-count change. The live bar runs `progress-fill` once (7000ms, iterationCount 1) and the page advances to the next tab on animationend; the clone sets iterationCount:infinite and pauses the bar when the section leaves the viewport, because switching tabs would replace text the capture froze. The 7s duration, linear easing and keyframes are the page's own; the sampled scaleX (0.043 vs 0.064) is the loop phase at sampling time."
+  },
+  "reveal:span.dot.dot-blink": {
+    "reason": "Phase only: `dot-blink` 2400ms ease-in-out infinite on both sides (identical definition). Sampled opacity differs (live 0.926 / clone 0.416) because the two captures sample the blink at different points of its cycle."
+  },
+  "reveal:span.think-dot.size-[7px]": {
+    "reason": "Phase only: `think` 1300ms ease-in-out infinite with the page's own 360ms delay on both sides (identical definition, including the staggered delay). Sampled opacity/scale differ (0.944/0.988 vs 0.462/0.885) because the sampling instant differs."
+  },
+  "reveal:ul.marquee-track.gap-6": {
+    "reason": "Phase only: `marquee` 80000ms linear infinite on both sides (identical definition). Sampled translate differs (live -321.8px / clone -246.5px) — an 80s loop cannot be phase-aligned between two independent captures; the visual gate freezes it to a fixed phase and it matches there."
+  },
+  "declared:site-header": {
+    "reason": "One-shot load entrance: `intro-drop` 800ms, delay 60ms, cubic-bezier(0.16, 1, 0.3, 1), 1 iteration. The @keyframes and the class rule are captured verbatim in the clone CSS and applied to the same element, so the clone fires the identical animation on load. Both discovery passes start observing after it has completed (the live row is itself declared-not-observed), so there is no measured pair to compare — the reproduction is the captured CSS, not a JS fix in fixes.js."
+  },
+  "declared:div>button>span>svg[1][0][2]": {
+    "reason": "CSS transition declared from a start state (200ms, delay 0ms, cubic-bezier(0.4, 0, 0.2, 1)) on div>button>span>svg[1][0][2]. The class and the transition are captured verbatim in the clone (assets/css), but the transition only runs on hover/interaction, which a load-and-scroll discovery pass never performs — so neither side observes it firing. Nothing is silently dropped: the rule is present in the clone and behaves the same on the same trigger."
+  },
+  "declared:mobile-menu": {
+    "reason": "CSS transition declared from a start state (200ms, delay 200ms, ease-out, ease-out, linear) on mobile-menu. The class and the transition are captured verbatim in the clone (assets/css), but the transition only runs on hover/interaction, which a load-and-scroll discovery pass never performs — so neither side observes it firing. Nothing is silently dropped: the rule is present in the clone and behaves the same on the same trigger."
+  },
+  "declared:div.hero-dots.intro-fade": {
+    "reason": "One-shot load entrance: `intro-fade` 1600ms, delay 200ms, ease-out, 1 iteration. The @keyframes and the class rule are captured verbatim in the clone CSS and applied to the same element, so the clone fires the identical animation on load. Both discovery passes start observing after it has completed (the live row is itself declared-not-observed), so there is no measured pair to compare — the reproduction is the captured CSS, not a JS fix in fixes.js."
+  },
+  "declared:span.dot-glyph": {
+    "reason": "One-shot load entrance: `dot-glyph` 280ms, delay 160ms, steps(1), 1 iteration. The @keyframes and the class rule are captured verbatim in the clone CSS and applied to the same element, so the clone fires the identical animation on load. Both discovery passes start observing after it has completed (the live row is itself declared-not-observed), so there is no measured pair to compare — the reproduction is the captured CSS, not a JS fix in fixes.js."
+  },
+  "declared:span.dot-cluster": {
+    "reason": "One-shot load entrance: `dot-cluster` 280ms, delay 160ms, steps(1), 1 iteration. The @keyframes and the class rule are captured verbatim in the clone CSS and applied to the same element, so the clone fires the identical animation on load. Both discovery passes start observing after it has completed (the live row is itself declared-not-observed), so there is no measured pair to compare — the reproduction is the captured CSS, not a JS fix in fixes.js."
+  },
+  "declared:p.hero-after.mt-7": {
+    "reason": "One-shot load entrance: `intro-fade` 500ms, delay 1560ms, ease-out, 1 iteration. The @keyframes and the class rule are captured verbatim in the clone CSS and applied to the same element, so the clone fires the identical animation on load. Both discovery passes start observing after it has completed (the live row is itself declared-not-observed), so there is no measured pair to compare — the reproduction is the captured CSS, not a JS fix in fixes.js."
+  },
+  "declared:div.hero-after.mt-9": {
+    "reason": "One-shot load entrance: `intro-fade` 500ms, delay 1560ms, ease-out, 1 iteration. The @keyframes and the class rule are captured verbatim in the clone CSS and applied to the same element, so the clone fires the identical animation on load. Both discovery passes start observing after it has completed (the live row is itself declared-not-observed), so there is no measured pair to compare — the reproduction is the captured CSS, not a JS fix in fixes.js."
+  },
+  "declared:The Forge workspace: four live numbers for resolve time, alerts absorbed, fixes shipped and cloud savings, an incident traced to its cause with a drafted fix verifying in canary, and the queue of incidents and optimizations up next.": {
+    "reason": "One-shot load entrance: `intro-settle` 1300ms, delay 780ms, cubic-bezier(0.16, 1, 0.3, 1), 1 iteration. The @keyframes and the class rule are captured verbatim in the clone CSS and applied to the same element, so the clone fires the identical animation on load. Both discovery passes start observing after it has completed (the live row is itself declared-not-observed), so there is no measured pair to compare — the reproduction is the captured CSS, not a JS fix in fixes.js."
+  },
+  "declared:div.hero-rise.hidden": {
+    "reason": "One-shot load entrance: `hero-rise` 800ms, delay 900ms, cubic-bezier(0.22, 1, 0.36, 1), 1 iteration. The @keyframes and the class rule are captured verbatim in the clone CSS and applied to the same element, so the clone fires the identical animation on load. Both discovery passes start observing after it has completed (the live row is itself declared-not-observed), so there is no measured pair to compare — the reproduction is the captured CSS, not a JS fix in fixes.js."
+  },
+  "declared:div.hero-rise.flex": {
+    "reason": "One-shot load entrance: `hero-rise` 800ms, delay 950ms, cubic-bezier(0.22, 1, 0.36, 1), 1 iteration. The @keyframes and the class rule are captured verbatim in the clone CSS and applied to the same element, so the clone fires the identical animation on load. Both discovery passes start observing after it has completed (the live row is itself declared-not-observed), so there is no measured pair to compare — the reproduction is the captured CSS, not a JS fix in fixes.js."
+  },
+  "declared:div>div>span>svg[1][1][0]": {
+    "reason": "One-shot load entrance: `hero-sweep` 900ms, delay 1250ms, cubic-bezier(0.65, 0, 0.35, 1), 1 iteration. The @keyframes and the class rule are captured verbatim in the clone CSS and applied to the same element, so the clone fires the identical animation on load. Both discovery passes start observing after it has completed (the live row is itself declared-not-observed), so there is no measured pair to compare — the reproduction is the captured CSS, not a JS fix in fixes.js."
+  },
+  "declared:div>div>span>svg[1][1][1]": {
+    "reason": "One-shot load entrance: `hero-sweep` 900ms, delay 1310ms, cubic-bezier(0.65, 0, 0.35, 1), 1 iteration. The @keyframes and the class rule are captured verbatim in the clone CSS and applied to the same element, so the clone fires the identical animation on load. Both discovery passes start observing after it has completed (the live row is itself declared-not-observed), so there is no measured pair to compare — the reproduction is the captured CSS, not a JS fix in fixes.js."
+  },
+  "declared:div>div>span>svg[1][1][2]": {
+    "reason": "One-shot load entrance: `hero-sweep` 900ms, delay 1370ms, cubic-bezier(0.65, 0, 0.35, 1), 1 iteration. The @keyframes and the class rule are captured verbatim in the clone CSS and applied to the same element, so the clone fires the identical animation on load. Both discovery passes start observing after it has completed (the live row is itself declared-not-observed), so there is no measured pair to compare — the reproduction is the captured CSS, not a JS fix in fixes.js."
+  },
+  "declared:div>div>span>svg[1][1][3]": {
+    "reason": "One-shot load entrance: `hero-sweep` 900ms, delay 1430ms, cubic-bezier(0.65, 0, 0.35, 1), 1 iteration. The @keyframes and the class rule are captured verbatim in the clone CSS and applied to the same element, so the clone fires the identical animation on load. Both discovery passes start observing after it has completed (the live row is itself declared-not-observed), so there is no measured pair to compare — the reproduction is the captured CSS, not a JS fix in fixes.js."
+  },
+  "declared:li.hero-rise.relative": {
+    "reason": "One-shot load entrance: `hero-rise` 800ms, delay 1350ms, cubic-bezier(0.22, 1, 0.36, 1), 1 iteration. The @keyframes and the class rule are captured verbatim in the clone CSS and applied to the same element, so the clone fires the identical animation on load. Both discovery passes start observing after it has completed (the live row is itself declared-not-observed), so there is no measured pair to compare — the reproduction is the captured CSS, not a JS fix in fixes.js."
+  },
+  "declared:span.hero-sweep.absolute": {
+    "reason": "One-shot load entrance: `hero-sweep` 900ms, delay 1700ms, cubic-bezier(0.65, 0, 0.35, 1), 1 iteration. The @keyframes and the class rule are captured verbatim in the clone CSS and applied to the same element, so the clone fires the identical animation on load. Both discovery passes start observing after it has completed (the live row is itself declared-not-observed), so there is no measured pair to compare — the reproduction is the captured CSS, not a JS fix in fixes.js."
+  },
+  "declared:div>div>div>svg[2][0][1]": {
+    "reason": "One-shot load entrance: `hero-sweep` 900ms, delay 1450ms, cubic-bezier(0.65, 0, 0.35, 1), 1 iteration. The @keyframes and the class rule are captured verbatim in the clone CSS and applied to the same element, so the clone fires the identical animation on load. Both discovery passes start observing after it has completed (the live row is itself declared-not-observed), so there is no measured pair to compare — the reproduction is the captured CSS, not a JS fix in fixes.js."
+  },
+  "declared:li.hero-rise.flex": {
+    "reason": "One-shot load entrance: `hero-rise` 800ms, delay 1420ms, cubic-bezier(0.22, 1, 0.36, 1), 1 iteration. The @keyframes and the class rule are captured verbatim in the clone CSS and applied to the same element, so the clone fires the identical animation on load. Both discovery passes start observing after it has completed (the live row is itself declared-not-observed), so there is no measured pair to compare — the reproduction is the captured CSS, not a JS fix in fixes.js."
+  },
+  "declared:span.liquid-band": {
+    "reason": "One-shot load entrance: `animation` ?ms, delay 0ms, default, 1 iteration. The @keyframes and the class rule are captured verbatim in the clone CSS and applied to the same element, so the clone fires the identical animation on load. Both discovery passes start observing after it has completed (the live row is itself declared-not-observed), so there is no measured pair to compare — the reproduction is the captured CSS, not a JS fix in fixes.js."
+  },
+  "declared:span.paint-shade": {
+    "reason": "CSS transition declared from a start state (600ms, delay 0ms, ease-out) on span.paint-shade. The class and the transition are captured verbatim in the clone (assets/css), but the transition only runs on hover/interaction, which a load-and-scroll discovery pass never performs — so neither side observes it firing. Nothing is silently dropped: the rule is present in the clone and behaves the same on the same trigger."
+  },
+  "declared:span.swap-in.flex": {
+    "reason": "One-shot load entrance: `swap-in` 520ms, delay 0ms, cubic-bezier(0.16, 1, 0.3, 1), 1 iteration. The @keyframes and the class rule are captured verbatim in the clone CSS and applied to the same element, so the clone fires the identical animation on load. Both discovery passes start observing after it has completed (the live row is itself declared-not-observed), so there is no measured pair to compare — the reproduction is the captured CSS, not a JS fix in fixes.js."
+  },
+  "declared:li.tri-final.relative": {
+    "reason": "CSS transition declared from a start state (300ms, delay 0ms, cubic-bezier(0, 0, 0.2, 1)) on li.tri-final.relative. The class and the transition are captured verbatim in the clone (assets/css), but the transition only runs on hover/interaction, which a load-and-scroll discovery pass never performs — so neither side observes it firing. Nothing is silently dropped: the rule is present in the clone and behaves the same on the same trigger."
+  },
+  "declared:li.tri-final.grid": {
+    "reason": "CSS transition declared from a start state (300ms, delay 0ms, cubic-bezier(0, 0, 0.2, 1)) on li.tri-final.grid. The class and the transition are captured verbatim in the clone (assets/css), but the transition only runs on hover/interaction, which a load-and-scroll discovery pass never performs — so neither side observes it firing. Nothing is silently dropped: the rule is present in the clone and behaves the same on the same trigger."
+  },
+  "declared:p.flex.items-center": {
+    "reason": "CSS transition declared from a start state (300ms, delay 0ms, cubic-bezier(0, 0, 0.2, 1)) on p.flex.items-center. The class and the transition are captured verbatim in the clone (assets/css), but the transition only runs on hover/interaction, which a load-and-scroll discovery pass never performs — so neither side observes it firing. Nothing is silently dropped: the rule is present in the clone and behaves the same on the same trigger."
+  },
+  "declared:span.shimmer-night": {
+    "reason": "One-shot load entrance: `shimmer-night` 2400ms, delay 0ms, linear, infinite iteration. The @keyframes and the class rule are captured verbatim in the clone CSS and applied to the same element, so the clone fires the identical animation on load. Both discovery passes start observing after it has completed (the live row is itself declared-not-observed), so there is no measured pair to compare — the reproduction is the captured CSS, not a JS fix in fixes.js."
+  },
+  "declared:span.truncate.transition-opacity": {
+    "reason": "CSS transition declared from a start state (300ms, delay 0ms, cubic-bezier(0, 0, 0.2, 1)) on span.truncate.transition-opacity. The class and the transition are captured verbatim in the clone (assets/css), but the transition only runs on hover/interaction, which a load-and-scroll discovery pass never performs — so neither side observes it firing. Nothing is silently dropped: the rule is present in the clone and behaves the same on the same trigger."
+  },
+  "declared:li.night-row.absolute": {
+    "reason": "CSS transition declared from a start state (600ms, delay 0ms, cubic-bezier(0.65, 0, 0.35, 1)) on li.night-row.absolute. The class and the transition are captured verbatim in the clone (assets/css), but the transition only runs on hover/interaction, which a load-and-scroll discovery pass never performs — so neither side observes it firing. Nothing is silently dropped: the rule is present in the clone and behaves the same on the same trigger."
+  },
+  "declared:div>div>svg>circle[3][1][1]": {
+    "reason": "CSS transition declared from a start state (700ms, delay 1900ms, cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.16, 1, 0.3, 1)) on div>div>svg>circle[3][1][1]. The class and the transition are captured verbatim in the clone (assets/css), but the transition only runs on hover/interaction, which a load-and-scroll discovery pass never performs — so neither side observes it firing. Nothing is silently dropped: the rule is present in the clone and behaves the same on the same trigger."
+  },
+  "declared:span.ml-1.inline-block": {
+    "reason": "One-shot load entrance: `animation` ?ms, delay 0ms, default, 1 iteration. The @keyframes and the class rule are captured verbatim in the clone CSS and applied to the same element, so the clone fires the identical animation on load. Both discovery passes start observing after it has completed (the live row is itself declared-not-observed), so there is no measured pair to compare — the reproduction is the captured CSS, not a JS fix in fixes.js."
+  },
+  "declared:div.swap-in.flex": {
+    "reason": "One-shot load entrance: `swap-in` 520ms, delay 0ms, cubic-bezier(0.16, 1, 0.3, 1), 1 iteration. The @keyframes and the class rule are captured verbatim in the clone CSS and applied to the same element, so the clone fires the identical animation on load. Both discovery passes start observing after it has completed (the live row is itself declared-not-observed), so there is no measured pair to compare — the reproduction is the captured CSS, not a JS fix in fixes.js."
+  },
+  "declared:div.swap-sweep.relative": {
+    "reason": "One-shot load entrance: `sweep-in` 1500ms, delay 160ms, cubic-bezier(0.65, 0, 0.35, 1), 1 iteration. The @keyframes and the class rule are captured verbatim in the clone CSS and applied to the same element, so the clone fires the identical animation on load. Both discovery passes start observing after it has completed (the live row is itself declared-not-observed), so there is no measured pair to compare — the reproduction is the captured CSS, not a JS fix in fixes.js."
+  },
+  "declared:span.seq-think.glass-tile": {
+    "reason": "CSS transition declared from a start state (500ms, delay 0ms, ease-out, cubic-bezier(0.16, 1, 0.3, 1)) on span.seq-think.glass-tile. The class and the transition are captured verbatim in the clone (assets/css), but the transition only runs on hover/interaction, which a load-and-scroll discovery pass never performs — so neither side observes it firing. Nothing is silently dropped: the rule is present in the clone and behaves the same on the same trigger."
+  },
+  "declared:span.ring-soft.flex": {
+    "reason": "CSS transition declared from a start state (300ms, delay 0ms, cubic-bezier(0, 0, 0.2, 1)) on span.ring-soft.flex. The class and the transition are captured verbatim in the clone (assets/css), but the transition only runs on hover/interaction, which a load-and-scroll discovery pass never performs — so neither side observes it firing. Nothing is silently dropped: the rule is present in the clone and behaves the same on the same trigger."
+  },
+  "declared:span.play-scale.mt-1": {
+    "reason": "CSS transition declared from a start state (700ms, delay 700ms, cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.16, 1, 0.3, 1)) on span.play-scale.mt-1. The class and the transition are captured verbatim in the clone (assets/css), but the transition only runs on hover/interaction, which a load-and-scroll discovery pass never performs — so neither side observes it firing. Nothing is silently dropped: the rule is present in the clone and behaves the same on the same trigger."
+  },
+  "declared:div.play-in.flex": {
+    "reason": "CSS transition declared from a start state (700ms, delay 2400ms, cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.16, 1, 0.3, 1)) on div.play-in.flex. The class and the transition are captured verbatim in the clone (assets/css), but the transition only runs on hover/interaction, which a load-and-scroll discovery pass never performs — so neither side observes it firing. Nothing is silently dropped: the rule is present in the clone and behaves the same on the same trigger."
+  },
+  "declared:main>section>div>div[0][0][7]": {
+    "reason": "CSS transition declared from a start state (900ms, delay 0ms, cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)) on main>section>div>div[0][0][7]. The class and the transition are captured verbatim in the clone (assets/css), but the transition only runs on hover/interaction, which a load-and-scroll discovery pass never performs — so neither side observes it firing. Nothing is silently dropped: the rule is present in the clone and behaves the same on the same trigger."
+  },
+  "declared:span.play-grow-x.block": {
+    "reason": "CSS transition declared from a start state (1100ms, delay 200ms, cubic-bezier(0.16, 1, 0.3, 1)) on span.play-grow-x.block. The class and the transition are captured verbatim in the clone (assets/css), but the transition only runs on hover/interaction, which a load-and-scroll discovery pass never performs — so neither side observes it firing. Nothing is silently dropped: the rule is present in the clone and behaves the same on the same trigger."
+  },
+  "declared:section>div>figure>div[1][0][0]": {
+    "reason": "CSS transition declared from a start state (900ms, delay 200ms, cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)) on section>div>figure>div[1][0][0]. The class and the transition are captured verbatim in the clone (assets/css), but the transition only runs on hover/interaction, which a load-and-scroll discovery pass never performs — so neither side observes it firing. Nothing is silently dropped: the rule is present in the clone and behaves the same on the same trigger."
+  },
+  "declared:main>section>div>div[1][1][9]": {
+    "reason": "CSS transition declared from a start state (900ms, delay 260ms, cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)) on main>section>div>div[1][1][9]. The class and the transition are captured verbatim in the clone (assets/css), but the transition only runs on hover/interaction, which a load-and-scroll discovery pass never performs — so neither side observes it firing. Nothing is silently dropped: the rule is present in the clone and behaves the same on the same trigger."
+  },
+  "declared:div.pt-4": {
+    "reason": "CSS transition declared from a start state (900ms, delay 380ms, cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)) on div.pt-4. The class and the transition are captured verbatim in the clone (assets/css), but the transition only runs on hover/interaction, which a load-and-scroll discovery pass never performs — so neither side observes it firing. Nothing is silently dropped: the rule is present in the clone and behaves the same on the same trigger."
+  },
+  "declared:div.flex.flex-wrap": {
+    "reason": "CSS transition declared from a start state (900ms, delay 0ms, cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)) on div.flex.flex-wrap. The class and the transition are captured verbatim in the clone (assets/css), but the transition only runs on hover/interaction, which a load-and-scroll discovery pass never performs — so neither side observes it firing. Nothing is silently dropped: the rule is present in the clone and behaves the same on the same trigger."
+  },
+  "declared:div.mt-6.overflow-hidden": {
+    "reason": "CSS transition declared from a start state (900ms, delay 120ms, cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)) on div.mt-6.overflow-hidden. The class and the transition are captured verbatim in the clone (assets/css), but the transition only runs on hover/interaction, which a load-and-scroll discovery pass never performs — so neither side observes it firing. Nothing is silently dropped: the rule is present in the clone and behaves the same on the same trigger."
+  },
+  "declared:html>body>a[3][1]": {
+    "reason": "One-shot load entrance: `animation` ?ms, delay 0ms, default, 1 iteration. The @keyframes and the class rule are captured verbatim in the clone CSS and applied to the same element, so the clone fires the identical animation on load. Both discovery passes start observing after it has completed (the live row is itself declared-not-observed), so there is no measured pair to compare — the reproduction is the captured CSS, not a JS fix in fixes.js."
+  }
+}
