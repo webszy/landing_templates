@@ -1,0 +1,33 @@
+{
+  "schema": "pingfusi/motion-pass@1",
+  "at": "2026-10-27T13:18:44.827Z",
+  "target": "peelmark",
+  "ok": true,
+  "doc": {
+    "file": "targets/peelmark/motion-doc.json",
+    "sha256_16": "41a5c6b6acf8b624"
+  },
+  "tracks": {
+    "total": 3,
+    "cssInherited": 3,
+    "playersApplied": 0,
+    "skipped": 0
+  },
+  "ownerProbe": {
+    "mode": "ran",
+    "changed": [],
+    "elements": 0
+  },
+  "replay": null,
+  "items": {
+    "schema": "pingfusi/motion-items@2",
+    "ids": [
+      "pass-css-a7fc0b20",
+      "pass-css-3c8ca451"
+    ]
+  },
+  "assets": [],
+  "skipped": [],
+  "warnings": [],
+  "summary": "3 track(s), 3 css-inherited, 0 player-applied, 0 skipped — receipts and warnings only; motion never fails a build"
+}

@@ -1,0 +1,2865 @@
+{
+  "url": "http://127.0.0.1:55474/",
+  "viewport": {
+    "width": 1728,
+    "height": 982,
+    "dpr": 2
+  },
+  "mode": "CSS1Compat",
+  "discovery": {
+    "startedAt": "2026-10-27T13:24:41.806Z",
+    "endedAt": "2026-10-27T13:24:44.883Z",
+    "durationMs": 3076.3,
+    "documentHidden": false,
+    "scrollSweep": {
+      "from": 0,
+      "to": 11451,
+      "steps": 6,
+      "positions": [
+        0,
+        1909,
+        3817,
+        5726,
+        7634,
+        9543,
+        11451
+      ]
+    },
+    "observeMs": 5000,
+    "elementsScanned": 1196,
+    "staticCandidateCount": 70,
+    "keyframesFound": [
+      "fade-up",
+      "caret-blink",
+      "skeleton-sheen",
+      "hero-intro-failsafe",
+      "sticker-loader-float",
+      "sticker-loader-sheen",
+      "sticker-loader-dot",
+      "spin",
+      "pulse",
+      "enter",
+      "exit"
+    ],
+    "hoverTriggersProbed": [
+      "style_white",
+      "nav_product",
+      "nav_showcase",
+      "sticker_shine"
+    ],
+    "marqueeSelectorsProbed": [],
+    "earlyMotionRecorder": {
+      "ran": true,
+      "durationMs": 6816.7,
+      "rowsObserved": 59,
+      "strongRows": 56
+    },
+    "runner": {
+      "kitVersion": "0.18.0",
+      "mode": "cdp-launched",
+      "chromeVersion": "Chrome/156.0.8078.48",
+      "headless": true,
+      "profile": "temp",
+      "viewport": {
+        "width": 1728,
+        "height": 982,
+        "dpr": 2,
+        "sources": {
+          "width": "target.json",
+          "height": "live.json",
+          "dpr": "live.json"
+        }
+      },
+      "rafProbe": {
+        "frames": 31,
+        "ms": 702,
+        "hz": 62,
+        "attempts": 1
+      },
+      "animProbe": {
+        "expectedPxPerSec": 100,
+        "measuredPxPerSec": 98.04
+      }
+    }
+  },
+  "behaviors": {
+    "reveal:div.reveal.flex": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "main>section:nth-of-type(5)>div>div:nth-of-type(2)>div:nth-of-type(2)",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 700,
+        "delayMs": 80,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 16)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "during": {
+          "atY": 5726,
+          "snapshot": {
+            "opacity": 0.021,
+            "transform": "matrix(1, 0, 0, 1, 0, 15.6578)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "flex"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div.reveal.rounded-[28px]": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "main>section:nth-of-type(2)>div>div:nth-of-type(2)>div:nth-of-type(1)",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 700,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 16)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 1909,
+          "snapshot": {
+            "opacity": 0.385,
+            "transform": "matrix(1, 0, 0, 1, 0, 9.84713)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div.reveal.lg:sticky": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "main>section:nth-of-type(2)>div>div:nth-of-type(2)>div:nth-of-type(2)",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 700,
+        "delayMs": 80,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 16)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 3817,
+          "snapshot": {
+            "opacity": 0.871,
+            "transform": "matrix(1, 0, 0, 1, 0, 2.06154)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div.reveal.mx-auto": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>div>main>section:nth-of-type(3)>div",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 700,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 16)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 3817,
+          "snapshot": {
+            "opacity": 0.299,
+            "transform": "matrix(1, 0, 0, 1, 0, 11.2157)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div.reveal.grid": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>main>section:nth-of-type(9)>div>div",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 700,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 16)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "grid"
+        },
+        "after": {
+          "opacity": 0.989,
+          "transform": "matrix(1, 0, 0, 1, 0, 0.172372)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "grid"
+        },
+        "changedDuringSweep": false,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:li.reveal.lift-group": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "main>section:nth-of-type(8)>div>ul>li:nth-of-type(8)",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 700,
+        "delayMs": 210,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 16)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "list-item"
+        },
+        "after": {
+          "opacity": 0.964,
+          "transform": "matrix(1, 0, 0, 1, 0, 0.572087)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "list-item"
+        },
+        "changedDuringSweep": false,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div.reveal.relative": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "main>section:nth-of-type(5)>div>div:nth-of-type(2)>div:nth-of-type(1)",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 700,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 16)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 5726,
+          "snapshot": {
+            "opacity": 0.463,
+            "transform": "matrix(1, 0, 0, 1, 0, 8.5882)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div.reveal": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "main>section:nth-of-type(6)>div>div:nth-of-type(2)>div:nth-of-type(2)",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 700,
+        "delayMs": 80,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 16)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 7634,
+          "snapshot": {
+            "opacity": 0.021,
+            "transform": "matrix(1, 0, 0, 1, 0, 15.6568)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div.reveal.mt-12": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>main>section:nth-of-type(7)>div>div:nth-of-type(2)",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 700,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 16)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 9543,
+          "snapshot": {
+            "opacity": 0.867,
+            "transform": "matrix(1, 0, 0, 1, 0, 2.13272)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:li.reveal": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "main>section:nth-of-type(9)>div>ul>li:nth-of-type(8)",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 700,
+        "delayMs": 180,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 16)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "list-item"
+        },
+        "after": {
+          "opacity": 0.871,
+          "transform": "matrix(1, 0, 0, 1, 0, 2.06249)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "list-item"
+        },
+        "changedDuringSweep": false,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:span.caret-blink.ml-0.5": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>div>div:nth-of-type(1)>span:nth-of-type(1)>span",
+      "hints": [
+        "animation-name:caret-blink",
+        "class-marker"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "caret-blink",
+        "durationMs": 1100,
+        "delayMs": 0,
+        "easing": "steps(1)",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:caret-blink"
+        ],
+        "reason": "computed style changed during the measured scroll sweep and returned to its start state"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "inline-block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "inline-block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 0,
+            "transform": "none",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "inline-block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": true,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "mutation:header.fixed.inset-x-0": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "body>div>div>div>header",
+      "measured": {
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 1
+      }
+    },
+    "hover:style_white": {
+      "trigger": "hover",
+      "kind": "hover-mount",
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 1196
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 1196
+        },
+        "changed": false,
+        "inconclusive": true,
+        "inconclusiveReason": "the probe observed nothing — which is NOT proof nothing happens. Either the mechanism did not fire (a synthetic MouseEvent sets no CSS :hover and satisfies no trusted-event-gated JS), or the reveal paints OUTSIDE the snapshotted scope (aloyoga: a PRE-MOUNTED panel that only flips `visibility`, so the default scope — document.body — sees neither a style change nor a descendant-count change). Pass a findScope pointing at the element that actually paints, then re-probe"
+      }
+    },
+    "hover:nav_product": {
+      "trigger": "hover",
+      "kind": "hover-mount",
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 1196
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 1196
+        },
+        "changed": false,
+        "inconclusive": true,
+        "inconclusiveReason": "the probe observed nothing — which is NOT proof nothing happens. Either the mechanism did not fire (a synthetic MouseEvent sets no CSS :hover and satisfies no trusted-event-gated JS), or the reveal paints OUTSIDE the snapshotted scope (aloyoga: a PRE-MOUNTED panel that only flips `visibility`, so the default scope — document.body — sees neither a style change nor a descendant-count change). Pass a findScope pointing at the element that actually paints, then re-probe"
+      }
+    },
+    "hover:nav_showcase": {
+      "trigger": "hover",
+      "kind": "hover-mount",
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 1196
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 1196
+        },
+        "changed": false,
+        "inconclusive": true,
+        "inconclusiveReason": "the probe observed nothing — which is NOT proof nothing happens. Either the mechanism did not fire (a synthetic MouseEvent sets no CSS :hover and satisfies no trusted-event-gated JS), or the reveal paints OUTSIDE the snapshotted scope (aloyoga: a PRE-MOUNTED panel that only flips `visibility`, so the default scope — document.body — sees neither a style change nor a descendant-count change). Pass a findScope pointing at the element that actually paints, then re-probe"
+      }
+    },
+    "hover:sticker_shine": {
+      "trigger": "hover",
+      "kind": "hover-mount",
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 1196
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 1196
+        },
+        "changed": false,
+        "inconclusive": true,
+        "inconclusiveReason": "the probe observed nothing — which is NOT proof nothing happens. Either the mechanism did not fire (a synthetic MouseEvent sets no CSS :hover and satisfies no trusted-event-gated JS), or the reveal paints OUTSIDE the snapshotted scope (aloyoga: a PRE-MOUNTED panel that only flips `visibility`, so the default scope — document.body — sees neither a style change nor a descendant-count change). Pass a findScope pointing at the element that actually paints, then re-probe"
+      }
+    },
+    "startup:div>main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(1)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "div>main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(1)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1766,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 38)",
+          "filter": "blur(6px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0697",
+          "transform": "matrix(1, 0, 0, 1, 0, 35.352)",
+          "filter": "blur(5.5819px)"
+        },
+        "sampleCount": 67,
+        "durationMs": 1766,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(1)>span:nth-of-type(1)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(1)>span:nth-of-type(1)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1766,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.2362",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.407409, -1.36041, 0.00261616, 0, 0.957964, 0.286887, -0.000551707, 0, 57.3301, 0, 1)",
+          "filter": "blur(7.6384px)"
+        },
+        "sampleCount": 64,
+        "durationMs": 1766,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(1)>span:nth-of-type(2)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(1)>span:nth-of-type(2)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1766,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.1059",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.108496, -1.48775, 0.00286106, 0, 0.997351, 0.0727334, -0.000139872, 0, 67.1035, 0, 1)",
+          "filter": "blur(8.9405px)"
+        },
+        "sampleCount": 65,
+        "durationMs": 1766,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(1)>span:nth-of-type(3)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(1)>span:nth-of-type(3)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1766,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.1176",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.136989, -1.47897, 0.00284417, 0, 0.995738, 0.0922298, -0.000177365, 0, 66.2271, 0, 1)",
+          "filter": "blur(8.8238px)"
+        },
+        "sampleCount": 65,
+        "durationMs": 1766,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(1)>span:nth-of-type(4)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(1)>span:nth-of-type(4)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1766,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0514",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.0283232, -1.52144, 0.00292584, 0, 0.999827, -0.0186129, 3.5794e-05, 0, 71.1983, 0, 1)",
+          "filter": "blur(9.4861px)"
+        },
+        "sampleCount": 65,
+        "durationMs": 1766,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(1)>span:nth-of-type(5)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(1)>span:nth-of-type(5)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1766,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.026",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.0937389, -1.53284, 0.00294776, 0, 0.998135, -0.0610398, 0.000117384, 0, 73.1005, 0, 1)",
+          "filter": "blur(9.7395px)"
+        },
+        "sampleCount": 65,
+        "durationMs": 1766,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(1)>span:nth-of-type(6)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(1)>span:nth-of-type(6)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1766,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0638",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.00331293, -1.5149, 0.00291326, 0, 0.999998, 0.0021869, -4.20557e-06, 0, 70.2665, 0, 1)",
+          "filter": "blur(9.3619px)"
+        },
+        "sampleCount": 65,
+        "durationMs": 1766,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(2)>span:nth-of-type(1)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(2)>span:nth-of-type(1)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1766,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.1118",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.12283, -1.48342, 0.00285274, 0, 0.996589, 0.0825195, -0.000158691, 0, 66.6638, 0, 1)",
+          "filter": "blur(8.8819px)"
+        },
+        "sampleCount": 65,
+        "durationMs": 1766,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(2)>span:nth-of-type(2)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(2)>span:nth-of-type(2)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1766,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0761",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.0342434, -1.50781, 0.00289964, 0, 0.999742, 0.0227048, -4.3663e-05, 0, 69.3474, 0, 1)",
+          "filter": "blur(9.2395px)"
+        },
+        "sampleCount": 66,
+        "durationMs": 1766,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(2)>span:nth-of-type(3)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(2)>span:nth-of-type(3)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1766,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0324",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.0771179, -1.53026, 0.0029428, 0, 0.998733, -0.0503315, 9.67913e-05, 0, 72.6201, 0, 1)",
+          "filter": "blur(9.6755px)"
+        },
+        "sampleCount": 66,
+        "durationMs": 1766,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(1)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(1)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1766,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0881",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.0644656, -1.50012, 0.00288484, 0, 0.999078, 0.0429341, -8.25656e-05, 0, 68.4407, 0, 1)",
+          "filter": "blur(9.1187px)"
+        },
+        "sampleCount": 66,
+        "durationMs": 1766,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(2)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(2)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1765,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0451",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.0444088, -1.52455, 0.00293183, 0, 0.999576, -0.0291167, 5.59937e-05, 0, 71.669, 0, 1)",
+          "filter": "blur(9.5488px)"
+        },
+        "sampleCount": 66,
+        "durationMs": 1765,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(3)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(3)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1765,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.1059",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.108496, -1.48775, 0.00286106, 0, 0.997351, 0.0727334, -0.000139872, 0, 67.1035, 0, 1)",
+          "filter": "blur(8.9405px)"
+        },
+        "sampleCount": 65,
+        "durationMs": 1765,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(4)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(4)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1765,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0576",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.0124174, -1.51825, 0.00291971, 0, 0.999967, -0.00817852, 1.57279e-05, 0, 70.7308, 0, 1)",
+          "filter": "blur(9.4238px)"
+        },
+        "sampleCount": 66,
+        "durationMs": 1765,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(5)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(5)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1765,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0131",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.12752, -1.53752, 0.00295677, 0, 0.996578, -0.0826551, 0.000158952, 0, 74.0713, 0, 1)",
+          "filter": "blur(9.8689px)"
+        },
+        "sampleCount": 66,
+        "durationMs": 1765,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(6)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(6)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1765,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0699",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.0188643, -1.51138, 0.0029065, 0, 0.999922, 0.0124805, -2.4001e-05, 0, 69.8054, 0, 1)",
+          "filter": "blur(9.3005px)"
+        },
+        "sampleCount": 66,
+        "durationMs": 1765,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(7)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(7)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1765,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.026",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.0937389, -1.53284, 0.00294776, 0, 0.998135, -0.0610398, 0.000117384, 0, 73.1005, 0, 1)",
+          "filter": "blur(9.7395px)"
+        },
+        "sampleCount": 66,
+        "durationMs": 1765,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(8)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(1)>span:nth-of-type(8)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1765,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0821",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.0494404, -1.50399, 0.00289228, 0, 0.99946, 0.0328551, -6.3183e-05, 0, 68.8925, 0, 1)",
+          "filter": "blur(9.1789px)"
+        },
+        "sampleCount": 66,
+        "durationMs": 1765,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(1)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(1)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1765,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0388",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.060675, -1.5275, 0.00293749, 0, 0.999212, -0.0396906, 7.6328e-05, 0, 72.1429, 0, 1)",
+          "filter": "blur(9.6119px)"
+        },
+        "sampleCount": 66,
+        "durationMs": 1765,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(2)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(2)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1765,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0941",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.0793158, -1.4961, 0.00287711, 0, 0.998598, 0.0529407, -0.000101809, 0, 67.9919, 0, 1)",
+          "filter": "blur(9.0589px)"
+        },
+        "sampleCount": 66,
+        "durationMs": 1765,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(3)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(3)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1765,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0514",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.0283232, -1.52144, 0.00292584, 0, 0.999827, -0.0186129, 3.5794e-05, 0, 71.1983, 0, 1)",
+          "filter": "blur(9.4861px)"
+        },
+        "sampleCount": 66,
+        "durationMs": 1765,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(4)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(4)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1765,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.1059",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.108496, -1.48775, 0.00286106, 0, 0.997351, 0.0727334, -0.000139872, 0, 67.1035, 0, 1)",
+          "filter": "blur(8.9405px)"
+        },
+        "sampleCount": 65,
+        "durationMs": 1765,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(5)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(5)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1765,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0638",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.00331293, -1.5149, 0.00291326, 0, 0.999998, 0.0021869, -4.20557e-06, 0, 70.2665, 0, 1)",
+          "filter": "blur(9.3619px)"
+        },
+        "sampleCount": 66,
+        "durationMs": 1765,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(6)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(6)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1765,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0131",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.12752, -1.53752, 0.00295677, 0, 0.996578, -0.0826551, 0.000158952, 0, 74.0713, 0, 1)",
+          "filter": "blur(9.8689px)"
+        },
+        "sampleCount": 66,
+        "durationMs": 1765,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(3)>span:nth-of-type(1)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(3)>span:nth-of-type(1)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1765,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0761",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.0342434, -1.50781, 0.00289964, 0, 0.999742, 0.0227048, -4.3663e-05, 0, 69.3474, 0, 1)",
+          "filter": "blur(9.2395px)"
+        },
+        "sampleCount": 66,
+        "durationMs": 1765,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(3)>span:nth-of-type(2)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(3)>span:nth-of-type(2)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1765,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.026",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.0937389, -1.53284, 0.00294776, 0, 0.998135, -0.0610398, 0.000117384, 0, 73.1005, 0, 1)",
+          "filter": "blur(9.7395px)"
+        },
+        "sampleCount": 66,
+        "durationMs": 1765,
+        "returnedToStart": false
+      }
+    },
+    "startup:h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(3)>span:nth-of-type(3)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "h1>span:nth-of-type(2)>span:nth-of-type(2)>span:nth-of-type(3)>span:nth-of-type(3)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1763,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(1, 0, 0, 0, 0, -0.162019, -1.54151, 0.00296444, 0, 0.994522, -0.104528, 0.000201016, 0, 75.0555, 0, 1)",
+          "filter": "blur(10px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0881",
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.0644656, -1.50012, 0.00288484, 0, 0.999078, 0.0429341, -8.25656e-05, 0, 68.4407, 0, 1)",
+          "filter": "blur(9.1187px)"
+        },
+        "sampleCount": 65,
+        "durationMs": 1763,
+        "returnedToStart": false
+      }
+    },
+    "startup:section:nth-of-type(1)>div:nth-of-type(2)>h1>span:nth-of-type(2)>span:nth-of-type(1)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section:nth-of-type(1)>div:nth-of-type(2)>h1>span:nth-of-type(2)>span:nth-of-type(1)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1318,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 23.4448)",
+          "filter": "none"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 22.3002)",
+          "filter": "none"
+        },
+        "sampleCount": 80,
+        "durationMs": 1318,
+        "returnedToStart": false
+      }
+    },
+    "startup:section:nth-of-type(1)>div:nth-of-type(2)>h1>span:nth-of-type(2)>span:nth-of-type(2)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "section:nth-of-type(1)>div:nth-of-type(2)>h1>span:nth-of-type(2)>span:nth-of-type(2)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1316,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 40.0673)",
+          "filter": "none"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 38.1959)",
+          "filter": "none"
+        },
+        "sampleCount": 80,
+        "durationMs": 1316,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(1)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(1)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1764,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 24)",
+          "filter": "blur(7px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0608",
+          "transform": "matrix(1, 0, 0, 1, 0, 22.5412)",
+          "filter": "blur(6.5745px)"
+        },
+        "sampleCount": 55,
+        "durationMs": 1764,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(2)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(2)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1764,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 24)",
+          "filter": "blur(7px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0608",
+          "transform": "matrix(1, 0, 0, 1, 0, 22.5412)",
+          "filter": "blur(6.5745px)"
+        },
+        "sampleCount": 55,
+        "durationMs": 1764,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(3)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(3)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1764,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 24)",
+          "filter": "blur(7px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.065",
+          "transform": "matrix(1, 0, 0, 1, 0, 22.4396)",
+          "filter": "blur(6.5449px)"
+        },
+        "sampleCount": 55,
+        "durationMs": 1764,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(4)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(4)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1764,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 24)",
+          "filter": "blur(7px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0692",
+          "transform": "matrix(1, 0, 0, 1, 0, 22.3383)",
+          "filter": "blur(6.5153px)"
+        },
+        "sampleCount": 54,
+        "durationMs": 1764,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(5)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(5)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1764,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 24)",
+          "filter": "blur(7px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0692",
+          "transform": "matrix(1, 0, 0, 1, 0, 22.3383)",
+          "filter": "blur(6.5153px)"
+        },
+        "sampleCount": 54,
+        "durationMs": 1764,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(6)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(6)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1764,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 24)",
+          "filter": "blur(7px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0734",
+          "transform": "matrix(1, 0, 0, 1, 0, 22.2374)",
+          "filter": "blur(6.4859px)"
+        },
+        "sampleCount": 54,
+        "durationMs": 1764,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(7)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(7)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1764,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 24)",
+          "filter": "blur(7px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0044",
+          "transform": "matrix(1, 0, 0, 1, 0, 23.8935)",
+          "filter": "blur(6.9689px)"
+        },
+        "sampleCount": 55,
+        "durationMs": 1764,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(8)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(8)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1764,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 24)",
+          "filter": "blur(7px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0089",
+          "transform": "matrix(1, 0, 0, 1, 0, 23.7874)",
+          "filter": "blur(6.938px)"
+        },
+        "sampleCount": 55,
+        "durationMs": 1764,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(9)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(9)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1764,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 24)",
+          "filter": "blur(7px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0089",
+          "transform": "matrix(1, 0, 0, 1, 0, 23.7874)",
+          "filter": "blur(6.938px)"
+        },
+        "sampleCount": 55,
+        "durationMs": 1764,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(10)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(10)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1764,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 24)",
+          "filter": "blur(7px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0133",
+          "transform": "matrix(1, 0, 0, 1, 0, 23.6816)",
+          "filter": "blur(6.9071px)"
+        },
+        "sampleCount": 55,
+        "durationMs": 1764,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(11)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(11)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1764,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 24)",
+          "filter": "blur(7px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0177",
+          "transform": "matrix(1, 0, 0, 1, 0, 23.5762)",
+          "filter": "blur(6.8764px)"
+        },
+        "sampleCount": 55,
+        "durationMs": 1764,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(12)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(12)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1763,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 24)",
+          "filter": "blur(7px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0177",
+          "transform": "matrix(1, 0, 0, 1, 0, 23.5762)",
+          "filter": "blur(6.8764px)"
+        },
+        "sampleCount": 55,
+        "durationMs": 1763,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(13)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(13)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1763,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 24)",
+          "filter": "blur(7px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.022",
+          "transform": "matrix(1, 0, 0, 1, 0, 23.4711)",
+          "filter": "blur(6.8457px)"
+        },
+        "sampleCount": 55,
+        "durationMs": 1763,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(14)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(14)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1763,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 24)",
+          "filter": "blur(7px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0264",
+          "transform": "matrix(1, 0, 0, 1, 0, 23.3664)",
+          "filter": "blur(6.8152px)"
+        },
+        "sampleCount": 55,
+        "durationMs": 1763,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(15)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(15)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1763,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 24)",
+          "filter": "blur(7px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0264",
+          "transform": "matrix(1, 0, 0, 1, 0, 23.3664)",
+          "filter": "blur(6.8152px)"
+        },
+        "sampleCount": 55,
+        "durationMs": 1763,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(16)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(16)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1763,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 24)",
+          "filter": "blur(7px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0308",
+          "transform": "matrix(1, 0, 0, 1, 0, 23.262)",
+          "filter": "blur(6.7847px)"
+        },
+        "sampleCount": 55,
+        "durationMs": 1763,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(17)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(17)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1763,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 24)",
+          "filter": "blur(7px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0351",
+          "transform": "matrix(1, 0, 0, 1, 0, 23.158)",
+          "filter": "blur(6.7544px)"
+        },
+        "sampleCount": 55,
+        "durationMs": 1763,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(18)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(2)>span:nth-of-type(18)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1763,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 24)",
+          "filter": "blur(7px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0351",
+          "transform": "matrix(1, 0, 0, 1, 0, 23.158)",
+          "filter": "blur(6.7544px)"
+        },
+        "sampleCount": 55,
+        "durationMs": 1763,
+        "returnedToStart": false
+      }
+    },
+    "startup:div>main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(3)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "div>main>section:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(3)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1234,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 10)",
+          "filter": "none"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.1224",
+          "transform": "matrix(1, 0, 0, 1, 0, 8.7756)",
+          "filter": "none"
+        },
+        "sampleCount": 56,
+        "durationMs": 1234,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(1)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(1)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1234,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(0.86, 0, 0, 0, 0, 0.376999, -0.772963, 0.00110423, 0, 0.898794, 0.438371, -0.000626244, 0, 28, 0, 1)",
+          "filter": "blur(6px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0229",
+          "transform": "matrix3d(0.8632, 0, 0, 0, 0, 0.398128, -0.765903, 0.00109415, 0, 0.887284, 0.461224, -0.000658891, 0, 27.3586, 0, 1)",
+          "filter": "blur(5.8625px)"
+        },
+        "sampleCount": 54,
+        "durationMs": 1234,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(2)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>button:nth-of-type(2)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1234,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix3d(0.86, 0, 0, 0, 0, 0.376999, -0.772963, 0.00110423, 0, 0.898794, 0.438371, -0.000626244, 0, 28, 0, 1)",
+          "filter": "blur(6px)"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0789",
+          "transform": "matrix3d(0.871, 0, 0, 0, 0, 0.449222, -0.746217, 0.00106602, 0, 0.856736, 0.515754, -0.000736792, 0, 25.7915, 0, 1)",
+          "filter": "blur(5.5268px)"
+        },
+        "sampleCount": 54,
+        "durationMs": 1234,
+        "returnedToStart": false
+      }
+    },
+    "startup:div>div>main>section:nth-of-type(1)>div:nth-of-type(3)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "div>div>main>section:nth-of-type(1)>div:nth-of-type(3)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1234,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 56)",
+          "filter": "none"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.1109",
+          "transform": "matrix(1, 0, 0, 1, 0, 49.7879)",
+          "filter": "none"
+        },
+        "sampleCount": 62,
+        "durationMs": 1234,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section:nth-of-type(1)>div:nth-of-type(3)>div>button:nth-of-type(1)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(3)>div>button:nth-of-type(1)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1234,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 9)",
+          "filter": "none"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.1114",
+          "transform": "matrix(1, 0, 0, 1, 0, 7.9975)",
+          "filter": "none"
+        },
+        "sampleCount": 34,
+        "durationMs": 1234,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section:nth-of-type(1)>div:nth-of-type(3)>div>button:nth-of-type(2)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(3)>div>button:nth-of-type(2)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1234,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 9)",
+          "filter": "none"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0359",
+          "transform": "matrix(1, 0, 0, 1, 0, 8.6772)",
+          "filter": "none"
+        },
+        "sampleCount": 35,
+        "durationMs": 1234,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section:nth-of-type(1)>div:nth-of-type(3)>div>button:nth-of-type(3)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(3)>div>button:nth-of-type(3)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1234,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 9)",
+          "filter": "none"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0708",
+          "transform": "matrix(1, 0, 0, 1, 0, 8.3631)",
+          "filter": "none"
+        },
+        "sampleCount": 34,
+        "durationMs": 1234,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section:nth-of-type(1)>div:nth-of-type(3)>div>button:nth-of-type(4)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(3)>div>button:nth-of-type(4)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1234,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 9)",
+          "filter": "none"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.1047",
+          "transform": "matrix(1, 0, 0, 1, 0, 8.0576)",
+          "filter": "none"
+        },
+        "sampleCount": 34,
+        "durationMs": 1234,
+        "returnedToStart": false
+      }
+    },
+    "startup:main>section:nth-of-type(1)>div:nth-of-type(3)>div>button:nth-of-type(5)": {
+      "trigger": "load",
+      "kind": "animation",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(3)>div>button:nth-of-type(5)",
+      "temporal": {
+        "candidate": "strong",
+        "kind": "raf-animation",
+        "trigger": "load",
+        "durationMs": 1234,
+        "reason": "repeated temporal style changes were recorded from document start before the capture settle window"
+      },
+      "measured": {
+        "before": {
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 9)",
+          "filter": "none"
+        },
+        "after": {
+          "opacity": "1",
+          "transform": "none",
+          "filter": "none"
+        },
+        "during": {
+          "opacity": "0.0288",
+          "transform": "matrix(1, 0, 0, 1, 0, 8.741)",
+          "filter": "none"
+        },
+        "sampleCount": 35,
+        "durationMs": 1234,
+        "returnedToStart": false
+      }
+    }
+  },
+  "declared": {
+    "declared:p.mt-4.text-[12.5px]": {
+      "hints": [
+        "attr:data-revealed"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "Drag an edge to peel · move over it for the shine"
+    },
+    "declared:button.inline-flex.h-11": {
+      "hints": [
+        "attr:data-revealed"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "flex"
+      },
+      "text": "Add your logo"
+    },
+    "declared:Download your sticker files": {
+      "hints": [
+        "attr:data-revealed"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "flex"
+      },
+      "text": "Download"
+    },
+    "declared:p.pointer-events-none.absolute": {
+      "hints": [
+        "class-marker",
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 500,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ]
+      },
+      "startState": {
+        "opacity": 0,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:div.pointer-events-none.absolute": {
+      "hints": [
+        "attr:data-revealed"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "flex"
+      },
+      "text": "1White2Sparkle3Prism4Ripple5Halftone"
+    },
+    "declared:span.absolute.top-1": {
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 380,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ]
+      },
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 4, 0)",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:img.size-full.object-contain": {
+      "hints": [
+        "animation-name:enter",
+        "class-marker"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "enter",
+        "durationMs": 300,
+        "delayMs": 0,
+        "easing": "ease",
+        "iterationCount": "1",
+        "signals": [
+          "animation-name:enter"
+        ],
+        "reason": "named CSS animation enter with 300ms duration"
+      },
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:div.absolute.inset-0": {
+      "hints": [
+        "class-marker"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:Background color": {
+      "hints": [
+        "class-marker"
+      ],
+      "startState": {
+        "opacity": 0,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:span.inline-block.size-5": {
+      "hints": [
+        "class-marker"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:div.sheet.absolute": {
+      "hints": [
+        "class-marker"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "drop-shadow(rgba(20, 20, 30, 0.07) 0px 1px 1px) drop-shadow(rgba(20, 20, 30, 0.07) 0px 10px 16px)",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "northbeam.studio"
+    },
+    "declared:span.flex.items-center": {
+      "hints": [
+        "class-marker",
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 300,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ]
+      },
+      "startState": {
+        "opacity": 0,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "flex"
+      },
+      "text": "Use this"
+    },
+    "declared:div.reveal.md:order-2": {
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 700,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ]
+      },
+      "startState": {
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 16)",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "A calm site for a ceramics studio"
+    },
+    "declared:div.skeleton-sheen.mt-4": {
+      "hints": [
+        "animation-name:skeleton-sheen"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "skeleton-sheen",
+        "durationMs": 2400,
+        "delayMs": 0,
+        "easing": "ease-in-out",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:skeleton-sheen"
+        ],
+        "reason": "named CSS animation skeleton-sheen with 2400ms duration"
+      },
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:div.reveal.max-w-[28rem]": {
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 700,
+        "delayMs": 90,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ]
+      },
+      "startState": {
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 16)",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "BuildPrompt to pageDescribe your idea in plain words. Moduli"
+    },
+    "declared:div.reveal.md:order-1": {
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 700,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ]
+      },
+      "startState": {
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 16)",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "Ease outAaInter, 600, -4%Motion"
+    },
+    "declared:div.reveal.mx-auto": {
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 700,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ]
+      },
+      "startState": {
+        "opacity": 0,
+        "transform": "matrix(1, 0, 0, 1, 0, 16)",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "Your turnMake something worth peeling.Design a vinyl, print "
+    },
+    "declared:html>body>a[2][1]": {
+      "hints": [
+        "will-change:transform"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    }
+  }
+}

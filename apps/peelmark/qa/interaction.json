@@ -1,0 +1,11 @@
+{
+  "errors": [],
+  "nav": {
+    "restColor": "rgb(74, 74, 82)",
+    "hoverColor": "rgb(70, 70, 77)",
+    "hoverChanges": true
+  },
+  "sparkleChangesCanvas": false,
+  "shineFollowsPointer": false,
+  "peelChangesCanvas": false
+}

@@ -23,6 +23,8 @@
     "dev:manila": "npm run dev --workspace=@templates/manila",
     "dev:membrane": "npm run dev --workspace=@templates/membrane",
     "dev:onda": "npm run dev --workspace=@templates/onda",
+    "dev:peelmark": "npm run dev --workspace=@templates/peelmark",
+    "dev:peelmark": "npm run dev --workspace=@templates/peelmark",
     "dev:pixnava": "npm run dev --workspace=@templates/pixnava",
     "dev:sandiego": "npm run dev --workspace=@templates/sandiego",
     "dev:revolver": "npm run dev --workspace=@templates/revolver",

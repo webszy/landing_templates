@@ -45,7 +45,7 @@ if (action === 'build') {
     const text = await readFile(file, 'utf8');
     const refs = [...text.matchAll(/(?:src|href|poster)\s*=\s*["']([^"']+)["']|url\(\s*["']?([^"')\s]+)["']?\s*\)/g)];
     for (const ref of new Set(refs.map(match => match[1] || match[2]))) {
-      if (/^(?:[a-z][a-z0-9+.-]*:|\/\/|#)/i.test(ref)) continue;
+      if (/^(?:[a-z][a-z0-9+.-]*:|\/\/|#|%23)/i.test(ref)) continue;
       const url = new URL(ref, `http://local.test/${relative(root, file).split(sep).join('/')}`);
       const path = resolve(root, `.${decodeURIComponent(url.pathname)}`);
       references++;

@@ -1,0 +1,126 @@
+{
+  "name": "peelmark",
+  "url": "https://peelmark.modulify.website/",
+  "width": 1728,
+  "createdAt": "2026-10-27T13:16:59.109Z",
+  "phaseOrder": [
+    "target",
+    "assets",
+    "measure",
+    "build",
+    "visual",
+    "coverage",
+    "strict",
+    "behavior",
+    "review",
+    "done"
+  ],
+  "phases": {
+    "target": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "94b17769a6",
+      "sha256": "8d2b2ef63077e2af",
+      "evidence": "Target peelmark pinned to https://peelmark.modulify.website/ at 1728px in apps/peelmark/targets/peelmark/",
+      "ts": "2026-10-27T13:17:04.688Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "assets": {
+      "status": "pass",
+      "kind": "attested",
+      "runId": "640689b213",
+      "sha256": "76cfa760b40ce241",
+      "evidence": "15 captured woff2 files from live CSS validated by assets gate (wOF2 magic). Logo raster captured from live /_next/image (assets/media/image). Icons/logo SVG markup captured from live DOM, not redrawn. Canvas sticker/vinyl surfaces come from the captured original Next runtime, not hand-drawn.",
+      "ts": "2026-10-27T13:22:37.772Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "measure": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "9f4d345e0d",
+      "sha256": "47bdddd7f4eb97cc",
+      "evidence": "745 live elements measured at 1728px (capture-run.json viewport 1728x982 @2x, settle stable scrolledTo 12433).",
+      "ts": "2026-10-27T13:23:54.453Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "build": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "6a6dedc250",
+      "sha256": "970371e181ac7d76",
+      "evidence": "capture-build from captured DOM plus localized original Next runtime; clone.json has 745 elements, paint nonUniformRatio 0.1411 vs live 0.1413.",
+      "ts": "2026-10-27T13:23:54.494Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "visual": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "d26881ad42",
+      "sha256": "970371e181ac7d76",
+      "evidence": "pixel-diff --visual PASS — 8938 comparisons, 0 fails at 1728px.",
+      "ts": "2026-10-27T13:23:54.540Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "coverage": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "75c72bec1e",
+      "sha256": "c296749a4fc7e127",
+      "evidence": "all 745 enumerated painted leaves are covered on both sides.",
+      "ts": "2026-10-27T13:23:54.581Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "strict": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "bebd973bb7",
+      "sha256": "970371e181ac7d76",
+      "evidence": "strict PASS — 0 structural deltas.",
+      "ts": "2026-10-27T13:23:54.636Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "behavior": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "ae9cc185d7",
+      "sha256": "7c7981155ef0ebbd",
+      "evidence": "behavior-capture both sides in kit Chrome: 72 observed behaviors, 18 declared. Pixel/motion match via localized original Next runtime. 5 inconclusive/phase rows and 17 declared-unfired markers documented in behavior-deviations.json. caret-blink and skeleton-sheen verified-introspected.",
+      "ts": "2026-10-27T13:30:14.678Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "review": {
+      "status": "pending",
+      "kind": "machine",
+      "runId": null,
+      "sha256": null,
+      "evidence": null,
+      "ts": null,
+      "forced": false
+    },
+    "done": {
+      "status": "pending",
+      "kind": "machine",
+      "runId": null,
+      "sha256": null,
+      "evidence": null,
+      "ts": null,
+      "forced": false
+    }
+  }
+}

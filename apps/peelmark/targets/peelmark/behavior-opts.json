@@ -1,0 +1,9 @@
+{
+  "settleMs": 5000,
+  "hoverTriggers": [
+    ["style_white", "button"],
+    ["nav_product", "a[href='#product']"],
+    ["nav_showcase", "a[href='#work']"],
+    ["sticker_shine", "canvas"]
+  ]
+}

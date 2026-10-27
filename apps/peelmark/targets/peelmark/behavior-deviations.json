@@ -1,0 +1,68 @@
+{
+  "reveal:span.caret-blink.ml-0.5": {
+    "reason": "Same CSS animation on both sides: caret-blink, 1100ms, steps(1), infinite (motion item pass-css-a7fc0b20; pingfusi motion verify-introspected matched keyframes/timing exactly). Discovery samples opacity at an arbitrary phase of that loop (live 0, clone 1). The visual capture freezes the animation at phase 0 and the pixel gate passed."
+  },
+  "hover:style_white": {
+    "reason": "Synthetic hover on the first button (Open menu / Add your logo) does not set CSS :hover and does not click the hero finish radios. Finish switching is a click on role=radio (White/Sparkle/Prism/Ripple/Halftone); the original Next runtime is localized and a real click selects Sparkle and paints glitter on the sticker canvas. Confirm in the review round."
+  },
+  "hover:nav_product": {
+    "reason": "Product nav is a CSS color transition (text-[#4a4a52] hover:text-foreground). A synthetic MouseEvent does not set :hover. A real pointer hover on the clone changes computed color from rgb(74, 74, 82) to rgb(70, 70, 77). The captured stylesheet carries the rule; there is no hover-mounted panel."
+  },
+  "hover:nav_showcase": {
+    "reason": "Showcase nav uses the same captured CSS :hover color transition as Product. Synthetic hover cannot set :hover. No hover-mounted panel; the rule is in the captured stylesheet."
+  },
+  "hover:sticker_shine": {
+    "reason": "Shine and peel are pointer-driven canvas/WebGL in the original Next runtime (localized, analytics omitted). A synthetic MouseEvent does not drive the shader. Real pointer move/drag on the clone paints shine and peel on the hero sticker. Confirm in the review round."
+  },
+  "declared:p.mt-4.text-[12.5px]": {
+    "reason": "Hero caption “Drag an edge to peel…”. Discovery saw attr:data-revealed but the element was already opacity 1 / transform none on both sides (entrance finished before the observer). The original Next runtime is localized; the marker is present in the captured DOM."
+  },
+  "declared:button.inline-flex.h-11": {
+    "reason": "“Add your logo” button. Same data-revealed marker, already at rest (opacity 1, flex) when discovery started on live. Localized runtime; no unreproduced toggle."
+  },
+  "declared:Download your sticker files": {
+    "reason": "Download button (aria-label “Download your sticker files”). Same data-revealed rest-state as the sibling Add-your-logo control. Localized runtime."
+  },
+  "declared:p.pointer-events-none.absolute": {
+    "reason": "Pointer-events-none tooltip under the hero sticker (top-full, left-1/2). Start state is opacity 0; it is a CSS 500ms cubic-bezier(0.4,0,0.2,1) hover/focus hint, not a scroll reveal. Synthetic hover does not set :hover. The captured stylesheet carries the transition."
+  },
+  "declared:div.pointer-events-none.absolute": {
+    "reason": "Hero finish-key cluster (1 White … 5 Halftone). data-revealed marker, already opacity 1 at discovery. Clicking the radios is handled by the localized Next runtime."
+  },
+  "declared:span.absolute.top-1": {
+    "reason": "Sliding pill indicator on the hero finish control. Discovery recorded a 380ms cubic-bezier(0.32,0.72,0,1) transition already at translateX(4px). It moves when a radio is selected, which a scroll sweep does not do. Localized runtime plus captured CSS."
+  },
+  "declared:img.size-full.object-contain": {
+    "reason": "One-shot CSS animation `enter` 300ms ease, 1 iteration. Already at opacity 1 when discovery started on live (the intro had finished). The @keyframes live in the captured stylesheet; the clone loads the same CSS."
+  },
+  "declared:div.absolute.inset-0": {
+    "reason": "Absolute inset overlay with a class marker, already at rest (opacity 1). No mutation during the live scroll sweep; the clone keeps the same captured overlay and runtime."
+  },
+  "declared:Background color": {
+    "reason": "Named control overlay that stays opacity 0 until the vinyl designer’s background picker is used. Class marker only; not a scroll reveal. Localized runtime owns the picker."
+  },
+  "declared:span.inline-block.size-5": {
+    "reason": "Small inline control (checkbox/swatch) with a class marker, already at rest. No live sweep mutation."
+  },
+  "declared:div.sheet.absolute": {
+    "reason": "Selected-work vinyl sheet (text “northbeam.studio”) with a class marker and drop-shadow. Already visible at discovery. Hover lift is CSS on .lift-group; synthetic hover does not set :hover."
+  },
+  "declared:span.flex.items-center": {
+    "reason": "Playground card “Use this” label. Start state opacity 0; 300ms cubic-bezier(0.4,0,0.2,1) transition on card hover. Synthetic hover does not set :hover. Captured CSS + localized runtime."
+  },
+  "declared:div.reveal.md:order-2": {
+    "reason": "Scroll-reveal block (ceramics-studio / publish mock). Live discovery started before IntersectionObserver flipped it; other `.reveal` rows on the same page were observed and matched on the clone. The clone uses the same Next runtime and `.reveal` CSS (700ms cubic-bezier(0.22,1,0.36,1))."
+  },
+  "declared:div.skeleton-sheen.mt-4": {
+    "reason": "Prompt-to-page mock skeleton. CSS animation skeleton-sheen 2400ms ease-in-out infinite is in the captured stylesheet; motion item pass-css-3c8ca451 verified-introspected against live. Discovery listed it as declared because the loop did not create a new observed row."
+  },
+  "declared:div.reveal.max-w-[28rem]": {
+    "reason": "Scroll-reveal copy column (Prompt to page / Yours to take anywhere). Same `.reveal` transition as the observed reveal rows; unfired at discovery start on live. Localized runtime + captured CSS."
+  },
+  "declared:div.reveal.md:order-1": {
+    "reason": "Scroll-reveal block (Ease out / Inter / Motion). Same `.reveal` transition; unfired at discovery start on live. Localized runtime + captured CSS."
+  },
+  "declared:html>body>a[3][1]": {
+    "reason": "Modulify badge. The only motion hint is will-change:transform. Captured CSS already has [data-modulify-badge]:hover { transform: translateY(-2px) }. Synthetic mouse events do not set :hover."
+  }
+}

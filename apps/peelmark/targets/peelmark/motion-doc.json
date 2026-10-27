@@ -1,0 +1,139 @@
+{
+  "schema": "pingfusi/motion-doc@1",
+  "url": "https://peelmark.modulify.website/",
+  "capturedAt": "2026-10-27T13:23:10.319Z",
+  "viewport": {
+    "width": 1728,
+    "height": 982,
+    "dpr": 2
+  },
+  "tracks": [
+    {
+      "target": {
+        "selector": "div>div>div:nth-of-type(1)>span:nth-of-type(1)>span"
+      },
+      "property": "opacity",
+      "keyframes": [
+        {
+          "offset": 0,
+          "value": "1",
+          "easing": "steps(1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 0.2,
+          "value": "0",
+          "easing": "steps(1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 0.5,
+          "value": "0",
+          "easing": "steps(1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 0.7,
+          "value": "1",
+          "easing": "steps(1)",
+          "composite": "auto"
+        },
+        {
+          "offset": 1,
+          "value": "1",
+          "easing": "steps(1)",
+          "composite": "auto"
+        }
+      ],
+      "timing": {
+        "duration_ms": 1100,
+        "delay_ms": 0,
+        "iterations": "infinite",
+        "direction": "normal",
+        "fill": "none",
+        "playbackRate": 1
+      },
+      "timeline": {
+        "type": "document"
+      },
+      "provenance": {
+        "tier": "introspected-css",
+        "source": "css-animation:caret-blink"
+      },
+      "id": "t-2f24f6958465"
+    },
+    {
+      "target": {
+        "selector": "div:nth-of-type(1)>div>div>div:nth-of-type(2)>div:nth-of-type(4)"
+      },
+      "property": "backgroundPositionX",
+      "keyframes": [
+        {
+          "offset": 0,
+          "value": "-160px",
+          "easing": "ease-in-out",
+          "composite": "auto"
+        },
+        {
+          "offset": 1,
+          "value": "320px",
+          "easing": "ease-in-out",
+          "composite": "auto"
+        }
+      ],
+      "timing": {
+        "duration_ms": 2400,
+        "delay_ms": 0,
+        "iterations": "infinite",
+        "direction": "normal",
+        "fill": "none",
+        "playbackRate": 1
+      },
+      "timeline": {
+        "type": "document"
+      },
+      "provenance": {
+        "tier": "introspected-css",
+        "source": "css-animation:skeleton-sheen"
+      },
+      "id": "t-ead3640748b8"
+    },
+    {
+      "target": {
+        "selector": "div:nth-of-type(1)>div>div>div:nth-of-type(2)>div:nth-of-type(4)"
+      },
+      "property": "backgroundPositionY",
+      "keyframes": [
+        {
+          "offset": 0,
+          "value": "0px",
+          "easing": "ease-in-out",
+          "composite": "auto"
+        },
+        {
+          "offset": 1,
+          "value": "0px",
+          "easing": "ease-in-out",
+          "composite": "auto"
+        }
+      ],
+      "timing": {
+        "duration_ms": 2400,
+        "delay_ms": 0,
+        "iterations": "infinite",
+        "direction": "normal",
+        "fill": "none",
+        "playbackRate": 1
+      },
+      "timeline": {
+        "type": "document"
+      },
+      "provenance": {
+        "tier": "introspected-css",
+        "source": "css-animation:skeleton-sheen"
+      },
+      "id": "t-61f9bb6d656b"
+    }
+  ],
+  "assets": []
+}

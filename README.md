@@ -31,6 +31,7 @@ npm run dev:kerning
 npm run dev:liquid-type
 npm run dev:membrane
 npm run dev:onda
+npm run dev:peelmark
 ```
 
 | 应用 | Workspace | 默认地址 | 构建产物 |
@@ -43,6 +44,7 @@ npm run dev:onda
 | Liquid Type | `@templates/liquid-type` | 随机端口 3100–3200（见启动日志） | `apps/liquid-type/dist/` |
 | Membrane | `@templates/membrane` | 随机端口 3100–3200（见启动日志） | `apps/membrane/dist/` |
 | Onda Studio | `@templates/onda` | 随机端口 3100–3200（见启动日志） | `apps/onda/dist/` |
+| Peelmark | `@templates/peelmark` | 随机端口 3100–3200（见启动日志） | `apps/peelmark/dist/` |
 
 所有 dev 命令每次启动都会随机选择 3100–3200 内的端口，占用时自动重试；实际地址见启动日志。
 
