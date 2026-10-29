@@ -27,6 +27,7 @@ npm run dev:aster        # Aster 订阅页模板
 npm run dev:blackplus    # 单独启动一个站点
 npm run dev:crema        # Crema 点单落地页
 npm run dev:fieldhand
+npm run dev:flowcraft
 npm run dev:kerning
 npm run dev:liquid-type
 npm run dev:membrane
@@ -40,6 +41,7 @@ npm run dev:peelmark
 | Black Plus | `@templates/blackplus` | 随机端口 3100–3200（见启动日志） | `apps/blackplus/dist/` |
 | Crema | `@templates/crema` | 随机端口 3100–3200（见启动日志） | `apps/crema/dist/` |
 | Fieldhand | `@templates/fieldhand` | 随机端口 3100–3200（见启动日志） | `apps/fieldhand/dist/` |
+| FlowCraft | `@templates/flowcraft` | 随机端口 3100–3200（见启动日志） | `apps/flowcraft/dist/` |
 | Kerning | `@templates/kerning` | 随机端口 3100–3200（见启动日志） | `apps/kerning/dist/` |
 | Liquid Type | `@templates/liquid-type` | 随机端口 3100–3200（见启动日志） | `apps/liquid-type/dist/` |
 | Membrane | `@templates/membrane` | 随机端口 3100–3200（见启动日志） | `apps/membrane/dist/` |

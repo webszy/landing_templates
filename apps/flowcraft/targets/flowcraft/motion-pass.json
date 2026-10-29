@@ -1,0 +1,85 @@
+{
+  "schema": "pingfusi/motion-pass@1",
+  "at": "2026-10-29T09:59:02.853Z",
+  "target": "flowcraft",
+  "ok": true,
+  "doc": {
+    "file": "targets/flowcraft/motion-doc.json",
+    "sha256_16": "6cad8aec648cbae6"
+  },
+  "tracks": {
+    "total": 49,
+    "cssInherited": 38,
+    "playersApplied": 9,
+    "skipped": 2
+  },
+  "ownerProbe": {
+    "mode": "ran",
+    "changed": [],
+    "elements": 50,
+    "missing": [],
+    "replayHeld": true
+  },
+  "replay": {
+    "file": "targets/flowcraft/clone/motion-replay.js",
+    "sha256_16": "65a8a20704f8197c",
+    "bytes": 266230,
+    "scriptTag": "inserted",
+    "tracks": 9
+  },
+  "items": {
+    "schema": "pingfusi/motion-items@2",
+    "ids": [
+      "pass-css-901b4036",
+      "pass-css-8b51139a",
+      "pass-css-d14e4296",
+      "pass-css-91785a80",
+      "pass-css-b9b4aacf",
+      "pass-css-8bb52728",
+      "pass-css-875eff22",
+      "pass-css-6f425dba",
+      "pass-css-0a8efbb7",
+      "pass-css-129c49c6",
+      "pass-css-8075eeec",
+      "pass-css-ecd8d394",
+      "pass-css-8f137f60",
+      "pass-css-7ead1583",
+      "pass-css-55f3451f",
+      "pass-css-6102baa7",
+      "pass-css-fccf31a2",
+      "pass-css-17e0a568",
+      "pass-css-4b066f33",
+      "pass-css-05e8d377",
+      "pass-sampled-06e96fae",
+      "pass-sampled-430aa563",
+      "pass-sampled-ca8da423",
+      "pass-sampled-a60ef923",
+      "pass-sampled-003017db",
+      "pass-sampled-dd24d53a",
+      "pass-sampled-0da9c7d4",
+      "pass-sampled-cf299b3e",
+      "pass-sampled-aa84c442",
+      "pass-sampled-d4027a10"
+    ]
+  },
+  "assets": [],
+  "skipped": [
+    {
+      "track": "t-d7b6073e33bb",
+      "selector": "div>span:nth-of-type(1)>span:nth-of-type(2)>span>span",
+      "tier": "sampled",
+      "reason": "ongoing motion with no periodic fit — a clip that stops is a fabricated ending; sample longer so the marquee class can win, or the element stays static in the draft"
+    },
+    {
+      "track": "t-7dfe4cb8be7d",
+      "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(5)>span",
+      "tier": "sampled",
+      "reason": "another applied track already animates transform on this element — first wins, receipted"
+    }
+  ],
+  "warnings": [
+    "div>span:nth-of-type(1)>span:nth-of-type(2)>span>span transform: ongoing motion with no periodic fit — skipped (a one-shot clip would freeze mid-motion; re-sample with more --frames)",
+    "dd>span>span:nth-of-type(2)>span:nth-of-type(5)>span transform: a second sampled track targets the same property — skipped (first wins)"
+  ],
+  "summary": "49 track(s), 38 css-inherited, 9 player-applied, 2 skipped, 2 warning(s) — receipts and warnings only; motion never fails a build"
+}

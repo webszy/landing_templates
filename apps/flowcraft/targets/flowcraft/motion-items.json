@@ -1,0 +1,555 @@
+{
+  "schema": "pingfusi/motion-items@2",
+  "items": [
+    {
+      "id": "pass-css-901b4036",
+      "createdAt": "2026-10-29T09:38:56.360Z",
+      "selector": "div>main>section:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)",
+      "scope": "div>main>section:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "3 track(s) carried by the captured CSS; @keyframes fc-hero-in present in the clone's CSS — deep diff: pingfusi motion verify-introspected flowcraft pass-css-901b4036",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T10:00:51.417Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-86bfbb963006",
+        "trackFingerprint": "86bfbb9630061e1b12610c6d8d51360299a6d2b200bb960d4df575219e29ec88",
+        "docTrackIds": [
+          "t-86bfbb963006",
+          "t-f8fcd8904c83",
+          "t-187304d0a3af"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-8b51139a",
+      "createdAt": "2026-10-29T09:38:56.382Z",
+      "selector": "#hero-title",
+      "scope": "#hero-title",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "3 track(s) carried by the captured CSS; @keyframes fc-hero-in present in the clone's CSS — deep diff: pingfusi motion verify-introspected flowcraft pass-css-8b51139a",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T10:00:51.459Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-194c7f6558a8",
+        "trackFingerprint": "194c7f6558a8101b359c91f48af450a1d9bfdc0991800ad87a85079718b9e66c",
+        "docTrackIds": [
+          "t-194c7f6558a8",
+          "t-fad99d005515",
+          "t-357e804d358a"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-d14e4296",
+      "createdAt": "2026-10-29T09:38:56.394Z",
+      "selector": "div>main>section:nth-of-type(1)>div:nth-of-type(2)>p",
+      "scope": "div>main>section:nth-of-type(1)>div:nth-of-type(2)>p",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "3 track(s) carried by the captured CSS; @keyframes fc-hero-in present in the clone's CSS — deep diff: pingfusi motion verify-introspected flowcraft pass-css-d14e4296",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T10:00:51.483Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-caaaf97dc727",
+        "trackFingerprint": "caaaf97dc7275e675b62b9285f72d348c8200ee15871cfef4d5b3aa33bca1442",
+        "docTrackIds": [
+          "t-caaaf97dc727",
+          "t-5ae9c6f1294e",
+          "t-dc9904f2a0bc"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-91785a80",
+      "createdAt": "2026-10-29T09:38:56.411Z",
+      "selector": "main>section:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>form",
+      "scope": "main>section:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>form",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "3 track(s) carried by the captured CSS; @keyframes fc-hero-in present in the clone's CSS — deep diff: pingfusi motion verify-introspected flowcraft pass-css-91785a80",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T10:00:51.497Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-ba7de749334c",
+        "trackFingerprint": "ba7de749334c3fe413ef3b7c0b78e1d4bb7e37e8e527a483bfaad4261d26a923",
+        "docTrackIds": [
+          "t-ba7de749334c",
+          "t-11f04993f6dd",
+          "t-a3d0f45044c0"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-b9b4aacf",
+      "createdAt": "2026-10-29T09:38:56.430Z",
+      "selector": "form>div>div>span>span",
+      "scope": "form>div>div>span>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes fc-placeholder-in present in the clone's CSS — deep diff: pingfusi motion verify-introspected flowcraft pass-css-b9b4aacf",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T10:00:51.516Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-509c382512e9",
+        "trackFingerprint": "509c382512e9ac85c549409e4888f303ed371445dfba09c3c1765302b896b437",
+        "docTrackIds": [
+          "t-509c382512e9",
+          "t-35fb6ef4598f"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-8bb52728",
+      "createdAt": "2026-10-29T09:38:56.442Z",
+      "selector": "section:nth-of-type(2)>div>div>div>div",
+      "scope": "section:nth-of-type(2)>div>div>div>div",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes fc-marquee present in the clone's CSS — deep diff: pingfusi motion verify-introspected flowcraft pass-css-8bb52728",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T10:00:51.544Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-13884e4ac59a",
+        "trackFingerprint": "13884e4ac59a3feb8abb7241d5aa52148acee4cd5de1b19dbad6ca3dbf3ea7aa"
+      }
+    },
+    {
+      "id": "pass-css-875eff22",
+      "createdAt": "2026-10-29T09:38:56.458Z",
+      "selector": "section>div>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(3)",
+      "scope": "section>div>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(3)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes fc-spin present in the clone's CSS — deep diff: pingfusi motion verify-introspected flowcraft pass-css-875eff22",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T10:00:51.559Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-fecc52065560",
+        "trackFingerprint": "fecc520655608554435c2e656887295187b0845c9b99f0561a3a614301181aa0"
+      }
+    },
+    {
+      "id": "pass-css-6f425dba",
+      "createdAt": "2026-10-29T09:38:56.478Z",
+      "selector": "section>div>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(4)",
+      "scope": "section>div>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(4)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes fc-spin present in the clone's CSS — deep diff: pingfusi motion verify-introspected flowcraft pass-css-6f425dba",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T10:00:51.581Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-812758866f56",
+        "trackFingerprint": "812758866f56d97ad6b946ad62374e54e35a797ad3170a628e5fd2e175116670"
+      }
+    },
+    {
+      "id": "pass-css-0a8efbb7",
+      "createdAt": "2026-10-29T09:38:56.491Z",
+      "selector": "div:nth-of-type(2)>div>button:nth-of-type(1)>span>span",
+      "scope": "div:nth-of-type(2)>div>button:nth-of-type(1)>span>span",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes fc-progress present in the clone's CSS — deep diff: pingfusi motion verify-introspected flowcraft pass-css-0a8efbb7",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T10:00:51.612Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-d40ccfd16ddd",
+        "trackFingerprint": "d40ccfd16ddd01d0b65d4ca5299b62fe7aca373f96707ffc21e39339b9c5d133"
+      }
+    },
+    {
+      "id": "pass-css-129c49c6",
+      "createdAt": "2026-10-29T09:38:56.504Z",
+      "selector": "div>div:nth-of-type(2)>div:nth-of-type(2)>p>span:nth-of-type(1)",
+      "scope": "div>div:nth-of-type(2)>div:nth-of-type(2)>p>span:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes fc-fade-up present in the clone's CSS — deep diff: pingfusi motion verify-introspected flowcraft pass-css-129c49c6",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T10:00:51.634Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-60d23836dfbe",
+        "trackFingerprint": "60d23836dfbe61f169bc0ded5f1fb626daa1f24e3fdf37ba192184562b99859c",
+        "docTrackIds": [
+          "t-60d23836dfbe",
+          "t-7bc6c84b6874"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-8075eeec",
+      "createdAt": "2026-10-29T09:38:56.525Z",
+      "selector": "div>div:nth-of-type(2)>div:nth-of-type(2)>p>span:nth-of-type(2)",
+      "scope": "div>div:nth-of-type(2)>div:nth-of-type(2)>p>span:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes fc-fade-up present in the clone's CSS — deep diff: pingfusi motion verify-introspected flowcraft pass-css-8075eeec",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T10:00:51.648Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-c92df51704d3",
+        "trackFingerprint": "c92df51704d313a2d97f970fc8c0bcf9943cc135fdec192d2eeb6814e67c5661",
+        "docTrackIds": [
+          "t-c92df51704d3",
+          "t-dd8098b7a007"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-ecd8d394",
+      "createdAt": "2026-10-29T09:38:56.538Z",
+      "selector": "div>div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "scope": "div>div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes fc-pop-in present in the clone's CSS — deep diff: pingfusi motion verify-introspected flowcraft pass-css-ecd8d394",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T10:00:51.669Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-92b7bcda874e",
+        "trackFingerprint": "92b7bcda874e1ddfcdf04f5ccdc0b47cae05d61dc15997eb269aafaefeb2dfe5",
+        "docTrackIds": [
+          "t-92b7bcda874e",
+          "t-069f824eefd9"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-8f137f60",
+      "createdAt": "2026-10-29T09:38:56.550Z",
+      "selector": "div>div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)",
+      "scope": "div>div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes fc-pop-in present in the clone's CSS — deep diff: pingfusi motion verify-introspected flowcraft pass-css-8f137f60",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T10:00:51.697Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-59c88f7380d8",
+        "trackFingerprint": "59c88f7380d84de0fac455be5405617cd9e3686524ea4204ecb54cd812951777",
+        "docTrackIds": [
+          "t-59c88f7380d8",
+          "t-a8a87cf3c58a"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-7ead1583",
+      "createdAt": "2026-10-29T09:38:56.565Z",
+      "selector": "div>div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(3)",
+      "scope": "div>div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(3)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes fc-pop-in present in the clone's CSS — deep diff: pingfusi motion verify-introspected flowcraft pass-css-7ead1583",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T10:00:51.711Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-acdd69010865",
+        "trackFingerprint": "acdd69010865f0a2903698a8d254eff2cc1dd6c5368a8f42843fa9b72ed903b9",
+        "docTrackIds": [
+          "t-acdd69010865",
+          "t-a9c37932a413"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-55f3451f",
+      "createdAt": "2026-10-29T09:38:56.585Z",
+      "selector": "div>div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(4)",
+      "scope": "div>div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(4)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes fc-pop-in present in the clone's CSS — deep diff: pingfusi motion verify-introspected flowcraft pass-css-55f3451f",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T10:00:51.726Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-78e5fecd47e7",
+        "trackFingerprint": "78e5fecd47e758e2b7fe2667af1718deb36b786000273487f0530a86c21e7ebd",
+        "docTrackIds": [
+          "t-78e5fecd47e7",
+          "t-6db74992786c"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-6102baa7",
+      "createdAt": "2026-10-29T09:38:56.597Z",
+      "selector": "div>div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(5)",
+      "scope": "div>div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(5)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes fc-pop-in present in the clone's CSS — deep diff: pingfusi motion verify-introspected flowcraft pass-css-6102baa7",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T10:00:51.752Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-8409c95c76b4",
+        "trackFingerprint": "8409c95c76b4bfd8f9e52397a79a17e9912dc82071284da63b56efb1a04e9bed",
+        "docTrackIds": [
+          "t-8409c95c76b4",
+          "t-6f1d0449bf5c"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-fccf31a2",
+      "createdAt": "2026-10-29T09:38:56.609Z",
+      "selector": "div>div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)",
+      "scope": "div>div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes fc-pop-in present in the clone's CSS — deep diff: pingfusi motion verify-introspected flowcraft pass-css-fccf31a2",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T10:00:51.773Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-100c4bbe3549",
+        "trackFingerprint": "100c4bbe3549431375ec28de7187d82937ac05c45d45d78faea15748c7affd14",
+        "docTrackIds": [
+          "t-100c4bbe3549",
+          "t-08177a0163ea"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-17e0a568",
+      "createdAt": "2026-10-29T09:38:56.632Z",
+      "selector": "div>div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(7)",
+      "scope": "div>div>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(7)",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "2 track(s) carried by the captured CSS; @keyframes fc-pop-in present in the clone's CSS — deep diff: pingfusi motion verify-introspected flowcraft pass-css-17e0a568",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T10:00:51.786Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-4505ef635791",
+        "trackFingerprint": "4505ef6357910c6302b79755dcf81fc24a987a72ec116ab795b2ae7349549f1a",
+        "docTrackIds": [
+          "t-4505ef635791",
+          "t-19ee74fa9108"
+        ]
+      }
+    },
+    {
+      "id": "pass-css-4b066f33",
+      "createdAt": "2026-10-29T09:38:56.644Z",
+      "selector": "main>section:nth-of-type(4)>div:nth-of-type(2)>div:nth-of-type(1)>div",
+      "scope": "main>section:nth-of-type(4)>div:nth-of-type(2)>div:nth-of-type(1)>div",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes fc-marquee present in the clone's CSS — deep diff: pingfusi motion verify-introspected flowcraft pass-css-4b066f33",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T10:00:51.800Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-e6d5ae29551b",
+        "trackFingerprint": "e6d5ae29551bce7893bf390f592dd1e72d1f77ebc860ec2f51f72bc7a7510da1"
+      }
+    },
+    {
+      "id": "pass-css-05e8d377",
+      "createdAt": "2026-10-29T09:38:56.656Z",
+      "selector": "main>section:nth-of-type(4)>div:nth-of-type(2)>div:nth-of-type(2)>div",
+      "scope": "main>section:nth-of-type(4)>div:nth-of-type(2)>div:nth-of-type(2)>div",
+      "tier": "introspected-css",
+      "action": "css-inherited",
+      "verify": "pass",
+      "receipt": "1 track(s) carried by the captured CSS; @keyframes fc-marquee-reverse present in the clone's CSS — deep diff: pingfusi motion verify-introspected flowcraft pass-css-05e8d377",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T10:00:51.826Z",
+      "introspectedBinding": {
+        "provenance": "introspected",
+        "docTrackId": "t-55a47aa822e2",
+        "trackFingerprint": "55a47aa822e2dbc10ce8d53290361fd0705980edd5ec98d952d74e8268fc6e81"
+      }
+    },
+    {
+      "id": "pass-sampled-06e96fae",
+      "createdAt": "2026-10-29T09:38:56.674Z",
+      "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(13)>span",
+      "scope": "dd>span>span:nth-of-type(2)>span:nth-of-type(13)>span",
+      "tier": "sampled",
+      "action": "player-applied",
+      "verify": "pass",
+      "receipt": "1 track(s) replayed as time-based WAAPI in clone/motion-replay.js (parameters verbatim from motion-doc.json; owner probe clean)",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T09:59:08.395Z"
+    },
+    {
+      "id": "pass-sampled-430aa563",
+      "createdAt": "2026-10-29T09:38:56.692Z",
+      "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(11)>span",
+      "scope": "dd>span>span:nth-of-type(2)>span:nth-of-type(11)>span",
+      "tier": "sampled",
+      "action": "player-applied",
+      "verify": "pass",
+      "receipt": "1 track(s) replayed as time-based WAAPI in clone/motion-replay.js (parameters verbatim from motion-doc.json; owner probe clean)",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T09:59:08.415Z"
+    },
+    {
+      "id": "pass-sampled-ca8da423",
+      "createdAt": "2026-10-29T09:38:56.704Z",
+      "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(9)>span",
+      "scope": "dd>span>span:nth-of-type(2)>span:nth-of-type(9)>span",
+      "tier": "sampled",
+      "action": "player-applied",
+      "verify": "pass",
+      "receipt": "1 track(s) replayed as time-based WAAPI in clone/motion-replay.js (parameters verbatim from motion-doc.json; owner probe clean)",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T09:59:08.427Z"
+    },
+    {
+      "id": "pass-sampled-a60ef923",
+      "createdAt": "2026-10-29T09:38:56.719Z",
+      "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(12)>span",
+      "scope": "dd>span>span:nth-of-type(2)>span:nth-of-type(12)>span",
+      "tier": "sampled",
+      "action": "player-applied",
+      "verify": "pass",
+      "receipt": "1 track(s) replayed as time-based WAAPI in clone/motion-replay.js (parameters verbatim from motion-doc.json; owner probe clean)",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T09:59:08.443Z"
+    },
+    {
+      "id": "pass-sampled-003017db",
+      "createdAt": "2026-10-29T09:38:56.740Z",
+      "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(7)>span",
+      "scope": "dd>span>span:nth-of-type(2)>span:nth-of-type(7)>span",
+      "tier": "sampled",
+      "action": "player-applied",
+      "verify": "pass",
+      "receipt": "1 track(s) replayed as time-based WAAPI in clone/motion-replay.js (parameters verbatim from motion-doc.json; owner probe clean)",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T09:59:08.474Z"
+    },
+    {
+      "id": "pass-sampled-dd24d53a",
+      "createdAt": "2026-10-29T09:38:56.751Z",
+      "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(8)>span",
+      "scope": "dd>span>span:nth-of-type(2)>span:nth-of-type(8)>span",
+      "tier": "sampled",
+      "action": "player-applied",
+      "verify": "pass",
+      "receipt": "1 track(s) replayed as time-based WAAPI in clone/motion-replay.js (parameters verbatim from motion-doc.json; owner probe clean)",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T09:59:08.487Z"
+    },
+    {
+      "id": "pass-sampled-0da9c7d4",
+      "createdAt": "2026-10-29T09:38:56.767Z",
+      "selector": "div>span:nth-of-type(1)>span:nth-of-type(2)>span:nth-of-type(1)>span",
+      "scope": "div>span:nth-of-type(1)>span:nth-of-type(2)>span:nth-of-type(1)>span",
+      "tier": "sampled",
+      "action": "player-applied",
+      "verify": "pass",
+      "receipt": "1 track(s) replayed as time-based WAAPI in clone/motion-replay.js (parameters verbatim from motion-doc.json; owner probe clean)",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T09:59:08.499Z"
+    },
+    {
+      "id": "pass-sampled-cf299b3e",
+      "createdAt": "2026-10-29T09:38:56.788Z",
+      "selector": "div>span:nth-of-type(1)>span:nth-of-type(2)>span:nth-of-type(2)>span",
+      "scope": "div>span:nth-of-type(1)>span:nth-of-type(2)>span:nth-of-type(2)>span",
+      "tier": "sampled",
+      "action": "player-applied",
+      "verify": "pass",
+      "receipt": "1 track(s) replayed as time-based WAAPI in clone/motion-replay.js (parameters verbatim from motion-doc.json; owner probe clean)",
+      "source": "motion-pass",
+      "status": "pass",
+      "updatedAt": "2026-10-29T09:59:08.518Z"
+    },
+    {
+      "id": "pass-sampled-aa84c442",
+      "createdAt": "2026-10-29T09:38:56.799Z",
+      "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(5)>span",
+      "scope": "dd>span>span:nth-of-type(2)>span:nth-of-type(5)>span",
+      "tier": "sampled",
+      "action": "player-applied",
+      "verify": "warn",
+      "receipt": "1 track(s) replayed as time-based WAAPI in clone/motion-replay.js (parameters verbatim from motion-doc.json; owner probe clean); 1 track(s) skipped",
+      "source": "motion-pass",
+      "status": "pending",
+      "updatedAt": "2026-10-29T09:59:08.537Z"
+    },
+    {
+      "id": "pass-sampled-d4027a10",
+      "createdAt": "2026-10-29T09:38:56.811Z",
+      "selector": "div>span:nth-of-type(1)>span:nth-of-type(2)>span>span",
+      "scope": "div>span:nth-of-type(1)>span:nth-of-type(2)>span>span",
+      "tier": "sampled",
+      "action": "skipped",
+      "verify": "warn",
+      "receipt": "skipped — ongoing motion with no periodic fit — a clip that stops is a fabricated ending; sample longer so the marquee class can win, or the element stays static in the draft",
+      "source": "motion-pass",
+      "status": "pending",
+      "updatedAt": "2026-10-29T09:59:08.549Z"
+    }
+  ]
+}

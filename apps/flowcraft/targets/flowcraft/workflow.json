@@ -1,0 +1,126 @@
+{
+  "name": "flowcraft",
+  "url": "https://flow-craft-template.modulify.website/",
+  "width": 1728,
+  "createdAt": "2026-10-29T09:34:07.070Z",
+  "phaseOrder": [
+    "target",
+    "assets",
+    "measure",
+    "build",
+    "visual",
+    "coverage",
+    "strict",
+    "behavior",
+    "review",
+    "done"
+  ],
+  "phases": {
+    "target": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "2c7fe00cb3",
+      "sha256": "bffdcc9a04e44129",
+      "evidence": "targets/flowcraft/target.json 固定 url=https://flow-craft-template.modulify.website/ 与测量视口 1728px",
+      "ts": "2026-10-29T09:34:15.268Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "assets": {
+      "status": "pass",
+      "kind": "attested",
+      "runId": "7ea19c1474",
+      "sha256": "35fdf54a3bb49578",
+      "evidence": "capture-run 记录的原站字体/图标/图片均为真实抓取资源（dom.html + live.json 引用原站 URL，capture-build 将自托管）；无自绘 SVG",
+      "ts": "2026-10-29T09:38:19.721Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "measure": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "eef2051f41",
+      "sha256": "fa8a2fe138f23dc9",
+      "evidence": "live.json 5382 leaves @1728×982 DPR2，settle stable:true scrolledTo 5125，coverage.json 70KB",
+      "ts": "2026-10-29T09:38:20.043Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "build": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "e444f9f9d1",
+      "sha256": "1ce9364746e7e575",
+      "evidence": "capture-build 从 dom.html 生成 clone/index.html（252716B），自托管 2 CSS/8 字体/52 媒体；clone-lint 通过；clone 侧捕获 5382 leaves，paint nonUniformRatio 0.2268 = live 0.2268",
+      "ts": "2026-10-29T09:59:52.631Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "visual": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "5e5b635554",
+      "sha256": "1ce9364746e7e575",
+      "evidence": "visual PASS — 9922 comparisons, 0 fails（4620 marks 因两侧同样的 rAF mover 排除，逐条 receipted）",
+      "ts": "2026-10-29T09:59:57.701Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "coverage": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "056b2fd02f",
+      "sha256": "8f04bc87d3d13e1b",
+      "evidence": "all 5382 enumerated painted leaves are covered",
+      "ts": "2026-10-29T09:59:57.923Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "strict": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "64b89eba79",
+      "sha256": "1ce9364746e7e575",
+      "evidence": "strict PASS — 0 structural deltas",
+      "ts": "2026-10-29T09:59:58.113Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "behavior": {
+      "status": "pass",
+      "kind": "machine",
+      "runId": "15c6e81eff",
+      "sha256": "672a4ebb44fb4f6d",
+      "evidence": "behavior PASS — 18 live behaviors：5 复现（marquee、3 处 reveal、placeholder），4 条写入 behavior-deviations.json（odometer 循环 + 3 个合成 hover 无法触发），1 条由 motion receipt 满足，14 条 declared 全部有据说明；两侧均用 kit-owned Chrome 捕获（documentHidden=false，rAF 62Hz）",
+      "ts": "2026-10-29T10:05:40.236Z",
+      "forced": false,
+      "blocked": false,
+      "overrode": []
+    },
+    "review": {
+      "status": "pending",
+      "kind": "machine",
+      "runId": null,
+      "sha256": null,
+      "evidence": null,
+      "ts": null,
+      "forced": false
+    },
+    "done": {
+      "status": "pending",
+      "kind": "machine",
+      "runId": null,
+      "sha256": null,
+      "evidence": null,
+      "ts": null,
+      "forced": false
+    }
+  }
+}

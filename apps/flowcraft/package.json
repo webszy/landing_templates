@@ -1,0 +1,17 @@
+{
+  "name": "@templates/flowcraft",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FlowCraft template cloned from its captured public DOM with CopyAnything.",
+  "config": {
+    "siteRoot": "targets/flowcraft/clone",
+    "originalOrigin": "https://flow-craft-template.modulify.website"
+  },
+  "scripts": {
+    "dev": "node ../../scripts/static-site.mjs serve",
+    "start": "node ../../scripts/static-site.mjs serve",
+    "build": "node ../../scripts/static-site.mjs build",
+    "check": "node ../../scripts/static-site.mjs check",
+    "rewrite-routes": "node scripts/rewrite-routes.mjs"
+  }
+}

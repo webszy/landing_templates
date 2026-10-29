@@ -1,0 +1,1101 @@
+{
+  "url": "https://flow-craft-template.modulify.website/",
+  "viewport": {
+    "width": 1728,
+    "height": 982,
+    "dpr": 2
+  },
+  "mode": "CSS1Compat",
+  "discovery": {
+    "startedAt": "2026-10-29T10:00:47.249Z",
+    "endedAt": "2026-10-29T10:00:51.374Z",
+    "durationMs": 4125.2,
+    "documentHidden": false,
+    "scrollSweep": {
+      "from": 0,
+      "to": 4143,
+      "steps": 6,
+      "positions": [
+        0,
+        691,
+        1381,
+        2072,
+        2762,
+        3453,
+        4143
+      ]
+    },
+    "observeMs": 1500,
+    "elementsScanned": 6291,
+    "staticCandidateCount": 182,
+    "keyframesFound": [
+      "fc-spin",
+      "fc-marquee",
+      "fc-marquee-reverse",
+      "fc-float",
+      "fc-typing-dot",
+      "fc-pulse-dot",
+      "fc-progress",
+      "fc-progress-y",
+      "fc-fade-up",
+      "fc-pop-in",
+      "fc-reduced-fade",
+      "fc-hero-in",
+      "fc-placeholder-in",
+      "fc-word-in",
+      "fc-word-out",
+      "fc-chip-travel",
+      "fc-chip-out",
+      "fc-gate-glow",
+      "spin",
+      "pulse",
+      "enter",
+      "exit"
+    ],
+    "hoverTriggersProbed": [
+      "nav_link",
+      "nav_cta",
+      "integration_card",
+      "tab_requirements",
+      "tab_how"
+    ],
+    "marqueeSelectorsProbed": [
+      "customer_belt",
+      "testimonial_belt"
+    ],
+    "earlyMotionRecorder": {
+      "ran": true,
+      "durationMs": 3792.7,
+      "rowsObserved": 15,
+      "strongRows": 0
+    },
+    "runner": {
+      "kitVersion": "0.18.0",
+      "mode": "cdp-launched",
+      "chromeVersion": "Chrome/156.0.8078.73",
+      "headless": true,
+      "profile": "temp",
+      "viewport": {
+        "width": 1728,
+        "height": 982,
+        "dpr": 2,
+        "sources": {
+          "width": "target.json",
+          "height": "live.json",
+          "dpr": "live.json"
+        }
+      },
+      "rafProbe": {
+        "frames": 31,
+        "ms": 701,
+        "hz": 62,
+        "attempts": 1
+      },
+      "animProbe": {
+        "expectedPxPerSec": 100,
+        "measuredPxPerSec": 98
+      }
+    }
+  },
+  "behaviors": {
+    "reveal:span.fc-placeholder-in.block": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "span",
+      "hints": [
+        "animation-name:fc-placeholder-in"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "fc-placeholder-in",
+        "durationMs": 500,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "iterationCount": "1",
+        "signals": [
+          "animation-name:fc-placeholder-in"
+        ],
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": "",
+          "transform": "",
+          "filter": "",
+          "visibility": "",
+          "display": ""
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": "",
+            "transform": "",
+            "filter": "",
+            "visibility": "",
+            "display": ""
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 5,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div.fc-marquee-track.flex": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "main>section:nth-of-type(4)>div:nth-of-type(2)>div:nth-of-type(2)>div",
+      "hints": [
+        "animation-name:fc-marquee-reverse",
+        "class-marker"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "fc-marquee-reverse",
+        "durationMs": 60000,
+        "delayMs": 0,
+        "easing": "linear",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:fc-marquee-reverse"
+        ],
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, -3995.84, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, -3838.13, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, 1, -3977.01, 0)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "flex"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div.absolute.inset-[170px]": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "section>div>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(3)",
+      "hints": [
+        "animation-name:fc-spin",
+        "class-marker"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "fc-spin",
+        "durationMs": 40000,
+        "delayMs": 0,
+        "easing": "linear",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:fc-spin"
+        ],
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(0.859415, 0.511278, -0.511278, 0.859415, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(0.631382, 0.775472, -0.775472, 0.631382, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 1,
+            "transform": "matrix(0.837254, 0.546814, -0.546814, 0.837254, 0, 0)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div.absolute.inset-0": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "section>div>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(4)",
+      "hints": [
+        "animation-name:fc-spin",
+        "class-marker"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "fc-spin",
+        "durationMs": 80000,
+        "delayMs": 0,
+        "easing": "linear",
+        "iterationCount": "infinite",
+        "signals": [
+          "animation-name:fc-spin"
+        ],
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(0.964213, -0.265127, 0.265127, 0.964213, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(0.903156, -0.429313, 0.429313, 0.903156, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 0,
+          "snapshot": {
+            "opacity": 1,
+            "transform": "matrix(0.95845, -0.285259, 0.285259, 0.95845, 0, 0)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div.fc-reveal.flex": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>main>section:nth-of-type(4)>div:nth-of-type(1)>div",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 900,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 28)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "during": {
+          "atY": 2072,
+          "snapshot": {
+            "opacity": 0.75,
+            "transform": "matrix(1, 0, 0, 1, 0, 6.99877)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "flex"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:span.fc-progress-bar.block": {
+      "trigger": "load",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div:nth-of-type(2)>div>button:nth-of-type(1)>span>span",
+      "hints": [
+        "animation-name:fc-progress"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "fc-progress",
+        "durationMs": 15000,
+        "delayMs": 0,
+        "easing": "linear",
+        "iterationCount": "1",
+        "signals": [
+          "animation-name:fc-progress"
+        ],
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(0, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(0.0344431, 0, 0, 1, 0, 0)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 691,
+          "snapshot": {
+            "opacity": 1,
+            "transform": "matrix(0.0155564, 0, 0, 1, 0, 0)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:div.fc-reveal.lg:col-start-2": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>section>div>div:nth-of-type(2)>div:nth-of-type(3)",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 900,
+        "delayMs": 200,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 28)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 691,
+          "snapshot": {
+            "opacity": 0.162,
+            "transform": "matrix(1, 0, 0, 1, 0, 23.4676)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div.fc-reveal.fc-container": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>div>main>section:nth-of-type(3)>div:nth-of-type(1)",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 900,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 28)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "during": {
+          "atY": 1381,
+          "snapshot": {
+            "opacity": 0.75,
+            "transform": "matrix(1, 0, 0, 1, 0, 6.99928)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "flex"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:div.fc-reveal.mt-12": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>div>main>section:nth-of-type(3)>div:nth-of-type(2)",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 900,
+        "delayMs": 120,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 28)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 1381,
+          "snapshot": {
+            "opacity": 0.426,
+            "transform": "matrix(1, 0, 0, 1, 0, 16.0727)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "reveal:span.fc-reel": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(4)>span",
+      "hints": [
+        "will-change:transform"
+      ],
+      "temporal": {
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, -360)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "matrix(1, 0, 0, 1, 0, -1002.96)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "during": {
+          "atY": 2762,
+          "snapshot": {
+            "opacity": 1,
+            "transform": "matrix(1, 0, 0, 1, 0, -643.746)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "flex"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 1,
+        "sampleCount": 7,
+        "mutatedDuringSweep": true
+      }
+    },
+    "reveal:div.fc-reveal.relative": {
+      "trigger": "scroll-sweep",
+      "kind": "class-toggle-or-style-mutation",
+      "selector": "div>main>section:nth-of-type(5)>div>div",
+      "hints": [
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 900,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ],
+        "trigger": "scroll-sweep",
+        "reason": "computed style changed during the measured scroll sweep"
+      },
+      "measured": {
+        "before": {
+          "opacity": 0,
+          "transform": "matrix(1, 0, 0, 1, 0, 28)",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "during": {
+          "atY": 3453,
+          "snapshot": {
+            "opacity": 0.75,
+            "transform": "matrix(1, 0, 0, 1, 0, 7.00288)",
+            "filter": "none",
+            "visibility": "visible",
+            "display": "block"
+          }
+        },
+        "changedDuringSweep": true,
+        "returnedToStart": false,
+        "maxChangedProperties": 2,
+        "sampleCount": 7,
+        "mutatedDuringSweep": false
+      }
+    },
+    "mutation:span.pointer-events-none.absolute": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "div:nth-of-type(2)>form>div>div>span",
+      "measured": {
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "sampleCount": 1
+      }
+    },
+    "mutation:header.sticky.top-0": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "body>div>div>div>header",
+      "measured": {
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "block"
+        },
+        "sampleCount": 1
+      }
+    },
+    "mutation:div.fc-fade-top.flex": {
+      "trigger": "mutation",
+      "kind": "observed-mutation",
+      "selector": "div:nth-of-type(3)>div>div>div:nth-of-type(2)>div:nth-of-type(1)",
+      "measured": {
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex"
+        },
+        "sampleCount": 1
+      }
+    },
+    "marquee:customer_belt": {
+      "trigger": "load",
+      "kind": "marquee",
+      "selector": "section#customers .fc-marquee-track",
+      "measured": {
+        "pxPerSec": 49.029,
+        "axis": "x",
+        "from": -272.751,
+        "to": -321.829,
+        "sampledMs": 1001
+      }
+    },
+    "hover:nav_link": {
+      "trigger": "hover",
+      "kind": "hover-mount",
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 6291
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 6291
+        },
+        "changed": false,
+        "inconclusive": true,
+        "inconclusiveReason": "the probe observed nothing — which is NOT proof nothing happens. Either the mechanism did not fire (a synthetic MouseEvent sets no CSS :hover and satisfies no trusted-event-gated JS), or the reveal paints OUTSIDE the snapshotted scope (aloyoga: a PRE-MOUNTED panel that only flips `visibility`, so the default scope — document.body — sees neither a style change nor a descendant-count change). Pass a findScope pointing at the element that actually paints, then re-probe"
+      }
+    },
+    "hover:tab_requirements": {
+      "trigger": "hover",
+      "kind": "hover-mount",
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 6291
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 6291
+        },
+        "changed": false,
+        "inconclusive": true,
+        "inconclusiveReason": "the probe observed nothing — which is NOT proof nothing happens. Either the mechanism did not fire (a synthetic MouseEvent sets no CSS :hover and satisfies no trusted-event-gated JS), or the reveal paints OUTSIDE the snapshotted scope (aloyoga: a PRE-MOUNTED panel that only flips `visibility`, so the default scope — document.body — sees neither a style change nor a descendant-count change). Pass a findScope pointing at the element that actually paints, then re-probe"
+      }
+    },
+    "hover:tab_how": {
+      "trigger": "hover",
+      "kind": "hover-mount",
+      "measured": {
+        "before": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 6291
+        },
+        "after": {
+          "opacity": 1,
+          "transform": "none",
+          "filter": "none",
+          "visibility": "visible",
+          "display": "flex",
+          "descendants": 6291
+        },
+        "changed": false,
+        "inconclusive": true,
+        "inconclusiveReason": "the probe observed nothing — which is NOT proof nothing happens. Either the mechanism did not fire (a synthetic MouseEvent sets no CSS :hover and satisfies no trusted-event-gated JS), or the reveal paints OUTSIDE the snapshotted scope (aloyoga: a PRE-MOUNTED panel that only flips `visibility`, so the default scope — document.body — sees neither a style change nor a descendant-count change). Pass a findScope pointing at the element that actually paints, then re-probe"
+      }
+    }
+  },
+  "declared": {
+    "declared:products-menu": {
+      "hints": [
+        "class-marker",
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 200,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ]
+      },
+      "startState": {
+        "opacity": 0,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "hidden",
+        "display": "block"
+      },
+      "text": "Full-Service IntegrationsCustom integrations, designed and r"
+    },
+    "declared:resources-menu": {
+      "hints": [
+        "class-marker",
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 200,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ]
+      },
+      "startState": {
+        "opacity": 0,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "hidden",
+        "display": "block"
+      },
+      "text": "BlogPractical notes on workflow automationChangelogEverythin"
+    },
+    "declared:docs-menu": {
+      "hints": [
+        "class-marker",
+        "transition-from-start-state"
+      ],
+      "temporal": {
+        "candidate": "weak",
+        "mechanism": "css-transition",
+        "durationMs": 200,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)",
+        "signals": [
+          "transition-from-start-state"
+        ]
+      },
+      "startState": {
+        "opacity": 0,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "hidden",
+        "display": "block"
+      },
+      "text": "Product DocumentationPilot DocumentationWork faster from day"
+    },
+    "declared:span.absolute.h-[1.5px]": {
+      "hints": [
+        "class-marker"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:div.fc-hero-in.max-w-full": {
+      "hints": [
+        "animation-name:fc-hero-in"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "fc-hero-in",
+        "durationMs": 820,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "iterationCount": "1",
+        "signals": [
+          "animation-name:fc-hero-in"
+        ],
+        "reason": "named CSS animation fc-hero-in with 820ms duration"
+      },
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "Fast 500Ranked #212 on the Deloitte Fast 500 with 640% growt"
+    },
+    "declared:hero-title": {
+      "hints": [
+        "animation-name:fc-hero-in"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "fc-hero-in",
+        "durationMs": 820,
+        "delayMs": 180,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "iterationCount": "1",
+        "signals": [
+          "animation-name:fc-hero-in"
+        ],
+        "reason": "named CSS animation fc-hero-in with 820ms duration"
+      },
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "Connect every tool.Automate every handoff."
+    },
+    "declared:p.fc-hero-in.mt-6": {
+      "hints": [
+        "animation-name:fc-hero-in"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "fc-hero-in",
+        "durationMs": 820,
+        "delayMs": 450,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "iterationCount": "1",
+        "signals": [
+          "animation-name:fc-hero-in"
+        ],
+        "reason": "named CSS animation fc-hero-in with 820ms duration"
+      },
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "FlowCraft links all your systems and builds the workflows fo"
+    },
+    "declared:form.fc-hero-in.relative": {
+      "hints": [
+        "animation-name:fc-hero-in"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "fc-hero-in",
+        "durationMs": 820,
+        "delayMs": 750,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "iterationCount": "1",
+        "signals": [
+          "animation-name:fc-hero-in"
+        ],
+        "reason": "named CSS animation fc-hero-in with 820ms duration"
+      },
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "blur(0px)",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": "Ask FlowCraftAsk FlowCraftPost new HubSpot deals to Slack"
+    },
+    "declared:div.absolute.-right-32": {
+      "hints": [
+        "class-marker"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "blur(40px)",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:div.absolute.-bottom-48": {
+      "hints": [
+        "class-marker"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "blur(40px)",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:span.fc-fade-up.text-white": {
+      "hints": [
+        "animation-name:fc-fade-up"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "fc-fade-up",
+        "durationMs": 500,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "iterationCount": "1",
+        "signals": [
+          "animation-name:fc-fade-up"
+        ],
+        "reason": "named CSS animation fc-fade-up with 500ms duration"
+      },
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "inline"
+      },
+      "text": "Most integration work starts as a business process, not a pe"
+    },
+    "declared:span.fc-fade-up.text-[#a8a8b3]": {
+      "hints": [
+        "animation-name:fc-fade-up"
+      ],
+      "temporal": {
+        "candidate": "strong",
+        "kind": "css-animation",
+        "trigger": "load",
+        "animationName": "fc-fade-up",
+        "durationMs": 500,
+        "delayMs": 0,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "iterationCount": "1",
+        "signals": [
+          "animation-name:fc-fade-up"
+        ],
+        "reason": "named CSS animation fc-fade-up with 500ms duration"
+      },
+      "startState": {
+        "opacity": 1,
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "inline"
+      },
+      "text": "Our solutions engineers ask the right questions, uncover the"
+    },
+    "declared:div.pointer-events-none.absolute": {
+      "hints": [
+        "class-marker"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "blur(40px)",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    },
+    "declared:html>body>a[3][1]": {
+      "hints": [
+        "will-change:transform"
+      ],
+      "startState": {
+        "opacity": 1,
+        "transform": "none",
+        "filter": "none",
+        "visibility": "visible",
+        "display": "block"
+      },
+      "text": null
+    }
+  }
+}

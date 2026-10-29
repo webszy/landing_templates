@@ -1,0 +1,56 @@
+{
+  "hover:nav_link": {
+    "reason": "The nav triggers are <button> elements whose mega-menu opens through CSS :hover / group-hover on an ancestor; a dispatched MouseEvent sets no :hover state, and a trusted CDP mouse move over the trigger changed nothing in the snapshot scope (measured: link color stayed rgb(14,14,14)). Inconclusive on live, not proof of absence. The panel markup is pre-mounted in the captured DOM (the mega-menu panels ship in dom.html and are toggled by class), so the reveal exists in the clone but is not machine-measurable with this probe — confirm it in the review round by hovering 'Products' / 'Resources' / 'Docs'."
+  },
+  "hover:tab_requirements": {
+    "reason": "Tab strip in 'How full service works'. Hover only shifts the text colour (transition-colors duration-200 on the button; the selected tab is already text-white), and the synthetic probe observed nothing on live. The clone keeps the same markup, classes and transition; the selected tab's white text and the 2px fc-progress bar under it match the captured frame (visual gate: 0 fails). Confirm by hovering the inactive tabs in the review round."
+  },
+  "hover:tab_how": {
+    "reason": "Same tab strip as hover:tab_requirements — inactive tab hover is a colour transition only, invisible to the synthetic probe on live. Markup, classes and the transition are captured verbatim in the clone; verify the colour change by hovering the inactive tabs in the review round."
+  },
+  "reveal:span.fc-reel": {
+    "reason": "This is a continuously rolling odometer digit, not a one-shot reveal. Three consecutive 1s samples of the same element on live read translateY -604.96px, -719.04px, then -360px (its resting offset) — an interval rotation. Per docs/WORKFLOW.md's observed-mutation rule the end state of a continuously mutating element can never agree between two independent captures, so the reported -1002.96px vs -576px are two frames of the same loop, not a fidelity gap. The clone carries the captured resting frame and the visual gate matches it (0 fails across 9922 comparisons); the roll itself is a motion-pass phenomenon, and sibling digit strips (span:nth-of-type(7..13)) are covered by sampled motion items."
+  },
+  "declared:products-menu": {
+    "reason": "Mega-menu panel for 'Products'. The panel is pre-mounted in the captured DOM and opens on hover/focus (CSS group-hover + visibility), so the scroll sweep and synthetic hover cannot fire it — the marker is a transition-from-start-state on a panel that only shows under a pointer. Panel markup, links and styling are in the clone verbatim; confirm the open/close behaviour in the review round."
+  },
+  "declared:resources-menu": {
+    "reason": "Mega-menu panel for 'Resources' — same pre-mounted, hover/focus-opened panel as products-menu. Not reachable by the synthetic probe; markup and styling are captured verbatim in the clone. Confirm in the review round."
+  },
+  "declared:docs-menu": {
+    "reason": "Mega-menu panel for 'Docs' — same pre-mounted, hover/focus-opened panel as products-menu. Not reachable by the synthetic probe; markup and styling are captured verbatim in the clone. Confirm in the review round."
+  },
+  "declared:span.absolute.h-[1.5px]": {
+    "reason": "The two 1.5px bars of the mobile hamburger button (header, lg:hidden). Static paint — the class-marker hit is the absolute/h-[1.5px] token, not a motion declaration; there is no keyframe or transition on them. Reproduced verbatim in the clone's captured DOM."
+  },
+  "declared:div.fc-hero-in.max-w-full": {
+    "reason": "Hero trust row ('Fast 500 / Ranked #212 ...'). Carries the one-shot fc-hero-in entrance (0.6s, animation-delay 0.3s) which finishes ~1s after load — long before the discovery sweep starts, so nothing is observed moving. The animation, delay and end state are captured verbatim in the clone (the visual gate compares its settled frame: 0 fails)."
+  },
+  "declared:hero-title": {
+    "reason": "Hero H1 carries the one-shot fc-hero-in entrance (animation-delay 0.18s, 0.6s) — finished before discovery starts, hence no observed motion. Captured verbatim (keyframes, delay, settled frame) in the clone."
+  },
+  "declared:p.fc-hero-in.mt-6": {
+    "reason": "Hero sub-paragraph carries the one-shot fc-hero-in entrance (animation-delay 0.45s) — finished before discovery starts. Captured verbatim in the clone."
+  },
+  "declared:form.fc-hero-in.relative": {
+    "reason": "Hero search form carries the one-shot fc-hero-in entrance (animation-delay 0.75s) — finished before discovery starts. Captured verbatim in the clone, including the fc-placeholder typewriter reproduced in fixes.js."
+  },
+  "declared:div.absolute.-right-32": {
+    "reason": "Decorative blurred radial-gradient blob (size 620px, blur-2xl) in the hero backdrop. Static paint with no keyframe, transition or script — the class-marker hit is the absolute/blur/gradient token, a static-scan false positive. Reproduced verbatim in the clone."
+  },
+  "declared:div.absolute.-bottom-48": {
+    "reason": "Second decorative blurred radial-gradient blob (size 520px, blur-2xl) in the hero backdrop. Static paint, no animation — static-scan false positive on the absolute/blur token. Reproduced verbatim in the clone."
+  },
+  "declared:span.fc-fade-up.text-white": {
+    "reason": "'Most integration work starts as a business process ...' line. One-shot fc-fade-up entrance (0.5s) triggered on scroll-in; it fires and completes during the sweep before the probe's first snapshot of that element, so no change is observed. Keyframes and end state are captured verbatim in the clone."
+  },
+  "declared:span.fc-fade-up.text-[#a8a8b3]": {
+    "reason": "'Our solutions engineers ask the right questions ...' line — same one-shot fc-fade-up entrance as its sibling, completed during the sweep before the element is sampled. Captured verbatim in the clone."
+  },
+  "declared:div.pointer-events-none.absolute": {
+    "reason": "The aria-hidden wrapper around the hero search placeholder. It is a static, pointer-events-none overlay; the marker is a class token, not a motion declaration. Its only dynamic child (span.fc-placeholder-in) is reproduced in fixes.js and verified by the behavior row reveal:span.fc-placeholder-in.block."
+  },
+  "declared:html>body>a[3][1]": {
+    "reason": "The 'data-modulify-badge' link the template platform appends to <body> — a fixed badge whose only motion is a hover lift (transform: translateY(-2px) + drop-shadow, CSS :hover only, will-change:transform is the marker). Hover-only and not reachable by the sweep or a synthetic event; the badge markup and its style block are captured verbatim in the clone."
+  }
+}

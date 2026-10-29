@@ -1,0 +1,13 @@
+{
+  "marqueeSelectors": [
+    ["customer_belt", "section#customers .fc-marquee-track"],
+    ["testimonial_belt", "section#testimonials .fc-marquee-track"]
+  ],
+  "hoverTriggers": [
+    ["nav_link", "header nav a"],
+    ["nav_cta", "header a[href*='demo'], header a[href*='contact']"],
+    ["integration_card", "section#integrations [class*='rounded']"],
+    ["tab_requirements", "#full-service-tab-requirements"],
+    ["tab_how", "[id^='full-service-tab']"]
+  ]
+}

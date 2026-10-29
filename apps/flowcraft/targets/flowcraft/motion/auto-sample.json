@@ -1,0 +1,293 @@
+{
+  "schema": "pingfusi/motion-sample@1",
+  "at": "2026-10-29T09:38:00.494Z",
+  "target": "flowcraft",
+  "item": "auto (capture-run)",
+  "url": "https://flow-craft-template.modulify.website/",
+  "viewport": {
+    "width": 1728,
+    "height": 982,
+    "dpr": 2,
+    "sources": {
+      "width": "target.json",
+      "height": "default",
+      "dpr": "default"
+    }
+  },
+  "detected": [
+    {
+      "selector": "div>span:nth-of-type(1)>span:nth-of-type(2)>span:nth-of-type(1)>span",
+      "property": "transform",
+      "depth": 3140
+    },
+    {
+      "selector": "div>span:nth-of-type(1)>span:nth-of-type(2)>span:nth-of-type(2)>span",
+      "property": "transform",
+      "depth": 3140
+    },
+    {
+      "selector": "div>span:nth-of-type(1)>span:nth-of-type(2)>span:nth-of-type(3)>span",
+      "property": "transform",
+      "depth": 3140
+    },
+    {
+      "selector": "div>span:nth-of-type(1)>span:nth-of-type(2)>span>span",
+      "property": "transform",
+      "depth": 3140
+    },
+    {
+      "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(1)>span",
+      "property": "transform",
+      "depth": 3140
+    },
+    {
+      "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(3)>span",
+      "property": "transform",
+      "depth": 3140
+    },
+    {
+      "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(4)>span",
+      "property": "transform",
+      "depth": 3140
+    },
+    {
+      "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(5)>span",
+      "property": "transform",
+      "depth": 3140
+    },
+    {
+      "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(7)>span",
+      "property": "transform",
+      "depth": 3140
+    },
+    {
+      "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(8)>span",
+      "property": "transform",
+      "depth": 3140
+    },
+    {
+      "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(9)>span",
+      "property": "transform",
+      "depth": 3140
+    },
+    {
+      "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(2)>span",
+      "property": "transform",
+      "depth": 3140
+    },
+    {
+      "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(11)>span",
+      "property": "transform",
+      "depth": 3925
+    },
+    {
+      "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(12)>span",
+      "property": "transform",
+      "depth": 3925
+    },
+    {
+      "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(13)>span",
+      "property": "transform",
+      "depth": 3925
+    }
+  ],
+  "depthsProbed": 6,
+  "runs": [
+    {
+      "trigger": "scroll-to:dd>span>span:nth-of-type(2)>span:nth-of-type(13)>span",
+      "scopes": [
+        "dd>span>span:nth-of-type(2)>span:nth-of-type(13)>span",
+        "dd>span>span:nth-of-type(2)>span:nth-of-type(11)>span",
+        "dd>span>span:nth-of-type(2)>span:nth-of-type(9)>span",
+        "dd>span>span:nth-of-type(2)>span:nth-of-type(12)>span",
+        "dd>span>span:nth-of-type(2)>span:nth-of-type(7)>span",
+        "dd>span>span:nth-of-type(2)>span:nth-of-type(8)>span",
+        "div>span:nth-of-type(1)>span:nth-of-type(2)>span:nth-of-type(1)>span",
+        "div>span:nth-of-type(1)>span:nth-of-type(2)>span>span",
+        "dd>span>span:nth-of-type(2)>span:nth-of-type(5)>span",
+        "div>span:nth-of-type(1)>span:nth-of-type(2)>span:nth-of-type(3)>span",
+        "div>span:nth-of-type(1)>span:nth-of-type(2)>span:nth-of-type(2)>span",
+        "dd>span>span:nth-of-type(2)>span:nth-of-type(1)>span",
+        "dd>span>span:nth-of-type(2)>span:nth-of-type(3)>span",
+        "dd>span>span:nth-of-type(2)>span:nth-of-type(2)>span",
+        "dd>span>span:nth-of-type(2)>span:nth-of-type(4)>span"
+      ],
+      "fps": 60,
+      "frames": 240,
+      "stepMs": 16.666666666666668,
+      "virtualTime": {
+        "mode": "hooked-clock",
+        "fallbackReason": "virtual time does not drive frames on this Chrome (0 rAF frame(s) across a 200 virtual-ms advance; headless=new has no begin-frame control)",
+        "epochMs": 1700000000000,
+        "hookedSurface": "performance.now+Date.now+rAF+setTimeout/Interval+IntersectionObserver",
+        "settlePolicy": "drain+step+freeze",
+        "networkPinning": "fetch-batch+layout-batch",
+        "cacheDisabled": true,
+        "wallBarrierMs": 3000,
+        "freezeMs": 250
+      },
+      "settle": {
+        "loadFrames": 0,
+        "preTriggerFrames": 120,
+        "loadDriftMs": null,
+        "preTriggerMs": null,
+        "frames": 120,
+        "policy": "hooked-clock-step",
+        "resourcesAtRecord": 44,
+        "network": {
+          "batches": 7,
+          "released": 45,
+          "streamingExcluded": 0,
+          "layoutBatchReleased": 13,
+          "heldAtStop": 0
+        }
+      },
+      "recorder": {
+        "tracking": 154,
+        "truncated": false,
+        "writes": 43
+      },
+      "sampling": {
+        "fps": 60,
+        "stepMs": 16.666666666666668,
+        "frames": 240,
+        "elements": 154,
+        "tracks": 11,
+        "staticDropped": 601,
+        "unaddressable": 0,
+        "writesTotal": 43,
+        "writesMerged": 36,
+        "truncated": false,
+        "ongoing": 1
+      },
+      "determinism": {
+        "runs": 1
+      },
+      "fit": {
+        "attempted": 15,
+        "attached": [
+          {
+            "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(13)>span",
+            "property": "transform",
+            "channel": "ty",
+            "kind": "tween",
+            "nrmse": 0
+          },
+          {
+            "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(11)>span",
+            "property": "transform",
+            "channel": "ty",
+            "kind": "tween",
+            "nrmse": 0
+          },
+          {
+            "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(9)>span",
+            "property": "transform",
+            "channel": "ty",
+            "kind": "tween",
+            "nrmse": 0
+          },
+          {
+            "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(12)>span",
+            "property": "transform",
+            "channel": "ty",
+            "kind": "spring",
+            "nrmse": 0.01387
+          },
+          {
+            "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(7)>span",
+            "property": "transform",
+            "channel": "ty",
+            "kind": "tween",
+            "nrmse": 0
+          },
+          {
+            "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(8)>span",
+            "property": "transform",
+            "channel": "ty",
+            "kind": "tween",
+            "nrmse": 0
+          },
+          {
+            "selector": "div>span:nth-of-type(1)>span:nth-of-type(2)>span>span",
+            "property": "transform",
+            "channel": "ty",
+            "kind": "tween",
+            "nrmse": 0
+          },
+          {
+            "selector": "div>span:nth-of-type(1)>span:nth-of-type(2)>span>span",
+            "property": "transform",
+            "channel": "ty",
+            "kind": "tween",
+            "nrmse": 0
+          },
+          {
+            "selector": "div>span:nth-of-type(1)>span:nth-of-type(2)>span:nth-of-type(1)>span",
+            "property": "transform",
+            "channel": "ty",
+            "kind": "spring",
+            "nrmse": 0.01486
+          },
+          {
+            "selector": "div>span:nth-of-type(1)>span:nth-of-type(2)>span:nth-of-type(1)>span",
+            "property": "transform",
+            "channel": "ty",
+            "kind": "spring",
+            "nrmse": 0.01486
+          },
+          {
+            "selector": "div>span:nth-of-type(1)>span:nth-of-type(2)>span:nth-of-type(2)>span",
+            "property": "transform",
+            "channel": "ty",
+            "kind": "tween",
+            "nrmse": 0
+          },
+          {
+            "selector": "div>span:nth-of-type(1)>span:nth-of-type(2)>span:nth-of-type(2)>span",
+            "property": "transform",
+            "channel": "ty",
+            "kind": "tween",
+            "nrmse": 0
+          },
+          {
+            "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(5)>span",
+            "property": "transform",
+            "channel": "ty",
+            "kind": "tween",
+            "nrmse": 0
+          },
+          {
+            "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(5)>span",
+            "property": "transform",
+            "channel": "ty",
+            "kind": "tween",
+            "nrmse": 0
+          },
+          {
+            "selector": "dd>span>span:nth-of-type(2)>span:nth-of-type(5)>span",
+            "property": "transform",
+            "channel": "ty",
+            "kind": "tween",
+            "nrmse": 0
+          }
+        ],
+        "rejected": 0,
+        "reclassified": []
+      },
+      "sampledTrackIds": [
+        "t-190921825c6d",
+        "t-a7dd3ed038db",
+        "t-83bdf447a157",
+        "t-e7f098b1ca92",
+        "t-c6fc8b288dc3",
+        "t-2a3beb91e4e1",
+        "t-d7b6073e33bb",
+        "t-413a66be91f9",
+        "t-31ad073aa913",
+        "t-28ba5911c1fe",
+        "t-7dfe4cb8be7d"
+      ]
+    }
+  ]
+}

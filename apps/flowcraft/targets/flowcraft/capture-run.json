@@ -1,0 +1,123 @@
+{
+  "kitVersion": "0.18.0",
+  "at": "2026-10-29T10:10:02.665Z",
+  "mode": "cdp-launched",
+  "chromeVersion": "Chrome/156.0.8078.73",
+  "headless": true,
+  "profile": "temp",
+  "viewport": {
+    "width": 1728,
+    "height": 982,
+    "dpr": 2,
+    "sources": {
+      "width": "target.json",
+      "height": "live.json",
+      "dpr": "live.json"
+    }
+  },
+  "sides": [
+    {
+      "side": "clone",
+      "url": "http://127.0.0.1:59541/",
+      "leaves": 5382,
+      "byKind": {
+        "text": 5050,
+        "media": 97,
+        "painted-container": 154,
+        "bg-image": 74,
+        "painted-box": 7
+      },
+      "settle": {
+        "stable": true,
+        "scrolledTo": 5125,
+        "imagesPending": 0
+      },
+      "files": [
+        {
+          "file": "clone.json",
+          "bytes": 4542231
+        }
+      ],
+      "tookMs": 9070,
+      "viewportRead": {
+        "iw": 1728,
+        "cw": 1728,
+        "ih": 982,
+        "dpr": 2
+      },
+      "probe": {
+        "rafHz": 62,
+        "anim": {
+          "expectedPxPerSec": 100,
+          "measuredPxPerSec": 94.66
+        },
+        "attempts": 1
+      },
+      "paint": {
+        "stat": {
+          "width": 3456,
+          "height": 1964,
+          "sampled": 212112,
+          "nonUniformRatio": 0.2262,
+          "lumaMean": 225.6,
+          "lumaStdev": 72.4,
+          "nearBlank": false
+        }
+      },
+      "freeze": {
+        "supported": true,
+        "frozen": 6,
+        "ids": [
+          "css:fc-placeholder-cycle@form>div>div>span>span",
+          "css:fc-marquee@section:nth-of-type(2)>div>div>div>div",
+          "css:fc-spin@section>div>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(3)",
+          "css:fc-spin@section>div>div:nth-of-type(1)>div:nth-of-type(7)>div:nth-of-type(4)",
+          "css:fc-marquee@main>section:nth-of-type(4)>div:nth-of-type(2)>div:nth-of-type(1)>div",
+          "css:fc-marquee-reverse@main>section:nth-of-type(4)>div:nth-of-type(2)>div:nth-of-type(2)>div"
+        ],
+        "players": [
+          {
+            "player": "motion-replay",
+            "frozen": 0,
+            "ids": []
+          }
+        ],
+        "alreadyPaused": 1,
+        "skipped": {
+          "finished": 13,
+          "scrollLinked": 0,
+          "agentDom": 0,
+          "kitPlayer": 0,
+          "failed": 0
+        },
+        "unfreezable": [
+          "dd>span>span:nth-of-type(2)>span:nth-of-type(1)>span",
+          "dd>span>span:nth-of-type(2)>span:nth-of-type(11)>span",
+          "dd>span>span:nth-of-type(2)>span:nth-of-type(12)>span",
+          "dd>span>span:nth-of-type(2)>span:nth-of-type(13)>span",
+          "dd>span>span:nth-of-type(2)>span:nth-of-type(2)>span",
+          "dd>span>span:nth-of-type(2)>span:nth-of-type(3)>span",
+          "dd>span>span:nth-of-type(2)>span:nth-of-type(4)>span",
+          "dd>span>span:nth-of-type(2)>span:nth-of-type(5)>span",
+          "dd>span>span:nth-of-type(2)>span:nth-of-type(7)>span",
+          "dd>span>span:nth-of-type(2)>span:nth-of-type(8)>span",
+          "dd>span>span:nth-of-type(2)>span:nth-of-type(9)>span",
+          "div>span:nth-of-type(1)>span:nth-of-type(2)>span:nth-of-type(1)>span",
+          "div>span:nth-of-type(1)>span:nth-of-type(2)>span:nth-of-type(2)>span",
+          "div>span:nth-of-type(1)>span:nth-of-type(2)>span:nth-of-type(3)>span",
+          "div>span:nth-of-type(1)>span:nth-of-type(2)>span>span"
+        ],
+        "stillMoving": [],
+        "watch": {
+          "ran": true,
+          "intervals": 2,
+          "intervalMs": 180,
+          "tracked": 176,
+          "writes": 0,
+          "truncated": false
+        },
+        "excludedMarkCount": 4620
+      }
+    }
+  ]
+}
